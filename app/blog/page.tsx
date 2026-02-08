@@ -7,7 +7,7 @@ export default function BlogPage() {
   return (
     <BlogLayout>
       <h1>Blog</h1>
-      <p>Explore articles about honesty, integrity, and managing conflicts.</p>
+      <p>Exploresu articles about honesty, integrity, and managing conflicts.</p>
       <ul>
         <li>
           <Link href="/blog/transparency" className="text-blue-600 hover:underline">
