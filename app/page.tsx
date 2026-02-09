@@ -6,19 +6,19 @@ export default function HomePage() {
     <main className="flex flex-col items-center justify-center min-h-screen px-6 bg-gray-50 text-gray-900">
       {/* Header */}
       <header className="text-center mb-12">
-        <h1 className="text-5xl font-bold mb-4">Welcome to My Blog</h1>
+        <h1 className="text-5xl font-bold mb-4">Welcome to My Great Blog</h1>
         <p className="text-lg text-gray-600">
-          Explore articles, tips, and stories on my blog.
+          Explores articles, tips, and stories on my blog.
         </p>
       </header>
 
       {/* Links to Subpages */}
       <section className="flex flex-col sm:flex-row gap-6 mb-12">
         <Link
-          href="/transparency"
+          href="/blog/transparency"
           className="px-6 py-3 bg-blue-600 text-white rounded-lg shadow hover:bg-blue-700 transition"
         >
-          Go to Page 1
+          Visit Kavitha's Blog
         </Link>
        
       </section>

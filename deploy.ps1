@@ -15,4 +15,5 @@ git add docs
 git commit -m "Deploy updated blog $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')"
 git push origin main
 
+Write-Host "https://Kavitha-arch.github.io/my-blog"
 Write-Host "✅ Deployment complete! Wait a few minutes for GitHub Pages to update."
