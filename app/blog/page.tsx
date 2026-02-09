@@ -6,11 +6,11 @@ import BlogLayout from "./BlogLayout";
 export default function BlogPage() {
   return (
     <BlogLayout>
-      <h1>Articles</h1>
+       
       <p>Explores articles about honesty, integrity, and managing conflicts.</p>
       <ul>
         <li>
-          <Link href="/blog/transparency" className="text-blue-600 hover:underline">
+          <Link href="/blog/whispers" className="text-blue-600 hover:underline">
             Transparency &amp; Integrity
           </Link>
         </li>
@@ -22,6 +22,11 @@ export default function BlogPage() {
          <li>
           <Link href="/blog/brain/rulebase" className="text-blue-600 hover:underline">
             Rulebase
+          </Link>
+        </li>
+          <li>
+          <Link href="/blog/reflections/verbal-excess/" className="text-blue-600 hover:underline">
+            Reflections
           </Link>
         </li>
 

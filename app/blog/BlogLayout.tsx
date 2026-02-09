@@ -14,7 +14,13 @@ export default function BlogLayout({ children }: BlogLayoutProps) {
     <div className={styles.container}>
       {/* Header / Navbar */}
       <header className={styles["container-header"]}>
-        <h1 className={styles["container-logo"]}>Arunachala Shiva</h1>
+        <h2
+          className={styles["container-logo"]}
+          style={{ color: "#c00f0f" }}
+        >
+          Arunachala Shiva
+        </h2>
+
 
         <button
           className={styles["container-mobileMenuButton"]}
@@ -25,22 +31,26 @@ export default function BlogLayout({ children }: BlogLayoutProps) {
         </button>
 
         <nav
-          className={`${styles["container-nav"]} ${
-            menuOpen ? styles["container-navOpen"] : ""
-          }`}
+          className={`${styles["container-nav"]} ${menuOpen ? styles["container-navOpen"] : ""
+            }`}
         >
           <ul>
             <li>
-              <Link href="/" onClick={() => setMenuOpen(false)}>
+              <Link href="/blog/whispers" onClick={() => setMenuOpen(false)}>
                 Home
               </Link>
             </li>
             <li>
               <Link href="/blog" onClick={() => setMenuOpen(false)}>
-                Blog
+                Articles
               </Link>
             </li>
             <li>
+              <Link href="/blog/reflections/verbal-excess" onClick={() => setMenuOpen(false)}>
+                Reflections
+              </Link>
+            </li>
+             <li>
               <Link href="/about" onClick={() => setMenuOpen(false)}>
                 About
               </Link>
