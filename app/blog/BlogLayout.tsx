@@ -14,7 +14,7 @@ export default function BlogLayout({ children }: BlogLayoutProps) {
     <div className={styles.container}>
       {/* Header / Navbar */}
       <header className={styles["container-header"]}>
-        <h1 className={styles["container-logo"]}>My Blog</h1>
+        <h1 className={styles["container-logo"]}>Arunachala Shiva</h1>
 
         <button
           className={styles["container-mobileMenuButton"]}

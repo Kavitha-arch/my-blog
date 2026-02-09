@@ -1,0 +1,24 @@
+/* Dialogue.module.css */
+
+.question {
+  background-color: #e6ffe6; /* light green */
+  border-left: 4px solid #28a745; /* green border */
+  padding: 1rem;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.answer {
+  margin-bottom: 1rem;
+}
+
+.answer a {
+  color: #28a745; /* green text */
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.answer a:hover {
+  color: #19692c; /* darker green on hover */
+}

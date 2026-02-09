@@ -19,6 +19,11 @@ export default function BlogPage() {
             Amygdala
           </Link>
         </li>
+         <li>
+          <Link href="/blog/brain/rulebase" className="text-blue-600 hover:underline">
+            Rulebase
+          </Link>
+        </li>
 
       </ul>
     </BlogLayout>

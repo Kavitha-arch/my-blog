@@ -1,15 +1,30 @@
+import Link from "next/link";
 import BlogLayout from "../BlogLayout";
+import styles from "../Dialoge.module.css";  
+import Image from "next/image";
 
 export default function TransparencyPost() {
     return (
         <BlogLayout>
-            <h1>When Transparency Matters More Than Winning</h1>
-
+            <h1>Whispers under the ancient Tree</h1>
+            {/* Brain image */}
+            <div style={{ textAlign: "center", margin: "2rem 0" }}>
+                <Image
+                    src="/images/brain/whispers_sage.png" // adjust extension if .jpg or .svg
+                    alt="Whisers under the ancient Tree diagram"
+                    width={600} // desired width
+                    height={400} // desired height
+                    priority // optional: loads image faster
+                />
+            </div>
+            <h2>There once lived a woman who valued transparency above all else</h2>
+             <div className={styles.question}>
+                She confided in a wise mentor about a recurring dilemma, and he summarized it thoughtfully:
+            </div>
             <p>
-                Some arguments don’t feel like disagreements — they feel like fights.
+                Some disagreements don’t feel like simple differences of opinion — they feel like battles.
                 Not because voices are raised, but because something deeper is being challenged.
             </p>
-
             <p>
                 This usually happens when honesty, transparency, or process is missing.
                 And when you’re the only one who seems to care, the emotional weight can feel outsized.
@@ -132,6 +147,22 @@ export default function TransparencyPost() {
             <p>
                 Integrity doesn’t require endless engagement. It requires alignment. Sometimes the most grounded response is knowing when to speak — and when to step back without guilt.
             </p>
+            <div>
+                {/* Question */}
+                <div className={styles.question}>
+                    She nods thoughtfully and says: <br />
+                    “I get all of this in theory, but the moment it actually happens, I feel my anger rise.
+                    What exactly is going on in my mind?”
+                </div>
+
+                {/* Answer / Link */}
+                <div className={styles.answer}>
+                    <Link href="/blog/brain">
+                        The mentor smiles and replies: let’s explore what’s happening inside your mind…
+                    </Link>
+                </div>
+            </div>
+
         </BlogLayout>
     );
 }
