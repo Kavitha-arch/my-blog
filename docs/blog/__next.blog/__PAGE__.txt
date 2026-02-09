@@ -1,7 +1,8 @@
 1:"$Sreact.fragment"
-2:I[22016,["/my-blog/_next/static/chunks/7c92e96509cd355e.js"],""]
-3:I[97367,["/my-blog/_next/static/chunks/ff1a16fafef87110.js","/my-blog/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
-4:"$Sreact.suspense"
-:HL["/my-blog/_next/static/chunks/52786f460b541741.css","style"]
-0:{"buildId":"tjU0DlG3p_3ll0hxTEmqI","rsc":["$","$1","c",{"children":[["$","article",null,{"className":"BlogLayout-module__wZfv-a__container","children":[["$","h1",null,{"children":"Blog"}],["$","p",null,{"children":"Exploresu articles about honesty, integrity, and managing conflicts."}],["$","ul",null,{"children":["$","li",null,{"children":["$","$L2",null,{"href":"/blog/transparency","className":"text-blue-600 hover:underline","children":"Transparency & Integrity"}]}]}]]}],[["$","link","0",{"rel":"stylesheet","href":"/my-blog/_next/static/chunks/52786f460b541741.css","precedence":"next"}],["$","script","script-0",{"src":"/my-blog/_next/static/chunks/7c92e96509cd355e.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"loading":null,"isPartial":false}
-5:null
+2:I[74229,["/my-blog/_next/static/chunks/c88edd0059be24a7.js"],"default"]
+3:I[22016,["/my-blog/_next/static/chunks/c88edd0059be24a7.js"],""]
+4:I[97367,["/my-blog/_next/static/chunks/ff1a16fafef87110.js","/my-blog/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+:HL["/my-blog/_next/static/chunks/f46210702011c382.css","style"]
+0:{"buildId":"7sSGm3_A240rmjmwUAZTl","rsc":["$","$1","c",{"children":[["$","$L2",null,{"children":[["$","h1",null,{"children":"Articles"}],["$","p",null,{"children":"Explores articles about honesty, integrity, and managing conflicts."}],["$","ul",null,{"children":[["$","li",null,{"children":["$","$L3",null,{"href":"/blog/transparency","className":"text-blue-600 hover:underline","children":"Transparency & Integrity"}]}],["$","li",null,{"children":["$","$L3",null,{"href":"/blog/brain","className":"text-blue-600 hover:underline","children":"Amygdala"}]}]]}]]}],[["$","link","0",{"rel":"stylesheet","href":"/my-blog/_next/static/chunks/f46210702011c382.css","precedence":"next"}],["$","script","script-0",{"src":"/my-blog/_next/static/chunks/c88edd0059be24a7.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null
