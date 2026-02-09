@@ -1,0 +1,19 @@
+"scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "export": "next export",
+    "export:docs": "next build && next export -o docs",
+    "start": "next start",
+    "lint": "eslint"
+  },
+
+  in package.json
+
+  /** @type {import('next').NextConfig} */
+const nextConfig = { 
+  basePath: '/my-blog',
+  assetPrefix: "/my-blog/",
+  images: { unoptimized: true },
+};
+
+module.exports = nextConfig;
