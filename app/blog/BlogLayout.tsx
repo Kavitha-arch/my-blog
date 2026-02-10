@@ -36,11 +36,15 @@ export default function BlogLayout({ children }: BlogLayoutProps) {
         >
           <ul>
             <li>
-              <Link href="/blog/whispers" onClick={() => setMenuOpen(false)}>
+              <Link href="/" onClick={() => setMenuOpen(false)}>
                 Home
               </Link>
             </li>
-         
+          <li>
+              <Link href="/blog/whispers" onClick={() => setMenuOpen(false)}>
+                Whispers
+              </Link>
+            </li>
             <li className="hidden">
               <Link href="/blog/reflections/verbal-excess" onClick={() => setMenuOpen(false)}>
                 Reflections
@@ -51,14 +55,14 @@ export default function BlogLayout({ children }: BlogLayoutProps) {
                 Dharma
               </Link>
             </li>
-            <li>
+            <li className="hidden">
               <Link href="/about" onClick={() => setMenuOpen(false)}>
                 About
               </Link>
             </li>
                <li>
               <Link href="/blog" onClick={() => setMenuOpen(false)}>
-                All Pages
+                Blog
               </Link>
             </li>
             <li>
