@@ -1,6 +1,6 @@
 import Link from "next/link";
 import BlogLayout from "../BlogLayout";
-import styles from "../Dialoge.module.css";  
+import styles from "../Dialoge.module.css";
 import Image from "next/image";
 
 export default function TransparencyPost() {
@@ -17,8 +17,8 @@ export default function TransparencyPost() {
                     priority // optional: loads image faster
                 />
             </div>
-             
-             <div className={styles.question}>
+
+            <div className={styles.question}>
                 There once lived a woman named Anamika who valued transparency above all else
                 She confided in a wise mentor about a recurring dilemma, and he summarized it thoughtfully:
             </div>
@@ -146,7 +146,13 @@ export default function TransparencyPost() {
             </blockquote>
 
             <p>
-                Integrity doesn’t require endless engagement. It requires alignment. Sometimes the most grounded response is knowing when to speak — and when to step back without guilt.
+                <div className={styles.link}>
+                    <Link href="/blog/reflections/verbal-excess" >
+                        Integrity doesn’t require endless engagement.</Link>
+                </div>
+
+                It requires alignment. Sometimes the most grounded response is knowing when to speak — and when to step back without guilt.
+
             </p>
             <div>
                 {/* Question */}

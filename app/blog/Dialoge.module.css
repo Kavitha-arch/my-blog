@@ -22,3 +22,13 @@
 .answer a:hover {
   color: #19692c; /* darker green on hover */
 }
+
+.link a {
+  color: #282aa7; /* blue text */
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.link a:hover {
+  color: #8d14b5; /* darker purple on hover */
+}

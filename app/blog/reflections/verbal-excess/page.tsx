@@ -1,20 +1,21 @@
 import BlogLayout from "../../BlogLayout";
 import Sidebar from "@/app/components/Sidebar";
+import styles from "../..//Dialoge.module.css";
+import Link from "next/link";
 
 export default function VerbalExcessReflectionPage() {
   return (
     <BlogLayout>
-      <h1>When Alignment Is Enough</h1>
-      <h2>Anamika reflects...</h2>
-      <p>
-        I used to think integrity required staying in conversations until
-        everything felt resolved. Over time, I learned that clarity and
-        completion are not the same thing.
-      </p>
 
-      <Sidebar title="What does “Integrity doesn’t require endless engagement. It requires alignment” actually mean?">
+      <h2>Anamika asks...</h2>
+
+      {/* Question */}
+      <div className={styles.question}>
+        What does “Integrity doesn’t require endless engagement. It requires alignment” actually mean?
+      </div>
+      <Sidebar title="Integrity is">
         <p>
-          Integrity is not about staying in conversations until everyone agrees.
+          <strong>NOT</strong> about staying in conversations until everyone agrees.
           It’s about <strong>internal consistency</strong> — my thoughts, words,
           and actions pointing in the same direction.
         </p>
@@ -22,6 +23,7 @@ export default function VerbalExcessReflectionPage() {
           Once alignment is achieved, continued engagement becomes optional,
           not mandatory.
         </p>
+
       </Sidebar>
 
       <Sidebar color="red" title="How does this relate to manasā vācā karmaṇā?">
@@ -126,6 +128,20 @@ export default function VerbalExcessReflectionPage() {
           <strong>“My job is to be clear, not to be convincing.”</strong>
         </blockquote>
       </Sidebar>
+      <div>
+        {/* Question */}
+        <div className={styles.question}>
+          She nods thoughtfully and says: <br />
+          “ok, nice..give me an example scenario”
+        </div>
+
+        {/* Answer / Link */}
+        <div className={styles.answer}>
+          <Link href="/blog/dharma/integrity-alignment-energy-leak">
+            🤔+💡..ok here is one
+          </Link>
+        </div>
+      </div>
     </BlogLayout>
   );
 }

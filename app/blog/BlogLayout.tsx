@@ -40,17 +40,13 @@ export default function BlogLayout({ children }: BlogLayoutProps) {
                 Home
               </Link>
             </li>
-            <li>
-              <Link href="/blog" onClick={() => setMenuOpen(false)}>
-                Articles
-              </Link>
-            </li>
-            <li>
+         
+            <li className="hidden">
               <Link href="/blog/reflections/verbal-excess" onClick={() => setMenuOpen(false)}>
                 Reflections
               </Link>
             </li>
-             <li>
+             <li className="hidden">
               <Link href="/blog/dharma" onClick={() => setMenuOpen(false)}>
                 Dharma
               </Link>
@@ -58,6 +54,11 @@ export default function BlogLayout({ children }: BlogLayoutProps) {
             <li>
               <Link href="/about" onClick={() => setMenuOpen(false)}>
                 About
+              </Link>
+            </li>
+               <li>
+              <Link href="/blog" onClick={() => setMenuOpen(false)}>
+                All Pages
               </Link>
             </li>
             <li>

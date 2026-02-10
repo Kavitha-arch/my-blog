@@ -6,7 +6,7 @@ export default function IntegrityAlignmentBlog() {
     <BlogLayout>
 
       <article className="prose prose-neutral dark:prose-invert">
-        <h1>Integrity, Alignment, and the Cost of Caring Alone</h1>
+        <h1>The Cost of Caring Alone</h1>
 
         <p>
           <em>
@@ -14,14 +14,7 @@ export default function IntegrityAlignmentBlog() {
             <br />
             It requires alignment.
           </em>
-        </p>
-
-        <p>
-          For a long time, Anamika believed integrity meant staying in the fight —
-          explaining, correcting, persuading — especially when something was
-          clearly wrong. Walking away felt like compromise.
-        </p>
-
+        </p> 
         <h2>When alignment turns into exhaustion</h2>
 
         <p>
@@ -60,8 +53,8 @@ export default function IntegrityAlignmentBlog() {
         </p>
 
         <p>
-          Paying is not approval when done consciously. Integrity is not
-          symbolic suffering.
+          <strong>Paying is not approval when done consciously. Integrity is not
+          symbolic suffering.</strong>
         </p>
 
         <h2>A third path</h2>
