@@ -10,18 +10,21 @@ export default function TransparencyPost() {
             {/* Brain image */}
             <div style={{ textAlign: "center", margin: "2rem 0" }}>
                 <Image
-                    src="/images/brain/whispers_sage.png" // adjust extension if .jpg or .svg
+                    src="/images/brain/whispers_sage.png" 
                     alt="Whisers under the ancient Tree diagram"
-                    width={600} // desired width
-                    height={400} // desired height
+                    width={300} // desired width
+                    height={200} // desired height
                     priority // optional: loads image faster
                 />
             </div>
 
             <div className={styles.question}>
-                There once lived a woman named Anamika who valued transparency above all else
-                She confided in a wise mentor about a recurring dilemma, and he summarized it thoughtfully:
+                Anamika had always honored truth above all else.
+                She carried a recurring question into the presence of the wise being,
+                and whispered it without fear.
+                The being listened — then reflected her truth back with quiet clarity.
             </div>
+
             <p>
                 Some disagreements don’t feel like simple differences of opinion — they feel like battles.
                 Not because voices are raised, but because something deeper is being challenged.
