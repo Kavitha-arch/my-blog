@@ -17,8 +17,9 @@ export default function TransparencyPost() {
                     priority // optional: loads image faster
                 />
             </div>
-            <h2>There once lived a woman who valued transparency above all else</h2>
+             
              <div className={styles.question}>
+                There once lived a woman named Anamika who valued transparency above all else
                 She confided in a wise mentor about a recurring dilemma, and he summarized it thoughtfully:
             </div>
             <p>

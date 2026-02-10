@@ -51,8 +51,18 @@ export default function BlogLayout({ children }: BlogLayoutProps) {
               </Link>
             </li>
              <li>
+              <Link href="/blog/dharma" onClick={() => setMenuOpen(false)}>
+                Dharma
+              </Link>
+            </li>
+            <li>
               <Link href="/about" onClick={() => setMenuOpen(false)}>
                 About
+              </Link>
+            </li>
+            <li>
+              <Link href="/feedback" onClick={() => setMenuOpen(false)}>
+                Feedback
               </Link>
             </li>
           </ul>
@@ -61,6 +71,23 @@ export default function BlogLayout({ children }: BlogLayoutProps) {
 
       {/* Page content */}
       <main>{children}</main>
+
+          {/* Footer */}
+      <footer className="mt-14 bg-gray-100 py-6 text-center">
+        {/* Journal Link in Footer */}
+    
+        <hr className="my-8" />
+
+        <p className="text-sm text-gray-500">
+          This article is based on personal reflection and conversations supported by AI.
+        </p>
+
+
+        {/* Copyright */}
+        <div className="text-gray-500 text-sm">
+          &copy; {new Date().getFullYear()} Anamika's Blog. All rights reserved.
+        </div>
+      </footer>
     </div>
   );
 }

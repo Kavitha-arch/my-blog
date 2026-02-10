@@ -5,7 +5,7 @@ export default function VerbalExcessReflectionPage() {
   return (
     <BlogLayout>
       <h1>When Alignment Is Enough</h1>
-
+      <h2>Anamika reflects...</h2>
       <p>
         I used to think integrity required staying in conversations until
         everything felt resolved. Over time, I learned that clarity and
@@ -77,18 +77,6 @@ export default function VerbalExcessReflectionPage() {
         </p>
       </Sidebar>
 
-      <Sidebar title="How do I know when to stop engaging?">
-        <blockquote>
-          <strong>
-            “Is my next sentence adding new truth, or just more energy?”
-          </strong>
-        </blockquote>
-        <p>
-          If it’s only energy, stopping isn’t avoidance.
-          It’s <strong>completion</strong>.
-        </p>
-      </Sidebar>
-
       <Sidebar color="red" title="Does integrity require making things right at all costs?">
         <p>
           No. Integrity asks:
@@ -101,7 +89,21 @@ export default function VerbalExcessReflectionPage() {
         <p>Agreement is not an ethical requirement.</p>
       </Sidebar>
 
-      <Sidebar title="Why is this especially hard for people with strong integrity?">
+      <Sidebar title="How do I know when to stop engaging?">
+        <blockquote>
+          <strong>
+            “Is my next sentence adding new truth, or just more energy?”
+          </strong>
+        </blockquote>
+        <p>
+          If it’s only energy, stopping isn’t avoidance.
+          It’s <strong>completion</strong>.
+        </p>
+      </Sidebar>
+
+
+
+      <Sidebar color="red" title="Why is this especially hard for people with strong integrity?">
         <p>Because they tend to:</p>
         <ul>
           <li>value coherence deeply</li>
