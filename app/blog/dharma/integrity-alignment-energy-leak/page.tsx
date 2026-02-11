@@ -41,20 +41,20 @@ export default function IntegrityAlignmentBlog() {
           {/* Question */}
           <div className={styles.question}>
             <p>
-              For a long time, Anamika believed integrity meant staying in the fight —
+              For a long time, I believed integrity meant staying in the fight —
               explaining, correcting, persuading — especially when something was
               clearly wrong. Walking away felt like compromise.
             </p>
           </div>
           <p>
-            In Anamika's work place, the person X misused his authority. Money was
-            collected from clients and not deposited. She had proof.
+            In my work place, the person X misused his authority. Money was
+            collected from clients and not deposited. I had proof.
           </p>
 
           <p>
             Yet one powerful manager supported him for convenience, and most
-            co-workers stayed passive. She tried to get others aligned. Instead of
-            change, She got resistance and silence.
+            co-workers stayed passive. I tried to get others aligned. Instead of
+            change, I got resistance and silence.
           </p>
 
           <blockquote className={styles.quote}>
@@ -112,7 +112,7 @@ export default function IntegrityAlignmentBlog() {
             </p>
           </blockquote>
           <blockquote className={styles.quote}>
-            The storm did not disappear. I simply stopped letting it define my center.
+            The storm did not disappear. She simply stopped letting it define her center.
           </blockquote>
         </div>
       </article>

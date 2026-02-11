@@ -7,12 +7,16 @@ export default function VerbalExcessReflectionPage() {
   return (
     <BlogLayout>
 
-      <h2>Anamika asks...</h2>
-
       {/* Question */}
       <div className={styles.question}>
-        What does “Integrity doesn’t require endless engagement. It requires alignment” actually mean?
+        Anamika asks..What does “Integrity doesn’t require endless engagement. It requires alignment” actually mean?
       </div>
+
+      {/* Answer / Link */}
+      <div className={styles.reply}>
+        The mentor answers, the words carrying quiet warmth.
+      </div>
+
       <Sidebar title="Integrity is">
         <p>
           <strong>NOT</strong> about staying in conversations until everyone agrees.
@@ -132,13 +136,13 @@ export default function VerbalExcessReflectionPage() {
         {/* Question */}
         <div className={styles.question}>
           She nods thoughtfully and says: <br />
-          “ok, nice..give me an example scenario”
+          “ok, nice..teach me how to handle my problem correcly”
         </div>
 
         {/* Answer / Link */}
         <div className={styles.answer}>
           <Link href="/blog/dharma/integrity-alignment-energy-leak">
-            🤔+💡..ok here is one
+            Let us discuss
           </Link>
         </div>
       </div>
