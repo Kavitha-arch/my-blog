@@ -6,13 +6,13 @@ import Image from "next/image";
 export default function TransparencyPost() {
     return (
         <BlogLayout>
-            <h1>Whispers under the ancient Tree</h1>
+             <h1 className="text-3xl font-serif text-center mt-6">Transparency and Integrity</h1>
             {/* Brain image */}
-            <div style={{ textAlign: "center", margin: "2rem 0" }}>
+            <div style={{display: "flex" , justifyContent: "center", margin: "2rem 0" }}>
                 <Image
-                    src="/images/brain/whispers_sage.png" 
+                    src="/images/brain/silence.png" 
                     alt="Whisers under the ancient Tree diagram"
-                    width={300} // desired width
+                    width={600} // desired width
                     height={200} // desired height
                     priority // optional: loads image faster
                 />

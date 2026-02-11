@@ -6,7 +6,7 @@ export default function AboutPage() {
     <BlogLayout>
       {/* Header */}
       <header className="text-center mb-12">
-        <h1 className="text-5xl font-bold mb-4">Anamika's Blog</h1> 
+        <h1 className="text-3xl font-serif text-center mt-6">Anamika's Blog</h1> 
       </header>
 
       {/* Featured Journal Section */}

@@ -8,7 +8,7 @@ export default function HomePage() {
     <BlogLayout>
       {/* Header */}
       <header className="text-center mb-12">
-        <h1 className="text-5xl font-bold mb-4">Anamika's Blog</h1>
+         <h1 className="text-3xl font-serif text-center mt-6">Whispers under the ancient Tree</h1>
       </header>
       <div style={{ textAlign: "center", margin: "2rem 0" }}>
         <Image
@@ -40,7 +40,7 @@ export default function HomePage() {
         </p>
         <br></br>
         <Link
-          href="/blog/whispers"
+          href="/blog"
           className="px-8 py-4 bg-blue-600 text-white rounded-lg shadow hover:bg-blue-700 transition text-lg"
         >
           Read the Journal

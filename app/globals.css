@@ -48,3 +48,10 @@ body {
 .inputClass textarea {
   resize: vertical;
 }
+
+.page-title {
+  font-size: 1.875rem;   /* equivalent to text-3xl */
+  font-family: serif;    
+  text-align: center;
+  margin-top: 1.5rem;    /* equivalent to mt-6 */
+}

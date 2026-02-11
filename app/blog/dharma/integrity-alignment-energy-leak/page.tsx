@@ -10,7 +10,7 @@ export default function IntegrityAlignmentBlog() {
       <article className="prose prose-neutral dark:prose-invert">
 
         <div className="max-w-3xl mx-auto px-6 py-2">
-          <h1 className="text-3xl font-semibold mb-6">
+          <h1 className="page-title">
             A Storm Outside, A Steady Flame Within
           </h1>
 
