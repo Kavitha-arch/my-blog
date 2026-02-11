@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { dharmaArticles } from "./articles";
 import BlogLayout from "../BlogLayout";
-
+//NOT USED : Base Page of Dharma
 export default function DharmaPage() {
   const sortedArticles = [...dharmaArticles].sort(
     (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()

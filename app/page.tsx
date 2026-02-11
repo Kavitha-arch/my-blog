@@ -8,8 +8,9 @@ export default function HomePage() {
     <BlogLayout>
       {/* Header */}
       <header className="text-center mb-12">
-         <h1 className="text-3xl font-serif text-center mt-6">Whispers under the ancient Tree</h1>
+        <h1 className="text-3xl font-serif text-center mt-6">Whispers under the ancient Tree</h1>
       </header>
+     
       <div style={{ textAlign: "center", margin: "2rem 0" }}>
         <Image
           src="/images/brain/whispers_sage.png" // adjust extension if .jpg or .svg
@@ -27,6 +28,8 @@ export default function HomePage() {
         <p className="text-gray-600 max-w-xl mx-auto leading-relaxed italic">
           Into the depths of self, to discover who I truly am
         </p>
+
+       
 
         <p className="mb-8 text-gray-600 max-w-xl mx-auto leading-relaxed italic">
 

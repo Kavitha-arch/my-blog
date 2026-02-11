@@ -1,7 +1,10 @@
 import Link from "next/link";
 import BlogLayout from "./BlogLayout";
 import Image from "next/image";
+import { blogPosts } from "./blogData";
+import styles from "./BlogLayout.module.css";
 
+//Blog TOC - refer blogData
 export const metadata = {
   title: "Journal on Integrity, Emotional Mastery & Dharma",
   description:
@@ -11,52 +14,54 @@ export const metadata = {
 export default function BlogPage() {
   return (
     <BlogLayout>
-      <h1 className="text-3xl font-serif text-center mt-6">
+      <h1 className={styles.pageTitle}>
         Journal Reflections
       </h1>
 
-      <p className="text-center text-gray-600 mt-2">
-        Exploring integrity, emotional mastery, and inner clarity.
+      <p className={styles.subtitle}>
+        Explorations on integrity, emotional clarity, and inner leadership.
       </p>
 
       <div className="flex justify-center my-8">
         <Image
           src="/images/brain/journal.png"
           alt="Whispers under the ancient tree – journal background"
-          width={1200}
-          height={800}
-          className="w-full max-w-3xl h-auto rounded-lg shadow-md"
+          width={300}
+          height={400}
           priority
         />
       </div>
 
-      <ul className="mt-6 space-y-3 text-lg text-center">
-        <li>
-          <Link href="/blog/transparency" className="text-blue-700 hover:underline">
-            Transparency & Integrity
+
+
+      <div className={styles.grid}>
+        {blogPosts.map((post) => (
+          <Link key={post.href} href={post.href} className={styles.card}>
+            <div className={styles.imageWrapper}>
+              <Image
+                src={post.image}
+                alt={post.title}
+                fill
+                className="object-cover"
+              />
+            </div>
+
+            <div className={styles.cardContent}>
+              <h2 className={styles.cardTitle}>
+                {post.title}
+              </h2>
+
+              <p className={styles.excerpt}>
+                {post.excerpt}
+              </p>
+
+              <p className={styles.readTime}>
+                {post.readTime}
+              </p>
+            </div>
           </Link>
-        </li>
-        <li>
-          <Link href="/blog/brain" className="text-blue-700 hover:underline">
-            Amygdala
-          </Link>
-        </li>
-        <li>
-          <Link href="/blog/brain/rulebase" className="text-blue-700 hover:underline">
-            Rulebase
-          </Link>
-        </li>
-        <li>
-          <Link href="/blog/reflections/verbal-excess/" className="text-blue-700 hover:underline">
-            Reflections
-          </Link>
-        </li>
-        <li>
-          <Link href="/blog/dharma/integrity-alignment-energy-leak/" className="text-blue-700 hover:underline">
-            Dharma
-          </Link>
-        </li>
-      </ul>
+        ))}
+      </div>
     </BlogLayout>
   );
 }

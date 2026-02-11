@@ -62,7 +62,7 @@ export default function BlogLayout({ children }: BlogLayoutProps) {
             </li>
                <li>
               <Link href="/blog" onClick={() => setMenuOpen(false)}>
-                Whispers
+                Journal
               </Link>
             </li>
             <li>

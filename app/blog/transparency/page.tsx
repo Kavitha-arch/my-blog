@@ -3,17 +3,18 @@ import BlogLayout from "../BlogLayout";
 import styles from "../Dialoge.module.css";
 import Image from "next/image";
 
-export default function TransparencyPost() {
+export default function IntegrityPost() {
     return (
         <BlogLayout>
-             <h1 className="text-3xl font-serif text-center mt-6">Transparency and Integrity</h1>
+            <h1 className="page-title">Standing for Truth Without Forcing It</h1>
             {/* Brain image */}
-            <div style={{display: "flex" , justifyContent: "center", margin: "2rem 0" }}>
+            <div className="imageCenter">
                 <Image
-                    src="/images/brain/silence.png" 
-                    alt="Whisers under the ancient Tree diagram"
-                    width={600} // desired width
-                    height={200} // desired height
+                    src="/images/brain/silence.png"
+                    alt="Integrity Without Control"
+                    width={1200}
+                    height={400}
+                    className="w-full max-w-3xl h-auto"
                     priority // optional: loads image faster
                 />
             </div>
@@ -43,7 +44,7 @@ export default function TransparencyPost() {
             </p>
 
             <p>
-                But for some of us, the issue isn’t the money. It’s the lack of transparency.
+                For some of us, the issue isn’t the money. It’s the lack of transparency.
             </p>
 
             <h2>Why This Situation Hits So Hard</h2>
@@ -148,20 +149,23 @@ export default function TransparencyPost() {
                 </p>
             </blockquote>
 
-            <p>
-                <div className={styles.link}>
-                    <Link href="/blog/reflections/verbal-excess" >
-                        Integrity doesn’t require endless engagement.</Link>
-                </div>
 
-                It requires alignment. Sometimes the most grounded response is knowing when to speak — and when to step back without guilt.
+            <div className={styles.link}>
+                <Link href="/blog/reflections/verbal-excess" >
+                    Integrity doesn’t require endless engagement.It requires alignment.</Link>
+            </div>
 
-            </p>
+             Sometimes the most grounded response is knowing when to speak — and when to step back without guilt.
+
+
             <div>
                 {/* Question */}
                 <div className={styles.question}>
                     She nods thoughtfully and says: <br />
-                    “I get all of this in theory, but the moment it actually happens, I feel my anger rise.
+                    "But understanding the principle is one thing.
+                    Living it in real time is another.
+
+                    I get all of this in theory, but the moment it actually happens, I feel my anger rise.
                     What exactly is going on in my mind?”
                 </div>
 

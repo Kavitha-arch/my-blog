@@ -1,4 +1,6 @@
 // app/blog/dharma/articles.ts
+// if we want dharma to be a page which list artcles
+//NOT USED 
 export const dharmaArticles = [
   {
     title: "Integrity, Alignment & Energy Leaks",

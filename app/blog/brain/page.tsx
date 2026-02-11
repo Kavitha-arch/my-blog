@@ -6,6 +6,9 @@ import Link from "next/link";
 export default function AmygdalaPost() {
   return (
     <BlogLayout>
+        <h1 className="page-title">
+            Threat-Sensitive Amygdala
+          </h1>
       <h2>Sequence: You read a message that angers you</h2>
 
       {/* Brain image */}
