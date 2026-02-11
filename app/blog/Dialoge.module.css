@@ -32,3 +32,22 @@
 .link a:hover {
   color: #8d14b5; /* darker purple on hover */
 }
+
+.quote {
+  border-left: 4px solid #7c3aed;
+  padding-left: 16px;
+  background-color: #f3e8ff;
+  color: #4b0082;
+  border-radius: 8px;
+  font-style: italic;
+}
+
+
+.reply {
+  border-left: 4px solid #7d5a04;
+  padding-left: 16px;
+  background-color: #edd05a;
+  color: #4b0082;
+  border-radius: 8px;
+  font-style: italic;
+}
