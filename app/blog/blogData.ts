@@ -1,6 +1,6 @@
 export const blogPosts = [
   {
-    title: "Transparency & Integrity",
+    title: "Integrity",
     href: "/blog/transparency",
     image: "/images/cards/transparency.png",
     excerpt:
@@ -30,7 +30,7 @@ export const blogPosts = [
     excerpt:
       "On restraint, clarity, and the cost of unnecessary words in emotionally charged situations.",
     readTime: "3 min read",
-  },
+  },  
   {
     title: "Dharma",
     href: "/blog/dharma/integrity-alignment-energy-leak",
@@ -39,4 +39,36 @@ export const blogPosts = [
       "Energy leaks, integrity alignment, and why inner coherence matters more than external victory.",
     readTime: "5 min read",
   },
+  {
+    title: "From Innocence to Awareness",
+    href: "/blog/bitterness",
+    image: "/images/cards/reflection.png",
+    excerpt:
+      "On how bitterness creeps into our psyche.",
+    readTime: "3 min read",
+  },
+   {
+    title: "From Innocence to Awareness 2",
+    href: "/blog/dharma/bitterness",
+    image: "/images/cards/reflection.png",
+    excerpt:
+      "On how bitterness creeps into our psyche.",
+    readTime: "3 min read",
+  },
+  {
+    title: "From Awareness to Self",
+    href: "/blog/self",
+    image: "/images/cards/dharma.png",
+    excerpt:
+      "On restraint, clarity, and the cost of unnecessary words in emotionally charged situations.",
+    readTime: "3 min read",
+  },
+   {
+    title: "From Awareness to Self 2",
+    href: "/blog/reflections/self1",
+    image: "/images/cards/dharma.png",
+    excerpt:
+      "On restraint, clarity, and the cost of unnecessary words in emotionally charged situations.",
+    readTime: "3 min read",
+  },  
 ];
