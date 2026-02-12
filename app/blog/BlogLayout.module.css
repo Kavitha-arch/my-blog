@@ -46,7 +46,7 @@
   padding-left: 1.5rem;
 }
 
-.container blockquote {
+.container blockquote:not([class]) {
   border-left: 4px solid #333;
   padding-left: 16px;
   margin: 1.5rem 0;

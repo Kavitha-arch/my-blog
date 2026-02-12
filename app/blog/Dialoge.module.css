@@ -42,6 +42,27 @@
   font-style: italic;
 }
 
+.styledQuote {
+    font-style: italic;
+    color: #6d0505; /* change to any color you like */
+    background-color: #ffede8;
+    border-left: 4px solid #cc5638;
+    padding-left: 1rem;
+    margin: 1.5rem 0;
+}
+.styledQuote ul {
+  list-style-type: disc;      /* ensures bullets show */
+  list-style-position: outside;
+  padding-left: 1.5rem;       /* keeps indentation */
+  margin: 0.5rem 0;           /* optional spacing between items */
+}
+
+.styledQuote li {
+  display: list-item;         /* restores bullet if missing */
+  margin: 0.25rem 0;          /* spacing */
+}
+
+
 
 .reply {
   border-left: 4px solid #7d5a04;

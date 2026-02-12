@@ -124,14 +124,17 @@ export default function SelfPage() {
 
             <p>In flow:</p>
 
-            <ul>
-                <li>The Default Mode Network — responsible for self-referential thinking — quiets.</li>
-                <li>The prefrontal cortex becomes less self-conscious.</li>
-                <li>Dopamine increases.</li>
-                <li>Cortisol decreases.</li>
-                <li>Sensory integration remains open.</li>
-                <li>Action and awareness merge.</li>
-            </ul>
+            <blockquote className={styles.styledQuote}>
+                <ul>
+                    <li>The Default Mode Network — responsible for self-referential thinking — quiets.</li>
+                    <li>The prefrontal cortex becomes less self-conscious.</li>
+                    <li>Dopamine increases.</li>
+                    <li>Cortisol decreases.</li>
+                    <li>Sensory integration remains open.</li>
+                    <li>Action and awareness merge.</li>
+                </ul>
+            </blockquote>
+
 
             <p>
                 The observer and the doer are not split.
@@ -167,13 +170,15 @@ export default function SelfPage() {
                 When injustice appears:
             </p>
 
-            <ul>
-                <li>The sympathetic nervous system turns on.</li>
-                <li>Attention narrows.</li>
-                <li>Sensory bandwidth reduces.</li>
-                <li>The Default Mode Network activates narrative loops.</li>
-                <li>Identity engages: <em>“I stand for fairness.”</em></li>
-            </ul>
+            <blockquote className={styles.styledQuote}>
+                <ul>
+                    <li>The sympathetic nervous system turns on.</li>
+                    <li>Attention narrows.</li>
+                    <li>Sensory bandwidth reduces.</li>
+                    <li>The Default Mode Network activates narrative loops.</li>
+                    <li>Identity engages: <em>“I stand for fairness.”</em></li>
+                </ul>
+            </blockquote>
 
             <p>
                 Prediction loops activate.
@@ -257,13 +262,14 @@ export default function SelfPage() {
                 When moral anger activates:
             </p>
 
-            <ul>
-                <li>The brain prioritizes resolution.</li>
-                <li>Peripheral sensory input is suppressed.</li>
-                <li>Bodily awareness diminishes.</li>
-                <li>Environmental details fade.</li>
-            </ul>
-
+            <blockquote className={styles.styledQuote}>
+                <ul>
+                    <li>The brain prioritizes resolution.</li>
+                    <li>Peripheral sensory input is suppressed.</li>
+                    <li>Bodily awareness diminishes.</li>
+                    <li>Environmental details fade.</li>
+                </ul>
+            </blockquote>
             <p>
                 The system shifts into cognitive dominance.
             </p>
@@ -278,13 +284,14 @@ export default function SelfPage() {
 
             <p>Calm requires:</p>
 
-            <ul>
-                <li>Awareness of breath.</li>
-                <li>Awareness of body.</li>
-                <li>Awareness of space.</li>
-                <li>Connection to environment.</li>
-            </ul>
-
+            <blockquote className={styles.styledQuote}>
+                <ul>
+                    <li>Awareness of breath.</li>
+                    <li>Awareness of body.</li>
+                    <li>Awareness of space.</li>
+                    <li>Connection to environment.</li>
+                </ul>
+            </blockquote>
             <p>
                 When attention leaves the body and moves fully into thought, peace dissolves.
             </p>
