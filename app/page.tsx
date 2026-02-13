@@ -23,7 +23,7 @@ export default function HomePage() {
       {/* Featured Journal Section */}
       <section className="my-12 text-center">
         <h2 className="text-2xl font-semibold mb-2 tracking-wide italic">
-          A Journey Inward
+          A Journey Inward starts
         </h2>
         <p className="text-gray-600 max-w-xl mx-auto leading-relaxed italic">
           Into the depths of self, to discover who I truly am
