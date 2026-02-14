@@ -1,20 +1,21 @@
 import type { NextConfig } from "next";
 
+const isGithubPages = process.env.GITHUB_PAGES === "true";
+console.log("GITHUB_PAGES:", process.env.GITHUB_PAGES);
+console.log("isGithub:", isGithubPages);
+const repoName = "my-blog";
+
 const nextConfig: NextConfig = {
-    // REQUIRED for Netlify + static hosting
-    output: "export",
+  output: "export",
 
-    basePath: '/my-blog',
-    assetPrefix: "/my-blog",
-    // Optional but recommended
-    images: {
-        unoptimized: true, // needed for static export
-    },
+  basePath: isGithubPages ? `/${repoName}` : "",
+  assetPrefix: isGithubPages ? `/${repoName}/` : "",
 
+  images: {
+    unoptimized: true,
+  },
 
-
-    // Optional: trailing slash helps static hosting
-    trailingSlash: true,
+  trailingSlash: true,
 };
 
 export default nextConfig;

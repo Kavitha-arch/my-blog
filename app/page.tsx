@@ -2,6 +2,7 @@ import { redirect } from "next/navigation";
 import BlogLayout from "./blog/BlogLayout";
 import Link from "next/link";
 import Image from "next/image";
+import { withBasePath } from "@/lib/path";
 
 export default function HomePage() {
   return (
@@ -13,7 +14,7 @@ export default function HomePage() {
      
       <div style={{ textAlign: "center", margin: "2rem 0" }}>
         <Image
-          src="/images/brain/whispers_sage.png" // adjust extension if .jpg or .svg
+          src={withBasePath("/images/brain/whispers_sage.png")} // adjust extension if .jpg or .svg
           alt="Whisers under the ancient Tree diagram"
           width={800} // desired width
           height={400} // desired height
@@ -23,7 +24,7 @@ export default function HomePage() {
       {/* Featured Journal Section */}
       <section className="my-12 text-center">
         <h2 className="text-2xl font-semibold mb-2 tracking-wide italic">
-          A Journey Inward starts
+         A Journey Inward starts today 🌼 TEST DEV
         </h2>
         <p className="text-gray-600 max-w-xl mx-auto leading-relaxed italic">
           Into the depths of self, to discover who I truly am

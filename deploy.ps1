@@ -1,21 +1,31 @@
 # Deploy script for Next.js blog → GitHub Pages (docs/ folder)
 
-Write-Host "Building Next.js app..."
+Write-Host "Building Next.js app for GitHub Pages..."
+
+$env:GITHUB_PAGES="true"
 npx next build
 
 Write-Host "Exporting static files..."
-# Static export goes to /out automatically because of next.config.js
-# Make sure basePath & assetPrefix are set correctly for dev
+# Exported site goes to /out because output: "export"
 npx next export
 
 Write-Host "Updating docs/ folder..."
-# Remove old docs
-Remove-Item -Recurse -Force docs
-# Copy new build
-Copy-Item -Recurse -Force out docs
+
+# Remove old docs safely (no error if missing)
+if (Test-Path docs) {
+    Remove-Item docs -Recurse -Force
+}
+
+# Copy fresh build
+Copy-Item out docs -Recurse -Force
+
+# Create .nojekyll to allow _next folder
+New-Item docs/.nojekyll -ItemType File -Force | Out-Null
 
 Write-Host "Committing and pushing to GitHub..."
+
 git add docs
+
 # Only commit if there are changes
 $changes = git status --porcelain
 if ($changes) {
@@ -25,6 +35,7 @@ if ($changes) {
     Write-Host "No changes to deploy. Skipping commit."
 }
 
-Write-Host "✅ Deployment complete! Check the site at:"
-Write-Host "https://Kavitha-arch.github.io/my-blog"
+Write-Host ""
+Write-Host "✅ Deployment complete!"
+Write-Host "🌐 https://Kavitha-arch.github.io/my-blog"
 Write-Host "⏳ Wait a few minutes for GitHub Pages to update."

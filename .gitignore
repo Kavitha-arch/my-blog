@@ -39,3 +39,7 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
  
+# Local production env file used ONLY for GitHub Pages build (dev branch)
+# Contains NEXT_PUBLIC_BASE_PATH=/my-blog
+# Must not be committed because main branch deploys to Netlify root
+.env.production

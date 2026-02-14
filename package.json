@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "deploy-dev": "npm run build && xcopy out docs /E /Y && git add docs && git commit -m 'Update dev site' && git push origin dev",
+    "build:gh": "cross-env GITHUB_PAGES=true next build",
+    "deploy-dev": "npm run build:gh && xcopy out docs /E /I /Y && type nul > docs\\.nojekyll && git add docs && git commit -m \"Deploy GitHub Pages\" && git push origin dev",
     "build:netlify": "next build",
     "lint": "eslint . --ext .js,.ts,.tsx"
   },
@@ -19,6 +20,7 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "cross-env": "^10.1.0",
     "eslint": "^9",
     "eslint-config-next": "16.1.6",
     "tailwindcss": "^4.1.18",

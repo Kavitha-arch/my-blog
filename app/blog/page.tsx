@@ -3,6 +3,7 @@ import BlogLayout from "./BlogLayout";
 import Image from "next/image";
 import { blogPosts } from "./blogData";
 import styles from "./BlogLayout.module.css";
+import { withBasePath } from "@/lib/path";
 
 //Blog TOC - refer blogData
 export const metadata = {
@@ -24,7 +25,7 @@ export default function BlogPage() {
 
       <div className="flex justify-center my-8">
         <Image
-          src="/images/brain/journal.png"
+          src={withBasePath("/images/brain/journal.png")}
           alt="Whispers under the ancient tree – journal background"
           width={300}
           height={400}
