@@ -1,10 +1,14 @@
+DEV: https://Kavitha-arch.github.io/my-blog/
+MAIN:https://sarojinialwar.netlify.app/
+
 DEV → MAIN MERGE STEPS
 
 1. git checkout dev
 2. npm run deploy-dev  (optional preview)
 3. git add .
-4. git commit -m "changes"
+4. git commit -m "Add feedback page and Google verification tag"
 5. git push origin dev
+
 
 6. git checkout main
 7. git pull origin main
@@ -16,7 +20,7 @@ DEV → MAIN MERGE STEPS
 MAIN → DEV MERGE STEPS
 If you need to commit a file(ex: .gitignore) to main and then merge to DEV
 git add .gitignore
-git commit -m "Update gitignore for Next.js deployment"
+git commit -m "Update metatag for google verification"
 git push origin main
 
 6. git checkout dev 
