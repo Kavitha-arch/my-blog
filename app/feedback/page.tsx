@@ -7,12 +7,7 @@ export default function FeedbackPage() {
         <h1 className="text-3xl font-bold">Send Feedback</h1>
         <p className="mt-4">
           Have thoughts, suggestions, or found an issue? I’d love to hear from you.
-          <a
-            href="mailto:pappik.3@gmail.com?subject=Blog Feedback"
-            className="text-blue-600 underline hover:text-blue-800"
-          >
-            pappik.3@gmail.com
-          </a>
+          
         </p>
 
 

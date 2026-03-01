@@ -5,9 +5,7 @@ Write-Host "Building Next.js app for GitHub Pages..."
 $env:GITHUB_PAGES="true"
 npx next build
 
-Write-Host "Exporting static files..."
-# Exported site goes to /out because output: "export"
-npx next export
+
 
 Write-Host "Updating docs/ folder..."
 

@@ -6,7 +6,7 @@ DEV → MAIN MERGE STEPS
 1. git checkout dev
 2. npm run deploy-dev  (optional preview)
 3. git add .
-4. git commit -m "Add feedback page and Google verification tag"
+4. git commit -m "remove gmail"
 5. git push origin dev
 
 
@@ -43,3 +43,80 @@ Source → build → export → docs → GitHub Pages
 MAIN branch
 
 Source → Netlify build → production site
+
+
+DEV: https://Kavitha-arch.github.io/my-blog/
+MAIN: https://sarojinialwar.netlify.app/
+
+
+==================================================
+DEV → MAIN MERGE STEPS (Normal Workflow)
+==================================================
+
+1. git checkout dev
+
+2. git add .
+3. git commit -m "Describe your changes"
+4. git push origin dev
+
+5. npm run deploy-dev   (optional preview on GitHub Pages)
+
+6. git checkout main
+7. git pull origin main
+8. git merge dev
+9. git push origin main   (triggers Netlify deploy)
+
+10. git checkout dev   (continue working)
+
+
+
+==================================================
+MAIN → DEV MERGE STEPS (Rare Case)
+==================================================
+
+Use only if a change was committed directly on MAIN
+(example: .gitignore, Netlify config, etc.)
+
+1. git add .
+2. git commit -m "Change made on main"
+3. git push origin main
+
+4. git checkout dev
+5. git merge main
+6. git push origin dev   (syncs dev with main)
+
+
+
+==================================================
+IMPORTANT RULES
+==================================================
+
+• Always COMMIT source changes BEFORE running deploy script
+• deploy-dev is only for preview on DEV site
+• MAIN branch deploys automatically via Netlify
+• out/ folder is temporary build output (ignored by Git)
+• docs/ folder contains exported site for GitHub Pages
+
+
+
+==================================================
+GENERAL COMMANDS
+==================================================
+
+git branch      → shows current branch
+git checkout    → switches branch
+git status      → shows changed files
+
+.gitignore → tells Git which files/folders to ignore
+
+
+
+==================================================
+ARCHITECTURE
+==================================================
+
+DEV branch:
+Source → build → export → docs → GitHub Pages preview
+
+MAIN branch:
+Source → Netlify build → Production site
