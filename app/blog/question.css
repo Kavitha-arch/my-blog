@@ -1,0 +1,63 @@
+.questionBox {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  border-radius: 20px;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.08);
+}
+
+.questionLabel {
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  opacity: 0.6;
+  margin-bottom: 0.8rem;
+}
+
+.questionText {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #f5f5f5;
+}
+
+.replyBox {
+  padding: 2rem;
+  border-radius: 24px;
+  background: linear-gradient(
+    180deg,
+    rgba(255,255,255,0.05),
+    rgba(255,255,255,0.02)
+  );
+  border: 1px solid rgba(255,255,255,0.08);
+  color: rgba(255,255,255,0.88);
+  line-height: 1.9;
+}
+
+.replyLabel {
+  font-size: 0.75rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  opacity: 0.5;
+  margin-bottom: 1.2rem;
+}
+
+.replyBox p {
+  margin-bottom: 1.4rem;
+}
+
+.replyBox ul {
+  margin: 1.2rem 0 1.6rem 1.4rem;
+}
+
+.replyBox li {
+  margin-bottom: 0.7rem;
+}
+
+.replyBox blockquote {
+  margin: 2rem 0;
+  padding-left: 1.2rem;
+  border-left: 2px solid rgba(255,255,255,0.25);
+  font-style: italic;
+  color: #ffffff;
+  font-size: 1.1rem;
+}

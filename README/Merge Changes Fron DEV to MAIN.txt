@@ -1,12 +1,17 @@
 DEV: https://Kavitha-arch.github.io/my-blog/
 MAIN:https://sarojinialwar.netlify.app/
 
+TO CHECK LOCALLY:
+npm install
+npm run dev
+
+
 DEV → MAIN MERGE STEPS
 
 1. git checkout dev
 2. npm run deploy-dev  (optional preview)
 3. git add .
-4. git commit -m "remove gmail"
+4. git commit -m "healing blog"
 5. git push origin dev
 
 

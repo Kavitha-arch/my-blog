@@ -7,6 +7,14 @@ export const blogPosts = [
       "Exploring what it means to stand for honesty in spaces that resist it, and how alignment protects your energy.",
     readTime: "4 min read",
   },
+   {
+    title: "From Fear ot Calmness",
+    href: "/blog/health",
+    image: "images/cards/dharma.png",
+    excerpt:
+      "On healing, uncertainity, fear and acceptance in health related  situations.",
+    readTime: "3 min read",
+  },  
   {
     title: "Amygdala",
     href: "/blog/brain",

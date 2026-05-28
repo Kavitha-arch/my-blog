@@ -1,0 +1,141 @@
+
+.storm-page {
+  min-height: 100vh;
+  background: #fafaf9;
+  color: #292524;
+  padding: 3rem 1.5rem;
+  font-family: Georgia, serif;
+}
+
+.storm-container {
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+.hero-section {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.hero-subtitle {
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  font-size: 0.75rem;
+  color: #78716c;
+  margin-bottom: 1rem;
+}
+
+.hero-title {
+  font-size: clamp(3rem, 7vw, 5rem);
+  font-weight: 300;
+  line-height: 1.1;
+  margin-bottom: 1.5rem;
+}
+
+.hero-divider {
+  width: 6rem;
+  height: 1px;
+  background: #a8a29e;
+  margin: 0 auto 1.5rem;
+}
+
+.hero-quote {
+  max-width: 650px;
+  margin: 0 auto;
+  font-style: italic;
+  color: #57534e;
+  font-size: 1.1rem;
+  line-height: 1.9;
+}
+
+.storm-article {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  font-size: 1.08rem;
+  line-height: 2.1;
+}
+
+.card-section,
+.reflection-section {
+  background: linear-gradient(180deg, #f8dde7 0%, #f8f6f3 100%);
+  border: 1px solid #ddd6cf;
+  border-radius: 1.8rem;
+  padding: 2.4rem;
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-section:hover,
+.reflection-section:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 16px 45px rgba(0, 0, 0, 0.12);
+}
+
+.card-section h2,
+.reflection-section h2 {
+  font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+.italic-text {
+  font-style: italic;
+  color: #57534e;
+}
+
+.storm-quote {
+  border-left: 2px solid #d6d3d1;
+  padding-left: 1.5rem;
+  font-style: italic;
+  color: #44403c;
+  font-size: 1.4rem;
+  line-height: 1.8;
+}
+
+.reflection-section ul {
+  padding-left: 1.5rem;
+}
+
+.reflection-section li {
+  margin-bottom: 0.5rem;
+}
+
+.ending-section {
+  margin-top: 4rem;
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.sparkle {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 999px;
+  border: 1px solid #d6d3d1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.5rem;
+  font-size: 1.5rem;
+}
+
+.ending-text {
+  font-size: clamp(1.7rem, 4vw, 2.5rem);
+  line-height: 1.7;
+  font-weight: 300;
+}
+
+@media (max-width: 768px) {
+  .storm-page {
+    padding: 2rem 1rem;
+  }
+
+  .card-section,
+  .reflection-section {
+    padding: 1.5rem;
+  }
+
+  .storm-article {
+    line-height: 1.9;
+  }
+}
