@@ -1,10 +1,33 @@
 DEV: https://Kavitha-arch.github.io/my-blog/
 MAIN:https://sarojinialwar.netlify.app/
 
+LOCAL: http://localhost:3000/
+
+STEP1
 TO CHECK LOCALLY:
-npm install
+make sure GITHUB_PAGES=false
+npm run dev
+localhost:3000/
+
+npm run build 
 npm run dev
 
+STEP 2
+DEPLOY TO GITHUB_PAGES
+npm run build
+Just run ./deply.ps1
+which does the following
+
+/*
+$env:GITHUB_PAGES="true"
+GITHUB_PAGES=true
+npm run build
+→ generates /out
+→ copied to /docs
+→ GitHub Pages serves it
+*/
+
+STEP3: for Production Netlify
 
 DEV → MAIN MERGE STEPS
 

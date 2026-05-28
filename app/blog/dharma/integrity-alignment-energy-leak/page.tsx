@@ -2,6 +2,7 @@ import BlogLayout from "../../BlogLayout";
 import Sidebar from "@/app/components/Sidebar";
 import Image from "next/image";
 import styles from "../..//Dialoge.module.css";
+import { withBasePath } from "@/lib/path";
 
 export default function IntegrityAlignmentBlog() {
   return (
@@ -16,7 +17,7 @@ export default function IntegrityAlignmentBlog() {
 
           <div className="my-8">
             <Image
-              src="/images/brain/steady-flame.png"
+              src={withBasePath("/images/brain/steady-flame.png")}
               alt="A woman standing steady with a flame inside while a storm rages outside"
               width={900}
               height={600}

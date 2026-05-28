@@ -1,3 +1,4 @@
+import { withBasePath } from "@/lib/path";
 import BlogLayout from "../../BlogLayout";
 import Image from "next/image";
 import Link from "next/link";
@@ -29,7 +30,7 @@ export default function RuleBasePage() {
             {/* Illustrative image */}
             <div style={{ textAlign: "center", margin: "2rem 0" }}>
                 <Image
-                    src="/images/brain/amygdala_rulebase.png"
+                    src={withBasePath("/images/brain/amygdala_rulebase.png")}
                     alt="Amygdala RuleBase Illustration"
                     width={600}
                     height={400}

@@ -4,6 +4,7 @@ import BlogLayout from "../BlogLayout";
 import Image from "next/image";
 import styles from "..//Dialoge.module.css";
 import Link from "next/link";
+import { withBasePath } from "@/lib/path";
 
 export default function DentalHealthPage() {
     return (
@@ -27,7 +28,7 @@ export default function DentalHealthPage() {
 
                         <div className="my-8">
                             <Image
-                                src="/images/brain/steady-flame.png"
+                                src={withBasePath("/images/brain/steady-flame.png")}
                                 alt="A woman standing steady with a flame inside while a storm rages outside"
                                 width={900}
                                 height={600}

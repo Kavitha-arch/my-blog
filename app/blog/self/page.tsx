@@ -2,6 +2,7 @@ import Link from 'next/link';
 import BlogLayout from '../BlogLayout';
 import styles from "../Dialoge.module.css";
 import Image from "next/image";
+import { withBasePath } from '@/lib/path';
 
 export default function SelfPage() {
     return (
@@ -10,7 +11,7 @@ export default function SelfPage() {
             {/* Brain image */}
             <div className="imageCenter">
                 <Image
-                    src="/images/brain/sculptor.png"
+                    src={withBasePath("/images/brain/sculptor.png")}
                     alt="Integrity Without Control"
                     width={1200}
                     height={400}

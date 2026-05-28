@@ -1,3 +1,4 @@
+import { withBasePath } from "@/lib/path";
 import BlogLayout from "../../BlogLayout"; 
 import Image from "next/image";
 
@@ -15,7 +16,7 @@ export default function Self1Page() {
                     {/* Brain image */}
                     <div className="imageCenter">
                         <Image
-                            src="/images/brain/sculptor2.png"
+                            src={withBasePath("/images/brain/sculptor2.png")}
                             alt="Integrity Without Control"
                             width={1200}
                             height={400}

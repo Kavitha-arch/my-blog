@@ -2,6 +2,7 @@ import Image from "next/image";
 import BlogLayout from "../BlogLayout"; 
 import { steps } from "./steps";
 import Link from "next/link";
+import { withBasePath } from "@/lib/path";
 
 export default function AmygdalaPost() {
   return (
@@ -14,7 +15,7 @@ export default function AmygdalaPost() {
       {/* Brain image */}
       <div style={{ textAlign: "center", margin: "2rem 0" }}>
         <Image
-          src="/images/brain/anger.png" // adjust extension if .jpg or .svg
+          src={withBasePath("/images/brain/anger.png")} // adjust extension if .jpg or .svg
           alt="Brain diagram"
           width={600} // desired width
           height={400} // desired height
