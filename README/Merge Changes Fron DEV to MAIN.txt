@@ -3,19 +3,19 @@ MAIN:https://sarojinialwar.netlify.app/
 
 LOCAL: http://localhost:3000/
 
+
+
 STEP1
 TO CHECK LOCALLY:
-make sure GITHUB_PAGES=false
+$env:GITHUB_PAGES="false"
 npm run dev
-localhost:3000/
-
-npm run build 
-npm run dev
+localhost:3000/ 
 
 STEP 2
 DEPLOY TO GITHUB_PAGES
 npm run build
-Just run ./deply.ps1
+Just run ./deploy.ps1
+
 which does the following
 
 /*
@@ -34,7 +34,7 @@ DEV → MAIN MERGE STEPS
 1. git checkout dev
 2. npm run deploy-dev  (optional preview)
 3. git add .
-4. git commit -m "healing blog"
+4. git commit -m "images"
 5. git push origin dev
 
 

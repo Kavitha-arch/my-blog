@@ -9,7 +9,7 @@ export default function RuleBasePage() {
             {/* Back button */}
             <p>
                 <Link
-                    href="/brain"
+                    href="/blog/brain"
                     className="back-button"
                     style={{
                         display: "inline-block",

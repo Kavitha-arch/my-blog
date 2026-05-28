@@ -2,6 +2,7 @@ import Link from 'next/link';
 import BlogLayout from '../BlogLayout';
 import styles from "../Dialoge.module.css";
 import Image from "next/image";
+import { withBasePath } from '@/lib/path';
 
 export default function BitternessPage() {
     return (
@@ -11,7 +12,7 @@ export default function BitternessPage() {
             {/* Brain image */}
             <div className="imageCenter">
                 <Image
-                    src="/images/brain/bitterness.png"
+                    src={withBasePath("/images/brain/bitterness.png")}
                     alt="Integrity Without Control"
                     width={1200}
                     height={400}
