@@ -202,25 +202,8 @@ export default function DentalHealthPage() {
                                     itself becomes exhausting.
                                 </p>
 
-                                <p>The fear quietly enters everything:</p>
-
-                                <ul>
-                                    <li>Will the surgery go well?</li>
-                                    <li>Will this pain return?</li>
-                                    <li>How much more will this cost?</li>
-                                    <li>How long will this take?</li>
-                                    <li>Will I ever feel normal again?</li>
-                                </ul>
-
-                                <p>Pain at least has a location. Fear spreads everywhere.</p>
-
-                                <p>
-                                    I realized how fortunate I was to have support around me, because
-                                    there are people facing far more serious illnesses, often without
-                                    emotional or financial support.
-                                </p>
-
-                                <p>And perhaps fear can never be completely avoided.</p>
+                               
+                                <p>Perhaps fear can never be completely avoided.</p>
 
                                 <p>
                                     But maybe healing is not about eliminating fear. Maybe it is

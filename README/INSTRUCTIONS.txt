@@ -4,35 +4,48 @@ MAIN:https://sarojinialwar.netlify.app/
 LOCAL: http://localhost:3000/
 
 
-
+==================================================
 STEP1
-TO CHECK LOCALLY:
+TO CHECK LOCALLY:For developers - Local testing
+==================================================
 $env:GITHUB_PAGES="false"
 npm run dev
 localhost:3000/ 
 
+==================================================
 STEP 2
 DEPLOY TO GITHUB_PAGES
-npm run build
-Just run ./deploy.ps1
 
-which does the following
+out/ folder is temporary build output (ignored by Git)
+docs/ folder contains exported site for GitHub Pages
 
-/*
 $env:GITHUB_PAGES="true"
 GITHUB_PAGES=true
 npm run build
 → generates /out
 → copied to /docs
 → GitHub Pages serves it
-*/
+==================================================
+$env:GITHUB_PAGES="true"
+npm run build
+Just run ./deploy.ps1
 
+================================================== 
 STEP3: for Production Netlify
+Merge Dev to Main
+================================================== 
 
-DEV → MAIN MERGE STEPS
+IMPORTANT: start a new Terminal else set GITHUB_PAGES to false
+$env:GITHUB_PAGES="false"
+Remove-Item Env:GITHUB_PAGES
+Proceed to Step4
+
+================================================== 
+STEP4: DEV → MAIN MERGE STEPS
+================================================== 
 
 1. git checkout dev
-2. npm run deploy-dev  (optional preview)
+//2. npm run deploy-dev  (OPTIONAL preview)
 3. git add .
 4. git commit -m "images"
 5. git push origin dev
@@ -45,7 +58,11 @@ DEV → MAIN MERGE STEPS
 
 10. git checkout dev  (continue working)
 
+==================================================
 MAIN → DEV MERGE STEPS
+RARE CASE: 
+==================================================
+
 If you need to commit a file(ex: .gitignore) to main and then merge to DEV
 git add .gitignore
 git commit -m "Update metatag for google verification"
@@ -62,8 +79,10 @@ git checkout :  will change the branch
 
 
 .
-
+==================================================
 🌸 Your architecture now
+==================================================
+
 DEV branch
 
 Source → build → export → docs → GitHub Pages
@@ -87,7 +106,7 @@ DEV → MAIN MERGE STEPS (Normal Workflow)
 3. git commit -m "Describe your changes"
 4. git push origin dev
 
-5. npm run deploy-dev   (optional preview on GitHub Pages)
+//5. npm run deploy-dev   (optional preview on GitHub Pages)
 
 6. git checkout main
 7. git pull origin main
@@ -137,7 +156,14 @@ git status      → shows changed files
 
 .gitignore → tells Git which files/folders to ignore
 
+# 1. Install dependencies
+npm install
 
+# 2. Start development
+npm run dev
+
+# 3. When ready for production
+npm run build
 
 ==================================================
 ARCHITECTURE

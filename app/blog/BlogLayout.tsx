@@ -10,6 +10,7 @@ type BlogLayoutProps = {
 export default function BlogLayout({ children }: BlogLayoutProps) {
   const [menuOpen, setMenuOpen] = useState(false);
   const [textsOpen, setTextsOpen] = useState(false); // submenu state
+  const [textsOpen2, setTextsOpen2] = useState(false); // submenu state
 
   return (
     <div className={styles.container}>
@@ -73,7 +74,7 @@ export default function BlogLayout({ children }: BlogLayoutProps) {
                   border: "none",
                   cursor: "pointer",
                   padding: 0,
-                  color: "#007bff" ,
+                  color: "#007bff",
                   font: "inherit",
                 }}
               >
@@ -89,7 +90,7 @@ export default function BlogLayout({ children }: BlogLayoutProps) {
                     display: "flex",
                     gap: "1em",
                     backgroundColor: "#fff", // or any blue shade you like
-                    color: "#007bff" ,// optional, to make text white for contrast
+                    color: "#007bff",// optional, to make text white for contrast
                     padding: "0.5em 1em",
                     border: "1px solid #ccc",
                     borderRadius: "8px",
@@ -115,6 +116,69 @@ export default function BlogLayout({ children }: BlogLayoutProps) {
                   <li>
                     <Link
                       href="/blog/brain/story"
+                      onClick={() => setMenuOpen(false)}
+                    >
+                      Story Telling
+                    </Link>
+                  </li>
+                </ul>
+              )}
+            </li>
+
+            {/* Texts with horizontal submenu */}
+            <li style={{ position: "relative" }}>
+              <button
+                onClick={() => setTextsOpen2(!textsOpen2)}
+                style={{
+                  background: "none",
+                  border: "none",
+                  cursor: "pointer",
+                  padding: 0,
+                  color: "#007bff",
+                  font: "inherit",
+                }}
+              >
+                Goddess {textsOpen2 ? "▲" : "▼"}
+              </button>
+
+              {textsOpen2 && (
+                <ul
+                  style={{
+                    position: "absolute",
+                    top: "100%",
+                    left: 0,
+                    display: "flex",
+                    gap: "1em",
+                    backgroundColor: "#fff", // or any blue shade you like
+                    color: "#007bff",// optional, to make text white for contrast
+                    padding: "0.5em 1em",
+                    border: "1px solid #ccc",
+                    borderRadius: "8px",
+                    whiteSpace: "nowrap",
+                  }}
+                >
+                  <li>
+                    <Link
+                      href="/blog/maadurga/chamunda"
+                      onClick={() => setMenuOpen(false)}
+                    >
+                      Chamunda
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/blog/maadurga/katha/mahishasura-mardhini">
+                      Stotram (All Verses)
+                    </Link>
+                  </li>
+
+                  <li>
+                    <Link href="/blog/maadurga/katha/mahishasura-mardhini/verse-1">
+                      Verse 1
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/blog/maadurga/hymn"
                       onClick={() => setMenuOpen(false)}
                     >
                       Story Telling
