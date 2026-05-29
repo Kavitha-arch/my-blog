@@ -1,6 +1,8 @@
 1:"$Sreact.fragment"
-2:I[22016,["/my-blog/_next/static/chunks/7c92e96509cd355e.js"],""]
-3:I[97367,["/my-blog/_next/static/chunks/ff1a16fafef87110.js","/my-blog/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
-4:"$Sreact.suspense"
-0:{"buildId":"J7RpsVD1vUH8aB0sUrrtl","rsc":["$","$1","c",{"children":[["$","div",null,{"children":[["$","h1",null,{"children":"Mahishasura Mardhini"}],["$","ul",null,{"children":[["$","li",null,{"children":["$","$L2",null,{"href":"/blog/maadurga/katha/mahishasura-mardhini/verse-1","children":"Verse 1"}]}],["$","li",null,{"children":["$","$L2",null,{"href":"/blog/maadurga/katha/mahishasura-mardhini/verse-1","children":"Verse 2"}]}]]}]]}],[["$","script","script-0",{"src":"/my-blog/_next/static/chunks/7c92e96509cd355e.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"loading":null,"isPartial":false}
-5:null
+2:I[74229,["/my-blog/_next/static/chunks/1afc05b93b14889b.js"],"default"]
+3:I[22016,["/my-blog/_next/static/chunks/1afc05b93b14889b.js"],""]
+4:I[97367,["/my-blog/_next/static/chunks/ff1a16fafef87110.js","/my-blog/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+:HL["/my-blog/_next/static/chunks/92f482130c15a884.css","style"]
+0:{"buildId":"sKUbFTlr1xo1EupuMDA4R","rsc":["$","$1","c",{"children":[["$","$L2",null,{"children":["$","article",null,{"className":"verse-page","children":[["$","section",null,{"className":"hero_section","children":[["$","h1",null,{"children":"Mahishasura Mardhini"}],["$","p",null,{"children":"The story of Durga is not merely a mythological battle narrative. It is a symbolic map of psychological struggle, attachment, ego, and transformation."}]]}],["$","div",null,{"children":[["$","h2",null,{"children":"Stotram by Sri Ramakrishna Kavi"}],["$","ul",null,{"children":[["$","li",null,{"children":["$","$L3",null,{"href":"/blog/maadurga/katha/mahishasura-mardhini/verse-1","className":"text-blue-600 underline hover:text-blue-800","children":"Verse 1: 1. Maa Durga - The Daughter of the Mountain and Joy of the World"}]}],["$","li",null,{"children":["$","$L3",null,{"href":"/blog/maadurga/katha/mahishasura-mardhini/verse-1","className":"text-blue-600 underline hover:text-blue-800","children":"Verse 2"}]}]]}]]}]]}]}],[["$","link","0",{"rel":"stylesheet","href":"/my-blog/_next/static/chunks/92f482130c15a884.css","precedence":"next"}],["$","script","script-0",{"src":"/my-blog/_next/static/chunks/1afc05b93b14889b.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null
