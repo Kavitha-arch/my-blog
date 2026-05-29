@@ -40,7 +40,7 @@ const verse1 = {
   ],
 
   reflection:
-    "Durga symbolizes courage and innocence.",
+    "Goddess Durga represents the supreme, invincible energy of the universe (Shakti). Her deeper meaning bridges the gap between the material and spiritual realms: She is the force of creation, the mother who grounds humanity, and the ultimate warrior who destroys the ego and inner ignorance",
 
   image: "/images/maa/maaverse1.png",
 };

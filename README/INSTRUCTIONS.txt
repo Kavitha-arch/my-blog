@@ -26,7 +26,12 @@ npm run build
 → copied to /docs
 → GitHub Pages serves it
 ==================================================
+
 $env:GITHUB_PAGES="true"
+1. git checkout dev 
+2. git add .
+3. git commit -m "maadurga"
+4. git push origin dev
 npm run build
 Just run ./deploy.ps1
 
@@ -44,11 +49,10 @@ Proceed to Step4
 STEP4: DEV → MAIN MERGE STEPS
 ================================================== 
 
-1. git checkout dev
-//2. npm run deploy-dev  (OPTIONAL preview)
-3. git add .
-4. git commit -m "images"
-5. git push origin dev
+1. git checkout dev 
+2. git add .
+3. git commit -m "maadurga"
+4. git push origin dev
 
 
 6. git checkout main

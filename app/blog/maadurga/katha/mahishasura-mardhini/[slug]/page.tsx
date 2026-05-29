@@ -36,13 +36,9 @@ export default async function VersePage({
     return (
         <BlogLayout>
             <article  className="verse-page">
-                <section className="hero_section">
+                <section>
                     <h1>Mahishasura Mardhini</h1>
-                    <p>
-                        The story of Durga is not merely a mythological battle narrative.
-                        It is a symbolic map of psychological struggle, attachment,
-                        ego, and transformation.
-                    </p>
+                    <h2 className="om">ॐ</h2> 
                 </section>
 
                 <h1>{verse.title}</h1>
