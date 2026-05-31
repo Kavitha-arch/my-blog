@@ -5,7 +5,7 @@ import { SanskritBlock } from "@/app/components/katha/SanskritBlock";
 import { SymbolsBlock } from "@/app/components/katha/SymbolsBlock";
 import { VerseImage } from "@/app/components/katha/VerseImage";
 import { verses, type VerseSlug } from "@/app/data/mahishasura";
-import "../../../../../katha.css";
+ 
 import { VerseHero } from "@/app/components/katha/VerseHero";
 
 export function generateStaticParams() {
@@ -43,7 +43,7 @@ export default async function VersePage({
 
                 <h1>{verse.title}</h1>
                 <VerseImage
-                    src={verse.image}
+                    src={verse.image1}
                     alt={verse.title}
                 />
                 <br/>
@@ -63,6 +63,13 @@ export default async function VersePage({
                 <section>
                      <ReflectionBlock text={verse.reflection} /> 
                 </section>
+
+                 <h1>Meaning</h1>
+                <VerseImage
+                    src={verse.image2}
+                    alt={verse.title}
+                />
+                <br/>
             </article>
         </BlogLayout>
     );

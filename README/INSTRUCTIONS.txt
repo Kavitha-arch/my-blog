@@ -30,7 +30,7 @@ npm run build
 $env:GITHUB_PAGES="true"
 1. git checkout dev 
 2. git add .
-3. git commit -m "maadurga"
+3. git commit -m "verse1"
 4. git push origin dev
 npm run build
 Just run ./deploy.ps1

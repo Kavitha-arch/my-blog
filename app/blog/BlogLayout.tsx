@@ -68,7 +68,10 @@ export default function BlogLayout({ children }: BlogLayoutProps) {
             {/* Texts with horizontal submenu */}
             <li style={{ position: "relative" }}>
               <button
-                onClick={() => setTextsOpen(!textsOpen)}
+                onClick={() => {
+                  setTextsOpen(!textsOpen);
+                  setTextsOpen2(false);
+                }}
                 style={{
                   background: "none",
                   border: "none",
@@ -87,6 +90,7 @@ export default function BlogLayout({ children }: BlogLayoutProps) {
                     position: "absolute",
                     top: "100%",
                     left: 0,
+                    zIndex: 1000,
                     display: "flex",
                     gap: "1em",
                     backgroundColor: "#fff", // or any blue shade you like
@@ -128,7 +132,10 @@ export default function BlogLayout({ children }: BlogLayoutProps) {
             {/* Texts with horizontal submenu */}
             <li style={{ position: "relative" }}>
               <button
-                onClick={() => setTextsOpen2(!textsOpen2)}
+                onClick={() => {
+                  setTextsOpen2(!textsOpen2);
+                  setTextsOpen(false);
+                }}
                 style={{
                   background: "none",
                   border: "none",
@@ -167,21 +174,16 @@ export default function BlogLayout({ children }: BlogLayoutProps) {
                   </li>
                   <li>
                     <Link href="/blog/maadurga/katha/mahishasura-mardhini">
-                      Stotram (All Verses)
+                      Stotram  
                     </Link>
-                  </li>
-
-                  <li>
-                    <Link href="/blog/maadurga/katha/mahishasura-mardhini/verse-1">
-                      Verse 1
-                    </Link>
-                  </li>
+                  </li> 
+                 
                   <li>
                     <Link
                       href="/blog/maadurga/hymn"
                       onClick={() => setMenuOpen(false)}
                     >
-                      Story Telling
+                      Story
                     </Link>
                   </li>
                 </ul>

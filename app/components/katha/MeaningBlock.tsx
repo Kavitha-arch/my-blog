@@ -1,4 +1,4 @@
- type MeaningBlockProps = {
+type MeaningBlockProps = {
   items: string[];
 };
 
@@ -8,7 +8,10 @@ export function MeaningBlock({ items }: MeaningBlockProps) {
       <h2>Meaning</h2>
 
       {items.map((item, i) => (
-        <p key={i}>{item}</p>
+        <p
+          key={i}
+          dangerouslySetInnerHTML={{ __html: item }}
+        />
       ))}
     </section>
   );

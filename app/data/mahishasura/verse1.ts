@@ -13,17 +13,17 @@ const verse1 = {
                       
 `,
 
-  meaning: [
-    "(O Divine Mother, I invoke You and take refuge in Your Auspicious Feet)",
+ meaning: [
+  '(O Divine Mother, I invoke You and take refuge in Your <span class="highlight">Auspicious Feet</span>)',
 
-    "1.1: Salutations to You O Divine Mother, I Invoke You; Who is the Daughter of the Mountain; By Whose presence the whole World is filled with Joy; For Whom the whole World is a Divine Play and Who is Praised by Nandi,",
+  '1.1: <span class="highlight">Salutations to You</span> O Divine Mother, I Invoke You; Who is the <span class="highlight">Daughter of the Mountain</span>; By Whose presence <span class="highlight">the whole World is filled with Joy</span>; For Whom the whole <span class="highlight">World is a Divine Play</span> and Who is <span class="highlight">Praised by Nandi</span>,',
 
-    "1.2: (I Invoke You O Devi) Who Dwell on the Summit of the Vindhyas, the Best of the Mountains; Who give Joy to Lord Vishnu (as His sister) and Who is Praised by Lord Indra,",
+  '1.2: (I Invoke You O Devi) Who <span class="highlight">Dwell on the Summit of the Vindhyas</span>, the <span class="highlight">Best of the Mountains</span>; Who give <span class="highlight">Joy to Lord Vishnu</span> (as His sister) and Who is <span class="highlight">Praised by Lord Indra</span>,',
 
-    "1.3: O Goddess Bhagavati, Who is the Consort of the One with Blue Throat (Lord Shiva); Who has Many Many Relations in this World (being the Cosmic Mother) and Who has Created Abundance (in Creation),",
+  '1.3: <span class="highlight">O Goddess Bhagavati</span>, Who is the <span class="highlight">Consort of the One with Blue Throat</span> (Lord Shiva); Who has <span class="highlight">Many Many Relations</span> in this World (being the Cosmic Mother) and Who has <span class="highlight">Created Abundance</span> (in Creation),',
 
-    "1.4: Victory to You, Victory to You, (I take Refuge in Your Auspicious Feet) O the Destroyer of Demon Mahishasura; (Victory to You) Who Shine with Beautiful Locks of Hair and Who is the Daughter of the Mountain."
-  ],
+  '1.4: Victory to You, Victory to You, (I take Refuge in Your Auspicious Feet) O the <span class="highlight">Destroyer of Demon Mahishasura</span>; (Victory to You) Who Shine with <span class="highlight">Beautiful Locks of Hair</span> and Who is the <span class="highlight">Daughter of the Mountain</span>.'
+],
 
   symbols: [
 
@@ -42,7 +42,9 @@ const verse1 = {
   reflection:
     "Goddess Durga represents the supreme, invincible energy of the universe (Shakti). Her deeper meaning bridges the gap between the material and spiritual realms: She is the force of creation, the mother who grounds humanity, and the ultimate warrior who destroys the ego and inner ignorance",
 
-  image: "/images/maa/maaverse1.png",
+  image1: "/images/maa/maaverse1.png",
+
+  image2: "/images/maa/arthverse1.png",
 };
 
 export default verse1;
