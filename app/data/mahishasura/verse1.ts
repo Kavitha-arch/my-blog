@@ -1,7 +1,7 @@
 const verse1 = {
   slug: "verse-1",
 
-  title: "Verse 1",
+  title: "Verse 1 : अयि गिरिनन्दिनि",
 
   description: "1.	Maa Durga - The Daughter of the Mountain and Joy of the World",
 

@@ -1,7 +1,7 @@
 const verse1 = {
     slug: "verse-2",
 
-    title: "Verse 2",
+    title: "Verse 2 : सुरवरवर्षिणि",
 
     description: "2. Maa Durga - Destroys the Danavas and the Daityas and Nourishes the Three Worlds",
 
@@ -57,6 +57,8 @@ const verse1 = {
     image1: "/images/maa/maaverse2a.png",
 
     image2: "/images/maa/arthverse2.png",
+
+     symbology: "/blog/maadurga/katha/symbology/verse2",
 };
 
 export default verse1;

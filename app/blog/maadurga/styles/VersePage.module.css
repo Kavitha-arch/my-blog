@@ -39,3 +39,34 @@
 h2.om {
   color: #be185d !important;
 }
+
+.verseNavigation {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-top: 4rem;
+  padding-top: 2rem;
+  border-top: 1px solid #e5e7eb;
+}
+
+.navLink {
+  display: inline-block;
+  text-decoration: none;
+  color: #92400e;
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+
+.navLink:hover {
+  color: #d97706;
+}
+
+.symbolsLink {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.symbolsLink:hover {
+  transform: translateY(-2px);
+}

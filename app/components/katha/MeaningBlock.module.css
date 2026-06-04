@@ -75,12 +75,27 @@
   text-decoration-color: rgba(153, 27, 27, 0.3);
   text-underline-offset: 4px;
   text-decoration-thickness: 1.5px;
-  padding: 0 0.1rem;
-  transition: all 0.2s ease;
+  padding: 0 0.15rem;
+  border-radius: 0.25rem;
+  
+  /* Smooth transition for the glow effect */
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* Glow up the highlight underline on hover */
-.meaningCard p:hover :global(.highlight) {
-  text-decoration-color: #991b1b;
-  background-color: rgba(153, 27, 27, 0.04);
+/* ✨ FIX & GLOW: Triggers ONLY on the exact tag you hover over ✨ */
+.meaningCard :global(.highlight):hover {
+  color: #b91c1c; /* Brightens text to a vibrant crimson red */
+  text-decoration-color: #ef4444; /* Brightens the underline line */
+  background-color: rgba(153, 27, 27, 0.06); /* Adds a soft crimson tint behind the text */
+  
+  /* Text Glow: Blurs a light red light right behind the letters */
+  text-shadow: 
+    0 0 4px rgba(239, 68, 68, 0.35), 
+    0 0 10px rgba(239, 68, 68, 0.15);
+    
+  /* Box Ambient Glow: Radiates an external light bloom around the text block */
+  box-shadow: 
+    0 0 8px rgba(239, 68, 68, 0.12);
+    
+  cursor: pointer;
 }
