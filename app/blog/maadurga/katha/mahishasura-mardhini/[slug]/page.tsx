@@ -5,7 +5,8 @@ import { SanskritBlock } from "@/app/components/katha/SanskritBlock";
 import { SymbolsBlock } from "@/app/components/katha/SymbolsBlock";
 import { VerseImage } from "@/app/components/katha/VerseImage";
 import { verses, type VerseSlug } from "@/app/data/mahishasura";
- 
+import styles from "@/app/blog/maadurga/styles/VersePage.module.css";
+
 import { VerseHero } from "@/app/components/katha/VerseHero";
 
 export function generateStaticParams() {
@@ -35,10 +36,10 @@ export default async function VersePage({
 
     return (
         <BlogLayout>
-            <article  className="verse-page">
+            <article  className={styles.versePage}>
                 <section>
                     <h1>Mahishasura Mardhini</h1>
-                    <h2 className="om">ॐ</h2> 
+                    <h2 className={styles.om}>ॐ</h2> 
                 </section>
 
                 <h1>{verse.title}</h1>

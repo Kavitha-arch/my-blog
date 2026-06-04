@@ -1,0 +1,16 @@
+ 
+/* Image */
+
+.verseImage {
+  margin: 0.2rem 0;
+}
+
+.verseImage img {
+  width: 100%;
+  height: auto;
+  border-radius: 1.25rem;
+
+  box-shadow:
+    0 10px 25px rgba(0, 0, 0, 0.08),
+    0 4px 10px rgba(0, 0, 0, 0.05);
+} 

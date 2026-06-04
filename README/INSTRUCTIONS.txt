@@ -27,12 +27,15 @@ npm run build
 → GitHub Pages serves it
 ==================================================
 
-$env:GITHUB_PAGES="true"
+Step1: $env:GITHUB_PAGES="true"
+Step2: Commit to DEV
 1. git checkout dev 
 2. git add .
-3. git commit -m "verse1"
+3. git commit -m "verse2"
 4. git push origin dev
+Step3:
 npm run build
+Step4:DEPLOY TO GITHUB_PAGES
 Just run ./deploy.ps1
 
 ================================================== 

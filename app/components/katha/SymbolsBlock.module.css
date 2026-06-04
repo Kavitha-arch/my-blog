@@ -1,0 +1,106 @@
+/* Container Box with a Mythological Parchment/Gold Aesthetic */
+.symbolsCard {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 1.15rem;
+    background: linear-gradient(135deg,
+            #fef3c7 0%,
+            /* Gentle warm almond */
+            #fde68a 40%,
+            /* Light silk cloth */
+            #f59e0b 100%
+            /* Ochre shadow line */
+        );
+
+
+    padding: 2.5rem;
+    border-radius: 1.5rem;
+    margin-top: 2.5rem;
+    border: 1px solid rgba(139, 92, 26, 0.15);
+    box-shadow:
+        0 10px 25px -5px rgba(139, 92, 26, 0.1),
+        0 4px 12px rgba(0, 0, 0, 0.04);
+    position: relative;
+    overflow: hidden;
+}
+
+/* Subtle background accent flare */
+.symbolsCard::before {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.3) 0%, transparent 70%);
+    pointer-events: none;
+}
+
+/* Section Header Styling */
+.symbolsCard h2 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #4a2c11;
+    margin-bottom: 1.5rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    border-bottom: 2px solid rgba(139, 92, 26, 0.2);
+    padding-bottom: 0.5rem;
+    display: inline-block;
+}
+
+/* Clean list spacing setup */
+.symbolsCard ul {
+    list-style: none;
+    /* Removed native bullets entirely to fix layout alignment */
+    padding-left: 0;
+    margin: 0;
+}
+
+/* Standard List Item (The Symbols) */
+.symbolsCard li {
+    margin-bottom: 1rem;
+    line-height: 1.7;
+    color: #2c1a0b;
+    position: relative;
+    padding-left: 1.75rem;
+}
+
+/* Custom Styled Bullet to match the elegant serif theme */
+.symbolsCard li:not(.verseHeader)::before {
+    content: "✦";
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #b45309;
+    /* Warm amber/gold tone */
+    font-size: 0.9rem;
+}
+
+.symbolsCard li strong {
+    color: #4a2c11;
+    font-weight: 700;
+}
+
+.symbolsCard li span {
+    color: #443224;
+    opacity: 0.95;
+}
+
+/* Special Verse Header Styling */
+.symbolsCard li.verseHeader {
+    padding-left: 0;
+    margin-top: 2rem;
+    margin-bottom: 1.2rem;
+    border-bottom: 1px dashed rgba(139, 92, 26, 0.25);
+    padding-bottom: 0.5rem;
+}
+
+.symbolsCard li.verseHeader strong {
+    font-size: 1.3rem;
+    color: #78350f;
+    /* Deep mahogany for spiritual sub-headers */
+    letter-spacing: 0.02em;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}

@@ -1,0 +1,37 @@
+
+.heroSection {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.heroSubtitle {
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  font-size: 0.75rem;
+  color: #b01212;
+  margin-bottom: 1rem;
+}
+
+.heroTitle {
+  font-size: clamp(3rem, 7vw, 5rem);
+  font-weight: 300;
+  line-height: 1.1;
+  margin-bottom: 1.5rem;
+}
+
+.heroDivider {
+  width: 6rem;
+  height: 1px;
+  background: #a8a29e;
+  margin: 0 auto 1.5rem;
+}
+
+.heroQuote {
+  max-width: 650px;
+  margin: 0 auto;
+  font-style: italic;
+  color: #57534e;
+  font-size: 1.1rem;
+  line-height: 1.9;
+}

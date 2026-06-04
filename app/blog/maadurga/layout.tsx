@@ -1,5 +1,5 @@
-import "./styles/katha.css";
-
+import styles from "./styles/katha.module.css";
+ 
 export default function MaaDurgaLayout({
   children,
 }: {

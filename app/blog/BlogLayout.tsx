@@ -77,7 +77,7 @@ export default function BlogLayout({ children }: BlogLayoutProps) {
                   border: "none",
                   cursor: "pointer",
                   padding: 0,
-                  color: "#007bff",
+                  color: "#b90d88",
                   font: "inherit",
                 }}
               >
@@ -94,7 +94,7 @@ export default function BlogLayout({ children }: BlogLayoutProps) {
                     display: "flex",
                     gap: "1em",
                     backgroundColor: "#fff", // or any blue shade you like
-                    color: "#007bff",// optional, to make text white for contrast
+                    color: "#b90d88",// optional, to make text white for contrast
                     padding: "0.5em 1em",
                     border: "1px solid #ccc",
                     borderRadius: "8px",
@@ -141,7 +141,7 @@ export default function BlogLayout({ children }: BlogLayoutProps) {
                   border: "none",
                   cursor: "pointer",
                   padding: 0,
-                  color: "#007bff",
+                  color: "#b90d88",
                   font: "inherit",
                 }}
               >
@@ -157,35 +157,21 @@ export default function BlogLayout({ children }: BlogLayoutProps) {
                     display: "flex",
                     gap: "1em",
                     backgroundColor: "#fff", // or any blue shade you like
-                    color: "#007bff",// optional, to make text white for contrast
+                    color: "#b90d88",// optional, to make text white for contrast
                     padding: "0.5em 1em",
                     border: "1px solid #ccc",
                     borderRadius: "8px",
                     whiteSpace: "nowrap",
                   }}
                 >
-                  <li>
-                    <Link
-                      href="/blog/maadurga/chamunda"
-                      onClick={() => setMenuOpen(false)}
-                    >
-                      Chamunda
-                    </Link>
-                  </li>
+                   
                   <li>
                     <Link href="/blog/maadurga/katha/mahishasura-mardhini">
                       Stotram  
                     </Link>
                   </li> 
                  
-                  <li>
-                    <Link
-                      href="/blog/maadurga/hymn"
-                      onClick={() => setMenuOpen(false)}
-                    >
-                      Story
-                    </Link>
-                  </li>
+                 
                 </ul>
               )}
             </li>

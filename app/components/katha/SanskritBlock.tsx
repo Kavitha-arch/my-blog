@@ -1,11 +1,12 @@
-
+import styles from "./SanskritBlock.module.css";
+ 
 type SanskritBlockProps = {
   text: string;
 };
 
 export function SanskritBlock({ text }: SanskritBlockProps) {
   return (
-    <div className="sanskrit-block">
+    <div className={styles.sanskritBlock}>
       {text
         .trim()
         .split("\n")

@@ -1,5 +1,6 @@
-import "../../katha1.css"; 
-import BlogLayout from "../../BlogLayout"; 
+import BlogLayout from "@/app/blog/BlogLayout";
+import "@/app/blog/katha1.css"; 
+
 
 export default function ChamundaPage() {
     return (

@@ -1,5 +1,6 @@
 import { withBasePath } from "@/lib/path";
 import Image from "next/image";
+import styles from "./VerseImage.module.css";
 
 type VerseImageProps = {
   src: string;
@@ -8,7 +9,7 @@ type VerseImageProps = {
 
 export function VerseImage({ src, alt }: VerseImageProps) {
   return (
-    <div className="verse-image">
+    <div className={styles.verseImage}>
       <Image
          src={withBasePath(src)}
         alt={alt}
