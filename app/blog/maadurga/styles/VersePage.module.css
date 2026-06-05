@@ -16,6 +16,10 @@
   color: #cf1019 !important;
 }
 
+.versePage h3{
+  color: #cf1019 !important;
+}
+
 .versePage h1 {
   text-align: center;
   margin-bottom: 2rem;
@@ -36,9 +40,7 @@
   font-family: "Noto Sans Devanagari", serif;
 }
 
-h2.om {
-  color: #be185d !important;
-}
+ 
 
 .verseNavigation {
   display: flex;
@@ -69,4 +71,62 @@ h2.om {
 
 .symbolsLink:hover {
   transform: translateY(-2px);
+}
+
+
+/* Container reset to handle the link layout structure cleanly */
+.reflectionSection {
+  margin-top: 1.5rem;
+}
+
+/* Ensure the link covers the block and removes default anchor styles */
+.symbolsLink {
+  text-decoration: none;
+  display: block;
+  color: inherit;
+}
+
+/* The wrapper that handles the hover lift and cursor change */
+.linkWrapper {
+  position: relative;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 1rem; /* Match your ReflectionBlock rounding if it has one */
+}
+
+/* 🌟 Visual Cue 1: Interactive Hover Effects */
+.linkWrapper:hover {
+  /* Subtle lift effect */
+  transform: translateY(-4px); 
+  
+  /* Soft shadow depth expansion */
+  box-shadow: 
+    0 12px 20px -8px rgba(153, 27, 27, 0.15),
+    0 4px 12px rgba(0, 0, 0, 0.03);
+}
+
+/* 🌟 Visual Cue 2: Border highlight on hover to show focus */
+.linkWrapper:hover :global(.reflectionCard) {
+  border-color: rgba(153, 27, 27, 0.3) !important;
+}
+
+/* 🌟 Visual Cue 3: Explicit Text/Arrow Indicator */
+.linkIndicator {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #991b1b; /* Burgundy theme color */
+  margin-top: 0.75rem;
+  padding-left: 0.5rem;
+  opacity: 0.75;
+  transition: all 0.2s ease;
+}
+
+/* Animate the arrow subtly to the right when hovering over the card */
+.linkWrapper:hover .linkIndicator {
+  opacity: 1;
+  gap: 0.5rem; /* Pushes the arrow slightly right */
 }

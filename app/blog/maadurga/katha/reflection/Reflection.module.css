@@ -1,0 +1,169 @@
+/* Container Box: Matte Slate Sanctuary */
+.reflectionCard {
+  font-family: "Merriweather", serif;
+  font-size: 1.05rem;
+  background-color: #f8fafc; /* Crisp flat slate-white */
+  padding: 3rem 2.5rem;
+  border-radius: 1.5rem;
+  margin-top: 2rem;
+  border: 1px solid #e2e8f0;
+  outline: 5px solid rgba(226, 232, 240, 0.4); /* Museum outer frame ring */
+  box-shadow: 
+    0 20px 40px -15px rgba(15, 23, 42, 0.05),
+    0 4px 12px rgba(0, 0, 0, 0.02);
+}
+
+/* Master Component Title */
+.reflectionCard h2 {
+  font-size: 1.8rem;
+  font-weight: 800;
+  line-height: 1.4;
+  color: #0f172a; /* Deep slate black */
+  margin-bottom: 2rem;
+  letter-spacing: -0.01em;
+}
+
+/* Subheadings */
+.reflectionCard h3 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #334155; /* Polished slate iron */
+  margin-top: 2.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.reflectionCard h4 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #475569;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Paragraph Blocks */
+.reflectionCard p {
+  line-height: 1.9;
+  color: #334155;
+  margin-bottom: 1.5rem;
+}
+
+/* Structural Block Lists */
+.reflectionCard ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 1.5rem;
+}
+
+.reflectionCard li {
+  position: relative;
+  padding-left: 1.75rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.7;
+  color: #475569;
+}
+
+/* Custom minimal bullet points */
+.reflectionCard li::before {
+  content: "—";
+  position: absolute;
+  left: 0;
+  color: #94a3b8;
+  font-weight: bold;
+}
+
+/* Bold and emphasis definitions */
+.reflectionCard b, 
+.reflectionCard strong {
+  color: #0f172a;
+  font-weight: 700;
+}
+
+/* 🌟 DYNAMIC GLOW HIGHLIGHTS (Trigger individually on hover) */
+.highlightWord {
+  color: #991b1b; /* Rich burgundy red */
+  font-weight: 700;
+  padding: 0.1rem 0.3rem;
+  border-radius: 0.25rem;
+  background-color: transparent;
+  border-bottom: 1.5px solid rgba(153, 27, 27, 0.2);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline;
+}
+
+.highlightWord:hover {
+  color: #b91c1c;
+  background-color: rgba(153, 27, 27, 0.05);
+  border-bottom-color: #ef4444;
+  text-shadow: 0 0 4px rgba(239, 68, 68, 0.25);
+  cursor: pointer;
+}
+
+/* CONTINUOUS TEXT UNDERLINES (Spans line wraps perfectly) */
+.underlineWords {
+  font-weight: 600;
+  background-image: linear-gradient(to right, rgba(15, 23, 42, 0.15), rgba(15, 23, 42, 0.15));
+  background-repeat: no-repeat;
+  background-size: 100% 2px;
+  background-position: 0 95%;
+  padding-bottom: 2px;
+  display: inline;
+}
+
+/* Callout Panel: The Durga Lens */
+.durgaLens {
+  margin: 3rem 0;
+  padding: 2rem;
+  background-color: #f1f5f9; /* Soft background contrast */
+  border-left: 4px solid #991b1b; /* Solid burgundy anchor bar */
+  border-radius: 0 1rem 1rem 0;
+}
+
+.durgaLens h3 {
+  margin-top: 0;
+  color: #991b1b !important;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.durgaLens li::before {
+  color: #991b1b;
+}
+
+/* Premium Blockquote Layout for the Conclusion */
+/* Premium Blockquote Layout for the Conclusion */
+.reflectionCard blockquote {
+  margin-top: 3rem !important;
+  padding: 2rem !important;
+  background: #1e293b !important; /* Solid Slate-800 ensures absolute readability contrast */
+  border-radius: 1rem !important;
+  position: relative !important;
+  border-left: 4px solid #f59e0b !important; /* Amber side border highlight hook */
+  box-shadow: 0 4px 20px rgba(15, 23, 42, 0.08) !important;
+  
+  /* Reset layout parameters to prevent paragraph visibility bleeding */
+  display: block !important;
+}
+
+/* Ensure the inner title element inside the quote stays visible */
+.reflectionCard blockquote strong {
+  color: #f59e0b !important; /* Bright Amber */
+  display: block !important;
+  margin-bottom: 0.75rem !important;
+  font-style: normal !important;
+  font-family: sans-serif !important;
+  font-size: 0.9rem !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.12em !important;
+  text-transform: uppercase !important;
+}
+
+/* FIX: Forces standard text content inside the blockquote to stay completely visible */
+.reflectionCard blockquote,
+.reflectionCard blockquote p {
+  color: #f8fafc !important; /* Off-white text color code for pure visual isolation */
+  font-size: 1.1rem !important;
+  font-style: italic !important;
+  line-height: 1.85 !important;
+  margin: 0 !important; /* Removes padding collapses */
+}

@@ -68,6 +68,8 @@
 
 /* Targets the .highlight tags inside dangerouslySetInnerHTML */
 .meaningCard :global(.highlight) {
+   position: relative;
+
   color: #991b1b; /* Striking burgundy red */
   font-weight: 700;
   background-color: transparent; /* Completely clean, no box background */
@@ -98,4 +100,63 @@
     0 0 8px rgba(239, 68, 68, 0.12);
     
   cursor: pointer;
+
+}
+
+  /* ADDED: Sanskrit tooltip */
+.meaningCard :global(.highlight)::after {
+  content: attr(data-sanskrit);
+
+  position: absolute;
+  left: 50%;
+  bottom: 135%;
+  transform: translateX(-50%);
+
+  background: #7f1d1d; /* maroon */
+  color: #fff8e7;      /* warm ivory text */
+
+  padding: 0.45rem 0.75rem;
+  border-radius: 0.6rem;
+
+  font-size: 0.85rem;
+  font-weight: 500;
+
+  white-space: nowrap;
+
+  box-shadow:
+    0 8px 24px rgba(127, 29, 29, 0.35);
+
+  opacity: 0;
+  visibility: hidden;
+
+  transition: opacity 0.2s ease;
+
+  z-index: 1000;
+}
+
+.meaningCard :global(.highlight)::before {
+  content: "";
+
+  position: absolute;
+  left: 50%;
+  bottom: 118%;
+  transform: translateX(-50%);
+
+  border-width: 6px;
+  border-style: solid;
+  border-color: #7f1d1d transparent transparent transparent;
+
+  opacity: 0;
+  visibility: hidden;
+
+  transition: opacity 0.2s ease;
+
+  z-index: 1001;
+}
+
+/* ADDED: Show tooltip */
+.meaningCard :global(.highlight):hover::after,
+.meaningCard :global(.highlight):hover::before {
+  opacity: 1;
+  visibility: visible;
 }

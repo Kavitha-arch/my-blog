@@ -1,0 +1,85 @@
+/* Container replicating an open ancient journal layout */
+.journalCanvas {
+    font-family: "Cormorant Garamond", serif;
+    background-color: #fcf8f2;
+    /* Warm vintage cream sketch paper */
+    background-image:
+        radial-gradient(circle at 50% 50%, transparent 60%, rgba(139, 92, 26, 0.03) 100%),
+        linear-gradient(rgba(0, 0, 0, 0.01) 1px, transparent 1px);
+    /* Soft paper tooth texture grid */
+    background-size: 100% 100%, 100% 24px;
+
+    padding: 3rem 2.5rem;
+    border-radius: 0.5rem;
+    margin: 3rem auto;
+    max-width: 680px;
+    position: relative;
+
+    /* Artistic hand-drawn double pencil border frame */
+    border: 2px solid #5c5249;
+    outline: 1px solid #786d63;
+    outline-offset: -6px;
+
+    box-shadow:
+        0 15px 35px -10px rgba(74, 58, 41, 0.15),
+        0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+/* Artistic Graphite Corner Flourishes mimicking pencil marks */
+.journalCanvas::before {
+    content: "";
+    position: absolute;
+    inset: 12px;
+    border: 1px dashed rgba(120, 109, 99, 0.2);
+    pointer-events: none;
+}
+
+/* Core Quote Frame layout wrapper */
+.quoteContent {
+    position: relative;
+    padding: 1rem 1.5rem;
+    text-align: center;
+}
+
+/* Large Graphic Pencil Quote Marks */
+.quoteMark {
+    font-family: "Georgia", serif;
+    font-size: 4rem;
+    color: rgba(92, 82, 73, 0.25);
+    line-height: 0;
+    position: absolute;
+}
+
+.openMark {
+    top: 0.5rem;
+    left: -0.5rem;
+}
+
+.closeMark {
+    bottom: -1rem;
+    right: -0.5rem;
+}
+
+/* Main Meditative Graphic Paragraph Text */
+.sketchText {
+    font-size: 1.35rem;
+    line-height: 1.8;
+    color: #3b3530;
+    /* Matte graphite pencil tone */
+    font-style: italic;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    margin: 0 auto 1.5rem auto;
+    max-width: 90%;
+}
+
+/* Script Signature attribution rule line */
+.sketchSignature {
+    font-family: "Alex Brush", "Cursive", serif;
+    /* Elegant handwritten accent font */
+    font-size: 1.4rem;
+    color: #6e6255;
+    text-align: right;
+    padding-right: 2rem;
+    margin: 0;
+}

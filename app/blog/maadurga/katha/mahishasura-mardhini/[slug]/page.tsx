@@ -8,6 +8,7 @@ import { verseOrder, verses, type VerseSlug } from "@/app/data/mahishasura";
 import styles from "@/app/blog/maadurga/styles/VersePage.module.css";
 import Link from "next/link";
 import { VerseHero } from "@/app/components/katha/VerseHero";
+import { ChevronRight } from "lucide-react";
 
 export function generateStaticParams() {
     return Object.keys(verses).map((slug) => ({
@@ -85,8 +86,19 @@ export default async function VersePage({
                     )}
                 </section>
 
-                <section>
-                    <ReflectionBlock text={verse.reflection} />
+                <section className={styles.reflectionSection}>
+                    {verse.scenario ? (
+                        <Link href={verse.scenario} className={styles.symbolsLink}>
+                            <div className={styles.linkWrapper}>
+                                <ReflectionBlock text={verse.reflection} />
+                                <span className={styles.linkIndicator}>
+                                    Read Reflection <ChevronRight size={16} />
+                                </span>
+                            </div>
+                        </Link>
+                    ) : (
+                        <ReflectionBlock text={verse.reflection} />
+                    )}
                 </section>
 
                 <br />

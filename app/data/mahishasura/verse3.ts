@@ -1,7 +1,7 @@
 const verse1 = {
-    slug: "verse-2",
+    slug: "verse-3",
 
-    title: "Verse 2 : सुरवरवर्षिणि",
+    title: "Verse 3 : सुरवरवर्षिणि",
 
     description: "2. Maa Durga - Destroys the Danavas and the Daityas and Nourishes the Three Worlds",
 
@@ -16,13 +16,13 @@ const verse1 = {
     meaning: [
         '(O Divine Mother, I invoke You and take refuge in Your Auspicious Feet)',
 
-        '2.1: (Salutations to You O Divine Mother) I Invoke You; Who <span class="highlight" data-sanskrit="सुरवरवर्षिणि">Shower Boons on the Devas</span>; Who <span class="highlight" data-sanskrit="दुर्धरधर्षिणि">Overpowered Demon Durdhara</span> (literally meaning Unrestrainable) and <span class="highlight" data-sanskrit="दुर्मुखमर्षिणि">Endured Demon Durmukha</span> (literally meaning Foul-Mouthed) and finally slayed him, and Who <span class="highlight" data-sanskrit="हर्षरते">Delight in Her own Bliss</span>,',
+        '2.1: (Salutations to You O Divine Mother) I Invoke You; Who <span class="highlight">Shower Boons on the Devas</span>; Who <span class="highlight">Overpowered Demon Durdhara</span> (literally meaning Unrestrainable) and <span class="highlight">Endured Demon Durmukha</span> (literally meaning Foul-Mouthed) and finally slayed him, and Who <span class="highlight">Delight in Her own Bliss</span>,',
 
-        '2.2: (I Invoke You) Who <span class="highlight" data-sanskrit="त्रिभुवनपोषिणि">Sustain and Nourish the Three-Worlds</span>; Who <span class="highlight" data-sanskrit="शङ्करतोषिणि">Delight Lord Shankara by Removing the Sins</span> (i.e. Sinful Demons) by <span class="highlight" data-sanskrit="किल्बिषमोषिणि">Indulging in the Tumult of the Battle</span>; Who <span class="highlight" data-sanskrit="घोषरते">Delight in the Roar of Battle</span>,',
+        '2.2: (I Invoke You) Who <span class="highlight">Sustain and Nourish the Three-Worlds</span>; Who <span class="highlight">Delight Lord Shankara by Removing the Sins</span> (i.e. Sinful Demons) by <span class="highlight">Indulging in the Tumult of the Battle</span>,',
 
-        '2.3: Who <span class="highlight" data-sanskrit="दनुजनिरोषिणि">Quell the Wrath of the Danavas</span> (Born from Danu) and is <span class="highlight" data-sanskrit="दितिसुतरोषिणि">Angry with the Daityas</span> (Son of Diti); Who <span class="highlight" data-sanskrit="दुर्मदशोषिणि">Dry up the Foolish Pride of Demons</span>; and Who is the <span class="highlight" data-sanskrit="सिन्धुसुते">Daughter of the Ocean</span>,',
+        '2.3: Who <span class="highlight">Quell the Wrath of the Danavas</span> (Born from Danu) and is <span class="highlight">Angry with the Daityas</span> (Son of Diti); Who <span class="highlight">Dry up the Foolish Pride of Demons</span>; and Who is the <span class="highlight">Daughter of the Ocean</span> (as Devi Lakshmi),',
 
-        '2.4: Victory to You,<span class="highlight" data-sanskrit="जय जय हे"> Victory to You</span>, (I take Refuge in Your Auspicious Feet) O the <span class="highlight" data-sanskrit="महिषासुरमर्दिनि">Destroyer of Demon Mahishasura</span>; (Victory to You) Who Shine with <span class="highlight" data-sanskrit="रम्यकपर्दिनि">Beautiful Locks of Hair</span> and Who is the <span class="highlight" data-sanskrit="शैलसुते">Daughter of the Mountain</span>.'
+        '2.4: Victory to You, Victory to <span class="highlight">You</span>, (I take Refuge in Your Auspicious Feet) O the <span class="highlight">Destroyer of Demon Mahishasura</span>; (Victory to You) Who Shine with <span class="highlight">Beautiful Locks of Hair</span> and Who is the <span class="highlight">Daughter of the Mountain</span>.'
     ],
 
     symbols: [
@@ -49,18 +49,17 @@ const verse1 = {
         "Shine with beautiful locks of hair : Symbol of grace and divine beauty alongside power",
         "Daughter of the Mountain (Parvati) : Rooted in strength, stability, and nature",
 
-
+        
     ],
 
     reflection:
         "✨ Overall Essence : Each demon represents inner vices—arrogance, foul speech, pride, brute force. The Divine Mother’s battles are allegories for conquering these within ourselves, while Her feet symbolize refuge and surrender to divine wisdom.",
-    image1: "/images/maa/maaverse2a.png",
+    
+        image1: "/images/maa/maaverse2a.png",
 
-    image2: "/images/maa/arthverse2.png",
-
-    symbology: "/blog/maadurga/katha/symbology/verse2",
-
-    scenario: "/blog/maadurga/katha/reflection/verse2",
+    image2: "/images/maa/arthverse2.png", 
+    
+     symbology: "/blog/maadurga/katha/symbology/verse2",
 };
 
 export default verse1;

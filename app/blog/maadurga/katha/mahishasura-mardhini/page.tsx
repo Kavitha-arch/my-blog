@@ -2,23 +2,25 @@ import BlogLayout from "@/app/blog/BlogLayout";
 import { withBasePath } from "@/lib/path";
 import Link from "next/link";
 import styles from "@/app/blog/maadurga/styles/VersePage.module.css";
+import { VerseImage } from "@/app/components/katha/VerseImage";
 
 export default function MainDurgaPage() {
   return (
     <BlogLayout>
-      <article  className={styles.versePage}>
+      <article className={styles.versePage}>
 
         <section>
-          <h1>Mahishasura Mardhini</h1>
+          <h1>Mahishasura Mardhini Stotram</h1>
           <p>
             The story of Durga is not merely a mythological battle narrative.
             It is a symbolic map of psychological struggle, attachment,
-            ego, and transformation.<br /><br />
-            <strong>ॐ Raksha Raksha Jagan Matha Sarva Shakthi Jaya Durga ॐ</strong>
+            ego, and transformation.         
           </p>
         </section>
         <div>
-          <h2>Stotram</h2>
+          <h3>ॐ Raksha Raksha Jagan Matha Sarva Shakthi Jaya Durga ॐ</h3>
+          <VerseImage src="/images/maa/maadurga.png"
+            alt="Maa Durga" width={300} height={100} ></VerseImage>
 
           <ul>
             <li>
@@ -50,7 +52,7 @@ export default function MainDurgaPage() {
                 </li>
               </ul>
             </li>
-               <li>
+            <li>
               <Link
                 href="/blog/maadurga/katha/mahishasura-mardhini/verse-2"
                 className="text-blue-600 underline hover:text-blue-800"

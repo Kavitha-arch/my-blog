@@ -1,13 +1,12 @@
  
 /* Image */
 
-.verseImage {
-  margin: 0.2rem 0;
+.verseImage img{
+   margin: 1.2rem auto;
+   display: block;
 }
 
-.verseImage img {
-  width: 100%;
-  height: auto;
+.verseImage img { 
   border-radius: 1.25rem;
 
   box-shadow:
