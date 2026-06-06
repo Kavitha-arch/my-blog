@@ -1,0 +1,139 @@
+/* Main Layout Wrapper */
+.collapsibleWrapper {
+  margin: 2rem 0;
+  width: 100%;
+}
+
+/* Elegant Vedic-Themed Accordion Button */
+.toggleButton {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 20px;
+  background-color: #faf6ee;
+  border: 1px solid #eaddca;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 1rem;
+  color: #7a1c1c;
+  transition: all 0.2s ease-in-out;
+}
+
+.toggleButton:hover {
+  background-color: #f5edd8;
+  border-color: #d1b894;
+}
+
+.toggleButton.active {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  background-color: #9a2c2c;
+  color: #ffffff;
+  border-color: #9a2c2c;
+}
+
+.arrowIcon {
+  font-size: 0.8rem;
+}
+
+/* Main Table Container Block */
+.meaningTableContainer {
+  width: 100%;
+  overflow-x: auto;
+  background: #fdfbf7;
+  border: 1px solid #eaddca;
+  border-top: none; /* Merges flat under the active button block */
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  box-shadow: 0 4px 20px rgba(139, 92, 26, 0.04);
+  
+  /* Fade-in entry animation when opened */
+  animation: fadeIn 0.25s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.meaningTable {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  text-align: left;
+  font-family: inherit;
+}
+
+.meaningTable th,
+.meaningTable td {
+  padding: 16px 20px;
+  vertical-align: middle;
+  line-height: 1.6;
+}
+
+/* Header Columns */
+.meaningTable th {
+  background-color: #9a2c2c;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  border-bottom: 3px solid #7a1c1c;
+}
+
+.meaningTable tbody tr td {
+  border-bottom: 1px solid #eaddca;
+}
+
+.meaningTable tbody tr:nth-child(even) {
+  background-color: #faf6ee;
+}
+
+.meaningTable tbody tr:hover {
+  background-color: #f5edd8;
+}
+
+/* Column Rules */
+.meaningTable td:first-child {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #7a1c1c;
+  white-space: nowrap; 
+  width: 35%;
+  border-right: 1px dashed #eaddca;
+}
+
+.meaningTable td:last-child {
+  font-size: 1rem;
+  color: #3d3a35;
+  width: 65%;
+}
+
+/* Responsive Overrides */
+@media (max-width: 640px) {
+  .meaningTable th,
+  .meaningTable td {
+    padding: 12px 14px;
+  }
+
+  .meaningTable td:first-child {
+    font-size: 1.1rem;
+    white-space: normal;
+    width: 40%;
+  }
+
+  .meaningTable td:last-child {
+    font-size: 0.95rem;
+    width: 60%;
+  }
+}

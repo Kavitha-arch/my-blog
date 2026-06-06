@@ -4,6 +4,8 @@ import Link from "next/link";
 import styles from "@/app/blog/maadurga/styles/VersePage.module.css";
 import { VerseImage } from "@/app/components/katha/VerseImage";
 
+//STEP1: Add the verse link here
+//STEP2: Add versen.ts to  app\data\mahishasura and mention it in index.ts
 export default function MainDurgaPage() {
   return (
     <BlogLayout>
@@ -14,7 +16,7 @@ export default function MainDurgaPage() {
           <p>
             The story of Durga is not merely a mythological battle narrative.
             It is a symbolic map of psychological struggle, attachment,
-            ego, and transformation.         
+            ego, and transformation.
           </p>
         </section>
         <div>
@@ -23,58 +25,45 @@ export default function MainDurgaPage() {
             alt="Maa Durga" width={300} height={100} ></VerseImage>
 
           <ul>
+            {/* Verse1: Main link */}
             <li>
               <Link
-                href="/blog/maadurga/katha/mahishasura-mardhini/verse-1"
-                className="text-blue-600 underline hover:text-blue-800"
-              >
-                Verse 1: Maa Durga - The Daughter of the Mountain and Joy of the World
+                href="/blog/maadurga/katha/mahishasura-mardhini/verse-1">
+                Verse 1
               </Link>
+              <p>Maa Durga - The Daughter of the Mountain and Joy of the World</p>
             </li>
 
+            {/* Verse2: Main link */}
             <li>
               <Link
-                href="/blog/maadurga/katha/mahishasura-mardhini/verse-2"
-                className="text-blue-600 underline hover:text-blue-800"
-              >
-                Verse 2: Maa Durga - Destroys Danavas & Daityas and Nourishes the Three Worlds
+                href="/blog/maadurga/katha/mahishasura-mardhini/verse-2">
+                Verse 2
               </Link>
+              <p>Maa Durga - Destroys Danavas & Daityas and Nourishes the Three Worlds</p>
 
-              {/* Child links */}
+              {/* Verse2: Child links */}
               <ul className="ml-8 mt-2 list-disc">
                 <li>
                   <Link
-                    href="/blog/maadurga/katha/symbology/verse2"
-                    className="text-blue-600 underline hover:text-blue-800"
-                  >
+                    href="/blog/maadurga/katha/symbology/verse2">
                     SYMBOLOGY: Danavas & Daityas
                   </Link>
                 </li>
               </ul>
             </li>
+
+            {/* Verse3: Main link */}
             <li>
               <Link
-                href="/blog/maadurga/katha/mahishasura-mardhini/verse-2"
-                className="text-blue-600 underline hover:text-blue-800"
-              >
-                Verse 17: Maa Durga - Who is Pleased with Devotional Contemplation of both: like Suratha as well as Samadhi
+                href="/blog/maadurga/katha/mahishasura-mardhini/verse-3">
+                Verse 3
               </Link>
-
-              {/* Child links */}
-              <ul className="ml-8 mt-2 list-disc">
-                <li>
-                  <Link
-                    href="/blog/maadurga/katha/symbology/verse17"
-                    className="text-blue-600 underline hover:text-blue-800"
-                  >
-                    SYMBOLOGY: Suratha and Samadhi
-                  </Link>
-                </li>
-              </ul>
+              <p>Destroyer of the Demons Madhu [Attachment to worldly pleasures] and Kaitabha [Aversion to unpleasant things.]</p>
             </li>
           </ul>
         </div>
       </article>
-    </BlogLayout>
+    </BlogLayout >
   );
 }

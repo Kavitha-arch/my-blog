@@ -9,11 +9,16 @@ export type Verse = {
   sanskrit: string;
   meaning: string[];
   symbols: string[];
-  reflection: string;
+  reflection: string[];
   image1: string;
-  image2: string;
+  image2?: string;
   symbology?: string; //optional
   scenario?: string; //optional
+   // Change this line to an array of objects:
+  stanzaData?: {
+    sanskrit: string;
+    meaning: string;
+  }[];
 };
 
 export const verses: Record<string, Verse>  = {

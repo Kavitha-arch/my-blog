@@ -9,6 +9,7 @@ import styles from "@/app/blog/maadurga/styles/VersePage.module.css";
 import Link from "next/link";
 import { VerseHero } from "@/app/components/katha/VerseHero";
 import { ChevronRight } from "lucide-react";
+import { MeaningTable } from "@/app/components/katha/MeaningTable";
 
 export function generateStaticParams() {
     return Object.keys(verses).map((slug) => ({
@@ -73,40 +74,50 @@ export default async function VersePage({
                     <MeaningBlock items={verse.meaning} />
                 </section>
 
+
+                {verse.stanzaData && verse.stanzaData.length > 0 && (
+                    <section>
+                        <MeaningTable items={verse.stanzaData} />
+                    </section>
+                )}
+
                 <section>
-                    {verse.symbology ? (
-                        <Link
-                            href={verse.symbology}
-                            className={styles.symbolsLink}
-                        >
-                            <SymbolsBlock items={verse.symbols} />
+                    <SymbolsBlock items={verse.symbols} />
+                    {verse.symbology && (
+                        <Link href={verse.symbology}
+                            className={styles.symbolsLink} >
+                             <div className={styles.linkWrapper}> 
+                               <span className={styles.linkIndicator}>
+                                    Read Symbology <ChevronRight size={16} />
+                                </span>
+                                </div>
                         </Link>
-                    ) : (
-                        <SymbolsBlock items={verse.symbols} />
                     )}
                 </section>
 
                 <section className={styles.reflectionSection}>
-                    {verse.scenario ? (
+                      <ReflectionBlock text={verse.reflection} />
+
+                    {verse.scenario && (
                         <Link href={verse.scenario} className={styles.symbolsLink}>
                             <div className={styles.linkWrapper}>
-                                <ReflectionBlock text={verse.reflection} />
+                              
                                 <span className={styles.linkIndicator}>
                                     Read Reflection <ChevronRight size={16} />
                                 </span>
                             </div>
-                        </Link>
-                    ) : (
-                        <ReflectionBlock text={verse.reflection} />
+                        </Link> 
                     )}
                 </section>
 
                 <br />
                 <h1>Meaning</h1>
-                <VerseImage
-                    src={verse.image2}
-                    alt={verse.title}
-                />
+                {verse.image2 && (
+                    <VerseImage
+                        src={verse.image2}
+                        alt={verse.title}
+                    />
+                )}
                 <br />
                 <nav className={styles.verseNavigation}>
                     <div>

@@ -27,6 +27,16 @@
   color: #7c2d12;
 } 
 
+.versePage a {
+  color: #2563eb;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.versePage a:hover {
+  color: #1d4ed8;
+}
+
 .om {
   width: 4rem;
   height: 4rem;
@@ -130,3 +140,5 @@
   opacity: 1;
   gap: 0.5rem; /* Pushes the arrow slightly right */
 }
+
+ 

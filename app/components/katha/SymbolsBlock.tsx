@@ -6,9 +6,10 @@ export function SymbolsBlock({ items }: SymbolsBlockProps) {
   return (
     <section className={styles.symbolsCard}>
       <h2>Symbols</h2>
+      
       <ul>
         {items.map((item, i) => {
-          const isVerseHeader = /^[🌸🔱🌊🏔️]/.test(item.trim());
+          const isVerseHeader = i === 0;
 
           if (isVerseHeader) {
             return (
@@ -18,7 +19,6 @@ export function SymbolsBlock({ items }: SymbolsBlockProps) {
             );
           }
 
-          // Handle standard symbol split
           const [title, ...rest] = item.split(":");
           const description = rest.join(":");
 

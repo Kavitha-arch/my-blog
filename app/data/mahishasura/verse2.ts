@@ -1,4 +1,4 @@
-const verse1 = {
+const verse2 = {
     slug: "verse-2",
 
     title: "Verse 2 : सुरवरवर्षिणि",
@@ -26,34 +26,39 @@ const verse1 = {
     ],
 
     symbols: [
-        "🌸 Verse 2.1",
-        "Boons to the Devas : She empowers the forces of light and righteousness",
-        "Overpowering Durdhara (Unrestrainable) : She subdues arrogance and unchecked impulses",
-        "Enduring Durmukha (Foul-Mouthed) : She withstands negativity and slander",
-        "Slaying Durmukha : She destroys harmful speech and corruption",
-        "Delight in Her own bliss : She is self-sufficient, embodying divine joy (ānanda)",
+        "🌸 Verse 2: The Cosmic Balancing Force",
 
-        "🌸 Verse 2.2",
-        "Sustaining the Three Worlds : She nourishes heaven, earth, and the underworld",
-        "Delighting Lord Shankara : She complements Shiva by removing sins and restoring balance",
-        "Tumult of battle : Symbolizes the cosmic struggle against ignorance and adharma",
+        "Suravaravarshini: Means She who showers boons upon the Gods. Symbolically, this represents the descent of divine grace, clarity, and higher spiritual virtues into the human intellect when the mind aligns with truth.",
 
-        "🌸 Verse 2.3",
-        "Quelling wrath of Danavas : She neutralizes destructive tendencies born of imbalance",
-        "Angry with Daityas : She opposes forces of ego and unrighteousness",
-        "Drying up pride of demons : She humbles arrogance and false superiority",
-        "Daughter of the Ocean (Lakshmi) : She embodies prosperity, beauty, and abundance",
+        "Durdharadharshini: Means She who overpowers the unrestrainable demon Durdhara. Symbolically, Durdhara represents blind, unbridled, and insatiable desire (Kama) that resists all human restraint until subdued by spiritual discipline.",
 
-        "🌸 Verse 2.4",
-        "Victory to You, Destroyer of Mahishasura : Triumph of dharma over brute force and ignorance",
-        "Shine with beautiful locks of hair : Symbol of grace and divine beauty alongside power",
-        "Daughter of the Mountain (Parvati) : Rooted in strength, stability, and nature",
+        "Durmukhamarshini: Means She who endured and destroyed the foul-mouthed demon Durmukha. Symbolically, Durmukha represents corrosive anger (Krodha) and abusive speech. When desire (Durdhara) is blocked, it instantly mutates into rage (Durmukha).",
 
+        "Harsharate: Means She who constantly delights in joy. This represents absolute equanimity. The Divine Mother remains in a state of supreme bliss and detached joy even while engaging in the chaotic, heavy warfare of life.",
 
+        "Tribhuvanaposhini: Means She who sustains and nourishes the three worlds. Psychologically, this represents the integration and nurturing of our physical body, conscious mind, and deep subconscious spirit under a unified divine order.",
+
+        "Shankaratoshini: Means She who brings joy to Lord Shiva. Shiva represents pure, silent, unmoving cosmic consciousness. Devi pleasing Him symbolizes dynamic energy working in perfect harmony with silent spiritual awareness.",
+
+        "Kilbishamoshini: Means She who washes away sins and impurities. This represents the purification of the heart and mind, wiping away toxic mental impressions (Samskaras) that keep us bound to negative habits.",
+
+        "Ghosharate: Means She who delights in the tumultuous sounds of battle. This symbolizes facing the loud, roaring, and chaotic challenges of the material world head-on with celebratory confidence rather than fear.",
+
+        "Danujaniroshini: Means She who quells the wrath of the Danavas. The Danavas (born of Danu) symbolize cosmic inertia, heavy ignorance (Tamas), and deep-seated delusions that cloud clear human judgment.",
+
+        "Ditisutaroshini: Means She who is angry with the sons of Diti (the Daityas). The Daityas symbolize dualism, division, rigid ambition, and the aggressive ego that falsely views the self as completely separate from the Divine.",
+
+        "Durmadashoshini: Means She who dries up the foolish pride of demons. This represents the total deflation of toxic egoism, arrogance, and the false sense of personal doership that blocks spiritual awakening.",
+
+        "Sindhusute: Means Daughter of the Ocean. This invokes her form as Goddess Lakshmi, representing the absolute churn of consciousness that ultimately yields boundless peace, spiritual wealth, and divine prosperity."
     ],
 
-    reflection:
-        "✨ Overall Essence : Each demon represents inner vices—arrogance, foul speech, pride, brute force. The Divine Mother’s battles are allegories for conquering these within ourselves, while Her feet symbolize refuge and surrender to divine wisdom.",
+    reflection: [
+        
+        "✨ Overall Essence : Each demon represents inner vices—arrogance, foul speech, pride, brute force. The Divine Mother’s battles are allegories for conquering these within ourselves, while Her feet symbolize refuge and surrender to divine wisdom."
+    
+    ],
+
     image1: "/images/maa/maaverse2a.png",
 
     image2: "/images/maa/arthverse2.png",
@@ -61,6 +66,8 @@ const verse1 = {
     symbology: "/blog/maadurga/katha/symbology/verse2",
 
     scenario: "/blog/maadurga/katha/reflection/verse2",
+
+    
 };
 
-export default verse1;
+export default verse2;

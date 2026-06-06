@@ -39,8 +39,8 @@ const verse1 = {
 
   ],
 
-  reflection:
-    "Goddess Durga represents the supreme, invincible energy of the universe (Shakti). Her deeper meaning bridges the gap between the material and spiritual realms: She is the force of creation, the mother who grounds humanity, and the ultimate warrior who destroys the ego and inner ignorance",
+  reflection:[
+    "Goddess Durga represents the supreme, invincible energy of the universe (Shakti). Her deeper meaning bridges the gap between the material and spiritual realms: She is the force of creation, the mother who grounds humanity, and the ultimate warrior who destroys the ego and inner ignorance"],
 
   image1: "/images/maa/maaverse1.png",
 
