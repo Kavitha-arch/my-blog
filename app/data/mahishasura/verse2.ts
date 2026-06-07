@@ -16,14 +16,15 @@ const verse2 = {
     meaning: [
         '(O Divine Mother, I invoke You and take refuge in Your Auspicious Feet)',
 
-        '2.1: (Salutations to You O Divine Mother) I Invoke You; Who <span class="highlight" data-sanskrit="सुरवरवर्षिणि">Shower Boons on the Devas</span>; Who <span class="highlight" data-sanskrit="दुर्धरधर्षिणि">Overpowered Demon Durdhara</span> (literally meaning Unrestrainable) and <span class="highlight" data-sanskrit="दुर्मुखमर्षिणि">Endured Demon Durmukha</span> (literally meaning Foul-Mouthed) and finally slayed him, and Who <span class="highlight" data-sanskrit="हर्षरते">Delight in Her own Bliss</span>,',
+        '<strong>Literal:</strong> (Salutations to You O Divine Mother) I Invoke You; Who <span class="highlight" data-sanskrit="सुरवरवर्षिणि">Shower Boons on the Devas</span>; Who <span class="highlight" data-sanskrit="दुर्धरधर्षिणि">Overpowered Demon Durdhara</span> (literally meaning Unrestrainable) and <span class="highlight" data-sanskrit="दुर्मुखमर्षिणि">Endured Demon Durmukha</span> (literally meaning Foul-Mouthed) and finally slayed him, and Who <span class="highlight" data-sanskrit="हर्षरते">Delight in Her own Bliss</span>.<br /><br /><strong>Psychological:</strong> You are the force that showers divine blessings upon higher mental virtues, yet You turn into the unyielding power that shatters our insatiable desires. While You are the destroyer of corrosive, foul-mouthed anger, You remain eternally anchored in supreme, unshakeable bliss even amidst the thick of our inner psychological battles.',
 
-        '2.2: (I Invoke You) Who <span class="highlight" data-sanskrit="त्रिभुवनपोषिणि">Sustain and Nourish the Three-Worlds</span>; Who <span class="highlight" data-sanskrit="शङ्करतोषिणि">Delight Lord Shankara by Removing the Sins</span> (i.e. Sinful Demons) by <span class="highlight" data-sanskrit="किल्बिषमोषिणि">Indulging in the Tumult of the Battle</span>; Who <span class="highlight" data-sanskrit="घोषरते">Delight in the Roar of Battle</span>,',
+        '<strong>Literal:</strong> (I Invoke You) Who <span class="highlight" data-sanskrit="त्रिभुवनपोषिणि">Sustain and Nourish the Three-Worlds</span>; Who <span class="highlight" data-sanskrit="शङ्करतोषिणि">Delight Lord Shankara</span> by removing sins by <span class="highlight" data-sanskrit="किल्बिषमोषिणि">Wiping away Deep-Seated Impurities</span>; Who <span class="highlight" data-sanskrit="घोषरते">Delight in the Roar of Battle</span>.<br /><br /><strong>Psychological:</strong> You are the dynamic sustainer who nourishes our physical, mental, and spiritual worlds, working beautifully as the energy that brings complete joy to silent, pure consciousness. You act as the absolute purifier of toxic mental impressions, maintaining a triumphant presence that welcomes the roaring challenges of life with absolute confidence.',
 
-        '2.3: Who <span class="highlight" data-sanskrit="दनुजनिरोषिणि">Quell the Wrath of the Danavas</span> (Born from Danu) and is <span class="highlight" data-sanskrit="दितिसुतरोषिणि">Angry with the Daityas</span> (Son of Diti); Who <span class="highlight" data-sanskrit="दुर्मदशोषिणि">Dry up the Foolish Pride of Demons</span>; and Who is the <span class="highlight" data-sanskrit="सिन्धुसुते">Daughter of the Ocean</span>,',
+        '<strong>Literal:</strong> Who <span class="highlight" data-sanskrit="दनुजनिरोषिणि">Quell the Wrath of the Danavas</span> (Born from Danu) and is <span class="highlight" data-sanskrit="दितिसुतरोषिणि">Angry with the Daityas</span> (Son of Diti); Who <span class="highlight" data-sanskrit="दुर्मदशोषिणि">Dry up the Foolish Pride of Demons</span>; and Who is the <span class="highlight" data-sanskrit="सिन्धुसुते">Daughter of the Ocean</span>.<br /><br /><strong>Psychological:</strong> You are the subduer of heavy, stagnant ignorance and the fierce challenger of the rigid, divisive ego, working constantly to dry up the toxic, foolish pride of the human mind. As the Daughter of the Ocean, You emerge from the deep churn of our awareness to grant boundless prosperity and ultimate liberation.',
 
-        '2.4: Victory to You,<span class="highlight" data-sanskrit="जय जय हे"> Victory to You</span>, (I take Refuge in Your Auspicious Feet) O the <span class="highlight" data-sanskrit="महिषासुरमर्दिनि">Destroyer of Demon Mahishasura</span>; (Victory to You) Who Shine with <span class="highlight" data-sanskrit="रम्यकपर्दिनि">Beautiful Locks of Hair</span> and Who is the <span class="highlight" data-sanskrit="शैलसुते">Daughter of the Mountain</span>.'
+        '<strong>Literal:</strong> Victory to You, <span class="highlight" data-sanskrit="जय जय हे">Victory to You</span>, (I take Refuge in Your Auspicious Feet) O the <span class="highlight" data-sanskrit="महिषासुरमर्दिनि">Destroyer of Demon Mahishasura</span>; (Victory to You) Who Shine with <span class="highlight" data-sanskrit="रम्यकपर्दिनि">Beautiful Locks of Hair</span> and Who is the <span class="highlight" data-sanskrit="शैलसुते">Daughter of the Mountain</span>.<br /><br /><strong>Psychological:</strong> Victory, victory to You, O Destroyer of the monstrous delusion of the ego, You whose beautiful braided locks hold the complex forces of the cosmos in perfect order, and who shines as the Daughter of the Mountain of steady, unwavering meditation.'
     ],
+
 
     symbols: [
         "🌸 Verse 2: The Cosmic Balancing Force",
@@ -54,11 +55,14 @@ const verse2 = {
     ],
 
     reflection: [
-        
-        "✨ Overall Essence : Each demon represents inner vices—arrogance, foul speech, pride, brute force. The Divine Mother’s battles are allegories for conquering these within ourselves, while Her feet symbolize refuge and surrender to divine wisdom."
-    
-    ],
+        "Philosophy Breakdown",
 
+        "Shiva as the Witness vs. Durga as the Power: In philosophy, Shiva is Prakasha (the unmoving light of consciousness), while Durga is Vimarsha (the dynamic, self-aware energy that acts). Shiva cannot fight; he is pure stillness. Durga is the processing power of your mind that cleans up house so stillness can be experienced.",
+
+        "Replacing 'Brain' with Buddhi (Higher Intellect): In yogic psychology, the physical brain is just hardware. The software that fights inner battles is Buddhi—the faculty of discernment, higher intelligence, and spiritual awareness.",
+
+        "The Ultimate Goal of the Battle: The demons Madhu, Kaitabha, and Mahishasura are psychological distortions (anger, delusion, and ego). When Durga slays them, she is not merely destroying monsters; she is restoring the mind to a state of equilibrium (Harsharate), which is the very condition in which Shiva can be realized."
+    ],
     image1: "/images/maa/maaverse2a.png",
 
     image2: "/images/maa/arthverse2.png",
@@ -67,7 +71,7 @@ const verse2 = {
 
     scenario: "/blog/maadurga/katha/reflection/verse2",
 
-    
+
 };
 
 export default verse2;

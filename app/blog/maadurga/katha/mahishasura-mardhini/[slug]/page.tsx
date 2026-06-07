@@ -86,37 +86,38 @@ export default async function VersePage({
                     {verse.symbology && (
                         <Link href={verse.symbology}
                             className={styles.symbolsLink} >
-                             <div className={styles.linkWrapper}> 
-                               <span className={styles.linkIndicator}>
+                            <div className={styles.linkWrapper}>
+                                <span className={styles.linkIndicator}>
                                     Read Symbology <ChevronRight size={16} />
                                 </span>
-                                </div>
+                            </div>
                         </Link>
                     )}
                 </section>
 
                 <section className={styles.reflectionSection}>
-                      <ReflectionBlock text={verse.reflection} />
+                    <ReflectionBlock text={verse.reflection} />
 
                     {verse.scenario && (
                         <Link href={verse.scenario} className={styles.symbolsLink}>
                             <div className={styles.linkWrapper}>
-                              
+
                                 <span className={styles.linkIndicator}>
-                                    Read Reflection <ChevronRight size={16} />
+                                    Read Scenario <ChevronRight size={16} />
                                 </span>
                             </div>
-                        </Link> 
+                        </Link>
                     )}
                 </section>
 
-                <br />
-                <h1>Meaning</h1>
                 {verse.image2 && (
-                    <VerseImage
-                        src={verse.image2}
-                        alt={verse.title}
-                    />
+                    <section>
+                        <h1>Meaning</h1>
+                        <VerseImage
+                            src={verse.image2}
+                            alt={verse.title}
+                        />
+                    </section>
                 )}
                 <br />
                 <nav className={styles.verseNavigation}>

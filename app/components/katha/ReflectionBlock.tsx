@@ -15,7 +15,7 @@ export function ReflectionBlock({ text }: ReflectionBlockProps) {
 
   return (
     <section className={styles.reflectionCard}>
-      <h2>Reflection</h2>
+      <h2>✍️ My Reflection</h2>
 
       <blockquote>
         {lines.map((line, i) => {

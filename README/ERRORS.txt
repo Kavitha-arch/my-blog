@@ -1,0 +1,1 @@
+Wrapping a full semantic content block inside a <Link> causing invalid HTML + style leakage

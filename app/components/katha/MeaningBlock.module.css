@@ -160,3 +160,24 @@
   opacity: 1;
   visibility: visible;
 }
+
+/* Styling the strong typography markers inside paragraphs */
+.meaningCard p strong {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 0.95rem;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-right: 0.25rem;
+}
+
+/* ✅ FIXED: Use simple index-based matching to color the block labels safely */
+.meaningCard p strong:first-of-type {
+  color: #475569; /* Polished slate iron gray for "Literal:" */
+}
+
+.meaningCard p strong:last-of-type {
+  color: #991b1b; /* Classy deep burgundy red for "Psychological:" */
+}
+
