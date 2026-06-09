@@ -6,10 +6,10 @@ const verse1 = {
   description: "1.	Maa Durga - The Daughter of the Mountain and Joy of the World",
 
   sanskrit: `
-    अयि गिरिनन्दिनि नन्दितमेदिनि विश्वविनोदिनि नन्दिनुते
-                            गिरिवरविन्ध्यशिरोऽधिनिवासिनि विष्णुविलासिनि जिष्णुनुते ।
-                            भगवति हे शितिकण्ठकुटुम्बिनि भूरिकुटुम्बिनि भूरिकृते
-                            जय जय हे महिषासुरमर्दिनि रम्यकपर्दिनि शैलसुते ॥ १ ॥
+      अयि गिरिनन्दिनि नन्दितमेदिनि विश्वविनोदिनि नन्दिनुते
+      गिरिवरविन्ध्यशिरोऽधिनिवासिनि विष्णुविलासिनि जिष्णुनुते ।
+      भगवति हे शितिकण्ठकुटुम्बिनि भूरिकुटुम्बिनि भूरिकृते
+      जय जय हे महिषासुरमर्दिनि रम्यकपर्दिनि शैलसुते ॥ १ ॥
                       
 `,
 
@@ -27,7 +27,7 @@ const verse1 = {
 
   symbols: [
 
-    "Daughter of the Mountain (Shailaputri): Durga as Giri-Nandini, born of the Himalayas. As the daughter of the earth, she grounds spiritual awakening and symbolizes the strength, patience, and purity of nature. The iconic hymn Mahishasura Mardini Stotram beautifully addresses her as \"Giri - Nandini\" (daughter of the mountain",
+    "Daughter of the Mountain (Shailaputri): Durga as Giri-Nandini, born of the Himalayas. As the daughter of the earth, she grounds spiritual awakening and symbolizes the strength, patience, and purity of nature. The iconic hymn Mahishasura Mardini Stotram beautifully addresses her as \"Giri - Nandini\" (daughter of the mountain)",
 
     "Yogamaya / Vishnumaya: She is Vishnu’s illusionary, cosmic power. She creates the Maya that keeps the universe running and aids Vishnu in his earthly avatars",
 
@@ -45,6 +45,29 @@ const verse1 = {
   image1: "/images/maa/maaverse1.png",
 
   image2: "/images/maa/arthverse1.png",
+
+  stanzaData :[
+  { sanskrit: "अयि", meaning: "O! / Hail!" },
+  { sanskrit: "गिरिनन्दिनि", meaning: "Daughter of the mountain (Himalaya)" },
+  { sanskrit: "नन्दितमेदिनि", meaning: "She who delights the earth" },
+  { sanskrit: "विश्वविनोदिनि", meaning: "She who brings joy to the universe" },
+  { sanskrit: "नन्दिनुते", meaning: "Praised by Nandi" },
+  { sanskrit: "गिरिवरविन्ध्यशिरोऽधिनिवासिनि", meaning: "She who dwells on the peaks of the great Vindhya mountains" },
+  { sanskrit: "विष्णुविलासिनि", meaning: "She who reveals the creative, joyful power of Vishnu" },
+  { sanskrit: "जिष्णुनुते", meaning: "Praised by the victorious ones (or Indra)" },
+  { sanskrit: "भगवति", meaning: "O Goddess! (Possessor of all divine opulences)" },
+  { sanskrit: "हे", meaning: "O!" },
+  { sanskrit: "शितिकण्ठकुटुम्बिनि", meaning: "Consort of the blue-throated one (Shiva)" },
+  { sanskrit: "भूरिकुटुम्बिनि", meaning: "She who has the entire cosmos as Her abundant family" },
+  { sanskrit: "भूरिकृते", meaning: "She who creates abundantly / brings forth countless blessings" },
+  { sanskrit: "जय", meaning: "Victory!" },
+  { sanskrit: "जय", meaning: "Victory!" },
+  { sanskrit: "हे", meaning: "O!" },
+  { sanskrit: "महिषासुरमर्दिनि", meaning: "Destroyer of the demon Mahishasura" },
+  { sanskrit: "रम्यकपर्दिनि", meaning: "She with beautiful, intricately woven locks of hair" },
+  { sanskrit: "शैलसुते", meaning: "Daughter of the mountain" }
+]
+
 };
 
 export default verse1;

@@ -58,7 +58,26 @@ const verse3 = {
     ], 
 
     image1: "/images/maa/maaverse3.png",
-
+    
+    stanzaData: [
+        { sanskrit: "अयि", meaning: "O! / Hail!" },
+        { sanskrit: "जगदम्ब", meaning: "Mother of the universe" },
+        { sanskrit: "मदम्ब", meaning: "My own mother" },
+        { sanskrit: "कदम्ब-वन-प्रिय-वासिनि", meaning: "Residing in the forest of Kadamba trees" },
+        { sanskrit: "हासरते", meaning: "Delighting in smiling/joy" },
+        { sanskrit: "शिखरि-शिरोमणि", meaning: "Crest-jewel of mountains" },
+        { sanskrit: "तुङ्ग-हिमालय", meaning: "Lofty Himalayas" },
+        { sanskrit: "शृङ्ग-निजालय", meaning: "Residing on the peak" },
+        { sanskrit: "मध्यगते", meaning: "Dwelling in the center" },
+        { sanskrit: "मधु-मधुरे", meaning: "Sweet as honey" },
+        { sanskrit: "मधु-कैटभ-गञ्जिनि", meaning: "Subduer of Madhu and Kaitabha" },
+        { sanskrit: "कैटभ-भञ्जिनि", meaning: "Slayer of Kaitabha" },
+        { sanskrit: "रासरते", meaning: "Delighting in the cosmic dance" },
+        { sanskrit: "जय जय हे", meaning: "Victory, victory to You!" },
+        { sanskrit: "महिषासुर-मर्दििन", meaning: "Slayer of Mahishasura" },
+        { sanskrit: "रम्य-कपर्दिनि", meaning: "With beautiful braided hair" },
+        { sanskrit: "शैलसुते", meaning: "Daughter of the mountain" }
+    ],
     
 };
 

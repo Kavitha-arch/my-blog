@@ -8,20 +8,20 @@ export type Verse = {
   description: string;
   sanskrit: string;
   meaning: string[];
-  symbols: string[];
+  symbols?: string[];
   reflection: string[];
   image1: string;
   image2?: string;
   symbology?: string; //optional
   scenario?: string; //optional
-   // Change this line to an array of objects:
+  // Change this line to an array of objects:
   stanzaData?: {
     sanskrit: string;
     meaning: string;
   }[];
 };
 
-export const verses: Record<string, Verse>  = {
+export const verses: Record<string, Verse> = {
   "verse-1": verse1,
   "verse-2": verse2,
   "verse-3": verse3,
@@ -32,7 +32,6 @@ export const verseOrder: VerseSlug[] = [
   "verse-2",
   "verse-3",
 ];
- 
+
 export type VerseSlug = keyof typeof verses;
 
- 

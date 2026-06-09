@@ -82,7 +82,11 @@ export default async function VersePage({
                 )}
 
                 <section>
-                    <SymbolsBlock items={verse.symbols} />
+
+                    {verse.symbols && (
+                        <SymbolsBlock items={verse.symbols} />
+                    )}
+
                     {verse.symbology && (
                         <Link href={verse.symbology}
                             className={styles.symbolsLink} >
