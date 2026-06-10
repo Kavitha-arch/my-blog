@@ -170,6 +170,11 @@ export default function BlogLayout({ children }: BlogLayoutProps) {
                       Stotram  
                     </Link>
                   </li> 
+                   <li>
+                    <Link href="/blog/maadurga/about">
+                      About  
+                    </Link>
+                  </li> 
                  
                  
                 </ul>

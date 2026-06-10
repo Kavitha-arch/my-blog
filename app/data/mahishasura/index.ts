@@ -1,3 +1,4 @@
+import mantra from "./mantra";
 import verse1 from "./verse1";
 import verse2 from "./verse2";
 import verse3 from "./verse3";
@@ -22,6 +23,7 @@ export type Verse = {
 };
 
 export const verses: Record<string, Verse> = {
+  "mantra": mantra,
   "verse-1": verse1,
   "verse-2": verse2,
   "verse-3": verse3,

@@ -30,10 +30,11 @@ const verse2 = {
         "[INTRO] In Hindu philosophy and mythology, the elements of earth, water, and sky represent the material layers of creation, while Goddess Durga symbolizes the absolute, unified divine energy (<em>Adi Parashakti</em>) that governs, protects, and transcends them all. When viewed together, this combination carries profound cosmological, elemental, and spiritual symbolism.",
 
         "[HEADER] 1. The Matrix of Material Creation (Pancha Mahabhuta)",
-        "[BULLET] Water (Jal / Apas): Symbolizes fluidity, the primordial soup of creation, emotion, and the preservation of life. In the context of the Danavas, it represents the untamed depths of the subconscious and unmanifested potential.",
+        "[BULLET] Water (Jala): Symbolizes fluidity, the primordial soup of creation, emotion, and the preservation of life. In the context of the Danavas, it represents the untamed depths of the subconscious and unmanifested potential.",
         "[BULLET] Earth (Prithvi): Symbolizes stability, structure, the physical body, and the ultimate crystallization of consciousness into matter. For the Daityas, it represents ego, raw material power, and worldly ambition.",
-        "[BULLET] Sky (Akasha / Dyaus): Symbolizes vastness, space, infinite consciousness, and the spiritual realm. Connected to Aditi and the Devas, it represents higher wisdom, light, and the ultimate boundaries of order.",
-
+        "[BULLET] Sky (Akasha): Symbolizes vastness, space, infinite consciousness, and the spiritual realm. Connected to Aditi and the Devas, it represents higher wisdom, light, and the ultimate boundaries of order.",
+        "[BULLET] Agni (Fire): Symbolizes transformation, metabolism, and inner power, aligning with Durga’s fierce, energy-driven, and transformative warrior nature.",
+        "[BULLET] Vayu (Air): Represents movement, breath, and transportation, corresponding to the vital life force (Prana) that the Goddess grants to creation.",
         "[HEADER] 2. Goddess Durga as the Cosmic Synthesis",
         "[PARAGRAPH] <strong>The Birthing of Durga:</strong> According to the Devi Mahatmya, Durga was created when the individual energies (<em>Tejas</em>) of all the gods fused into one blazing mountain of light. Her physical form directly incorporates the elements: her face is the light of Shiva (pure consciousness/sky), her legs and thighs come from Varuna (water), and her hips are formed from Bhoodevi (earth).",
         "[PARAGRAPH] <strong>The Ultimate Protector:</strong> While individual factions (like the Danavas of water, Daityas of earth, and Adityas of the sky) fight for dominance over their specific realms, Durga is <em>Mahishasura Mardini</em>—the force that steps in when the balance between earth, water, and sky is completely shattered by chaos.",
@@ -53,21 +54,24 @@ const verse2 = {
         "[DIAGRAM] ═══════════════════════════════════════",
 
         // 🌟 Dynamic Sources added right into the array
-        "[SOURCE] Vedadhara: <a href='https://vedadhara.com' target='_blank'>\"Origin of Devas, Daityas, and Danavas\"</a> — vedadhara.com",
-        "[SOURCE] Quora Community: <a href='https://quora.com' target='_blank'>\"What are differences between Aditya, Daitya, Danav...\"</a> — quora.com"
-
-    ]
-    ,
+        "[SOURCE] 1. Vedadhara: <a href='https://vedadhara.com' target='_blank'>\"Origin of Devas, Daityas, and Danavas\"</a> — vedadhara.com",
+        "[SOURCE] 2. Quora Community: <a href='https://quora.com' target='_blank'>\"What are differences between Aditya, Daitya, Danav...\"</a> — quora.com",
+        "[SOURCE] 3. Facebook: <a href='https://www.facebook.com/sagarworldmultimedia/posts/durga-yantra-the-sacred-geometrical-diagram-to-invoke-goddess-durgafind-the-link/2657629860962843/' target='_blank' style='color: #b45309; text-decoration: underline;'>View Original Post</a> — @sagarworldmultimedia",
+        "[SOURCE] 4. DeviMahatmya <a>https://devimahatmya.com/</a>",
+    ],
 
 
     reflection: [
-        "Philosophy Breakdown",
+        "Philosophy",
 
-        "Shiva as the Witness vs. Durga as the Power: In philosophy, Shiva is Prakasha (the unmoving light of consciousness), while Durga is Vimarsha (the dynamic, self-aware energy that acts). Shiva cannot fight; he is pure stillness. Durga is the processing power of your mind that cleans up house so stillness can be experienced.",
+        "Shiva as the साक्षी  : Shiva represents the unmoving awareness that observes all mental activity without participating in it.In philosophy, Shiva is Prakasha (the unmoving light of consciousness); he is pure stillness.",
+
+        "Durga as the शक्ति :   Durga is Vimarsha (the dynamic, self-aware energy that acts).  Durga is the processing power of your mind that cleans up house so stillness can be experienced.",
 
         "Replacing 'Brain' with Buddhi (Higher Intellect): In yogic psychology, the physical brain is just hardware. The software that fights inner battles is Buddhi—the faculty of discernment, higher intelligence, and spiritual awareness.",
 
-        "The Ultimate Goal of the Battle: The demons Madhu, Kaitabha, and Mahishasura are psychological distortions (anger, delusion, and ego). When Durga slays them, she is not merely destroying monsters; she is restoring the mind to a state of equilibrium (Harsharate), which is the very condition in which Shiva can be realized."
+       "Quoted passage about the <strong>six demons</strong> (verbatim from <a>https://devimahatmya.com)</a>: Desire <strong>(kāma)</strong> is in the broadest sense any kind of longing for sensory gratification, material wealth, or power. Inherent in it is the sense of deficiency, limitation, or separation. Any desire is ultimately the desire for wholeness. When thwarted, it may turn to anger <strong>(krodha)</strong>; paradoxically, when gratified it may become inflamed into greed <strong>(lobha)</strong>—excessive, insatiable want. Because the ego, by its very nature, remains deficient, no amount of gratification can fill the void. Additionally, fixation on the ego manifests as pride <strong>(mada)</strong>, a sense of superiority that in turn can engender jealousy <strong>(mātsarya)</strong>—resentment of others' fortune. All these entangled passions thrive in delusion <strong>(moha)</strong>, which clouds awareness and distorts self-perception.❤️"
+
     ],
     image1: "/images/maa/maaverse2a.png",
 

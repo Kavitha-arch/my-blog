@@ -15,7 +15,7 @@ export function ReflectionBlock({ text }: ReflectionBlockProps) {
 
   return (
     <section className={styles.reflectionCard}>
-      <h2>✍️ My Reflection</h2>
+     <h2>✍️ Reflections ❤️</h2>
 
       <blockquote>
         {lines.map((line, i) => {
@@ -24,7 +24,13 @@ export function ReflectionBlock({ text }: ReflectionBlockProps) {
           
           if (!cleanLine) return null; // Skips empty rows safely
           
-          return <p key={i}>{cleanLine}</p>;
+           return (
+          <p key={i}>
+            <span dangerouslySetInnerHTML={{ __html: cleanLine }} />
+          </p>
+        );
+ 
+          
         })}
       </blockquote>
     </section>

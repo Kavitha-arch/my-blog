@@ -141,4 +141,21 @@
   gap: 0.5rem; /* Pushes the arrow slightly right */
 }
 
- 
+ .storyCard {
+  /* Layout Bounds Lock: Restricts the absolute radial flare from expanding layout scrollbars */
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+
+  background-image: url("/images/maa/parchment.png");
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+  padding: 32px; 
+  color: #2a1f10; 
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  
+  /* Blends background colors cleanly with underlying asset textures */
+  background-color: rgba(255, 255, 255, 0.45);
+  background-blend-mode: overlay;
+}
