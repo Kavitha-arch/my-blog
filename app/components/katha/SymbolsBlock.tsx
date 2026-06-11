@@ -1,3 +1,4 @@
+import { withBasePath } from "@/lib/path";
 import styles from "./SymbolsBlock.module.css";
 
 type SymbolsBlockProps = { items: string[] };
@@ -12,7 +13,7 @@ export function SymbolsBlock({ items }: SymbolsBlockProps) {
     item.startsWith("[INTRO]") ||
     item.startsWith("[BULLET]") ||
     item.startsWith("[PARAGRAPH]") ||
-    item.startsWith("[DIAGRAM]")||
+    item.startsWith("[DIAGRAM]") ||
     item.startsWith("[SOURCE]")
   );
 
@@ -23,13 +24,18 @@ export function SymbolsBlock({ items }: SymbolsBlockProps) {
       .filter(line => line.startsWith('[DIAGRAM] '))
       .map(line => line.replace('[DIAGRAM] ', ''));
 
-      // 🌟 2. Extract dynamic source lines from the array
+    // 🌟 2. Extract dynamic source lines from the array
     const sourceLines = items
       .filter(line => line.startsWith('[SOURCE] '))
       .map(line => line.replace('[SOURCE] ', ''));
 
     return (
-      <section className={styles.symbolsCard}>
+      <section
+        className={styles.symbolsCard}
+        style={{
+          backgroundImage: `url(${withBasePath("/images/maa/parchment.png")})`,
+        }}
+      >
         {items.map((line: string, index: number) => {
           // 1. Dynamic Main Title
           if (line.startsWith('[TITLE] ')) {
@@ -39,7 +45,7 @@ export function SymbolsBlock({ items }: SymbolsBlockProps) {
           // 2. Section Sub-headers
           if (line.startsWith('[HEADER] ')) {
             return (
-              <div key={index} className={styles.verseHeader} style={{ margin: "2rem 0 1.2rem 0" }}>
+              <div key={index} className={styles.verseHeader}  >
                 <strong>{line.replace('[HEADER] ', '')}</strong>
               </div>
             );
@@ -75,7 +81,7 @@ export function SymbolsBlock({ items }: SymbolsBlockProps) {
             style={{
               fontFamily: "'Courier New', monospace",
               fontSize: '0.9rem',
-              fontWeight:700,
+              fontWeight: 700,
               lineHeight: '1.4',
               whiteSpace: 'pre', /* Preserves all exact spaces and connecting alignment lines */
               overflowX: 'auto', /* Prevents screen breaking on mobile layouts */
@@ -91,9 +97,9 @@ export function SymbolsBlock({ items }: SymbolsBlockProps) {
           </pre>
         )}
 
-          {/* 🌟 4. Render Dynamic Reference Footer if sources exist in the array */}
+        {/* 🌟 4. Render Dynamic Reference Footer if sources exist in the array */}
         {sourceLines.length > 0 && (
-          <footer 
+          <footer
             style={{
               marginTop: '3rem',
               paddingTop: '1rem',
@@ -122,7 +128,12 @@ export function SymbolsBlock({ items }: SymbolsBlockProps) {
 
   // 🌟 PATH B: 100% Backwards Compatible Fallback for your original pages
   return (
-    <section className={styles.symbolsCard}>
+   <section
+        className={styles.symbolsCard}
+        style={{
+          backgroundImage: `url(${withBasePath("/images/maa/parchment.png")})`,
+        }}
+      >
       <h2>Story</h2>
 
       <ul>

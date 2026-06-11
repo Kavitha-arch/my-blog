@@ -16,7 +16,12 @@ export default function MainDurgaPage() {
           <h3>ॐ Raksha Raksha Jagan Matha Sarva Shakthi Jaya Durga ॐ</h3>
           <VerseImage src="/images/maa/maadurga.png"
             alt="Maa Durga" width={300} height={100} ></VerseImage>
-          <section className={styles.storyCard}>
+          <section
+            className={styles.storyCard}
+            style={{
+              backgroundImage: `url(${withBasePath("/images/maa/parchment.png")})`,
+            }}
+          >
 
             <strong>Maa Durga</strong>
             <p>
@@ -50,8 +55,9 @@ export default function MainDurgaPage() {
               <li>Most Asuras dwell in the Patalas or Underworld realms, which contrary to common misconception are not “hells” or hellish, but are actually described in the Hindu scriptures as beautiful paradises surpassing the Devas’ Heaven in their exquisite pleasures. </li>
             </ul>
           </section>
+            <h3> Verses</h3>
           <ul>
-             {/* Verse0: Beej Mantra */}
+            {/* Verse0: Beej Mantra */}
             <li>
               <Link
                 href="/blog/maadurga/katha/mahishasura-mardhini/mantra">
@@ -94,7 +100,7 @@ export default function MainDurgaPage() {
                 href="/blog/maadurga/katha/mahishasura-mardhini/verse-3">
                 Verse 3
               </Link>
-              <p>Destroyer of the Demons Madhu [Attachment to worldly pleasures] and Kaitabha [Aversion to unpleasant things.]</p>
+              <p>Maa Durga - Destroyer of the Demons Madhu [राग (Rāga)] and Kaitabha [द्वेष (Dveṣa)]</p>
             </li>
           </ul>
         </div>

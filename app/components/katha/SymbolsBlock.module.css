@@ -12,7 +12,6 @@
   overflow: hidden;
   z-index: 1;
 
-  background-image: url("/images/maa/parchment.png");
   background-size: cover;
   background-position: center;
   border-radius: 12px;
@@ -82,7 +81,7 @@
 
 .symbolsCard li {
   margin-bottom: 1rem;
-  line-height: 1.7;
+  line-height: 1.7; 
   color: #2c1a0b;
   position: relative;
   padding-left: 1.75rem;
@@ -111,13 +110,31 @@
 /* Special Verse Subheader Styling */
 .symbolsCard li.verseHeader {
   padding-left: 0;
-  margin-top: 2rem;
+  margin-top: 2rem; 
   margin-bottom: 1.2rem;
   border-bottom: 1px dashed rgba(139, 92, 26, 0.25);
   padding-bottom: 0.5rem;
 }
 
 .symbolsCard li.verseHeader strong {
+  font-family: 'Cinzel', serif;
+  font-size: 1.2rem;
+  color: #78350f;
+  letter-spacing: 0.04em;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+
+.verseHeader {
+  margin-top: 2rem;
+  margin-bottom: 1.2rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px dashed rgba(139, 92, 26, 0.25);
+}
+
+.verseHeader strong {
   font-family: 'Cinzel', serif;
   font-size: 1.2rem;
   color: #78350f;

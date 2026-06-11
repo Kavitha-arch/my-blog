@@ -10,6 +10,7 @@ import Link from "next/link";
 import { VerseHero } from "@/app/components/katha/VerseHero";
 import { ChevronRight } from "lucide-react";
 import { MeaningTable } from "@/app/components/katha/MeaningTable";
+import { withBasePath } from "@/lib/path";
 
 export function generateStaticParams() {
     return Object.keys(verses).map((slug) => ({
@@ -24,11 +25,12 @@ export default async function VersePage({
 }) {
     const { slug } = await params;
 
-    console.log("RAW SLUG:", slug);
+    console.log("RAW SaLUG:", slug);
     console.log("TYPE:", typeof slug);
     console.log("KEYS:", Object.keys(verses));
     console.log("SLUG FROM URL:", slug);
     console.log("AVAILABLE KEYS:", Object.keys(verses));
+
 
     const verse = verses[slug];
 
@@ -74,7 +76,7 @@ export default async function VersePage({
                     <MeaningBlock items={verse.meaning} />
                 </section>
 
-
+                <br />
                 {verse.stanzaData && verse.stanzaData.length > 0 && (
                     <section>
                         <MeaningTable items={verse.stanzaData} />
@@ -113,7 +115,7 @@ export default async function VersePage({
                         </Link>
                     )}
                 </section>
-
+                <br/>
                 {verse.image2 && (
                     <section>
                         <h1>Meaning</h1>
