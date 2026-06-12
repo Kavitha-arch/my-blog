@@ -37,7 +37,12 @@ const verse1 = {
 
     "Indra: In myths surrounding the destruction of the demon Mahishasura, the gods (including the king of heaven, Indra) were powerless. They pooled their individual powers (Shakti) to create Durga. Indra gifted her his thunderbolt (Vajra), representing his ultimate warrior strength."
 
-  ],
+  ], 
+
+   philosophy: [
+     "This verse invokes Maa Durga as the ultimate source of cosmic bliss and divine strength who dwells majestically on the summits of the Vindhya mountains alongside Shiva, Vishnu, Nandi and Indra. By slaying the buffalo-demon Mahishasura, She symbolizes the ultimate victory of divine intellect and spiritual awakening over human ego, laziness, and ignorance.",
+   
+    ],
 
   reflection:[
     "Goddess Durga represents the supreme, invincible energy of the universe (Shakti). Her deeper meaning bridges the gap between the material and spiritual realms: She is the force of creation, the mother who grounds humanity, and the ultimate warrior who destroys the ego and inner ignorance"],
@@ -45,6 +50,8 @@ const verse1 = {
   image1: "/images/maa/maaverse1.png",
 
   image2: "/images/maa/arthverse1.png",
+
+  imagepnt: "/images/maa/pntverse1.png",
 
   stanzaData :[
   { sanskrit: "अयि", meaning: "O! / Hail!" },

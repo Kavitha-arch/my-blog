@@ -11,7 +11,7 @@ type VerseImageProps = {
 
 export function VerseImage({ src, alt, width = 900, height = 600 }: VerseImageProps) {
   return (
-    <div className={styles.verseImage}>
+   <figure className={styles.verseImage}>
       <Image
         src={withBasePath(src)}
         alt={alt}
@@ -19,6 +19,10 @@ export function VerseImage({ src, alt, width = 900, height = 600 }: VerseImagePr
         height={height}
         className="rounded-xl shadow-md"
       />
-    </div>
+
+      <figcaption className={styles.imageTitle}>
+        {alt}
+      </figcaption>
+    </figure>
   );
 }

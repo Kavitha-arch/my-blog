@@ -3,7 +3,7 @@ const verse3 = {
 
     title: "Verse 3 : अयि जगदम्ब",
 
-    description: "2. Maa Durga - Destroys the Danavas and the Daityas and Nourishes the Three Worlds",
+    description: "3. Maa Durga - Destroys the Danavas and the Daityas and Nourishes the Three Worlds",
 
     sanskrit: `
             अयि जगदम्ब मदम्ब कदम्ब वनप्रियवासिनि हासरते
@@ -13,15 +13,18 @@ const verse3 = {
 `   ,
 
     meaning: [
-        '(O Divine Mother, I invoke You and take refuge in Your Auspicious Feet)',
+         
+        '<strong>3.1:</strong> O <span class="highlight" data-sanskrit="जगदम्ब">Mother of the Universe</span>, my very own Mother! Who <span class="highlight" data-sanskrit="मदम्ब"> resides intimately as my Mother</span>; Who <span class="highlight" data-sanskrit="कदम्ब वनप्रियवासिनि">loves to dwell in the beautiful Kadamba forest</span>, and Who <span class="highlight" data-sanskrit="हासरते">delights in a joyful, radiant smile</span>. <br />',
+        '<strong>Psychological:</strong> This represents our baseline state of pure mental well-being—a lush, inner landscape where our thoughts are aligned, emotional peace is abundant, and our mind rests in a state of joy, completely undisturbed by the noise of the external world.',
 
-        '<strong>Literal:</strong> O <span class="highlight" data-sanskrit="जगदम्ब">Mother of the Universe</span>, my very own Mother! Who <span class="highlight" data-sanskrit="मदम्ब"> resides intimately as my Mother</span>; Who <span class="highlight" data-sanskrit="कदम्ब वनप्रियवासिनि">loves to dwell in the beautiful Kadamba forest</span>, and Who <span class="highlight" data-sanskrit="हासरते">delights in a joyful, radiant smile</span>. <br /><strong>Psychological:</strong> This represents our baseline state of pure mental well-being—a lush, inner landscape where our thoughts are aligned, emotional peace is abundant, and our mind rests in a state of joy, completely undisturbed by the noise of the external world.',
+        '<strong>3.2:</strong> Whose true home is <span class="highlight" data-sanskrit="शिखरि शिरोमणि">midst the crest-jewel of mountains</span>, resting upon the <span class="highlight" data-sanskrit="तुङ्गहिमलय शृङ्ग">lofty, snow-capped peaks of the majestic Himalayas</span>.<br />'
+        ,'<strong>Psychological:</strong> The mountain peak represents the ultimate heights of human awareness and clarity. Just like a high mountain peak sits far above storm clouds, this symbolizes rising above the daily mental chatter and survival states into a cool, calm, and completely unshakeable perspective.',
 
-        '<br /><strong>Literal:</strong> Whose true home is <span class="highlight" data-sanskrit="शिखरि शिरोमणि">midst the crest-jewel of mountains</span>, resting upon the <span class="highlight" data-sanskrit="तुङ्गहिमलय शृङ्ग">lofty, snow-capped peaks of the majestic Himalayas</span>.<br /> <strong>Psychological:</strong> The mountain peak represents the ultimate heights of human awareness and clarity. Just like a high mountain peak sits far above storm clouds, this symbolizes rising above the daily mental chatter and survival states into a cool, calm, and completely unshakeable perspective.',
+        '<strong>3.3:</strong> Who is <span class="highlight" data-sanskrit="मधुमधुरे">sweeter than honey itself</span>, yet turned into the fierce <span class="highlight" data-sanskrit="मधुकैटभगञ्जिनि">crusher of the demon Madhu</span>, the <span class="highlight" data-sanskrit="कैटभभञ्जिनि">shatterer of the demon Kaitabha</span>, and Who <span class="highlight" data-sanskrit="रासरते">delights in the divine cosmic dance</span>.<br />',
+        '<strong>Psychological:</strong> When inevitable physical or situational challenges hit us, we must protect ourselves swiftly and decisively slaying Madhu (the craving for comfort and sweetness) without losing our inner sweetness and turning us bitter, while simultaneously conquering Kaitabha (the frantic energy of aversion and hostility). By channeling Durga\'s sharp, fearless action while dissolving the internal resistance of Madhu and Kaitabha, we neutralize the threat cleanly and keep our inner self light enough to keep dancing through life.',
 
-        '<br /><strong>Literal:</strong> Who is <span class="highlight" data-sanskrit="मधुमधुरे">sweeter than honey itself</span>, yet turned into the fierce <span class="highlight" data-sanskrit="मधुकैटभगञ्जिनि">crusher of the demon Madhu</span>, the <span class="highlight" data-sanskrit="कैटभभञ्जिनि">shatterer of the demon Kaitabha</span>, and Who <span class="highlight" data-sanskrit="रासरते">delights in the divine cosmic dance</span>.<br /><strong>Psychological:</strong> When inevitable physical or situational challenges hit us, we must protect ourselves swiftly and decisively slaying Madhu (the craving for comfort and sweetness) without losing our inner sweetness and turning us bitter, while simultaneously conquering Kaitabha (the frantic energy of aversion and hostility). By channeling Durga\'s sharp, fearless action while dissolving the internal resistance of Madhu and Kaitabha, we neutralize the threat cleanly and keep our inner self light enough to keep dancing through life.',
-
-        '<br /><strong>Literal:</strong> Victory, victory to You, <span class="highlight" data-sanskrit="महिषासुरमर्दिनि">O Destroyer of the monstrous demon Mahishasura</span>; You who possess <span class="highlight" data-sanskrit="रम्यकपर्दिनि">beautiful, intricately woven locks of hair</span>, and Who are the <span class="highlight" data-sanskrit="शैलसुते">Daughter of the Mountain</span>.<br /> <strong>Psychological:</strong> Victory to the inner power of awareness that slays the victim mindset and heavy rumination. By keeping the vast, complex forces of our mind ordered and beautifully contained like bound hair, we securely anchor ourselves back onto the rock-solid mountain of steady mental equilibrium.',
+        '<strong>3.4:</strong> Victory, victory to You, <span class="highlight" data-sanskrit="महिषासुरमर्दिनि">O Destroyer of the monstrous demon Mahishasura</span>; You who possess <span class="highlight" data-sanskrit="रम्यकपर्दिनि">beautiful, intricately woven locks of hair</span>, and Who are the <span class="highlight" data-sanskrit="शैलसुते">Daughter of the Mountain</span>.<br />', 
+        '<strong>Psychological:</strong> Victory to the inner power of awareness that slays the victim mindset and heavy rumination. By keeping the vast, complex forces of our mind ordered and beautifully contained like bound hair, we securely anchor ourselves back onto the rock-solid mountain of steady mental equilibrium.',
 
     ],
 
@@ -56,10 +59,12 @@ const verse3 = {
         "Our inner Durga awakens when we consciously choose to fight the secondary suffering caused by Madhu and Kaitabha: the cortisol-spiking victim stories, the endless rumination, and the mental loops that scream 'this is unfair!' ",
 
         "To handle a crisis like 'Madhu' (honey) means to protect ourselves cleanly from further harm—whether that means visiting a doctor to treat a physical pain, or holding a stern, polite boundary with a difficult family member. We take decisive action on the outside while refusing to let the chaos penetrate our deeper emotional core. By managing the external reality without absorbing the toxicity, we stop the cortisol storm before it starts, allowing our mind to return to its natural, scenic state of peace.",
-    ], 
+    ],
 
     image1: "/images/maa/maaverse3.png",
-    
+
+    imagepnt: "/images/maa/pntverse3.png",
+
     stanzaData: [
         { sanskrit: "अयि", meaning: "O! / Hail!" },
         { sanskrit: "जगदम्ब", meaning: "Mother of the universe" },
@@ -79,7 +84,7 @@ const verse3 = {
         { sanskrit: "रम्य-कपर्दिनि", meaning: "With beautiful braided hair" },
         { sanskrit: "शैलसुते", meaning: "Daughter of the mountain" }
     ],
-    
+
 };
 
 export default verse3;

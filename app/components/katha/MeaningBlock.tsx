@@ -2,16 +2,28 @@ import styles from "./MeaningBlock.module.css";
 
 type MeaningBlockProps = {
   items: string[];
+  forPrint?: boolean;
 };
 
-export function MeaningBlock({ items }: MeaningBlockProps) {
+export function MeaningBlock({
+  items,
+  forPrint = false,
+}: MeaningBlockProps) {
   if (!items || items.length === 0) return null;
 
-  return (
-    <section className={styles.meaningCard}>
-      <h2>Meaning</h2>
+  const visibleItems = forPrint
+    ? items.filter(
+      item => !item.trim().includes("Psychological:")
+    )
+    : items;
 
-      {items.map((item, i) => (
+  return (
+    <section
+      className={forPrint ? styles.print  : styles.meaningCard}
+    >
+   
+
+      {visibleItems.map((item, i) => (
         <p
           key={i}
           dangerouslySetInnerHTML={{ __html: item }}

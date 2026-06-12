@@ -45,13 +45,21 @@ const mantra = {
 
     ],
 
+    philosophy: [
+     "This interpretation reflects my personal spiritual journey. I began with devotional worship of Maa Durga and later came to appreciate the symbolic and psychological dimensions of the tradition. I do not see these perspectives as contradictory; for me, devotion and inner inquiry illuminate one another.",
+   
+    ],
 
     reflection: [
+
         "The demons destroyed by Durga Maa symbolize the destructive tendencies within us—fear, cowardice,  greed, hatred, arrogance, self-doubt, and other forces that weaken our strength, courage, and inner clarity.",
         "Durga's fierce compassion, often expressed as righteous or protective anger,   is the battle inside us in daily life where this compassionate rage confronts  and destroys the inner demons before they can consume us.   ",
+        "This interpretation reflects my personal spiritual journey. I began with devotional worship of Maa Durga and later came to appreciate the symbolic and psychological dimensions of the tradition. I do not see these perspectives as contradictory; for me, devotion and inner inquiry illuminate one another.",
     ],
 
     image1: "/images/maa/maadurgamantra.png",
+    
+    imagepnt: "/images/maa/pntmantra.png",
 
 };
 

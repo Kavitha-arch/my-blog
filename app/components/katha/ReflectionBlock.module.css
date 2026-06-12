@@ -33,3 +33,9 @@
   font-size: 1.05rem;
   color: #444;
 }
+
+.print {
+  font-size: 12pt;
+  line-height: 1.4;
+  font-family: "Noto Serif Devanagari", "Noto Serif", serif;
+}

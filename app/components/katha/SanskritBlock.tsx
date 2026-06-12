@@ -1,12 +1,16 @@
 import styles from "./SanskritBlock.module.css";
  
 type SanskritBlockProps = {
-  text: string;
+  text: string;  
+  forPrint?: boolean;
 };
 
-export function SanskritBlock({ text }: SanskritBlockProps) {
+export function SanskritBlock({ 
+  text,
+  forPrint = false,
+ }: SanskritBlockProps) {
   return (
-    <div className={styles.sanskritBlock}>
+    <div className={forPrint ? styles.print :styles.sanskritBlock}>
       {text
         .trim()
         .split("\n")

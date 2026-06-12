@@ -1,8 +1,9 @@
 /* Sanskrit Verse */
 
 .sanskritBlock {
-   font-family: "Noto Serif Devanagari", serif;
-   font-weight: 700; /* bold */
+  font-family: "Noto Serif Devanagari", serif;
+  font-weight: 700;
+  /* bold */
   background: #fff8f2;
   border-left: 5px solid #d97706;
   padding: 2rem;
@@ -15,4 +16,14 @@
 
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
   white-space: pre-line;
+}
+
+
+.print {
+  width: fit-content;
+  margin: 0 auto;
+  font-size: 12pt;
+  font-weight:bold;
+  line-height: 1.4;
+  font-family: "Noto Serif Devanagari", "Noto Serif", serif;
 }

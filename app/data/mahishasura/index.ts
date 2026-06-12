@@ -11,8 +11,10 @@ export type Verse = {
   meaning: string[];
   symbols?: string[];
   reflection: string[];
+  philosophy?: string[];
   image1: string;
   image2?: string;
+  imagepnt: string;
   symbology?: string; //optional
   scenario?: string; //optional
   // Change this line to an array of objects:
@@ -30,6 +32,7 @@ export const verses: Record<string, Verse> = {
 } as const;
 
 export const verseOrder: VerseSlug[] = [
+  "mantra",
   "verse-1",
   "verse-2",
   "verse-3",

@@ -5,10 +5,10 @@ const verse4 = {
 
     description: "4. Maa Durga - ",
 
-    sanskrit:`
+    sanskrit: `
     `,
 
-    meaning :[
+    meaning: [
         ' ',
     ],
 
@@ -22,7 +22,7 @@ const verse4 = {
     ],
 
     image1: "/images/maa/maaverse3.png",
-    
+    imagepnt: "/images/maa/pntverse1.png",
     stanzaData: [
         { sanskrit: "अयि", meaning: "O! / Hail!" },
     ],

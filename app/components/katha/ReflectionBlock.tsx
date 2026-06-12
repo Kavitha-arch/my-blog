@@ -2,10 +2,14 @@ import styles from "./ReflectionBlock.module.css";
 
 type ReflectionBlockProps = {
   // Accepts a raw string or an array of strings safely
-  text: string | string[]; 
+  text: string | string[];   
+  forPrint?: boolean;
 };
 
-export function ReflectionBlock({ text }: ReflectionBlockProps) {
+export function ReflectionBlock({ 
+  text,
+  forPrint = false,
+}: ReflectionBlockProps) {
   if (!text) return null;
 
   // 🛠️ FIX: Convert the incoming data into a uniform array of lines
@@ -14,8 +18,11 @@ export function ReflectionBlock({ text }: ReflectionBlockProps) {
     : text.split("\n");
 
   return (
-    <section className={styles.reflectionCard}>
-     <h2>✍️ Reflections ❤️</h2>
+    <section
+      className={forPrint ? styles.print  : styles.reflectionCard}
+    > 
+    
+     <h2>✍️ Reflections</h2>
 
       <blockquote>
         {lines.map((line, i) => {
