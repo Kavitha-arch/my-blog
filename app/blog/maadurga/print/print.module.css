@@ -1,5 +1,23 @@
+@import url('https://googleapis.com');
+
 .container {
   width: 100%;
+}
+
+.printContainer {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  max-width: none;
+  background: white;
+  box-shadow: none;
+}
+
+.printContainer {
+  font-family: Georgia, serif;
+  color: #1a1a1b;
+  font-size: 14pt;
+  line-height: 1.5;
 }
 
 /* ===== PAGE BREAK ===== */
@@ -28,17 +46,41 @@
 
 /* ===== CONTENT PAGE ===== */
 .contentPage {
+  width: 100%;
+  /* A4 width */
+  height: 280mm;
+  /* A4 height */
   border: 2px solid #444;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
   padding: 20mm;
   font-family: Georgia, serif;
   font-size: 14pt;
   line-height: 1.5;
 }
 
+.spacer {
+  flex: 1;
+}
 
 /* PRINT SETTINGS */
 @media print {
+
+  .siteHeader,
+  .siteNav,
+  .siteFooter,
+  .sidebar {
+    display: none !important;
+  }
+
+  .om {
+    background: #8b0000;
+    color: white;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
   @page {
     size: A4;
     margin: 0;
@@ -49,26 +91,11 @@
   }
 }
 
-.printHeader {
-  position: fixed;
-  top: 10mm;
-  left: 0;
-  right: 0;
-
-  text-align: center;
-  font-size: 12pt;
-  font-weight: 600;
-}
 
 .pageNumber {
   position: absolute;
   bottom: 10mm;
-  left: 0;
-  right: 0;
-
-  text-align: center;
-  font-size: 10pt;
-
+  right: 15mm;
 }
 
 .imagePage::before,
@@ -82,4 +109,58 @@
   bottom: 8mm;
 
   border: 3px double #555;
+}
+
+.imagePage,
+.contentPage {
+  position: relative;
+}
+
+.pageNumber {
+  position: absolute;
+  bottom: 10mm;
+  right: 10mm;
+  font-size: 12pt;
+}
+
+.printTitle {
+  font-family: Georgia, serif;
+  font-size: 18pt;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 10mm;
+}
+
+.printBookTitle {
+  font-family: Cinzel Decorative, serif;
+  font-size: 68pt;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 10mm;
+}
+
+
+.printHeader {
+  position: absolute;
+  top:10mm;
+  left:20mm;
+  font-family: "Noto Serif Devanagari", serif;
+  text-align: center;
+  font-size: 12pt;
+  font-weight: 600;
+  margin-top: 10mm;
+  margin-bottom: 5mm;
+}
+
+.backButton {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  padding: 8px 12px;
+  font-size: 14px;
+  background: #ab0a0a;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
 }

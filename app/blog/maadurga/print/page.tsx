@@ -1,6 +1,6 @@
 'use client';
 
-import BlogLayout from '../../BlogLayout';
+
 import { verses } from "@/app/data/mahishasura";
 
 import { MeaningBlock } from "@/app/components/katha/MeaningBlock";
@@ -12,65 +12,92 @@ import { VerseHero } from "@/app/components/katha/VerseHero";
 import styles from './print.module.css';
 
 export default function PrintPage() {
+  let pageNumber = 1;
   return (
-    <BlogLayout>
-      <article className={styles.container}>
 
-        {Object.values(verses).map((verse) => (
+    <article className={styles.printContainer}>
+      {/* ===== COBER PAGE ===== */}
+      <section className={styles.imagePage}>
+        <VerseImage
+          src="/images/maa/maadurgacoverpnt.png"
+          alt="Om"
+          width={500}
+          height={600}
+        />
 
-          <div key={verse.slug}>
-            <div className={styles.header}>
-              Mahishasura Mardini Stotram
-            </div>
-            {/* ===== IMAGE PAGE ===== */}
-            <section className={styles.imagePage}>
-              <VerseImage
-                src={verse.imagepnt}
-                alt={verse.description}
-                width={500}
-                height={600}
-              />
-
-            </section>
-
-           
-
- 
-            {/* ===== CONTENT PAGE ===== */}
-             <div className={styles.header}>
-              {verse.title}
-            </div>
-            <section className={styles.contentPage}>
-
-              <SanskritBlock
-                text={verse.sanskrit}
-                forPrint={true}
-              />
-              <br />
-              <MeaningBlock
-                items={verse.meaning}
-                forPrint={true}
-              />
-
-              {verse.philosophy && verse.philosophy.length > 0 && (
-                <section>
-                  <ReflectionBlock
-                    text={verse.philosophy}
-                    forPrint={true}
-                  />
-                </section>
-              )}
+      </section>
+      <section className={styles.contentPage}>
+       
+        <h1 className={styles.printBookTitle}>महिषासुरमर्दिनी स्तोत्रम्</h1>
+          <div className={styles.spacer} />
+        <h1 className={styles.printBookTitle}>June 2026</h1>
+      </section>
 
 
+      {Object.values(verses).map((verse, index) => (
 
-            </section>
-
-            <div className={styles.pageBreak} />
-
+        <div key={verse.slug}>
+          <div className={styles.header}>
+            ॐ महिषासुरमर्दिनी स्तोत्रम्  ॐ
           </div>
-        ))}
+          {/* ===== IMAGE PAGE ===== */}
+          <section className={styles.imagePage}>
+            <VerseImage
+              src={verse.imagepnt}
+              alt={verse.description}
+              width={500}
+              height={600}
+            />
 
-      </article>
-    </BlogLayout>
+          </section>
+
+
+
+
+          {/* ===== CONTENT PAGE ===== */}
+          <div className={styles.header}>
+            {verse.title}
+          </div>
+          <section className={styles.contentPage}>
+
+            <SanskritBlock
+              text={verse.sanskrit}
+              forPrint={true}
+            />
+            <div className={styles.spacer} />
+            <MeaningBlock
+              items={verse.meaning}
+              forPrint={true}
+            />
+            <div className={styles.spacer} />
+            {verse.philosophy && verse.philosophy.length > 0 && (
+              <section>
+                <h1 className={styles.printTitle}>
+                  रक्ष रक्ष जगन्माते सर्वशक्ते जय दुर्गे।
+                </h1>
+                <ReflectionBlock
+                  text={verse.philosophy}
+                  forPrint={true}
+                />
+              </section>
+            )}
+
+            <div className={styles.pageNumber}>
+              {(index + 1) * 2}
+            </div>
+
+          </section>
+
+          <div className={styles.pageBreak} />
+
+        </div>
+      ))}
+      <button
+        onClick={() => window.location.href = "/blog"}
+        className={styles.backButton}
+      >
+        ← Back to Blog
+      </button>
+    </article>
   );
 }

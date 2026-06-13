@@ -46,6 +46,11 @@ const verse3 = {
         "Ramya Kapardini: Symbolizes Beautiful Locks of Hair. The intertwined braids represent the complex, woven forces of time, space, and cosmic energy (Prakriti) beautifully bound and controlled under divine command."
     ],
 
+     philosophy: [       
+        "  Like nature abiding in effortless balance, our true nature is peace. Attachment and aversion, symbolized by the demons Madhu and Kaitabha, arise from the play of the gunas and pull the mind into conflict and restlessness.",
+        " When attachment and aversion arise, the mind becomes entangled in resistance and craving. This verse invokes Maa Durga's grace to dissolve these inner demons, helping us return to our original stillness and respond to every situation with equanimity and sweetness."
+    ],
+
     reflection: [
 
         "Philosophy Breakdown",
