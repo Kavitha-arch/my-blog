@@ -10,6 +10,8 @@ import { VerseImage } from "@/app/components/katha/VerseImage";
 import { VerseHero } from "@/app/components/katha/VerseHero";
 
 import styles from './print.module.css';
+import { AboutBlock } from "@/app/components/katha/AboutBlock";
+import { SourcesBlock } from "@/app/components/katha/SourcesBlock";
 
 export default function PrintPage() {
   let pageNumber = 1;
@@ -27,10 +29,24 @@ export default function PrintPage() {
 
       </section>
       <section className={styles.contentPage}>
-       
+
         <h1 className={styles.printBookTitle}>महिषासुरमर्दिनी स्तोत्रम्</h1>
-          <div className={styles.spacer} />
-        <h1 className={styles.printBookTitle}>June 2026</h1>
+        <div className={styles.spacer} />
+        <VerseImage
+          src="/images/maa/maadurgabook.png"
+          alt="Om"
+          width={500}
+          height={600}
+        />
+        <div className={styles.spacer} />
+       <AboutBlock/>
+        <p className="mt-4">
+          Any errors or feedback  email me directly at{" "}
+          <a href="mailto:pappik.3@gmail.com">
+            pappik.3@gmail.com
+          </a>
+        </p>
+
       </section>
 
 
@@ -47,6 +63,7 @@ export default function PrintPage() {
               alt={verse.description}
               width={500}
               height={600}
+              forPrint={true}
             />
 
           </section>
@@ -92,6 +109,7 @@ export default function PrintPage() {
 
         </div>
       ))}
+      <SourcesBlock/>
       <button
         onClick={() => window.location.href = "/blog"}
         className={styles.backButton}

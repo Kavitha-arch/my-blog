@@ -3,6 +3,7 @@ import { withBasePath } from "@/lib/path";
 import Link from "next/link";
 import styles from "@/app/blog/maadurga/styles/VersePage.module.css";
 import { VerseImage } from "@/app/components/katha/VerseImage";
+import { verses } from "@/app/data/mahishasura";
 
 //STEP1: Add the verse link here
 //STEP2: Add versen.ts to  app\data\mahishasura and mention it in index.ts
@@ -55,53 +56,30 @@ export default function MainDurgaPage() {
               <li>Most Asuras dwell in the Patalas or Underworld realms, which contrary to common misconception are not “hells” or hellish, but are actually described in the Hindu scriptures as beautiful paradises surpassing the Devas’ Heaven in their exquisite pleasures. </li>
             </ul>
           </section>
-            <h3> Verses</h3>
+          <h3>Verses</h3>
           <ul>
-            {/* Verse0: Beej Mantra */}
-            <li>
-              <Link
-                href="/blog/maadurga/katha/mahishasura-mardhini/mantra">
-                Beej Mantra
-              </Link>
-              <p>Maa Durga - The Feminine Energy which will protect us always</p>
-            </li>
+            {Object.values(verses).map((verse: any, index: number) => {
+              const isVerse2 = verse.slug === "verse2" || index === 3;
 
-            {/* Verse1: Main link */}
-            <li>
-              <Link
-                href="/blog/maadurga/katha/mahishasura-mardhini/verse-1">
-                Verse 1
-              </Link>
-              <p>Maa Durga - The Daughter of the Mountain and Joy of the World</p>
-            </li>
-
-            {/* Verse2: Main link */}
-            <li>
-              <Link
-                href="/blog/maadurga/katha/mahishasura-mardhini/verse-2">
-                Verse 2
-              </Link>
-              <p>Maa Durga - Destroys Danavas & Daityas and Nourishes the Three Worlds</p>
-
-              {/* Verse2: Child links */}
-              <ul className="ml-8 mt-2 list-disc">
-                <li>
-                  <Link
-                    href="/blog/maadurga/katha/symbology/verse2">
-                    SYMBOLOGY: Danavas & Daityas
+              return (
+                <li key={verse.slug || index}>
+                  <Link href={`/blog/maadurga/katha/mahishasura-mardhini/${verse.slug}`}>
+                    {verse.title}
                   </Link>
+                  <p> {verse.description}</p>
+                  {/* Verse2: Child links conditional rendering */}
+                  {isVerse2 && (
+                    <ul className="ml-8 mt-2 list-disc">
+                      <li>
+                        <Link href="/blog/maadurga/katha/symbology/verse2">
+                          SYMBOLOGY: Danavas & Daityas
+                        </Link>
+                      </li>
+                    </ul>
+                  )}
                 </li>
-              </ul>
-            </li>
-
-            {/* Verse3: Main link */}
-            <li>
-              <Link
-                href="/blog/maadurga/katha/mahishasura-mardhini/verse-3">
-                Verse 3
-              </Link>
-              <p>Maa Durga - Destroyer of the Demons Madhu [राग (Rāga)] and Kaitabha [द्वेष (Dveṣa)]</p>
-            </li>
+              );
+            })}
           </ul>
         </div>
       </article>

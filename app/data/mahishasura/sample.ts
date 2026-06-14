@@ -16,14 +16,26 @@ const verse4 = {
         "",
     ],
 
-    reflection: [
+    psychological: [
+        "",
+        "",
+        "",
+        "",
+    ],
 
+    reflection: [
+        "",
+        "",
+        "",
         "",
     ],
 
     image1: "/images/maa/maaverse3.png",
+
     imagepnt: "/images/maa/pntverse1.png",
+
     stanzaData: [
         { sanskrit: "अयि", meaning: "O! / Hail!" },
     ],
+
 }

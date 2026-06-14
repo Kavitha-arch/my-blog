@@ -7,11 +7,17 @@ type VerseImageProps = {
   alt: string;
   width?: number;
   height?: number;
+  forPrint?: boolean;
 };
 
-export function VerseImage({ src, alt, width = 900, height = 600 }: VerseImageProps) {
+export function VerseImage({ src,
+  alt,
+  width = 900,
+  height = 600,
+  forPrint = false
+}: VerseImageProps) {
   return (
-   <figure className={styles.verseImage}>
+    <figure className={styles.verseImage}>
       <Image
         src={withBasePath(src)}
         alt={alt}
@@ -19,10 +25,11 @@ export function VerseImage({ src, alt, width = 900, height = 600 }: VerseImagePr
         height={height}
         className="rounded-xl shadow-md"
       />
-
-      <figcaption className={styles.imageTitle}>
-        {alt}
-      </figcaption>
+      {forPrint && (
+        <figcaption className={styles.imageTitle}>
+          {alt}
+        </figcaption>)}
     </figure>
+
   );
 }
