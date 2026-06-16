@@ -39,3 +39,8 @@
   line-height: 1.4;
   font-family: "Noto Serif Devanagari", "Noto Serif", serif;
 }
+
+.reflectionCard strong {
+  font-weight: 900;
+  color: #000;
+}

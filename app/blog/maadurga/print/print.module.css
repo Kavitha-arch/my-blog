@@ -64,13 +64,19 @@
   flex: 1;
 }
 
+.screenOnly {
+  display: block;
+}
+
+ 
+
 /* PRINT SETTINGS */
 @media print {
 
   .siteHeader,
   .siteNav,
-  .siteFooter,
-  .sidebar {
+  .siteFooter, 
+  .screenOnly {
     display: none !important;
   }
 
@@ -109,6 +115,7 @@
   bottom: 8mm;
 
   border: 3px double #555;
+   pointer-events: none;
 }
 
 .imagePage,
@@ -163,4 +170,26 @@
   border: none;
   border-radius: 6px;
   cursor: pointer;
+}
+
+.toc {
+  margin-top: 2rem;
+  font-size: 1rem;
+}
+
+.tocRow {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.6rem;
+  
+}
+
+.tocDots {
+  flex: 1;
+  border-bottom: 1px dotted #666;
+  margin: 0 0.5rem;
+}
+
+html {
+  scroll-behavior: smooth;
 }

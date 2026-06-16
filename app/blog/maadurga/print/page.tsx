@@ -39,20 +39,40 @@ export default function PrintPage() {
           height={600}
         />
         <div className={styles.spacer} />
-       <AboutBlock/>
-        <p className="mt-4">
+
+        <div className="text-sm">
+          <AboutBlock />
           Any errors or feedback  email me directly at{" "}
           <a href="mailto:pappik.3@gmail.com">
             pappik.3@gmail.com
           </a>
-        </p>
+        </div>
 
       </section>
 
+      <section className={styles.contentPage}>
+        <h1 className={styles.printTitle}>अनुक्रमणिका</h1>
+
+        <div className={styles.toc}>
+          {Object.values(verses).map((verse, index) => (
+            <a
+              key={verse.slug}
+              href={`#${verse.slug}`}
+              className={styles.tocRow}
+            >
+              <span>{verse.title}</span>
+              <span className={styles.tocDots}></span>
+              <span>{(index + 1) * 2}</span>
+            </a>
+          ))}
+        </div>
+      </section>
+
+      <div className={styles.pageBreak} />
 
       {Object.values(verses).map((verse, index) => (
 
-        <div key={verse.slug}>
+        <div  id={verse.slug}  key={verse.slug}>
           <div className={styles.header}>
             ॐ महिषासुरमर्दिनी स्तोत्रम्  ॐ
           </div>
@@ -100,7 +120,7 @@ export default function PrintPage() {
             )}
 
             <div className={styles.pageNumber}>
-              {(index + 1) * 2}
+              {5 + index * 2}
             </div>
 
           </section>
@@ -109,12 +129,19 @@ export default function PrintPage() {
 
         </div>
       ))}
-      <SourcesBlock/>
+      <SourcesBlock />
+       
       <button
         onClick={() => window.location.href = "/blog"}
-        className={styles.backButton}
+        className={`${styles.backButton} ${styles.screenOnly}`}
       >
         ← Back to Blog
+      </button>
+      <button
+        onClick={() => window.location.href = "/blog/maadurga/print"}
+        className={`${styles.backButton} ${styles.screenOnly}`}
+      >
+        ← Home
       </button>
     </article>
   );

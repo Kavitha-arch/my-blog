@@ -22,9 +22,9 @@ export function ReflectionBlock({
       className={forPrint ? styles.print : styles.reflectionCard}
     >
       {!forPrint && (
-        <h1>
-          ✍️ रक्ष रक्ष जगन्माते सर्वशक्ते जय दुर्गे।
-        </h1>
+        <h3>
+          ✍️ रक्ष रक्ष जगन्माते सर्वशक्ते जय दुर्गे।🙏
+        </h3>
       )}
      
 
