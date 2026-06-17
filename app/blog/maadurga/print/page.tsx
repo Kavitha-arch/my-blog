@@ -12,13 +12,70 @@ import { VerseHero } from "@/app/components/katha/VerseHero";
 import styles from './print.module.css';
 import { AboutBlock } from "@/app/components/katha/AboutBlock";
 import { SourcesBlock } from "@/app/components/katha/SourcesBlock";
+import { useState, useEffect } from "react";
 
 export default function PrintPage() {
+  const [accessCode, setAccessCode] = useState("");
+  const [isAuthorized, setIsAuthorized] = useState(false);
+
+  // Insert inside your PrintPage component block:
+  useEffect(() => {
+    const handleKeyDown = (e) => {
+      if (!isAuthorized && e.ctrlKey && e.key.toLowerCase() === 'p') {
+        e.preventDefault();
+        alert("Please unlock the document using your access code before printing.");
+      }
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [isAuthorized]);
+
+  // Define your secret code identifier string
+  const SECRET_KEY = "KATHA2026";
+
+  const handleVerify = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    if (accessCode.trim() === SECRET_KEY) {
+      setIsAuthorized(true);
+    } else {
+      alert("Invalid Access Code. Please check your credentials.");
+    }
+  };
+
+  // GATE LAYER: If unauthorized, browser only prints this minimal prompt page
+  if (!isAuthorized) {
+    return (
+      <div className={styles.gateWrapper}>
+        <div className={styles.gateCard}>
+          <h2>🔒 Protected Document Control</h2>
+          <p>Please enter your access code to view and print this manuscript file.</p>
+          <form onSubmit={handleVerify}>
+            <input
+              type="password"
+              placeholder="Enter Code..."
+              value={accessCode}
+              onChange={(e) => setAccessCode(e.target.value)}
+              className={styles.gateInput}
+            />
+            <button type="submit" className={styles.gateButton}>
+              Unlock Document
+            </button>
+          </form>
+        </div>
+      </div>
+    );
+  }
+
+  // AUTHORIZED VIEW: Full content renders for viewing and printing
   let pageNumber = 1;
   return (
 
     <article className={styles.printContainer}>
-      {/* ===== COBER PAGE ===== */}
+      <div className={styles.watermark}>
+        © 2026 Katha Series. All Rights Reserved.
+      </div>
+
+      {/* ===== COVER PAGE ===== */}
       <section className={styles.imagePage}>
         <VerseImage
           src="/images/maa/maadurgacoverpnt.png"
@@ -72,7 +129,7 @@ export default function PrintPage() {
 
       {Object.values(verses).map((verse, index) => (
 
-        <div  id={verse.slug}  key={verse.slug}>
+        <div id={verse.slug} key={verse.slug}>
           <div className={styles.header}>
             ॐ महिषासुरमर्दिनी स्तोत्रम्  ॐ
           </div>
@@ -130,7 +187,7 @@ export default function PrintPage() {
         </div>
       ))}
       <SourcesBlock />
-       
+
       <button
         onClick={() => window.location.href = "/blog"}
         className={`${styles.backButton} ${styles.screenOnly}`}

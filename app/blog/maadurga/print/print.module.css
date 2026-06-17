@@ -60,6 +60,11 @@
   line-height: 1.5;
 }
 
+.imagePage,
+.contentPage {
+  position: relative;
+}
+
 .spacer {
   flex: 1;
 }
@@ -68,17 +73,64 @@
   display: block;
 }
 
- 
+/* Update your screen-view base styles */
+.watermark {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-30deg);
+  
+  /* Reduction helps fit long string text blocks */
+  font-size: 4vw; 
+  font-weight: 800;
+  color: rgba(0, 0, 0, 0.04);
+  pointer-events: none;
+  
+  /* Change 'nowrap' to 'normal' or 'break-spaces' so long text wraps gracefully */
+  white-space: normal; 
+  width: 90%; 
+  text-align: center;
+  
+  user-select: none;
+  z-index: 9999;
+  display: block;
+}
+
+/* Update your @media print engine settings */
+@media print {
+  .watermark {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-35deg);
+    
+    /* 36pt ensures a 50-character string safely scales inside margins */
+    font-size: 36pt !important; 
+    width: 85% !important;
+    text-align: center !important;
+    white-space: normal !important;
+    
+    color: #f0f0f0 !important; 
+    opacity: 0.35 !important;
+    z-index: 9999 !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+}
+
+
 
 /* PRINT SETTINGS */
 @media print {
 
   .siteHeader,
   .siteNav,
-  .siteFooter, 
+  .siteFooter,
   .screenOnly {
     display: none !important;
   }
+
+  
 
   .om {
     background: #8b0000;
@@ -115,7 +167,7 @@
   bottom: 8mm;
 
   border: 3px double #555;
-   pointer-events: none;
+  pointer-events: none;
 }
 
 .imagePage,
@@ -149,8 +201,8 @@
 
 .printHeader {
   position: absolute;
-  top:10mm;
-  left:20mm;
+  top: 10mm;
+  left: 20mm;
   font-family: "Noto Serif Devanagari", serif;
   text-align: center;
   font-size: 12pt;
@@ -181,7 +233,7 @@
   display: flex;
   align-items: center;
   margin-bottom: 0.6rem;
-  
+
 }
 
 .tocDots {
@@ -192,4 +244,57 @@
 
 html {
   scroll-behavior: smooth;
+}
+
+/* Gating Authorization Prompt Design Card Layouts */
+.gateWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f9f9f9;
+  font-family: Georgia, serif;
+}
+
+.gateCard {
+  background: white;
+  padding: 30mm;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  text-align: center;
+  max-width: 500px;
+  border: 1px solid #ddd;
+}
+
+.gateInput {
+  width: 100%;
+  padding: 10px;
+  margin: 15px 0;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  font-size: 14pt;
+  text-align: center;
+}
+
+.gateButton {
+  background: #ab0a0a;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 12pt;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+
+.gateButton:hover {
+  background: #8b0000;
+}
+
+/* Enforce clear hiding layers across Print Media queries */
+@media print {
+  .gateWrapper {
+    background: white !important;
+    height: auto;
+  }
 }
