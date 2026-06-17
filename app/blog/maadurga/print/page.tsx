@@ -20,7 +20,7 @@ export default function PrintPage() {
 
   // Insert inside your PrintPage component block:
   useEffect(() => {
-    const handleKeyDown = (e) => {
+    const handleKeyDown = (e: KeyboardEvent) => {
       if (!isAuthorized && e.ctrlKey && e.key.toLowerCase() === 'p') {
         e.preventDefault();
         alert("Please unlock the document using your access code before printing.");
@@ -33,7 +33,7 @@ export default function PrintPage() {
   // Define your secret code identifier string
   const SECRET_KEY = "KATHA2026";
 
-  const handleVerify = (e: React.FormEvent<HTMLFormElement>) => {
+  const handleVerify = (e: React.SubmitEvent<HTMLFormElement>) => {
     e.preventDefault();
     if (accessCode.trim() === SECRET_KEY) {
       setIsAuthorized(true);
@@ -43,7 +43,10 @@ export default function PrintPage() {
   };
 
   // GATE LAYER: If unauthorized, browser only prints this minimal prompt page
-  if (!isAuthorized) {
+  // If NOT authorized AND we are NOT on localhost, show the gate lock screen
+  const isLocalhost = process.env.NODE_ENV === "development";
+
+  if (!isAuthorized && !isLocalhost) {
     return (
       <div className={styles.gateWrapper}>
         <div className={styles.gateCard}>

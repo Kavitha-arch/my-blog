@@ -73,7 +73,9 @@ const verse1 = {
   { sanskrit: "महिषासुरमर्दिनि", meaning: "Destroyer of the demon Mahishasura" },
   { sanskrit: "रम्यकपर्दिनि", meaning: "She with beautiful, intricately woven locks of hair" },
   { sanskrit: "शैलसुते", meaning: "Daughter of the mountain" }
-]
+],
+
+audio: "/audio/verse1.mp3"
 
 };
 

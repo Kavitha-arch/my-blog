@@ -1,0 +1,33 @@
+/* Floating Screen Audio Action Control */
+.audioButton {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  z-index: 10000; /* Stays above your content pages */
+  background: #ab0a0a;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-family: Georgia, serif;
+  font-size: 11pt;
+  font-weight: 600;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.audioButton:hover {
+  background: #8b0000;
+  transform: scale(1.05);
+}
+
+/* Ensure the button never shows up on the physical PDF sheets */
+@media print {
+  .audioButton {
+    display: none !important;
+  }
+}

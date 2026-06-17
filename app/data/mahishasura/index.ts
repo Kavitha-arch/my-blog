@@ -24,6 +24,7 @@ export type Verse = {
     sanskrit: string;
     meaning: string;
   }[];
+  audio?:string;
 };
 
 export const verses: Record<string, Verse> = {

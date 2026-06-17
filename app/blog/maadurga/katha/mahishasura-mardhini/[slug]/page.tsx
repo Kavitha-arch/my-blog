@@ -11,6 +11,7 @@ import { VerseHero } from "@/app/components/katha/VerseHero";
 import { ChevronRight } from "lucide-react";
 import { MeaningTable } from "@/app/components/katha/MeaningTable";
 import { withBasePath } from "@/lib/path";
+import { AudioBlock } from "@/app/components/katha/AudioBlock";
 
 export function generateStaticParams() {
     return Object.keys(verses).map((slug) => ({
@@ -68,6 +69,8 @@ export default async function VersePage({
                 />
                 <br />
 
+                {verse.audio && <AudioBlock src={verse.audio} />}
+                
                 <VerseHero text={verse.description} />
 
                 <SanskritBlock text={verse.sanskrit} />
@@ -115,7 +118,7 @@ export default async function VersePage({
                         </Link>
                     )}
                 </section>
-                <br/>
+                <br />
                 {verse.image2 && (
                     <section>
                         <h1>Meaning</h1>
