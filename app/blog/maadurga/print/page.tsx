@@ -101,11 +101,7 @@ export default function PrintPage() {
         <div className={styles.spacer} />
 
         <div className="text-sm">
-          <AboutBlock />
-          Any errors or feedback  email me directly at{" "}
-          <a href="mailto:pappik.3@gmail.com">
-            pappik.3@gmail.com
-          </a>
+          <AboutBlock /> 
         </div>
 
       </section>

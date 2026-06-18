@@ -32,7 +32,7 @@ export function AudioBlock({
             <audio
                 ref={audioRef}
                 src={src}
-                loop
+                loop={true}
             />
 
             {/* Floating Audio Control Button */}

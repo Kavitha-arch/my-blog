@@ -51,6 +51,14 @@ export function SourcesBlock() {
                     </a>{" "}
                     — siddhapedia.com
                 </p>
+                <p><a
+                    href="https://pixabay.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-xs text-neutral-500 hover:text-neutral-700 underline transition-colors"
+                >
+                    Sound effects sourced from Pixabay
+                </a></p>
             </div>
         </div>
     );

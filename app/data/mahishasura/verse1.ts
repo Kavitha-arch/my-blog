@@ -75,7 +75,7 @@ const verse1 = {
   { sanskrit: "शैलसुते", meaning: "Daughter of the mountain" }
 ],
 
-audio: "/audio/verse1.mp3"
+audio: "/audio/averse1.wav"
 
 };
 

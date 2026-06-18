@@ -60,6 +60,7 @@ const mantra = {
     
     imagepnt: "/images/maa/pntmantra.png",
 
+    audio: "/audio/maverse1.wav"
 };
 
 export default mantra;
