@@ -4,6 +4,8 @@ import verse2 from "./verse2";
 import verse3 from "./verse3";
 import verse4 from "./verse4";
 import verse5 from "./verse5";
+import verse6 from "./verse6";
+import verse7 from "./verse7";
 
 export type Verse = {
   slug: string;
@@ -24,7 +26,7 @@ export type Verse = {
     sanskrit: string;
     meaning: string;
   }[];
-  audio?:string;
+  audio?: string;
 };
 
 export const verses: Record<string, Verse> = {
@@ -34,6 +36,8 @@ export const verses: Record<string, Verse> = {
   "verse-3": verse3,
   "verse-4": verse4,
   "verse-5": verse5,
+  "verse-6": verse6,
+  "verse-7": verse7,
 } as const;
 
 export const verseOrder: VerseSlug[] = [
@@ -43,6 +47,8 @@ export const verseOrder: VerseSlug[] = [
   "verse-3",
   "verse-4",
   "verse-5",
+  "verse-6",
+  "verse-7",
 ];
 
 export type VerseSlug = keyof typeof verses;

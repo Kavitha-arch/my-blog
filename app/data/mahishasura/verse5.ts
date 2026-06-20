@@ -21,13 +21,13 @@ const verse5 = {
     `,
 
     meaning: [
-        "<strong>5.1:</strong> O Divine Mother <span class=\"highlight\" data-sanskrit=\"रणदुर्मद\"> who is invincible</span> and <span class=\"highlight\" data-sanskrit=\"शत्रुवधोदित\">rises to slay the arrogant enemies with evil intentions </span>, and <span class=\"highlight\" data-sanskrit=\"दुर्धरनिर्जर\"> who mercilessly eliminates evil forces</span>with her<span class=\"highlight\" data-sanskrit=\"शक्तिभृते\">  infinite strength </span>. <br />",
+        '<strong>5.1:</strong> O Divine Mother <span class="highlight" data-sanskrit="रणदुर्मद"> who is invincible</span> and <span class="highlight" data-sanskrit="शत्रुवधोदित">rises to slay the arrogant enemies with evil intentions </span>, and <span class="highlight" data-sanskrit="दुर्धरनिर्जर"> who mercilessly eliminates evil forces</span>with her<span class="highlight" data-sanskrit="शक्तिभृते">  infinite strength </span>. <br />',
 
-        "<strong>5.2:</strong> O Divine Mother, <span class=\"highlight\" data-sanskrit=\"चतुरविचारधुरीणमहाशिवदूतकृतप्रमथाधिपते\">who made Great Shiva—the chief of the Pramatha ganas and the foremost expert in clever diplomacy—Your messenger</span>.<br />",
+        '<strong>5.2:</strong> O Divine Mother, <span class="highlight" data-sanskrit="चतुरविचारधुरीणमहाशिवदूतकृतप्रमथाधिपते">who made Great Shiva—the chief of the Pramatha ganas and the foremost expert in clever diplomacy—Your messenger</span>.<br />',
 
-        "<strong>5.3:</strong> O Divine Mother, <span class=\"highlight\" data-sanskrit=\"दुरितदुरीहदुराशयदुर्मतिदानवदूतकृतान्तमते\">who completely put an end to the evil designs, wicked motives, and malicious minds of the demon messengers</span>.<br />",
+        '<strong>5.3:</strong> O Divine Mother, <span class="highlight" data-sanskrit="दुरितदुरीहदुराशयदुर्मतिदानवदूतकृतान्तमते">who completely put an end to the evil designs, wicked motives, and malicious minds of the demon messengers</span>.<br />',
 
-        "<strong>5.4:</strong> O Divine Mother <span class=\"highlight\" data-sanskrit=\"जय जय हे महिषासुरमर्दिनि\"> Victory, victory to You, O Slayer of Mahishasura </span>, <span class=\"highlight\" data-sanskrit=\"रम्यकपर्दिनि\"> O Beautifully-haired One </span>, <span class=\"highlight\" data-sanskrit=\"शैलसुते\"> O Daughter of the Mountain (Parvati) </span>. <br />"
+        '<strong>5.4:</strong> O Divine Mother <span class="highlight" data-sanskrit="जय जय हे महिषासुरमर्दिनि"> Victory, victory to You, O Slayer of Mahishasura </span>, <span class="highlight" data-sanskrit="रम्यकपर्दिनि"> O Beautiful-haired One </span>, <span class="highlight" data-sanskrit="शैलसुते"> O Daughter of the Mountain (Parvati) </span>. <br />'
     ],
 
     symbols: [
@@ -45,12 +45,12 @@ const verse5 = {
     reflection: [
         "This verse beautifully symbolizes the management of overthinking. When our intrusive thoughts act like threatening demon messengers, we often rush to react, which only fuels the anxiety.",
         "By surrendering these thoughts to a higher, inner power—our Divine Feminine energy or life force—we allow our higher consciousness (Shiva) to step in.",
-        "Shiva, representing wise deliberation and stillness, acts as the ultimate diplomat. Instead of reactively fighting every thought, we tap into a deeper universal intelligence that resolves the inner conflict for us, reminding us to rest rather than rush into action." ,  
+        "Shiva, representing wise deliberation and stillness, acts as the ultimate diplomat. Instead of reactively fighting every thought, we tap into a deeper universal intelligence that resolves the inner conflict for us, reminding us to rest rather than rush into action.",
         "********",
 
         "Quoted below is the passage about the <strong>Lord Shiva</strong> (verbatim from <a>https://www.instagram.com/reel/DZTp013xAjk/)</a>: ",
 
-        "<strong style=\"color: red;\">The Universe meets you at the depth of your surrender and not at the height of your struggle</strong>", 
+        "<strong style=\"color: red;\">The Universe meets you at the depth of your surrender and not at the height of your struggle</strong>",
 
         "\"We often believe that life rewards only those who struggle the hardest. Yet many of life’s deepest blessings arrive not through force, but through alignment. Surrender does not mean giving up; it means letting go of the illusion that we can control everything. Just as a river reaches the ocean by flowing rather than fighting, life begins to unfold with greater ease when we stop resisting reality and learn to move with Dharma.",
 
