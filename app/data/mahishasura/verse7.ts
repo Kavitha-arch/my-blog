@@ -3,7 +3,7 @@ const verse7 = {
 
     title: "Verse 7: अयि निजहुङ्कृति मात्र",
 
-    description: "7. The destruction of Dhumralochana and Shumbha-Nishumbha forces",
+    description: "7. The destruction of Dhumralochana , Rakthabeeja, Shumbha-Nishumbha ",
 
     sanskrit: `
         अयि निजहुङ्कृति मात्रनिराकृत धूम्रविलोचन धूम्रशते ।
