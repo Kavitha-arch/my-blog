@@ -14,8 +14,7 @@ const verse1 = {
 `,
 
   meaning: [
-    '(O Divine Mother, I invoke You and take refuge in Your <span class="highlight"  data-sanskrit="हे देवी, अहं त्वां आवाहयामि तव पादयोः शरणं गच्छामि">Auspicious Feet</span>)',
-
+    
     '1.1: <span class="highlight" data-sanskrit="अयि">Salutations to You</span> O Divine Mother, I Invoke You; Who is the <span class="highlight" data-sanskrit="गिरिनन्दिनि">Daughter of the Mountain</span>; By Whose presence <span class="highlight" data-sanskrit="नन्दितमेदिनि">the whole World is filled with Joy</span>; For Whom the whole <span class="highlight" data-sanskrit="विश्वविनोदिनि">World is a Divine Play</span> and Who is <span class="highlight" data-sanskrit="नन्दिनुते">Praised by Nandi</span>,',
 
     '1.2: (I Invoke You O Devi) Who, <span class="highlight" data-sanskrit="शिरोऽधिनिवासिनि">resides on the peak of the mountain range</span>, <span class="highlight" data-sanskrit="गिरिवरविन्ध्य">Vindhya Mountains </span>; Who gives <span class="highlight" data-sanskrit="विष्णुविलासिनि">Joy to Lord Vishnu</span> (as His sister) and Who is <span class="highlight" data-sanskrit="जिष्णुनुते">Praised by Lord Indra</span>,',

@@ -3,7 +3,7 @@ const verse3 = {
 
     title: "Verse 3 : अयि जगदम्ब",
 
-    description: "3. Maa Durga - Destroys the Danavas and the Daityas and Nourishes the Three Worlds",
+    description: "3. Our Maa Durga dwells in Kadamba Forest, snow peaked Himalayas. Destroys Madhu and Kaitabha",
 
     sanskrit: `
             अयि जगदम्ब मदम्ब कदम्ब वनप्रियवासिनि हासरते
@@ -47,8 +47,7 @@ const verse3 = {
     ],
 
      philosophy: [       
-        "  Like nature abiding in effortless balance, our true nature is peace. Attachment and aversion, symbolized by the demons Madhu and Kaitabha, arise from the play of the gunas and pull the mind into conflict and restlessness.",
-        " When attachment and aversion arise, the mind becomes entangled in resistance and craving. This verse invokes Maa Durga's grace to dissolve these inner demons, helping us return to our original stillness and respond to every situation with equanimity and sweetness."
+        "<strong>Samatvam (समत्वम्): Equanimity:</strong> Like nature abiding in effortless balance, our true nature is peace. Attachment and Aversion, symbolized by Madhu and Kaitabha, arise from the play of the gunas and pull the mind into conflict and restlessness. When attachment and aversion arise, the mind becomes entangled in resistance and craving. Maa Durga's grace will dissolve these inner demons, helping us return to our original stillness and respond to every situation with equanimity and sweetness."
     ],
 
     reflection: [

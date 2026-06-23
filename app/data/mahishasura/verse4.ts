@@ -41,7 +41,10 @@ const verse4 = {
         "[SOURCE] 3. Siddhapedia: <a href='https://siddhapedia.com/chamunda-devi' target='_blank'>\"Chamunda Devi\"</a> — siddhapedia.com"
     ], 
 
-    philosophy: coreTeachings,
+    philosophy:  [
+    "<strong>Vairāgya:</strong> Chanda Vritti (Ego-Driven Chase) and Munda Vritti (Ignorant/Reactive Withdrawal): Both happiness and sadness arising from the Chanda and Munda Vṛtti are temporary states of mind. They must be observed objectively with true detachment (Vairāgya), rather than avoided through reactive withdrawal.",
+    
+],
 
     reflection: coreTeachings,
 

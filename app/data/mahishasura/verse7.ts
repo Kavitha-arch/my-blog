@@ -3,7 +3,7 @@ const verse7 = {
 
     title: "Verse 7: अयि निजहुङ्कृति मात्र",
 
-    description: "7. The destruction of Dhumralochana , Rakthabeeja, Shumbha-Nishumbha ",
+    description: "7. Maa Durga - Destroyed Dhumralochana , Rakthabeeja, Shumbha-Nishumbha ",
 
     sanskrit: `
         अयि निजहुङ्कृति मात्रनिराकृत धूम्रविलोचन धूम्रशते ।
@@ -47,7 +47,7 @@ const verse7 = {
     ],
 
     philosophy: [
-        "This verse represents a major psychological turning point in the inner spiritual battle. The demons are no longer external forces but symbolic of mental patterns: confusion (Dhumralochana) and self-replicating thoughts (Raktabīja). The Goddess does not fight them endlessly; instead, her vibration alone dissolves their power. This reflects the principle that awareness itself is transformative. When consciousness becomes steady and non-reactive, the compulsive multiplication of thoughts stops naturally without force."
+        "<strong>Chitta Vritti Nirodha (निरोध):</strong>The demons are no longer external forces but symbolic of mental patterns: confusion (Dhumralochana) and self-replicating thoughts (Raktabīja). The Goddess does not fight them endlessly; instead, her vibration alone dissolves their power. This reflects the principle that awareness itself is transformative. When consciousness becomes steady and non-reactive, the compulsive multiplication of thoughts stops naturally without force."
     ],
 
     reflection: [

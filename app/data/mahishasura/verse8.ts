@@ -3,7 +3,7 @@ const verse8 = {
 
     title: "Verse 8: धनुरनुषङ्ग",
 
-    description: "8. Destroys peacefully the Chaturanga of Enemy [Daily Challenges] ",
+    description: "8. Maa Durga - Destroyed the Chaturanga [Daily Challenges] ",
 
     sanskrit: `
         धनुरनुषङ्ग रणक्षणसङ्ग परिस्फुरदङ्ग नटत्कटके
@@ -44,7 +44,7 @@ const verse8 = {
     ],
 
     philosophy: [
-        "To tune into your inner Shakti during stressful moments, you must shift from panicked reaction to centered action by anchoring your mind and body. When the daily Chaturanga of life attacks, practice the Chandi Breath—inhaling deep strength and exhaling tension with a powerful, clearing \"Haa\" release. Maintain the poise of the Dancing Bracelet by consciously softening your jaw and shoulders while keeping a regal, upright posture, proving to your nervous system that you remain unbothered by the chaos. Finally, mentally step back to view your stressors as an external army rather than your identity, repeating the grounding mantra, \"I am the weapon, She is the warrior.\" This bio-hacks your neurochemistry, shifting you from a defensive state into a commanding, graceful presence capable of navigating any conflict with absolute tranquility."
+        "<strong>Sthitaprajna (स्थितप्रज्ञ):</strong>When the daily Chaturanga of life attacks - <strong>1.</strong> Tune into your inner Shakti during stressful moments, shift from panicked reaction to centered action by anchoring your mind and body. , <strong>2.</strong> Practice the Chandi Breath—inhaling deep strength and exhaling tension with a powerful, clearing \"Haa\" release.<strong>3.</strong> Maintain the poise of the Dancing Bracelet by consciously softening your jaw and shoulders with an upright posture. <strong>4.</strong> Mentally step back to view your stressors as an external army rather than your identity, repeating the grounding mantra, <strong>\"I am the weapon, She is the warrior\"</strong>."
     ],
 
     reflection: [

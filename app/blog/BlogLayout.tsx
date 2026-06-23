@@ -178,9 +178,9 @@ export default function BlogLayout({ children }: BlogLayoutProps) {
                  
                  <li>
                     <Link href="/blog/maadurga/print">
-                      Print 
+                      Prints
                     </Link>
-                  </li> 
+                  </li>  
                 </ul>
               )}
             </li>

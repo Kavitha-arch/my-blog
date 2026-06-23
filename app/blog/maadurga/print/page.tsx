@@ -13,10 +13,13 @@ import styles from './print.module.css';
 import { AboutBlock } from "@/app/components/katha/AboutBlock";
 import { SourcesBlock } from "@/app/components/katha/SourcesBlock";
 import { useState, useEffect } from "react";
+import { useRouter } from "next/navigation";
+
 
 export default function PrintPage() {
   const [accessCode, setAccessCode] = useState("");
   const [isAuthorized, setIsAuthorized] = useState(false);
+  const router = useRouter();
 
   // Insert inside your PrintPage component block:
   useEffect(() => {
@@ -101,7 +104,7 @@ export default function PrintPage() {
         <div className={styles.spacer} />
 
         <div className="text-sm">
-          <AboutBlock /> 
+          <AboutBlock />
         </div>
 
       </section>
@@ -164,7 +167,7 @@ export default function PrintPage() {
             />
             <div className={styles.spacer} />
             {verse.philosophy && verse.philosophy.length > 0 && (
-              <section>
+              <div className={styles.reflectionCard}>
                 <h1 className={styles.printTitle}>
                   रक्ष रक्ष जगन्माते सर्वशक्ते जय दुर्गे।
                 </h1>
@@ -172,7 +175,8 @@ export default function PrintPage() {
                   text={verse.philosophy}
                   forPrint={true}
                 />
-              </section>
+              </div>
+
             )}
 
             <div className={styles.pageNumber}>
@@ -187,18 +191,26 @@ export default function PrintPage() {
       ))}
       <SourcesBlock />
 
-      <button
-        onClick={() => window.location.href = "/blog"}
-        className={`${styles.backButton} ${styles.screenOnly}`}
-      >
-        ← Back to Blog
-      </button>
-      <button
-        onClick={() => window.location.href = "/blog/maadurga/print"}
-        className={`${styles.backButton} ${styles.screenOnly}`}
-      >
-        ← Home
-      </button>
+      <div className={styles.buttonRow}>
+        <button
+          onClick={() => window.location.href = "/blog"}
+          className={`${styles.backButton} ${styles.screenOnly}`}
+        >
+          ← Back to Blog
+        </button>
+        <button
+          onClick={() => window.location.href = "/blog/maadurga/print"}
+          className={`${styles.backButton} ${styles.screenOnly}`}
+        >
+          ← Home
+        </button>
+        <button
+          onClick={() => router.push("/blog/maadurga/book")}
+          className={`${styles.backButton} ${styles.screenOnly}`}
+        >
+          ← Book
+        </button>
+      </div>
     </article>
   );
 }

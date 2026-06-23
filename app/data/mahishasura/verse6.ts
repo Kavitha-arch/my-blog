@@ -4,7 +4,7 @@ const verse6 = {
 
     title: "Verse 6: अयि शरणागत",
 
-    description: "6. The Compassion of Durga Toward Those Who Surrender",
+    description: "6. Maa Durga - She Showed Compassion Towards Those Who Surrender",
 
     sanskrit: `
         अयि शरणागत वैरिवधुवर वीरवराभय दायकरे ।
@@ -37,7 +37,7 @@ const verse6 = {
     ],
 
     philosophy: [
-        "This verse reveals a profound Dharmic principle: Divine power is always balanced by Divine compassion. Durga destroys harmful tendencies, but she offers protection to anyone who sincerely seeks refuge, even those associated with the opposing side. Spiritually, the verse teaches that once ego-driven tendencies are defeated, we should not continue fighting remnants of the past with bitterness. Instead, wisdom must be accompanied by compassion. The sound of the celestial drums symbolizes the harmony that emerges when justice and mercy work together."
+        "<strong>Dharmic principle:</strong> Divine power is always balanced by Divine compassion. Durga destroys harmful tendencies, but she offers protection to anyone who sincerely seeks refuge, even those associated with the opposing side. Spiritually, the verse teaches that once ego-driven tendencies are defeated, we should not continue fighting remnants of the past with bitterness. Instead, wisdom must be accompanied by compassion. The sound of the celestial drums symbolizes the harmony that emerges when justice and mercy work together."
     ],
 
     reflection: [

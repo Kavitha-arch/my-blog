@@ -1,0 +1,26 @@
+.print1 {
+    font-family: "Noto Serif Devanagari", serif;
+    font-size: large;
+    color: blue;
+    font-weight: bold;
+}
+
+.print2 {
+    font-family: monospace;
+    font-style: italic;
+    font-size: medium;
+}
+
+.verseBlock {
+    margin-bottom: 24px;
+    /* space between sets */
+}
+
+.print1 {
+    margin-bottom: 6px;
+    /* space between Sanskrit and meaning */
+}
+
+.print2 {
+    margin: 0;
+}

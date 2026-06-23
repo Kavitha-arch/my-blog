@@ -11,7 +11,7 @@ const verse5 = {
 
     title: "Verse 5: अयि रणदुर्मद",
 
-    description: "5. Made Lord Shiva the Messenger against Shumbha and Nisumbha",
+    description: "5. Maa Durga - Made Lord Shiva the Messenger against Shumbha and Nisumbha",
 
     sanskrit: `
         अयि रणदुर्मद शत्रुवधोदित दुर्धरनिर्जर शक्तिभृते ।
@@ -39,7 +39,7 @@ const verse5 = {
     ],
 
     philosophy: [
-        "In the context of mindfulness, this verse represents the shift from reaction to observation. The demon messengers are our ruminations and anxious thoughts. When we invoke our inner power (Shakti) and surrender the struggle, our higher consciousness (Shiva) handles the situation with stillness and diplomacy. It teaches us that not every intrusive thought requires a reaction. By stepping back, we allow a deeper cosmic intelligence to neutralize the mental noise, choosing restful detachment over impulsive action."
+        "<strong>Sakshi:</strong>In the context of mindfulness, this verse represents the shift from reaction to observation. The demon messengers are our ruminations and anxious thoughts. When we invoke our inner power (Shakti) and surrender the struggle, our higher consciousness (Shiva) handles the situation with stillness and diplomacy. It teaches us that not every intrusive thought requires a reaction. By stepping back, we allow a deeper cosmic intelligence to neutralize the mental noise, choosing restful detachment over impulsive action."
     ],
 
     reflection: [
