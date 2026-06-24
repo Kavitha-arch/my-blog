@@ -5,10 +5,11 @@ import { VerseImage } from "@/app/components/katha/VerseImage";
 import { BookBlock } from "@/app/components/katha/BookBlock";
 import { ReflectionBlock } from "@/app/components/katha/ReflectionBlock";
 import { useRouter } from "next/navigation";
+import GlossaryTable from "@/app/components/katha/GlossoryTable";
 
 export default function BookPage() {
- const router = useRouter();
-    
+    const router = useRouter();
+
     return (
         <article className={styles.printContainer}>
 
@@ -84,6 +85,11 @@ export default function BookPage() {
                         </section>
                     );
                 })}
+                <section className={styles.contentPage}>
+                    <h1 className={styles.printTitle}>मनोवैज्ञानिकशब्दकोश (Manovaijñānika-śabdakośa)</h1>
+                    
+                    <GlossaryTable/>
+                </section>
             </>
 
             <div className={styles.buttonRow}>
@@ -100,7 +106,7 @@ export default function BookPage() {
                     ← Home
                 </button>
                 <button
-                     onClick={() => router.push("/blog/maadurga/print")}
+                    onClick={() => router.push("/blog/maadurga/print")}
                     className={`${styles.backButton} ${styles.screenOnly}`}
                 >
                     ← Print

@@ -31,7 +31,7 @@ export type Verse = {
 };
 
 export const verses: Record<string, Verse> = {
-  "mantra": mantra,
+  "verse-0": mantra,
   "verse-1": verse1,
   "verse-2": verse2,
   "verse-3": verse3,
@@ -43,7 +43,7 @@ export const verses: Record<string, Verse> = {
 } as const;
 
 export const verseOrder: VerseSlug[] = [
-  "mantra",
+  "verse-0",
   "verse-1",
   "verse-2",
   "verse-3",

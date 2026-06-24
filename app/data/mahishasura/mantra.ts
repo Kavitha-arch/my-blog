@@ -6,18 +6,33 @@ const mantra = {
     description: "Maa Durga - The Feminine Energy which will protect us always",
 
     sanskrit: `
-      ॐ दुं दुर्गायै नमः 
-      या देवी सर्वभू‍तेषु माँ कूष्माण्डा रूपेण  
-      संस्थिता। नमस्तस्यै नमस्तस्यै नमस्तस्यै नमो नमः॥ 
+    
+      दैवी ह्येषा गुणमयी मम माया दुरत्यया ।
+      मामेव ये प्रपद्यन्ते मायामेतां तरन्ति ते ॥ 14॥
+
+      ॐ दुं दुर्गायै नमः  
+
 `,
 
     meaning: [
-        'Om Dum Durgayei Namaha (ॐ दुं दुर्गायै नमः) is a powerful Sanskrit mantra that honors Goddess Durga, the Divine Mother, and invokes her divine protection',
-        "Ya Devi Sarvabhuteshu Maa Kushmanda Rupena Samsthita। Namastasyai Namastasyai Namastasyai Namo Namah॥",
+         "BG 7.14: My divine energy Maya, consisting of the three modes of nature, is very difficult to overcome. But those who surrender unto Me cross over it easily.॥",
+        'Om Dum Durgayei Namaha (ॐ दुं दुर्गायै नमः) is a powerful Sanskrit mantra that honors Goddess Durga, the Divine Mother, and invokes her divine protection',       
     ],
 
     symbols: [
-        "[TITLE] Make Maa Durga Your Anchor",
+
+        "[HEADER] PART 1: Srimad Bhagvath Gita 7.14 : Durga and Vishnu",
+
+        "[INTRO]  <strong>दैवी ह्येषा गुणमयी मम माया दुरत्यया ।",
+        "[INTRO]  <strong>मामेव ये प्रपद्यन्ते मायामेतां तरन्ति ते ॥ 14॥",
+        "[PARAGRAPH]  Maya Shakti is described as the divine energy of Krishna (Vishnu) that governs the material world and operates according to an individual's spiritual orientation. For those who turn toward the Divine, this energy is said to reveal its benevolent aspect, guiding and supporting spiritual progress. For those focused primarily on worldly pursuits, it functions as the power that sustains material attachment and the cycle of worldly experience.",
+        "[PARAGRAPH] The tradition further explains that suffering serves an educative role, encouraging individuals to recognize the limitations of material fulfillment and seek deeper spiritual realization. Three broad categories of suffering are identified: those arising from oneself, from natural or cosmic forces, and from other living beings. ",
+        "[PARAGRAPH] The world of conditioned experience, shaped by the three guṇas, is difficult to rise above. Yet those who wholeheartedly take refuge in the Divine can transcend its binding influence. In this understanding, Durga is not an independent opposing force but a manifestation of the Divine's power (Māyā Śakti). She governs the material realm, administering both its rewards and challenges. For those attached to worldly pursuits, she maintains the conditions of material existence; for those turning toward spiritual realization, she is said to aid their progress by fostering detachment, discernment, and ultimately helping them move beyond the limitations of material consciousness.",
+        "[INTRO]  <strong>*******************",
+
+
+        "[TITLE] PART 2: Make Maa Durga Your Anchor",
+        "[INTRO]  <strong>ॐ दुं दुर्गायै नमः  ",
         "[HEADER] Overcoming the Demons Through Devotion",
         "[PARAGRAPH] In the scriptural narrative, the demons Madhu (मधु) and Kaitabha (कैटभ) arise from the impurity (मल, mala) associated with the ear of Lord Vishnu (विष्णु) while he rests in yogic sleep (योगनिद्रा, yoganidrā). When Brahma (ब्रह्मा), representing awakened intelligence or discriminative intellect (बुद्धि, buddhi), invokes the Divine Mother, Mahāmāyā (महामाया) withdraws her power of sleep from Vishnu, enabling him to confront the demons. Yet even after a prolonged battle, they cannot be defeated until Mahāmāyā herself deludes them with pride and self-conceit (अहंकार, ahaṃkāra).",
 
@@ -28,6 +43,7 @@ const mantra = {
 
         "[INTRO] Three-Step Shift in Focus: A practical method to allow the Divine Energy (शक्ति, Śakti) to anchor within oneself.",
         "[HEADER] 1. ACKNOWLEDGE: Catching the Demons",
+
         "[BULLET] Catching the Demons: When chaos arises, your immediate reaction is often driven by Madhu (मधु)—representing Attachment (राग, Rāga), the urge to cling to how things should be—or Kaitabha (कैटभ)—representing Aversion (द्वेष, Dveṣa), the impulse to resist and fight against what is.",
         "[BULLET] The Practice: Do not suppress the anxiety, fear, or emotional turbulence.",
         "[BULLET] The Pivot: Simply name it. Say to yourself, \"The storm is here. My Ego (अहंकार, Ahaṃkāra) is reacting.\" This act of recognition creates a small but powerful distance between you and the emotion, preventing the demons from hijacking your Intellect (बुद्धि, Buddhi), symbolized by Brahma (ब्रह्मा).",
@@ -40,24 +56,29 @@ const mantra = {
         "[HEADER] 3. AWARENESS: Becoming the Silent Witness (Sākṣī)",
         "[BULLET] Becoming the Silent Witness: Once Durga (दुर्गा) stabilizes the inner field, Vishnu (विष्णु) awakens, symbolizing the all-pervading Consciousness (चैतन्य, Caitanya) that sustains existence. Resting as the Witness (साक्षी, Sākṣī), you begin to abide in that Vishnu-consciousness.",
         "[BULLET] The Practice: Observe the anxiety, fear, or problem as though you are watching it from the outside.",
-        "[BULLET] The Pivot: Realize that the storm is occurring within the Mind (मनस्, Manas), but it is not occurring to your true Self (आत्मन्, Ātman). As the Witness (साक्षी, Sākṣī), you discover that the storm has no power to damage the sky through which it passes. Through the grace of Divine Energy (शक्ति, Śakti), Attachment (राग, Rāga) and Aversion (द्वेष, Dveṣa) gradually dissolve, giving rise to Detachment (वैराग्य, Vairāgya) and freedom from the illusions of Māyā (माया)."
+        "[BULLET] The Pivot: Realize that the storm is occurring within the Mind (मनस्, Manas), but it is not occurring to your true Self (आत्मन्, Ātman). As the Witness (साक्षी, Sākṣī), you discover that the storm has no power to damage the sky through which it passes. Through the grace of Divine Energy (शक्ति, Śakti), Attachment (राग, Rāga) and Aversion (द्वेष, Dveṣa) gradually dissolve, giving rise to Detachment (वैराग्य, Vairāgya) and freedom from the illusions of Māyā (माया).",
+
+
+
 
     ],
 
     philosophy: [
-     "This interpretation reflects my personal spiritual journey. I began with devotional worship of Maa Durga and later came to appreciate the symbolic and psychological dimensions of the tradition. I do not see these perspectives as contradictory; for me, devotion and inner inquiry illuminate one another.",
-   
+        "This interpretation reflects my personal spiritual journey. I began with devotional worship of Maa Durga and later came to appreciate the symbolic and psychological dimensions of the tradition. I do not see these perspectives as contradictory; for me, devotion and inner inquiry illuminate one another.",
+
     ],
 
     reflection: [
 
-        "The demons destroyed by Durga Maa symbolize the destructive tendencies within us—fear, cowardice,  greed, hatred, arrogance, self-doubt, and other forces that weaken our strength, courage, and inner clarity.",
-        "Durga's fierce compassion, often expressed as righteous or protective anger,   is the battle inside us in daily life where this compassionate rage confronts  and destroys the inner demons before they can consume us.   ",
-        "This interpretation reflects my personal spiritual journey. I began with devotional worship of Maa Durga and later came to appreciate the symbolic and psychological dimensions of the tradition. I do not see these perspectives as contradictory; for me, devotion and inner inquiry illuminate one another.",
+        "<strong>Demons:</strong> The demons destroyed by Durga Maa symbolize the destructive tendencies within us—fear, cowardice,  greed, hatred, arrogance, self-doubt, and other forces that weaken our strength, courage, and inner clarity.",
+        "<strong>Maa Durga:</strong> Durga's fierce compassion often expressed as righteous or protective anger,   is the battle inside us in daily life where this compassionate rage confronts  and destroys the inner demons before they can consume us.   ",
+        "<strong>Lord Shiva:</strong> is the unmoving, pure background consciousness;",
+        "<strong>Seeker:</strong> With great श्रद्धा śraddhā—a deep and trusting confidence that inspires commitment, practice, and perseverance even before direct realization—we patiently follow this path. <strong>Through devotion to Durga and steady spiritual discipline, the seeker gradually overcomes the limitations of conditioned consciousness and moves toward the realization of Lord Shiva, the Self.",
+        "In the state of सत्यम् satyam, the ego and conditioned identity of the seeker recede, revealing pure awareness. The seeker no longer knows truth through concepts but experiences it directly as the reality of the Self (Ātman), which many traditions identify with Shiva-consciousness."
     ],
 
     image1: "/images/maa/maadurgamantra.png",
-    
+
     imagepnt: "/images/maa/pntmantra.png",
 
     audio: "/audio/maverse1.wav"

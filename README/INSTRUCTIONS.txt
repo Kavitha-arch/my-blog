@@ -31,7 +31,7 @@ Step1: $env:GITHUB_PAGES="true"
 Step2: Commit to DEV
 1. git checkout dev 
 2. git add .
-3. git commit -m "verse 8"
+3. git commit -m "book"
 4. git push origin dev
 Step3:
 npm run build
