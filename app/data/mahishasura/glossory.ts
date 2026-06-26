@@ -34,7 +34,7 @@ export const glossary: GlossaryEntry[] = [
     sanskrit: "श्रद्धा",
     transliteration: "Śraddhā",
     psychologicalMeaning: "A trusting confidence that motivates commitment, practice, and perseverance even before one has direct personal realization.",
-  },  
+  },
   {
     sanskrit: "प्रारब्ध",
     transliteration: "Prārabdha",
@@ -50,6 +50,10 @@ export const glossary: GlossaryEntry[] = [
     transliteration: "Vāsanā",
     psychologicalMeaning: "Over time, accumulated Samskaras cluster together to form Vasanas (your default psychological habits and desires).",
   },
-
+  {
+    sanskrit: "अर्धनारीश्वर",
+    transliteration: "Ardhanārīśvara",
+    psychologicalMeaning: "A symbol of the Samkhya philosophy which talks of Purusha (the male energy) and Prakriti (the female energy) together makes the cosmic energy.",
+  },
 
 ];
