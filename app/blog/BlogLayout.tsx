@@ -181,6 +181,11 @@ export default function BlogLayout({ children }: BlogLayoutProps) {
                       Prints
                     </Link>
                   </li>  
+                  <li>
+                    <Link href="/blog/maadurga/references">
+                      References
+                    </Link>
+                  </li>  
                 </ul>
               )}
             </li>

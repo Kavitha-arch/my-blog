@@ -13,17 +13,18 @@ const verseX = {
     `,
 
     meaning: [
-        "<strong>X.1:</strong> Explanation of the first line with <span class=\"highlight\" data-sanskrit=\"WORD\">important Sanskrit terms</span> highlighted.<br />",
+        "<strong>X.1:</strong> Explanation of the first line with <span class='highlight' data-sanskrit='WORD'>important Sanskrit terms</span> highlighted.",
 
-        "<strong>X.2:</strong> Explanation of the second line with <span class=\"highlight\" data-sanskrit=\"WORD\">relevant Sanskrit words</span> highlighted.<br />",
+        "<strong>X.2:</strong> Explanation of the second line with <span class='highlight' data-sanskrit='WORD'>relevant Sanskrit words</span> highlighted.",
 
-        "<strong>X.3:</strong> Explanation of the third line with <span class=\"highlight\" data-sanskrit=\"WORD\">key concepts</span> highlighted.<br />",
+        "<strong>X.3:</strong> Explanation of the third line with <span class='highlight' data-sanskrit='WORD'>key concepts</span> highlighted.",
 
-        "<strong>X.4:</strong> Explanation of the fourth line with <span class=\"highlight\" data-sanskrit=\"WORD\">important epithets</span> highlighted.<br />"
+        "<strong>X.4:</strong> Explanation of the fourth line with <span class='highlight' data-sanskrit='WORD'>important epithets</span> highlighted."
     ],
 
+   
     symbols: [
-        "[HEADER] Mythological Context: Brief summary of the episode or event being referenced in the verse.",
+        "[HEADER] Mythological Conte11t: Brief summary of the episode or event being referenced in the verse.",
 
         "[BULLET] Symbol 1: Psychological or spiritual meaning.",
 
@@ -31,7 +32,11 @@ const verseX = {
 
         "[BULLET] Symbol 3: Representation of a spiritual principle.",
 
-        "[BULLET] Core Lesson: The central takeaway for modern life and practice."
+        "[BULLET] Core Lesson: The central takeaway for modern life and practice.",
+
+        "[SOURCE] 1. Vedadhara: <a href='https://sutradhar.parogoodearth.com/sutradhar/moon-rhythms-goddess-the-moon' target='_blank'>\"Origin of Devas, Daityas, and Danavas\"</a> — Moon Rhythms: Goddess & the Moon",
+
+
     ],
 
     philosophy: [
@@ -49,12 +54,12 @@ const verseX = {
 
         "Optional quote, story, scripture passage, or contemporary reflection relevant to the verse.",
 
-        "<strong style=\"color: red;\">Highlighted takeaway or inspirational quote.</strong>",
+        "<strong style='color: red;'>Highlighted takeaway or inspirational quote.</strong>",
 
         "Additional explanatory commentary."
     ],
 
-    image1: "/images/maa/maaverseX.png",
+    image1: "/images/maa/maaverseX.png  Pencil Sketch: 10 inch × 12 inch (5:6 portrait aspect ratio)",
 
     imagepnt: "/images/maa/maaverseX.png",
 

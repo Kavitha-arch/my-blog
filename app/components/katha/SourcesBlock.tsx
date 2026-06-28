@@ -51,6 +51,17 @@ export function SourcesBlock() {
                     </a>{" "}
                     — siddhapedia.com
                 </p>
+                 <p>
+                    3. Vedanet:{" "}
+                    <a
+                        href="https://www.vedanet.com/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className={referenceStyles.anchor}
+                    >
+                        Mahadevi in Vedic Astrology
+                    </a>{" "} 
+                </p>
                 <p><a
                     href="https://pixabay.com"
                     target="_blank"

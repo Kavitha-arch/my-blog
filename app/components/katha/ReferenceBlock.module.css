@@ -1,0 +1,76 @@
+  .referenceBlock {
+      /* bold */
+      background: #fff8f2;
+      border-left: 5px solid #d97706;
+      padding: 2rem;
+      border-radius: 1rem;
+      margin: 2rem 0;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem;
+  }
+
+  .pageTitle {
+      margin-top: 1rem;
+      font-size: 2rem;
+      font-weight: 500;
+      text-align: left;
+      margin-bottom: 2rem;
+      color: #d24d4d;
+      line-height: 1.2;
+  }
+
+  .description {
+      font-family: Georgia, "Times New Roman", serif;
+      /* or any font you prefer */
+      font-style: italic;
+      font-size: 0.95rem;
+      color: #666;
+      margin-top: 0.5rem;
+      font-weight: bold;
+      line-height: 1.6;
+  }
+
+  .description::before {
+      content: "“";
+  }
+
+  .description::after {
+      content: "”";
+  }
+
+  .referenceBlock a {
+      color: #4f46e5;
+      /* indigo-600 */
+      font-weight: 500;
+      text-decoration: none;
+  }
+
+  .referenceBlock a:hover {
+      color: #3b82f6;
+      /* blue-500 */
+      text-decoration: underline;
+  }
+
+  @media (prefers-color-scheme: dark) {
+      .referenceBlock a {
+          color: #818cf8;
+          /* indigo-400 */
+      }
+
+      .referenceBlock a:hover {
+          color: #a5b4fc;
+          /* indigo-300 */
+      }
+  }
+
+  @media (max-width: 768px) {
+      .referenceBlock {
+          padding: 1.5rem 1rem;
+      }
+
+      .pageTitle {
+          font-size: 2rem;
+          margin-bottom: 1.5rem;
+      }
+  }
