@@ -72,3 +72,39 @@
   border-radius: 8px;
   font-style: italic;
 }
+
+
+.imageFigure {
+  margin: 2rem auto;
+  max-width: 500px;
+}
+
+.imageFigure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+.figCaption {
+  margin-top: 0.9rem;
+  padding: 0.9rem 1.2rem;
+  background: #faf7f2;
+  border-left: 4px solid #d97706; /* saffron */
+  border-radius: 8px;
+  color: #555;
+  font-size: 0.9rem;
+  line-height: 1.7;
+  text-align: left;
+}
+
+.figCaption strong {
+  display: block;
+  margin-bottom: 0.4rem;
+  color: #8b4513;
+  font-size: 0.95rem;
+}
+
+.figCaption em {
+  font-style: italic;
+}

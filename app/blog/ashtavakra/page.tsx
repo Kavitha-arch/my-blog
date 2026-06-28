@@ -1,22 +1,38 @@
 import BlogLayout from "../BlogLayout";
 import styles from "..//Dialoge.module.css";
 import Link from "next/link";
+import { VerseImage } from "@/app/components/katha/VerseImage";
 
 export default function AshtavakraPage() {
     return (
         <BlogLayout>
             <div>
                 <h1>When Desire Ends, The World Ends</h1>
+                <figure className={styles.imageFigure}>
+                    <VerseImage
+                        src="/images/maa/desire.png"
+                        alt="When Desire Ends, The World Ends"
+                        width={500}
+                        height={600}
+                    />
+
+                    <figcaption className={styles.figCaption}>
+                        Reimagining a timeless spiritual teaching through the symbolism of Maa Durga.
+                        <strong>Inspiration & Attribution:</strong> This artwork was inspired by a
+                        teaching illustration shared in the Facebook group <em>"Advaita and
+                            Non-Duality."</em> It has been reimagined with Maa Durga, the Asura, and the
+                        Deva to express similar spiritual principles through the lens of Sanatana
+                        Dharma. The original creator is unknown. If you know the original artist,
+                        please let me know so I can provide proper credit.
+                    </figcaption>
+                </figure>
 
                 {/* Core Idea */}
                 <section>
                     <h2>Core Idea</h2>
                     <ul>
                         <li>
-                            <strong>
-                                “When desire ends, the world ends”
-                            </strong>{" "}
-                            does not mean physical destruction.
+                            “When desire ends, the world ends”  does not mean physical destruction.
                         </li>
                         <li>
                             It refers to the end of the psychological world — the world created
@@ -113,7 +129,7 @@ export default function AshtavakraPage() {
                             <br></br>
                         </li>
                     </ul>
-                  
+
                 </section>
 
                 {/* Desire and Suffering */}
@@ -151,10 +167,15 @@ export default function AshtavakraPage() {
                         </li>
                     </ul>
                 </section>
-                  <Link
-                        href="/blog/brain/story"
-                        className="text-blue-600 underline hover:text-blue-800"
-                    >What does the Brain Say?</Link>
+                <Link
+                    href="/blog/brain/story"
+                    className="text-blue-600 underline hover:text-blue-800"
+                >What does the Brain Say?</Link>
+                <br/>
+                 <Link
+                    href="/blog/vasanas"
+                    className="text-blue-600 underline hover:text-blue-800"
+                >Vasanas?</Link>
             </div>
         </BlogLayout>
     );
