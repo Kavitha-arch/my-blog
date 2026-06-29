@@ -1,0 +1,199 @@
+.worksheetContainer {
+  max-width: 1200px;
+  margin: 3rem auto;
+  padding: 2.5rem;
+  background-color: #ffffff;
+  border-radius: 16px;
+  border: 2px dashed #cbd5e1;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.worksheetHeader h3 {
+  font-size: 1.5rem;
+  color: #0f172a;
+  margin: 0 0 0.5rem 0;
+}
+
+.worksheetHeader p {
+  color: #64748b;
+  margin: 0 0 2rem 0;
+  font-size: 0.95rem;
+}
+
+.progressTracker {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+.progressStep {
+  flex: 1;
+  text-align: center;
+  padding: 0.5rem;
+  background: #f1f5f9;
+  border-radius: 6px;
+  color: #94a3b8;
+  font-size: 0.85rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.activeStep {
+  background: #4f46e5;
+  color: #ffffff;
+}
+
+.stepContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.stepLabel {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #1e293b;
+  margin-bottom: 0.5rem;
+}
+
+.stepHint {
+  font-size: 0.9rem;
+  color: #64748b;
+  margin: 0 0 1rem 0;
+  font-style: italic;
+}
+
+.stepInput {
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 1rem;
+  color: #334155;
+  margin-bottom: 1.5rem;
+  outline: none;
+  font-family: inherit;
+  resize: vertical;
+}
+
+.stepInput:focus {
+  border-color: #6366f1;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
+}
+
+.buttonGroup {
+  display: flex;
+  gap: 1rem;
+}
+
+.nextButton, .resetButton {
+  background: #4f46e5;
+  color: #ffffff;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  align-self: flex-start;
+  transition: background 0.2s ease;
+}
+
+.nextButton:disabled {
+  background: #cbd5e1;
+  cursor: not-allowed;
+}
+
+.nextButton:not(:disabled):hover {
+  background: #4338ca;
+}
+
+.backButton {
+  background: #ffffff;
+  color: #475569;
+  border: 1px solid #cbd5e1;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.backButton:hover {
+  background: #f8fafc;
+}
+
+/* Meditative State Elements */
+.meditativeState {
+  align-items: center;
+  text-align: center;
+}
+
+.inquiryQuestion {
+  font-size: 1.75rem;
+  color: #4f46e5;
+  margin: 0 0 0.5rem 0;
+  font-weight: 700;
+}
+
+.inquiryAnswer {
+  font-size: 1.25rem;
+  color: #64748b;
+  margin: 0 0 2rem 0;
+}
+
+.coreInquiryBox {
+  background: #fafafa;
+  border: 1px solid #e2e8f0;
+  padding: 2rem;
+  border-radius: 12px;
+  max-width: 600px;
+  margin-bottom: 2rem;
+  box-shadow: inset 0 2px 4px rgba(0,0,0,0.02);
+}
+
+.coreInquiryBox h4 {
+  font-size: 1.5rem;
+  color: #0f172a;
+  margin: 0 0 1rem 0;
+  letter-spacing: 0.05em;
+}
+
+.silencePrompt {
+  color: #059669;
+  font-weight: 500;
+  margin-top: 1rem;
+}
+
+.summaryReviewBox {
+  width: 100%;
+  max-width: 600px;
+  text-align: left;
+  background: #f8fafc;
+  padding: 1.25rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  font-size: 0.9rem;
+}
+
+.summaryReviewBox h5 {
+  margin: 0 0 0.75rem 0;
+  color: #334155;
+}
+
+.summaryReviewBox ul {
+  margin: 0;
+  padding-left: 1.25rem;
+  color: #475569;
+}
+
+.summaryReviewBox li {
+  margin-bottom: 0.5rem;
+}
+
+.resetButton {
+  align-self: center;
+  background: #1e293b;
+}
+
+.resetButton:hover {
+  background: #0f172a;
+}

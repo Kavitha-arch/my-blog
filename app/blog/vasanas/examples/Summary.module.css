@@ -1,0 +1,66 @@
+.summaryContainer {
+  max-width: 1200px;
+  margin: 3rem auto;
+  padding: 2.5rem;
+  background-color: #f8fafc;
+  border-radius: 16px;
+  border: 1px solid #e2e8f0;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.summaryTitle {
+  font-size: 1.5rem;
+  color: #0f172a;
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+  font-weight: 700;
+}
+
+.summaryIntro {
+  color: #475569;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.summaryGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.summaryColumn h4 {
+  font-size: 1.1rem;
+  color: #4f46e5;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.summaryColumn p {
+  color: #334155;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.liberatedFooter {
+  background-color: #ecfdf5;
+  border-left: 4px solid #10b981;
+  padding: 1rem 1.25rem;
+  border-radius: 4px;
+  color: #065f46;
+  font-size: 0.95rem;
+}
+
+@media (max-width: 768px) {
+  .summaryContainer {
+    padding: 1.5rem;
+    margin: 1.5rem;
+  }
+  .summaryGrid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}

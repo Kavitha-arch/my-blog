@@ -66,4 +66,15 @@ body {
   scroll-behavior: smooth;
 }
 
+/* Global Utility Classes */
+.link-primary-underline {
+  color: #2563eb;             /* Same as Tailwind text-blue-600 */
+  text-decoration: underline;  /* Same as Tailwind underline */
+  transition: color 0.2s ease; /* For a smooth transition on hover */
+}
+
+.link-primary-underline:hover {
+  color: #1e40af;             /* Same as Tailwind hover:text-blue-800 */
+}
+
  

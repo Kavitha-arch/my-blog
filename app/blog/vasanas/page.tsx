@@ -3,6 +3,8 @@ import { VerseImage } from "@/app/components/katha/VerseImage";
 import BlogLayout from "../BlogLayout";
 import styles from "./Vasanas.module.css";
 
+import Link from "next/link";
+
 export default function VasanasPage() {
     return (
         <BlogLayout>
@@ -44,6 +46,17 @@ export default function VasanasPage() {
                         It is not merely a memory—it is the
                         <strong> inclination to respond in a particular way.</strong>
                     </p>
+                    <div className={styles.conceptBox}>
+                        <h2>  <Link
+                            href="/blog/vasanas/samskara"
+                            className={styles.blogLink}
+                        >Samskara</Link> vs. Vasana</h2>
+                        <p>
+                            <strong>Samskaras</strong> are the individual, raw subconscious impressions left behind by your past experiences.
+                            When multiple similar Samskaras bundle together, they form a powerful, active latent tendency called a <strong>Vasana</strong>.
+                            While a Samskara is the deep seed of a memory, a Vasana is the psychological instinct that actively drives your desires today.
+                        </p>
+                    </div>
                 </section>
 
                 {/* -------------------------------------- */}
@@ -205,41 +218,41 @@ export default function VasanasPage() {
                         <strong> good (shubha)</strong> vasanas, which purify
                         the mind and prepare it for Self-realization.
                     </p>
-
-                    <h3>Examples</h3>
-
+                    <h2>The 3 Impure Vasanas & Desire</h2>
                     <ul>
-                        <li>
-                            <strong>Recognition</strong> → Criticism feels
-                            deeply painful.
-                        </li>
+                        <li><strong>Loka Vasana (Worldly Desires):</strong>The deep-seated craving for social approval, fame, glory, power, honor, and validation from the outside world.</li>
 
-                        <li>
-                            <strong>Anger</strong> → Retaliation becomes the
-                            natural response.
-                        </li>
+                        <li><strong>Deha Vasana (Physical Desires): </strong>Attachments tied to the physical body, such as wanting physical beauty, extreme comfort, or longevity.</li>
 
-                        <li>
-                            <strong>Insecurity</strong> → Even gentle remarks
-                            feel hurtful.
-                        </li>
-
-                        <li>
-                            <strong>Compassion</strong> → One naturally thinks,
-                            "This person must be suffering."
-                        </li>
+                        <li><strong>Shastra Vasana (Intellectual Desires): </strong>An excessive obsession with accumulating information, scholarly pride, or winning debates just to prove superiority.</li>
                     </ul>
+                    <h3>The Cycle of Bondage</h3>
+                    <p>Your inner state operates in a continuous loop:   </p>
+                    <div className={styles.flowCard}>
+                        <p className={styles.flowText}>
+                            <span>Vasana (Latent Tendency)</span>
+                            <span className={styles.arrow}>→</span>
+                            <span>Kama (Desire)</span>
+                            <span className={styles.arrow}>→</span>
+                            <span>Karma (Action)</span>
+                            <span className={styles.arrow}>→</span>
+                            <span>"Reinforced Vasana"</span>
+                        </p>
+                    </div>
+                    <p>  These subtle impressions keep you bound to the cycle of Samsara (worldly illusion and rebirth)</p>
 
-                    <p>
-                        The first three strengthen the ego and reinforce the
-                        feeling of being a separate individual. Compassion, on
-                        the other hand, is a <strong>good (shubha) vasana</strong>.
-                        It quietens the mind and prepares it for Self-Enquiry.
-                    </p>
+                    {/* Client-side navigation link */}
+                    <Link
+                        href="/blog/vasanas/examples"
+                        className={styles.blogLink}
+                    >View Real-World Examples of the Cycle of Bondage →</Link>
+
+
+
 
                     <div className={styles.noteBox}>
 
-                        <h3>Ramana Maharshi's Deeper Teaching</h3>
+                        <h2>Ramana Maharshi's Deeper Teaching</h2>
 
                         <p>
                             Even good vasanas are still vasanas—they are
@@ -265,9 +278,9 @@ export default function VasanasPage() {
 
                     <div className={styles.flowBox}>
                         <p>Bad Vasanas</p>
-                        <p>↓</p>
+                        <span className={styles.arrow}>↓</span>
                         <p>Good Vasanas</p>
-                        <p>↓</p>
+                        <span className={styles.arrow}>↓</span>
                         <p>No Vasanas (Pure Self)</p>
                     </div>
 
@@ -317,7 +330,7 @@ export default function VasanasPage() {
                         <div className={styles.card}>
                             <h3>Advaita Vedanta Perspective</h3>
                             <p>Repeated thoughts and actions strengthen vasanas</p>
-                           <p>Self-enquiry weakens vasanas: "Who am I?" This turns the mind  inward, focusing on the root "I"-thought (aham vritti).</p>
+                            <p>Self-enquiry weakens vasanas: "Who am I?" This turns the mind  inward, focusing on the root "I"-thought (aham vritti).</p>
                             <p>
                                 The mind changes due to <strong>vasanas</strong> (latent tendencies).<br></br>
                                 These conditioning patterns shape thoughts and reactions, but you are

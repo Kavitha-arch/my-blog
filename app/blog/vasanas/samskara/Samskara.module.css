@@ -1,0 +1,55 @@
+.conceptBox {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #f1f5f9;
+  border-radius: 12px;
+  border-left: 5px solid #4f46e5;
+}
+
+.conceptTitle {
+  font-size: 1.3rem;
+  color: #1e293b;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.conceptText {
+  color: #475569;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.dualPerspectiveGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+.perspectiveBlock {
+  background: #ffffff;
+  padding: 1.25rem;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+}
+
+.perspectiveBlock h5 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  color: #4f46e5;
+  font-weight: 600;
+}
+
+.perspectiveBlock p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #334155;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .dualPerspectiveGrid {
+    grid-template-columns: 1fr;
+  }
+}

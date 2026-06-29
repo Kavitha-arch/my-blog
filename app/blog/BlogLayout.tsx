@@ -103,10 +103,10 @@ export default function BlogLayout({ children }: BlogLayoutProps) {
                 >
                   <li>
                     <Link
-                      href="/blog/ashtavakra"
+                      href="/blog/desire"
                       onClick={() => setMenuOpen(false)}
                     >
-                      Ashtavakra
+                      Desires
                     </Link>
                   </li>
                   <li>
@@ -114,15 +114,15 @@ export default function BlogLayout({ children }: BlogLayoutProps) {
                       href="/blog/brain/hijack"
                       onClick={() => setMenuOpen(false)}
                     >
-                      Hijack
+                      Brain
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="/blog/brain/story"
+                      href="/blog/vasanas"
                       onClick={() => setMenuOpen(false)}
                     >
-                      Story Telling
+                      Vasanas
                     </Link>
                   </li>
                 </ul>

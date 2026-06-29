@@ -7,7 +7,7 @@ export default function AshtavakraPage() {
     return (
         <BlogLayout>
             <div>
-                <h1>When Desire Ends, The World Ends</h1>
+                <h1>Rest as Pure Awareness</h1>
                 <figure className={styles.imageFigure}>
                     <VerseImage
                         src="/images/maa/desire.png"
@@ -29,7 +29,7 @@ export default function AshtavakraPage() {
 
                 {/* Core Idea */}
                 <section>
-                    <h2>Core Idea</h2>
+                    <h2>When Desire Ends, The World Ends</h2> 
                     <ul>
                         <li>
                             “When desire ends, the world ends”  does not mean physical destruction.
