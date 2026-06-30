@@ -105,3 +105,92 @@
     margin: 0.25rem 0;
   }
 }
+
+.liberatedCalloutBox {
+  max-width: 1200px;
+  margin: 2.5rem auto;
+  padding: 2rem;
+  background-color: #f0fdf4; /* Soft meditative emerald tint */
+  border: 1px solid #bbf7d0;
+  border-radius: 14px;
+  font-family: system-ui, -apple-system, sans-serif;
+  box-shadow: 0 4px 12px rgba(22, 163, 74, 0.03);
+}
+
+.calloutHeader {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.calloutBadge {
+  background-color: #16a34a;
+  color: #ffffff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 0.25rem 0.6rem;
+  border-radius: 4px;
+  letter-spacing: 0.05em;
+}
+
+.calloutHeader h4 {
+  font-size: 1.3rem;
+  color: #14532d;
+  margin: 0;
+  font-weight: 700;
+}
+
+.calloutBody {
+  color: #166534;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 0 0 1.25rem 0;
+}
+
+.calloutList {
+  margin: 0;
+  padding-left: 1.25rem;
+  color: #14532d;
+  font-size: 0.95rem;
+}
+
+.calloutList li {
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .liberatedCalloutBox {
+    padding: 1.5rem;
+    margin: 1.5rem;
+  }
+  .calloutHeader {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+}
+
+/* Beautiful rendering rules for raw Sanskrit script font spacing */
+.sanskritScript {
+  font-family: 'Noto Serif Devanagari', 'Georgia', serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #15803d;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+}
+
+.sanskritTranslation {
+  font-size: 0.9rem;
+  font-style: italic;
+  color: #166534;
+}
+
+@media (max-width: 768px) {
+  .sanskritScript {
+    font-size: 1.1rem;
+  }
+}

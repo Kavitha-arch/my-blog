@@ -1,8 +1,9 @@
 import BlogLayout from "../../BlogLayout";
 import { FlowCard, VasanaFlowContainer } from "@/app/components/journal/VasanaFlowContainer";
-import styles from "./Summary.module.css"; 
+import styles from "./Summary.module.css";
 import { BackButton } from "@/app/components/BackButton";
 import Link from "next/link";
+import { LiberatedPathCallout } from "@/app/components/journal/LiberatedPathCallout";
 
 export default function VasanasExamples() {
     return (
@@ -107,10 +108,30 @@ export default function VasanasExamples() {
                     </div>
                 </div>
             </article>
+
+            <section>
+                <div>
+                    <VasanaFlowContainer title="The Cycle Transformed" description="Moving from heavy internal friction to clear, witness-based outer execution.">
+
+                        {/* Your new Liberated Path flow card goes here */}
+                        <FlowCard
+                            vasana="An inherited, natural affinity for functional order, precision, and systemic fairness."
+                            kama="A clear, neutral intellect-driven recognition that an accounting or management error must be factualized."
+                            externalKarma="Nishkama Karma: Sending a clean, objective data email to the Manager and President. Patiently waiting for the official meeting to calmly state the yearly statement numbers without a personal demand for validation. Arjuna had to fight the battle, and Krishna asked him to do it—not by running away from the duty, but by standing up and fighting without emotional attachment to the fruits of the action."
+                            internalKarma="Absolute Stillness: 'If they are angry, so be it.' The mind refuses to ruminate or rehearse for months. External inefficiency is observed as mere weather, leaving the inner Self completely untouched."
+                            reinforced="Vasanakshaya: The weakening and thinning of the old, reactive subconscious seed. The mind successfully unlinks transactional fairness from its internal peace."
+                        />
+
+                    </VasanaFlowContainer>
+
+                    {/* Render the core summary text card underneath */}
+                    <LiberatedPathCallout />
+                </div>
+            </section>
             <Link
-                href="/blog/vasanas/worksheet" 
+                href="/blog/vasanas/worksheet"
                 className="link-primary-underline"
-            >Worksheet→</Link>  
+            >Worksheet→</Link>
         </BlogLayout >
 
     );
