@@ -9,7 +9,9 @@ export interface ReferenceEntry {
 
 export const references: ReferenceEntry[] = [
   {
-    website: ["https://www.holy-bhagavad-gita.org/chapter/7/verse/14/"],
+    website: ["https://www.holy-bhagavad-gita.org/chapter/7/verse/14/",
+      "https://www.grahgita.in/bhagavad-gita"
+    ],
     text: "Srimad Bhagavad Gita",
     description: [
       " My divine energy Maya, consisting of the three modes of nature, is very difficult to overcome. But those who surrender unto Me cross over it easily.॥",

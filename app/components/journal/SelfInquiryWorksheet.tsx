@@ -6,6 +6,7 @@ interface WorksheetState {
   trigger: string;
   egoStory: string;
   witnessObservation: string;
+  postiveObservation: string;
 }
 
 export const SelfInquiryWorksheet: React.FC = () => {
@@ -14,6 +15,7 @@ export const SelfInquiryWorksheet: React.FC = () => {
     trigger: '',
     egoStory: '',
     witnessObservation: '',
+    postiveObservation: '',
   });
   const [isInquiring, setIsInquiring] = useState<boolean>(false);
 
@@ -22,7 +24,7 @@ export const SelfInquiryWorksheet: React.FC = () => {
   };
 
   const resetWorksheet = () => {
-    setForm({ trigger: '', egoStory: '', witnessObservation: '' });
+    setForm({ trigger: '', egoStory: '', witnessObservation: '' ,postiveObservation: '' });
     setStep(1);
     setIsInquiring(false);
   };
@@ -36,9 +38,9 @@ export const SelfInquiryWorksheet: React.FC = () => {
 
       {/* Step Progress Tracker */}
       <div className={styles.progressTracker}>
-        {[1, 2, 3, 4].map((s) => (
-          <div 
-            key={s} 
+        {[1, 2, 3, 4, 5].map((s) => (
+          <div
+            key={s}
             className={`${styles.progressStep} ${step >= s ? styles.activeStep : ''}`}
           >
             Step {s}
@@ -60,9 +62,9 @@ export const SelfInquiryWorksheet: React.FC = () => {
             placeholder="Describe the objective external event facts..."
             rows={4}
           />
-          <button 
-            className={styles.nextButton} 
-            disabled={!form.trigger.trim()} 
+          <button
+            className={styles.nextButton}
+            disabled={!form.trigger.trim()}
             onClick={() => setStep(2)}
           >
             Analyze Mind's Reaction →
@@ -86,9 +88,9 @@ export const SelfInquiryWorksheet: React.FC = () => {
           />
           <div className={styles.buttonGroup}>
             <button className={styles.backButton} onClick={() => setStep(1)}>← Back</button>
-            <button 
-              className={styles.nextButton} 
-              disabled={!form.egoStory.trim()} 
+            <button
+              className={styles.nextButton}
+              disabled={!form.egoStory.trim()}
               onClick={() => setStep(3)}
             >
               Shift to the Witness →
@@ -113,9 +115,39 @@ export const SelfInquiryWorksheet: React.FC = () => {
           />
           <div className={styles.buttonGroup}>
             <button className={styles.backButton} onClick={() => setStep(2)}>← Back</button>
-            <button 
-              className={styles.nextButton} 
-              disabled={!form.witnessObservation.trim()} 
+            <button
+              className={styles.nextButton}
+              disabled={!form.witnessObservation.trim()}
+              onClick={() => {
+                setStep(4);
+                setIsInquiring(true);
+              }}
+            >
+              Patanjali  →
+            </button>
+          </div>
+        </div>
+      )}
+
+      {/* Step 4: Patanjali: Imagine the Opposite */}
+      {step === 4 && (
+        <div className={styles.stepContent}>
+          <label className={styles.stepLabel}>
+            Step 4: Imagine the  opposite: Rewrite the situation as a positive scene.
+          </label>
+          <p className={styles.stepHint}>Example: "They are busy and have missed the error" or "They have themselves been subject to such unfair rules and are not aware"</p>
+          <textarea
+            className={styles.stepInput}
+            value={form.postiveObservation}
+            onChange={(e) => handleInputChange('postiveObservation', e.target.value)}
+            placeholder="State the facts in a positive way, turning the bad scene into a good one"
+            rows={4}
+          />
+          <div className={styles.buttonGroup}>
+            <button className={styles.backButton} onClick={() => setStep(2)}>← Back</button>
+            <button
+              className={styles.nextButton}
+              disabled={!form.postiveObservation.trim()}
               onClick={() => {
                 setStep(4);
                 setIsInquiring(true);
@@ -127,12 +159,12 @@ export const SelfInquiryWorksheet: React.FC = () => {
         </div>
       )}
 
-      {/* Step 4: The Ultimate Ramana Inquiry */}
-      {step === 4 && (
+      {/* Step 5: The Ultimate Ramana Inquiry */}
+      {step === 5 && (
         <div className={`${styles.stepContent} ${styles.meditativeState}`}>
           <h4 className={styles.inquiryQuestion}>"To whom does this agitation arise?"</h4>
           <p className={styles.inquiryAnswer}>The mind answers: <em>"To me."</em></p>
-          
+
           <div className={styles.coreInquiryBox}>
             <h4>"Then, Who Am I?"</h4>
             <p>
@@ -149,6 +181,7 @@ export const SelfInquiryWorksheet: React.FC = () => {
               <li><strong>The Material Trigger:</strong> {form.trigger}</li>
               <li><strong>The Ego Hook:</strong> {form.egoStory}</li>
               <li><strong>The Impersonal Reality:</strong> {form.witnessObservation}</li>
+              <li><strong>The Postive Attitude:</strong> {form.postiveObservation}</li>
             </ul>
           </div>
 
@@ -157,6 +190,8 @@ export const SelfInquiryWorksheet: React.FC = () => {
           </button>
         </div>
       )}
+
+
     </div>
   );
 };

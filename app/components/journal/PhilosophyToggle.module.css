@@ -1,0 +1,64 @@
+.tabButtonGroup {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  border-bottom: 2px solid #e2e8f0;
+  padding-bottom: 0.75rem;
+}
+
+.tabButton {
+  background: transparent;
+  border: none;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #64748b;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  position: relative;
+}
+
+.tabButton:hover {
+  color: #4f46e5;
+}
+
+/* Active selection underline highlight state */
+.tabActive {
+  color: #4f46e5;
+}
+
+.tabActive::after {
+  content: '';
+  position: absolute;
+  bottom: -14px;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background-color: #4f46e5;
+  border-radius: 9999px;
+}
+
+.tabContentArea {
+  min-height: 180px; /* Prevents layout layout jumps when toggling views */
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 768px) {
+  .tabButtonGroup {
+    flex-direction: column;
+    gap: 0.5rem;
+    border-bottom: none;
+  }
+  .tabActive::after {
+    display: none;
+  }
+  .tabActive {
+    background: #f1f5f9;
+    border-radius: 6px;
+  }
+}

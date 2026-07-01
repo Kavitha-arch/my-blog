@@ -240,16 +240,7 @@ export default function VasanasPage() {
                         </p>
                     </div>
                     <p>  These subtle impressions keep you bound to the cycle of Samsara (worldly illusion and rebirth)</p>
-
-                    {/* Client-side navigation link */}
-                    <Link
-                        href="/blog/vasanas/examples"
-                        className={styles.blogLink}
-                    >View Real-World Examples of the Cycle of Bondage →</Link>
-
-
-
-
+ 
                     <div className={styles.noteBox}>
 
                         <h2>Ramana Maharshi's Deeper Teaching</h2>
@@ -344,6 +335,12 @@ export default function VasanasPage() {
                         </div>
                     </div>
                 </section>
+                   {/* Client-side navigation link */}
+                    <h2><Link
+                        href="/blog/vasanas/freedom"
+                        className={styles.blogLink}
+                    >Way to Freedom→</Link></h2>
+
             </article>
         </BlogLayout>
     );

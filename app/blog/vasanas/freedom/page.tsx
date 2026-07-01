@@ -128,10 +128,11 @@ export default function VasanasExamples() {
                     <LiberatedPathCallout />
                 </div>
             </section>
-            <Link
-                href="/blog/vasanas/worksheet"
+            <h2><Link
+                href="/blog/vasanas/patanjali"
                 className="link-primary-underline"
-            >Worksheet→</Link>
+            >Patanjali Yoga</Link></h2>
+          
         </BlogLayout >
 
     );
