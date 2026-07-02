@@ -1,9 +1,9 @@
 import BlogLayout from "../../BlogLayout";
-import { FlowCard, VasanaFlowContainer } from "@/app/components/journal/VasanaFlowContainer";
+import { FlowCard, VasanaFlowContainer } from "@/app/components/scriptures/VasanaFlowContainer";
 import styles from "./Summary.module.css";
 import { BackButton } from "@/app/components/BackButton";
 import Link from "next/link";
-import { LiberatedPathCallout } from "@/app/components/journal/LiberatedPathCallout";
+import { LiberatedPathCallout } from "@/app/components/scriptures/LiberatedPathCallout";
 
 export default function VasanasExamples() {
     return (

@@ -1,6 +1,7 @@
 "use client"
 import React, { useState } from 'react';
 import styles from './Worksheet.module.css';
+import { PhilosophyToggle } from './PhilosophyToggle';
 
 interface WorksheetState {
   trigger: string;
@@ -24,7 +25,7 @@ export const SelfInquiryWorksheet: React.FC = () => {
   };
 
   const resetWorksheet = () => {
-    setForm({ trigger: '', egoStory: '', witnessObservation: '' ,postiveObservation: '' });
+    setForm({ trigger: '', egoStory: '', witnessObservation: '', postiveObservation: '' });
     setStep(1);
     setIsInquiring(false);
   };
@@ -133,14 +134,14 @@ export const SelfInquiryWorksheet: React.FC = () => {
       {step === 4 && (
         <div className={styles.stepContent}>
           <label className={styles.stepLabel}>
-            Step 4: Imagine the  opposite: Rewrite the situation as a positive scene.
+            Step 4: Cultivate the opposite: Shift from the reactive thought to its balancing quality.
           </label>
-          <p className={styles.stepHint}>Example: "They are busy and have missed the error" or "They have themselves been subject to such unfair rules and are not aware"</p>
+          <p className={styles.stepHint}>Example: If anger arises, cultivate patience or understanding. If fear arises, cultivate steadiness and trust.</p>
           <textarea
             className={styles.stepInput}
             value={form.postiveObservation}
             onChange={(e) => handleInputChange('postiveObservation', e.target.value)}
-            placeholder="State the facts in a positive way, turning the bad scene into a good one"
+            placeholder="Pause. Take a slow breath. What opposite mental quality which is calm or balanced in nature can you bring in before responding?"
             rows={4}
           />
           <div className={styles.buttonGroup}>
@@ -149,7 +150,7 @@ export const SelfInquiryWorksheet: React.FC = () => {
               className={styles.nextButton}
               disabled={!form.postiveObservation.trim()}
               onClick={() => {
-                setStep(4);
+                setStep(5);
                 setIsInquiring(true);
               }}
             >
@@ -162,21 +163,13 @@ export const SelfInquiryWorksheet: React.FC = () => {
       {/* Step 5: The Ultimate Ramana Inquiry */}
       {step === 5 && (
         <div className={`${styles.stepContent} ${styles.meditativeState}`}>
-          <h4 className={styles.inquiryQuestion}>"To whom does this agitation arise?"</h4>
-          <p className={styles.inquiryAnswer}>The mind answers: <em>"To me."</em></p>
 
-          <div className={styles.coreInquiryBox}>
-            <h4>"Then, Who Am I?"</h4>
-            <p>
-              Do not look for a verbal answer. Turn your attention away from the ledger, away from the family property, and away from your thoughts. Turn your attention 180-degrees backward onto the one who is looking.
-            </p>
-            <p className={styles.silencePrompt}>
-              Rest in that silent awareness. You are the unaffected space in which these temporary thoughts appear and disappear.
-            </p>
-          </div>
+
+
+          <PhilosophyToggle />
 
           <div className={styles.summaryReviewBox}>
-            <h5>Your Inquiry Mapping Summary:</h5>
+            <h2>Your Inquiry Mapping Summary:</h2>
             <ul>
               <li><strong>The Material Trigger:</strong> {form.trigger}</li>
               <li><strong>The Ego Hook:</strong> {form.egoStory}</li>

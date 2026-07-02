@@ -2,7 +2,7 @@
 import { VerseImage } from "@/app/components/katha/VerseImage";
 import BlogLayout from "../../BlogLayout";
 import styles from '../samskara/Samskara.module.css';
-import { PhilosophyToggle } from '@/app/components/journal/PhilosophyToggle';
+import { PhilosophyToggle } from '@/app/components/scriptures/PhilosophyToggle';
 import Link from "next/link";
 
 export default function PatanjaliPage() {
@@ -11,7 +11,7 @@ export default function PatanjaliPage() {
              <h1>Patanjali Yoga</h1>
             <figure className={styles.imageFigure}>
                 <VerseImage
-                    src="/images/journal/patanjali.png"
+                    src="/images/scriptures/patanjali.png"
                     alt="When Desire Ends, The World Ends"
                     width={500}
                     height={600}

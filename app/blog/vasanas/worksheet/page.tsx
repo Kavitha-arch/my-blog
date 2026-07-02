@@ -1,4 +1,4 @@
-import { SelfInquiryWorksheet } from "@/app/components/journal/SelfInquiryWorksheet";
+import { SelfInquiryWorksheet } from "@/app/components/scriptures/SelfInquiryWorksheet";
 import BlogLayout from "../../BlogLayout";
 import { BackButton } from "@/app/components/BackButton";
 

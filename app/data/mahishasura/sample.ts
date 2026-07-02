@@ -85,5 +85,6 @@ const verseX = {
         { sanskrit: "<Word 12>", meaning: "<Meaning 12>" }
     ]
 };
-
+ 
 export default verseX;
+ 

@@ -14,7 +14,7 @@ export default function VasanasPage() {
 
                 <figure className={styles.imageFigure}>
                     <VerseImage
-                        src="/images/journal/vasana.png"
+                        src="/images/scriptures/vasana.png"
                         alt="When Desire Ends, The World Ends"
                         width={500}
                         height={600}
