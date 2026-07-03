@@ -1,6 +1,7 @@
 import { SelfInquiryWorksheet } from "@/app/components/scriptures/SelfInquiryWorksheet";
 import BlogLayout from "../../BlogLayout";
 import { BackButton } from "@/app/components/BackButton";
+import Link from "next/link";
 
 export default function WorksheetPage() {
     return (
@@ -11,6 +12,11 @@ export default function WorksheetPage() {
             <section>
                 <SelfInquiryWorksheet />
             </section>
+              <h2><Link
+                        href="/blog/vasanas/kleshas"
+                        className="link-primary-underline"
+                    >Kleshas</Link></h2>
+
         </BlogLayout>
     );
 }

@@ -19,10 +19,11 @@ const verseX = {
 
         "<strong>X.3:</strong> Explanation of the third line with <span class='highlight' data-sanskrit='WORD'>key concepts</span> highlighted.",
 
-        "<strong>X.4:</strong> Explanation of the fourth line with <span class='highlight' data-sanskrit='WORD'>important epithets</span> highlighted."
+        "<strong>X.4:</strong> O Divine Mother <span class='highlight' data-sanskrit='जय जय हे महिषासुरमर्दिनि'> Victory, victory to You, O Slayer of Mahishasura </span>, <span class='highlight' data-sanskrit='रम्यकपर्दिनि'> O Beautiful-haired One </span>, <span class='highlight' data-sanskrit='शैलसुते'> O Daughter of the Mountain (Parvati) </span>. <br />"
+
     ],
 
-   
+
     symbols: [
         "[HEADER] Mythological Conte11t: Brief summary of the episode or event being referenced in the verse.",
 
@@ -85,6 +86,5 @@ const verseX = {
         { sanskrit: "<Word 12>", meaning: "<Meaning 12>" }
     ]
 };
- 
+
 export default verseX;
- 

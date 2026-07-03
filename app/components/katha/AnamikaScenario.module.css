@@ -1,0 +1,110 @@
+.sandboxWrapper {
+  max-width: 1000px;
+  margin: 3.5rem auto;
+  padding: 2.5rem;
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.protagonistBadge {
+  display: inline-block;
+  background-color: #0f172a;
+  color: #ffffff;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 0.25rem 0.6rem;
+  border-radius: 4px;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.75rem;
+}
+
+.sandboxHeader h4 {
+  font-size: 1.4rem;
+  color: #1e293b;
+  margin: 0 0 0.25rem 0;
+  font-weight: 800;
+}
+
+.sandboxHeader p {
+  color: #64748b;
+  margin: 0 0 2rem 0;
+  font-size: 0.95rem;
+}
+
+.stateToggleGroup {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.sandboxStateBtn {
+  flex: 1;
+  padding: 0.85rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  background-color: #f8fafc;
+  color: #475569;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btnAlertActive {
+  background-color: #fef2f2;
+  color: #b91c1c;
+  border-color: #fca5a5;
+  box-shadow: 0 2px 4px rgba(185, 28, 28, 0.05);
+}
+
+.btnBlissActive {
+  background-color: #fffbeb;
+  color: #b45309;
+  border-color: #fde68a;
+  box-shadow: 0 2px 4px rgba(180, 83, 9, 0.05);
+}
+
+.sandboxDisplayPanel {
+  min-height: 180px;
+  background-color: #f8fafc;
+  padding: 1.75rem;
+  border-radius: 12px;
+  border: 1px solid #f1f5f9;
+}
+
+.panelEgoState h5 {
+  margin: 0 0 1rem 0;
+  color: #991b1b;
+  font-size: 1.1rem;
+}
+
+.panelBlissState h5 {
+  margin: 0 0 1rem 0;
+  color: #92400e;
+  font-size: 1.1rem;
+}
+
+.sandboxDisplayPanel ul {
+  margin: 0;
+  padding-left: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.sandboxDisplayPanel li {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #334155;
+}
+
+@media (max-width: 640px) {
+  .stateToggleGroup {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
