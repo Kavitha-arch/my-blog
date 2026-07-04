@@ -4,6 +4,8 @@ import verse10 from "./verse10";
 import verse11 from "./verse11";
 import verse12 from "./verse12";
 import verse13 from "./verse13";
+import verse14 from "./verse14";
+import verse15 from "./verse15";
 import verse2 from "./verse2";
 import verse3 from "./verse3";
 import verse4 from "./verse4";
@@ -50,6 +52,8 @@ export const verses: Record<string, Verse> = {
   "verse-11": verse11,
   "verse-12": verse12,
   "verse-13": verse13,
+  "verse-14": verse14,
+  "verse-15": verse15,
 } as const;
 
 export const verseOrder: VerseSlug[] = [
@@ -67,6 +71,8 @@ export const verseOrder: VerseSlug[] = [
   "verse-11",
   "verse-12",
   "verse-13",
+  "verse-14",
+  "verse-15",
 ];
 
 export type VerseSlug = keyof typeof verses;

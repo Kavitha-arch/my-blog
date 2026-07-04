@@ -10,22 +10,22 @@ export default function AnamikaInternalCrisisPage() {
     <BlogLayout>
       <article>
         <h1 className={styles.title}>
-            Clearing Kleshas
-          </h1>
-         <figure className={styles.imageFigure}>
-                <VerseImage
-                    src="/images/scriptures/anamika.png"
-                    alt="When Desire Ends, The World Ends"
-                    width={500}
-                    height={600}
-                />
+          Clearing Kleshas
+        </h1>
+        <figure className={styles.imageFigure}>
+          <VerseImage
+            src="/images/scriptures/anamika.png"
+            alt="When Desire Ends, The World Ends"
+            width={500}
+            height={600}
+          />
 
-                <figcaption className={styles.figCaption}>
-                    <strong>वितर्कबाधने प्रतिपक्षभावनम्॥ </strong>
-                    <strong>"Vitarka-badhane pratipaksha-bhavanam"</strong>
-                    <blockquote>Translation: When disturbed by negative, agitating, or destructive thoughts, consciously cultivate the exact opposite thought. </blockquote>
-                </figcaption>
-            </figure>
+          <figcaption className={styles.figCaption}>
+            <strong>वितर्कबाधने प्रतिपक्षभावनम्॥ </strong>
+            <strong>"Vitarka-badhane pratipaksha-bhavanam"</strong>
+            <blockquote>Translation: When disturbed by negative, agitating, or destructive thoughts, consciously cultivate the exact opposite thought. </blockquote>
+          </figcaption>
+        </figure>
         <header className={styles.header}>
           <p className={styles.category}>Spiritual Psychology</p>
 
@@ -50,6 +50,49 @@ export default function AnamikaInternalCrisisPage() {
         </header>
 
         <div className={`prose prose-lg max-w-none ${styles.content}`}>
+
+
+          <div className={styles.projectIntroductionCard}>
+            <div className={styles.introMetadataLine}>
+              <span className={styles.frameworkBadge}>Methodology Note</span>
+              <span className={styles.verseOrderIndicator}>Beginning at Verse 13 (Earlier verses to be retroactively mapped)</span>
+            </div>
+
+            <h3 className={styles.introMainHeading}>The Architecture of the Inner Mirror</h3>
+
+            <div className={styles.introTextBody}>
+              <p>
+                Mauna was once Anamika&apos;s closest friend who is now family, but over time they
+                drifted apart. The reasons no longer matter—perhaps Anamika made
+                mistakes, perhaps Mauna did, or perhaps both played a part. What
+                matters is the present moment. They are not trying to rebuild their
+                friendship, yet circumstances require them to continue living
+                together for a time. The challenge, therefore, is not how to become
+                friends again, but how to find inner peace and remain spiritually
+                grounded while sharing the same space.
+              </p>
+
+              <div className={styles.symbolismCalloutGrid}>
+                <div className={styles.symbolismBlock}>
+                  <h5>The Protagonist: Anamika (&ldquo;The Nameless&rdquo;)</h5>
+                  <p>
+                    Her name symbolizes the ultimate spiritual trap: we grow deeply attached to our names,
+                    which represent our faces, bodies, and educations as a rigid identity. The truth is
+                    that none of these are our true identity. <strong>&ldquo;I AM&rdquo;</strong> is the only absolute truth.
+                  </p>
+                </div>
+
+                <div className={styles.symbolismBlock}>
+                  <h5>The Antagonist: Mauna (&ldquo;Silence&rdquo;)</h5>
+                  <p>
+                    Her name is explicitly chosen to represent that the demon does not exist externally.
+                    The demon is silent. We, within our own heads, are the ones giving a loud voice to an
+                    asura which actually, or probably, is not even saying or thinking what we imagine.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
           <h2>1. The Anatomy of Anamika&apos;s Internal Crisis</h2>
 
           <p>
@@ -57,18 +100,9 @@ export default function AnamikaInternalCrisisPage() {
             dedicated seeker, she meditates, studies philosophy, and sincerely
             attempts to invoke the expansive presence of Durga.
           </p>
-
           <p>
-            Mauna was once Anamika&apos;s closest friend, but over time they
-            drifted apart. The reasons no longer matter—perhaps Anamika made
-            mistakes, perhaps Mauna did, or perhaps both played a part. What
-            matters is the present moment. They are not trying to rebuild their
-            friendship, yet circumstances require them to continue living
-            together for a time. The challenge, therefore, is not how to become
-            friends again, but how to find inner peace and remain spiritually
-            grounded while sharing the same space.
+            The scenarios unfold now as follows with verse 13 explained in their context and continue in verse 14 onwards
           </p>
-
           <p>
             However, the moment she enters the shared kitchen and encounters
             Mauna, a physical shift occurs. Her posture stiffens, her throat
@@ -275,6 +309,12 @@ export default function AnamikaInternalCrisisPage() {
       </article>
 
       <AnamikaScenarioSandbox />
+      <Link
+        href="/blog/vasanas/anamika/"
+        className="link-primary-underline"
+      >
+        Lessons
+      </Link>
     </BlogLayout>
   );
 }

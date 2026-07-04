@@ -55,8 +55,14 @@ export default function MainDurgaPage() {
               <li>The Devas naturally seek <strong>order and balance rather than unlimited domination</strong></li>
               <li>Most Asuras dwell in the Patalas or Underworld realms, which contrary to common misconception are not “hells” or hellish, but are actually described in the Hindu scriptures as beautiful paradises surpassing the Devas’ Heaven in their exquisite pleasures. </li>
             </ul>
+
+          
           </section>
-          <h3>Verses</h3>
+          <h3>Verses Explained with the Scenario of {" "}
+             <Link href="/blog/vasanas/kleshas">
+              Anamika
+            </Link>
+          </h3>
           <ul>
             {Object.values(verses).map((verse: any, index: number) => {
               const isVerse2 = verse.slug === "verse2" || index === 3;
