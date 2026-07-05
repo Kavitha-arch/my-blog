@@ -114,7 +114,7 @@ export default function BlogLayout({ children }: BlogLayoutProps) {
                       href="/blog/vasanas/kleshas"
                       onClick={() => setMenuOpen(false)}
                     >
-                      Kleshas
+                      Anamika
                     </Link>
                   </li>
                   <li>

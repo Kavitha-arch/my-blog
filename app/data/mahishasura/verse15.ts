@@ -3,7 +3,7 @@ const verse15 = {
 
     title: "Verse 15: करमुरलीरव",
 
-    description: "15. Maa Durga: The Harmonious Inner Melody",
+    description: "15. Maa Durga: Voice(Flute) when Free of Vasanas - sweeter than cuckoo",
 
     sanskrit: `
        करमुरलीरव वीजितकूजित लज्जितकोकिल मञ्जुमते
@@ -55,7 +55,7 @@ const verse15 = {
     ],
 
     philosophy: [
-         "When we are observing a klesha in someone, pause and observe if the spectacles you are wearing are dirty—clean your own klesha through introspection first. Only a flute that is perfectly crafted and empty can emit beautiful music. Once we, through the grace of Maa Durga and deep meditation, can clear our own vasanas, we will become a perfect flute—empty and unblocked. This allows the divine consciousness  to pass through you effortlessly and emit the most beautiful music, putting even the sweetest cuckoos to total shame."
+         "When we are observing a klesha in someone, pause and observe if the Lake(Mind) is muddy ,clear your own klesha through introspection first. When the Lake of the Mind Is Clear, It Reflects the Divine Within; When the Flute Is Free of Vasanas, It Sings the Music of the Soul.Grace of Maa Durga and deep meditation, will make us a perfect flute—empty and unblocked. This allows the divine consciousness  to pass through you effortlessly and emit the most beautiful music, putting even the sweetest cuckoos to total shame."
 
     ],
 

@@ -13,6 +13,7 @@ const verseX = {
     `,
 
     meaning: [
+         "<span class='highlight' data-sanskrit='WORD'></span> ",
         "<strong>X.1:</strong> Explanation of the first line with <span class='highlight' data-sanskrit='WORD'>important Sanskrit terms</span> highlighted.",
 
         "<strong>X.2:</strong> Explanation of the second line with <span class='highlight' data-sanskrit='WORD'>relevant Sanskrit words</span> highlighted.",
@@ -36,7 +37,10 @@ const verseX = {
         "[BULLET] Core Lesson: The central takeaway for modern life and practice.",
 
         "[SOURCE] 1. Vedadhara: <a href='https://sutradhar.parogoodearth.com/sutradhar/moon-rhythms-goddess-the-moon' target='_blank'>\"Origin of Devas, Daityas, and Danavas\"</a> — Moon Rhythms: Goddess & the Moon",
-
+ "[BULLET]  कटितटपीतदुकूलविचित्रमयुखतिरस्कृतचन्द्ररुचे — ",
+          "[BULLET]    ", 
+          "[BULLET]   ", 
+          "[BULLET]   ",
 
     ],
 

@@ -28,7 +28,7 @@ export default function AnamikaPage() {
                         </div>
                     </div>
                 </section>
-              
+
                 <section><div className={styles.esotericRealizationBox}>
                     <div className={styles.realizationHeader}>
                         <span className={styles.realizationIcon}>✦</span>
@@ -72,6 +72,42 @@ export default function AnamikaPage() {
                         by dissolving your righteous stories, and let your presence become a completely clear channel for the Goddess's peace.
                     </div>
                 </div>
+                </section>
+                <section><div className={styles.esotericRealizationBox}>
+                    <div className={styles.realizationHeader}>
+                        <span className={styles.realizationIcon}>✦</span>
+                        <h4>Verse 16: Transcending Duality via the Center of Equanimity</h4>
+                    </div>
+
+                    <p className={styles.realizationText}>
+                        "Any Yin and Yang, be it good and bad, success and failure, or happiness and sadness, we as humans
+                        obviously strive for one and fear, hate, or avoid the other. It is this very resistance which causes us
+                        to enjoy the good only briefly, while for the majority of our lives we are actually resisting or ruminating
+                        over the other. Pursue Artha and Kama strictly as per Dharma, but surrender the fruits—whether they bring
+                        good or bad, sickness or health—at the feet of the Mother. She is the ultimate source of both; it is all Her Maya.
+                        Transcend and develop equanimity. Then, that surrender will reflect a calm, cool, soothing moonlight from the Mother&apos;s
+                        toenails, surpassing the absolute best of joys in this universe. This realization allows one to walk through life like
+                        a majestic elephant, rooted in our true nature of <strong>&ldquo;I AM,&rdquo;</strong> solid as the golden Meru Mountain,
+                        leading us eventually to our ultimate destination: Moksha."
+                    </p>
+
+                    <div className={styles.realizationFooter}>
+                        <strong>Anamika's Sovereign Shift:</strong> Mauna's behavior is just a passing wave of Yang. Stop fighting it.
+                        Drop the resistance, execute your physical duties of the day as Dharma, and ground your awareness at the feet of the Mother.
+                        Let the cool moonlight of equanimity protect your aura, making you as unshakeable as Mount Meru right in front of the cooking fire.
+                    </div>
+                </div>
+                </section>
+                <section><div className={styles.esotericRealizationBox}>
+                    <p>Progress Summary: Establishes Anamika as the formless "I AM" and Mauna as the silent, imagined projection of the ego.</p><ul>
+                        <li>Verse 13: Anamika recognizes her inner strength, shifting from a victim trying to survive to an overflowing, radiant powerhouse of spiritual energy and natural bliss.</li>
+
+                        <li>Verse 14: She pulls her focus inward and upward to the Ajna Chakra, relaxing her face and refusing to chase or validate the "mirage" of Mauna’s external flaws.</li>
+
+                        <li>Verse 15: She cleanses the spectacles of her mind, hollowing herself out completely like an empty flute so that her words and presence emit pure cosmic harmony.</li>
+
+                        <li>Verse 16: She drops her resistance to the dualities of life, surrendering both the good and the bad to the Mother's feet, finding an unshakeable, mountain-like boundary of peace (Upeksha) that outshines all external chaos.</li>
+                    </ul></div>
                 </section>
             </article>
         </BlogLayout>

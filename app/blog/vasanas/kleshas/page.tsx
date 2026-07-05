@@ -10,20 +10,31 @@ export default function AnamikaInternalCrisisPage() {
     <BlogLayout>
       <article>
         <h1 className={styles.title}>
-          Clearing Kleshas
+            Anamika&apos;s Journey Through the Kleshas
         </h1>
         <figure className={styles.imageFigure}>
           <VerseImage
-            src="/images/scriptures/anamika.png"
+            src="/images/scriptures/anamikamouna.png"
             alt="When Desire Ends, The World Ends"
             width={500}
             height={600}
           />
 
           <figcaption className={styles.figCaption}>
-            <strong>वितर्कबाधने प्रतिपक्षभावनम्॥ </strong>
-            <strong>"Vitarka-badhane pratipaksha-bhavanam"</strong>
-            <blockquote>Translation: When disturbed by negative, agitating, or destructive thoughts, consciously cultivate the exact opposite thought. </blockquote>
+            
+              Anamika is disturbed by the smell of fish while performing Pooja, yet she transcends the distraction through surrender, devotion, and unwavering focus on Maa Durga.
+            
+
+            <br />
+
+            <strong>वितर्कबाधने प्रतिपक्षभावनम्॥</strong>
+            <br />
+            <strong>Vitarka-bādhane pratipakṣa-bhāvanam</strong>
+
+            <blockquote>
+              Translation: When troubled by negative, disturbing, or conflicting thoughts,
+              consciously cultivate the opposite attitude or higher thought.
+            </blockquote>
           </figcaption>
         </figure>
         <header className={styles.header}>
@@ -32,7 +43,7 @@ export default function AnamikaInternalCrisisPage() {
           <h2>
             From Reaction to Radiance:
             <br />
-            Anamika&apos;s Journey Through the Kleshas
+          
           </h2>
 
           <p className={styles.subtitle}>
