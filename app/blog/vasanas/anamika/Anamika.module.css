@@ -68,3 +68,166 @@
     line-height: 1.6;
   }
 }
+
+/* ==========================================================================
+   Evolutionary Philosophy Card Styles (Extension)
+   ========================================================================== */
+
+.evolutionaryPhilosophyCard {
+  max-width: 1100px;
+  margin: 3rem auto;
+  padding: 2.5rem;
+  background: linear-gradient(135deg, #fffdf5 0%, #fffbeb 100%); /* Deep warm golden aura gradient matching your box */
+  border: 1px solid #fde68a;
+  border-radius: 20px;
+  box-shadow: 0 20px 25px -5px rgba(217, 119, 6, 0.05), 0 10px 10px -5px rgba(217, 119, 6, 0.03);
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.philosophyHeader {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 2rem;
+}
+
+.philosophyIcon {
+  color: #d97706; /* Golden amber */
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.philosophyHeader h4 {
+  font-size: 1.35rem;
+  color: #78350f;
+  margin: 0;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+/* Timeline Layout */
+.evolutionTimeline {
+  position: relative;
+  margin-bottom: 2.5rem;
+  padding-left: 1.5rem;
+}
+
+/* Vertical connector line representing the axis of evolution */
+.evolutionTimeline::before {
+  content: '';
+  position: absolute;
+  left: 7px;
+  top: 15px;
+  bottom: 15px;
+  width: 2px;
+  background: linear-gradient(to bottom, #fde68a, #d97706, #fde68a);
+}
+
+.timelineStep {
+  position: relative;
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.timelineStep:last-child {
+  margin-bottom: 0;
+}
+
+/* Step badges matching your accent profile */
+.stepBadge {
+  flex-shrink: 0;
+  width: 55px;
+  height: 28px;
+  background-color: #b45309;
+  color: #ffffff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  box-shadow: 0 4px 6px -1px rgba(180, 83, 9, 0.2);
+  z-index: 1;
+}
+
+.stepContent {
+  flex-grow: 1;
+}
+
+.stepContent h5 {
+  font-size: 1.15rem;
+  color: #78350f;
+  margin: 0 0 0.5rem 0;
+  font-weight: 700;
+}
+
+.stepContent p {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #451a03;
+  margin: 0;
+  text-align: justify;
+}
+
+.stepContent em {
+  color: #b45309;
+  font-style: italic;
+  font-weight: 600;
+}
+
+/* Context Application Footer Block */
+.kitchenApplicationFooter {
+  background-color: #ffffff;
+  border: 1px solid #fef3c7;
+  padding: 1.25rem 1.5rem;
+  border-radius: 12px;
+  font-size: 0.95rem;
+  color: #78350f;
+  line-height: 1.6;
+}
+
+.kitchenApplicationFooter strong {
+  color: #b45309;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.05em;
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+
+/* ==========================================================================
+   Responsive Adaptations
+   ========================================================================== */
+@media (max-width: 768px) {
+  .evolutionaryPhilosophyCard {
+    padding: 1.5rem;
+    margin: 1.5rem;
+  }
+  
+  .evolutionTimeline {
+    padding-left: 0;
+  }
+  
+  /* Drop the line on small screens for a cleaner stacked block look */
+  .evolutionTimeline::before {
+    display: none;
+  }
+  
+  .timelineStep {
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-bottom: 2.5rem;
+  }
+  
+  .stepBadge {
+    width: 65px;
+  }
+  
+  .stepContent p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+}

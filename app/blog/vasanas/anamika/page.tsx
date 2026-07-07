@@ -107,7 +107,96 @@ export default function AnamikaPage() {
                         <li>Verse 15: She cleanses the spectacles of her mind, hollowing herself out completely like an empty flute so that her words and presence emit pure cosmic harmony.</li>
 
                         <li>Verse 16: She drops her resistance to the dualities of life, surrendering both the good and the bad to the Mother's feet, finding an unshakeable, mountain-like boundary of peace (Upeksha) that outshines all external chaos.</li>
+
+                        <li>Verse 17: Navigating the active battle of aversions (the fish smell), taming pride via Kartikeya's wisdom, and ascending to Merchant Samadhi's equanimity.</li>
+
+                        <li>Verse 18: The Final Abidance. Realizing her mind has fully become the Lotus Abode—perfectly untouched by the mud of worldly conditions while living right in the middle of them.</li>
                     </ul></div>
+                </section>
+
+                <section>
+                    <div className={styles.evolutionaryPhilosophyCard}>
+                        <div className={styles.philosophyHeader}>
+                            <span className={styles.philosophyIcon}>👁️</span>
+                            <h4>Verse 17: The Soul&apos;s Three-Step Evolution to Living Liberation</h4>
+                        </div>
+
+                        <div className={styles.evolutionTimeline}>
+                            {/* STEP 1 */}
+                            <div className={styles.timelineStep}>
+                                <div className={styles.stepBadge}>Step 1</div>
+                                <div className={styles.stepContent}>
+                                    <h5>Spiritual Warfare &amp; Discernment (The Warrior Son)</h5>
+                                    <p>
+                                        A human being begins engaged in the intense battles of their own ignorant mind and the exhausting
+                                        desire for perfection from others—fighting both internal and external <em>Asuras</em>. At this stage,
+                                        we must invoke the energy of Lord Kartikeya. His spear (<em>Vel</em>) represents razor-sharp spiritual wisdom
+                                        used to cut clean through ignorance, while His peacock symbolizes the complete conquest, taming, and mounting
+                                        of our own pride, vanity, and uncontrolled reactive desires.
+                                    </p>
+                                </div>
+                            </div>
+
+                            {/* STEP 2 */}
+                            <div className={styles.timelineStep}>
+                                <div className={styles.stepBadge}>Step 2</div>
+                                <div className={styles.stepContent}>
+                                    <h5>The Illusion of Righteous Control (King Suratha)</h5>
+                                    <p>
+                                        Having controlled the hyperactive mind, we next encounter the state of <strong>King Suratha</strong>.
+                                        Here, the spiritual ego still struggles: we can never accept failure or rejection, we want to always win,
+                                        and we hope to make our environment imperishable—desperately chasing the illusion of constant, unchanging worldly happiness.
+                                        We demand that our external world remain perfectly structured and pure.
+                                    </p>
+                                </div>
+                            </div>
+
+                            {/* STEP 3 */}
+                            <div className={styles.timelineStep}>
+                                <div className={styles.stepBadge}>Step 3</div>
+                                <div className={styles.stepContent}>
+                                    <h5>Absolute Equanimity &amp; Living Liberation (Merchant Samadhi)</h5>
+                                    <p>
+                                        Finally, we must transcend into the state of <strong>Merchant Samadhi</strong>. Restless with the fleeting nature
+                                        of worldly kingdoms, he seeks the ultimate Truth to be firmly established in absolute equanimity (<em>Sama</em>).
+                                        This radical surrender of preferences allows us to be the undisputed King of both the inner mind and the outer world,
+                                        completely unshakeable irrespective of any number of births—achieving true <strong>Moksha as we live</strong> (<em>Jivanmukti</em>).
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className={styles.kitchenApplicationFooter}>
+                            <strong>Anamika&apos;s Ultimate Ascent:</strong> When Mauna cooks fish, Anamika steps off King Suratha&apos;s throne
+                            of demanding a perfect environment. She wields Kartikeya&apos;s Vel to pierce her own irritation, mounts the peacock of her pride,
+                            and steps into Merchant Samadhi&apos;s unshakeable equanimity. The fish smell remains, but her suffering dissolves into the infinite sky of &ldquo;I AM.&rdquo;
+                        </div>
+                    </div>
+
+                </section>
+                <section><div className={styles.esotericRealizationBox}>
+                    <div className={styles.realizationHeader}>
+                        <span className={styles.realizationIcon}>🪷</span>
+                        <h4>Verse 18: Blooming Unveiled as the Untouched Lotus Abode</h4>
+                    </div>
+
+                    <p className={styles.realizationText}>
+                        "Now that the devotee, through daily worship and unwavering devotion, has totally surrendered at the lotus feet
+                        of Maa Durga, the journey with the Goddess has brought about a profound realization. Through Her boundless,
+                        infinite compassion, the Mother has permanently transformed the inner world of the devotee into a
+                        <strong>Kamalānilaya</strong>—a pristine Lotus Abode which is the supreme state of living Liberation.
+                        A lotus dynamically blooms in the middle of a messy, muddy pond, yet it stays completely afloat, pristine, and
+                        absolutely untouched by the surrounding mud, remaining so extraordinarily beautiful. In the exact same way, the seeker
+                        remains beautifully anchored in the world, yet entirely unaffected by its passing storms and friction."
+                    </p>
+
+                    <div className={styles.realizationFooter}>
+                        <strong>Anamika&apos;s Ultimate Dawn:</strong> The shared kitchen, the crackling stove, and the heavy smell of Mauna&apos;s
+                        cooked fish are simply the mud of the worldly pond. Anamika stops wishing for the mud to disappear. She rests deeply
+                        at the Mother&apos;s feet within her own heart. Her mind blooms as the radiant lotus—fully present, deeply peaceful,
+                        and entirely untouched by her roommate&apos;s conditioning. She has found Moksha right here in the everyday world.
+                    </div>
+                </div>
                 </section>
             </article>
         </BlogLayout>
