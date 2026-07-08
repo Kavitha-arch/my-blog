@@ -198,6 +198,48 @@ export default function AnamikaPage() {
                     </div>
                 </div>
                 </section>
+                <section>
+                    <div className={styles.esotericRealizationBox}>
+                        <div className={styles.realizationHeader}>
+                            <span className={styles.realizationIcon}>🔱</span>
+                            <h4>Verse 19.1: Washing the Battleground of Broken Memories</h4>
+                        </div>
+
+                        <div className={styles.realizationFooter}>
+                            <strong>Anamika&apos;s Psychological Shift:</strong> Trapped in an exhausting mental loop, Anamika&apos;s mind
+                            acts as a courtroom, obsessively litigating why her friendship with Mauna was lost and who was at fault. As she chants
+                            this verse, she stops searching for blame. She uses her awareness to pour the golden waters (<strong>Kanaka-jalaiḥ</strong>)
+                            of non-judgment over her painful past. By washing away the need to be right, she drops the legal case of the ego.
+                            The lost friendship is no longer a source of suffering; it is simply a passing wave on the pristine stage of the Mother&apos;s play.
+                        </div>
+                    </div>
+                    <div className={styles.esotericRealizationBox}>
+                        <div className={styles.realizationHeader}>
+                            <span className={styles.realizationIcon}>🧠</span>
+                            <h4>Verse 19: Breaking the Biological Stone via Cosmic Intelligence</h4>
+                        </div>
+
+                        <p className={styles.realizationText}>
+                            "Once we have tasted the nectar of pleasure or the bitter sting of pain—whether sensory or emotional—the memory
+                            remains deeply etched within our nervous system like a carving on stone. Our instinctive urge to pray for more
+                            pleasures and the urgent removal of pain by pouring golden water at the Goddess&apos; feet is merely our biological
+                            and psychological conditioning. It ties an invisible stone around our neck, demanding total compliance, while a
+                            blindly conforming society dictates our life and happiness. True Devotion is never about performing transactional
+                            rituals to barter for joys or avoid suffering. Instead, through total surrender and silence, a devotee allows the
+                            <strong>Goddess Intelligence</strong> to surface. This supreme awareness calmly observes the chaotic drama playing out
+                            both around and within us, systematically dissolving the <em>Kleshas</em> (afflictions) to unveil the absolute Truth."
+                        </p>
+
+                        <div className={styles.realizationFooter}>
+                            <strong>The Courtroom Dissolved:</strong> Anamika realizes that her exhausting mental loop—obsessively litigating
+                            why her friendship with Mauna broke and who was at fault—is just the biological stone trying to drag her down. She stops
+                            begging the Mother to fix the relationship or make Mauna understand her. She drops the transactional prayer entirely.
+                            By sitting in absolute silence, she lets the Mother&apos;s vast intelligence surface. She watches her own thoughts pass like
+                            clouds, completely dissolving the kleshas of resentment and pride, stepping into an effortless, unshakeable state of living liberation.
+                        </div>
+                    </div>
+
+                </section>
             </article>
         </BlogLayout>
     );

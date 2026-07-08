@@ -14,7 +14,7 @@ export default function MainDurgaPage() {
 
         <h1>Mahishasura Mardhini Stotram</h1>
         <div>
-          <h3>ॐ Raksha Raksha Jagan Matha Sarva Shakthi Jaya Durga ॐ</h3>
+          <h3>ॐ रक्ष रक्ष जगन्माते सर्वशक्ते जय दुर्गे। ॐ</h3>
           <VerseImage src="/images/maa/maadurga.png"
             alt="Maa Durga" width={300} height={100} ></VerseImage>
           <section

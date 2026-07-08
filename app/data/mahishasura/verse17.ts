@@ -80,7 +80,7 @@ const verse17 = {
 
     image1: "/images/maa/maaverse17.png",
 
-    imagepnt: "/images/maa/maaverse17.png",
+    imagepnt: "/images/maa/pntverse17.png",
 
      stanzaData : [
     // Line 17.1: The Splendor that Eclipses and Commands

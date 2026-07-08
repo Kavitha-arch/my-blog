@@ -3,7 +3,7 @@ const verse16 = {
 
     title: "Verse 16: कटितटपीत",
 
-    description: "16. Maa Durga - ",
+    description: "16. Maa Durga - Lay all at Her feet—joy and pain alike. Be Meru in stillness, elephant in strength.",
 
     sanskrit: `
         कटितटपीत दुकूलविचित्र मयुखतिरस्कृत चन्द्ररुचे

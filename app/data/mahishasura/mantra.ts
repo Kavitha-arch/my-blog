@@ -95,7 +95,7 @@ const mantra = {
 
     image1: "/images/maa/maadurgamantra.png",
 
-    imagepnt: "/images/maa/pntmantra.png",
+    imagepnt: "/images/maa/pntverse18a.png",
 
     audio: "/audio/maverse1.wav"
 };
