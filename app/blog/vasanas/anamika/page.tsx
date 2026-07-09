@@ -99,7 +99,8 @@ export default function AnamikaPage() {
                 </div>
                 </section>
                 <section><div className={styles.esotericRealizationBox}>
-                    <p>Progress Summary: Establishes Anamika as the formless "I AM" and Mauna as the silent, imagined projection of the ego.</p><ul>
+                    <p>Progress Summary: Establishes Anamika as the formless "I AM" and Mauna as the silent, imagined projection of the ego.</p>
+                    <ul>
                         <li>Verse 13: Anamika recognizes her inner strength, shifting from a victim trying to survive to an overflowing, radiant powerhouse of spiritual energy and natural bliss.</li>
 
                         <li>Verse 14: She pulls her focus inward and upward to the Ajna Chakra, relaxing her face and refusing to chase or validate the "mirage" of Mauna’s external flaws.</li>
@@ -111,6 +112,11 @@ export default function AnamikaPage() {
                         <li>Verse 17: Navigating the active battle of aversions (the fish smell), taming pride via Kartikeya's wisdom, and ascending to Merchant Samadhi's equanimity.</li>
 
                         <li>Verse 18: The Final Abidance. Realizing her mind has fully become the Lotus Abode—perfectly untouched by the mud of worldly conditions while living right in the middle of them.</li>
+                       
+                        <li>Verse 19: Cleansing the historical archives of the brain, closing the internal courtroom of blame, and letting go of who was at fault.</li>
+                       
+                        <li>Verse 20: The Grand Climax. Embracing the scars on the moon, dismantling the perfectionist super-ego, and realizing that we are all but star dust flowing gracefully back to the ocean of God-Consciousness.</li>
+
                     </ul></div>
                 </section>
 
@@ -236,6 +242,52 @@ export default function AnamikaPage() {
                             begging the Mother to fix the relationship or make Mauna understand her. She drops the transactional prayer entirely.
                             By sitting in absolute silence, she lets the Mother&apos;s vast intelligence surface. She watches her own thoughts pass like
                             clouds, completely dissolving the kleshas of resentment and pride, stepping into an effortless, unshakeable state of living liberation.
+                        </div>
+                    </div>
+
+                </section>
+                <section>
+                    <div className={styles.esotericRealizationBox}>
+                        <div className={styles.realizationHeader}>
+                            <span className={styles.realizationIcon}>🌙</span>
+                            <h4>Verse 20.1: The Wisdom of the Scarred Moon &amp; Radical Forgiveness</h4>
+                        </div>
+
+
+
+                        <div className={styles.realizationFooter}>
+                            <strong>Anamika&apos;s Psychological Breakthrough:</strong> Anamika has been trapped in the exhausting curse of
+                            perfectionism—demanding absolute efficiency, strict financial control, and unyielding honesty from everyone around her.
+                            When others trip, she fills with resentment; when she makes a mistake, she suffocates under heavy guilt. Through this verse,
+                            the Mother delivers a profound truth: the physical moon is not a perfect shining sphere—it is covered in scars, craters, and dark
+                            marks—yet the entire world loves it for its exquisite, cooling moonlight. Anamika realizes that her obsessive demand for perfection
+                            is the ultimate tarnish (<strong>Sakalaṁ Malam</strong>). By aligning with the Mother, she drops her rigid gavel, embraces
+                            the human craters within herself and Mauna, and allows radical forgiveness (<strong>Kūlayate</strong>) to bring her turbulent mind back to its peaceful shores.
+                        </div>
+                    </div>
+                    <div className={styles.esotericRealizationBox}>
+                        <div className={styles.realizationHeader}>
+                            <span className={styles.realizationIcon}>✨</span>
+                            <h4>The Ultimate Awakening: Flowing Rivers, Star Dust, and Sovereign Truth</h4>
+                        </div>
+
+                        <p className={styles.realizationText}>
+                            "This precious human birth is not a sterile testing ground for forced perfection, but a magnificent, fleeting
+                            opportunity to experience the ultimate bliss of existence. Like a wild, graceful river, we must learn to fluidly flow
+                            around every worldly obstacle, effortlessly enjoying the majestic journey of ups and downs. By remaining deeply
+                            aware of our own infinite Witness Consciousness, we recognize that the cosmic Source that created us will always
+                            exquisitely care for us and guide us—if only we will lovingly pray and surrender our rigid preferences to Them.
+                            We whisper to the hyper-critical, punishing, and perfectionist ego: <em>&lsquo;Are we all but star dust? Suffer no more
+                                under the weight of your own illusions.&rsquo;</em> Drop the heavy gavel, release the exhausting need for control,
+                            and rest beautifully in your absolute, unshakeable <strong>TRUTH</strong>."
+                        </p>
+
+                        <div className={styles.realizationFooter}>
+                            <strong>The Courtroom Evaporated:</strong> Anamika sits on her swing beneath the night sky, watching the river twist
+                            effortlessly around the central rock shrine. Her mind is completely still. She looks at Maa Durga&apos;s face in the cratered
+                            moon and smiles. The frantic demand for a flawless life, a perfect relationship, and error-free rooms dissolves into the wind.
+                            She is not an isolated, failing human; she is star dust experiencing the cosmic dance. She breathes out, forgives everything,
+                            and steps fully into her eternal, living liberation.
                         </div>
                     </div>
 

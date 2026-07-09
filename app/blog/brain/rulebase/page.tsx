@@ -209,7 +209,7 @@ export default function RuleBasePage() {
             <h3>Grounding line that’s neurologically accurate</h3>
             <blockquote>
                 <em>This reaction makes sense given my history.<br />
-                    But right now, I am safe enough to choose.</em>
+                    I can recognize unhealthy patterns earlier, set boundaries, and handle disappointment without being destroyed.</em>
             </blockquote>
         </BlogLayout>
     );
