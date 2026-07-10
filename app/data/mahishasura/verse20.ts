@@ -3,7 +3,7 @@ const verse20 = {
 
     title: "Verse 20: तव विमलेन्दुकुलं",
 
-    description: "20. Maa Durga - The Consciousness that embraces imperfections and guides us to Shiva,the eternal source of pure consciousness.",
+    description: "20. Maa Durga - The Consciousness that embraces imperfections and guides us to Shiva,the eternal source of pure consciousness.🔱✨🌙",
 
     sanskrit: `
         तव विमलेन्दुकुलं वदनेन्दुमलं सकलं ननु कूलयते
@@ -63,7 +63,7 @@ const verse20 = {
     ],
 
     philosophy: [
-         "This precious human birth is not a sterile testing ground for forced perfection, but a magnificent, fleeting opportunity to experience the ultimate bliss of existence. Like a wild, graceful river, we must learn to fluidly flow around every worldly obstacle, effortlessly enjoying the majestic journey of ups and downs. By remaining deeply aware of our own infinite Witness Consciousness, we recognize that the cosmic Source that created us will always exquisitely care for us and guide us—if only we will lovingly pray and surrender our rigid preferences to Them. We whisper to the hyper-critical, punishing, and perfectionist ego: <em>&lsquo;Are we all but star dust? Suffer no more under the weight of your own illusions.&rsquo;</em> Drop the heavy gavel, release the exhausting need for control, and rest beautifully in your absolute, unshakeable <strong>TRUTH</strong>." 
+        "This precious human birth is not a sterile testing ground for forced perfection, but a magnificent, fleeting opportunity to experience the ultimate bliss of existence. Like a wild, graceful river, we must learn to fluidly flow around every worldly obstacle, effortlessly enjoying the majestic journey of ups and downs. By remaining deeply aware of our own infinite Witness Consciousness, we recognize that the cosmic Source that created us will always exquisitely care for us and guide us—if only we will lovingly pray and surrender our rigid preferences to Them. We whisper to the hyper-critical, punishing, and perfectionist ego: <em>&lsquo;Are we all but star dust? Suffer no more under the weight of your own illusions.&rsquo;</em> Drop the heavy gavel, release the exhausting need for control, and rest beautifully in your absolute, unshakeable <strong>TRUTH</strong>.May your mind always remain beautifully rested at the Mother's feet inside your heart. 🔱✨🌙"
     ],
 
     reflection: [
@@ -72,13 +72,77 @@ const verse20 = {
         "The Invalidation of the Ego ('We Are All But Stardust'):The perfectionist ego is hyper-fixated on its own tiny, localized importance, treating every mistake as an existential crisis. Your realization shatters this cage with cosmic perspective. In the grand canvas of the universe, our bodies, our mistakes, and our rigid social definitions are woven out of the exact same star-stuff as the moon and the trees. When Anamika looks at the cratered moon and realizes she is just stardust, the heavy gavel drops from her hand. The illusion of a permanent, unblemished earthly kingdom (King Suratha's trap) completely evaporates into light.",
 
         "The Absolute Safety of Surrender:You note that the Source that created us will ultimately care for us and guide us, if only we gracefully surrender our rigid preferences. By resting her attention on the Shiva Lingam in the middle of the river—the symbol of the absolute, unchanging consciousness (Sat-Chit-Ananda)—Anamika realizes she is never alone, never unsafe, and never truly separated from the Whole.",
- 
+
     ],
 
     image1: "/images/maa/maaverse20.png",
 
     imagepnt: "/images/maa/pntverse20.png",
     stanzaData: [
+        // Line 20.1
+        {
+            sanskrit: "तव विमलेन्दुकुलं",
+            meaning: "Your spotless, moon-like radiance."
+        },
+        {
+            sanskrit: "वदनेन्दुमलं",
+            meaning: "The pure beauty of Your moon-like face."
+        },
+        {
+            sanskrit: "सकलं ननु कूलयते",
+            meaning: "Indeed brings peace, purity, and well-being to all."
+        },
+
+        // Line 20.2
+        {
+            sanskrit: "किमु पुरुहूतपुरीन्दुमुखी",
+            meaning: "Then what need is there even for the moon-faced maidens of Indra's celestial city?"
+        },
+        {
+            sanskrit: "सुमुखीभिरसौ",
+            meaning: "Together with those beautiful and charming celestial women."
+        },
+        {
+            sanskrit: "विमुखीक्रियते",
+            meaning: "Who could ever turn away from You or compare with Your beauty?"
+        },
+
+        // Line 20.3
+        {
+            sanskrit: "मम तु मतं",
+            meaning: "But in my humble opinion."
+        },
+        {
+            sanskrit: "शिवनामधने",
+            meaning: "O treasure of the auspicious name of Shiva."
+        },
+        {
+            sanskrit: "भवती कृपया",
+            meaning: "By Your boundless compassion."
+        },
+        {
+            sanskrit: "किमुत क्रियते",
+            meaning: "What indeed is impossible to accomplish?"
+        },
+
+        // Line 20.4
+        {
+            sanskrit: "जय जय हे",
+            meaning: "Victory! Victory to You!"
+        },
+        {
+            sanskrit: "महिषासुरमर्दिनि",
+            meaning: "O Slayer of the buffalo demon Mahishasura."
+        },
+        {
+            sanskrit: "रम्यकपर्दिनि",
+            meaning: "O Beautifully tressed Consort of Shiva."
+        },
+        {
+            sanskrit: "शैलसुते",
+            meaning: "O Daughter of the Mountain."
+        },
+        
         // Line 20.1: The Wisdom of the Scarred Moon and Radical Forgiveness
         {
             sanskrit: "तव विमलेन्दुकुलं",
@@ -132,20 +196,6 @@ const verse20 = {
             sanskrit: "मम किं न शिवे",
             meaning: "O Auspicious Mother, what human flaw or emotional rejection could ever have the power to diminish me?"
         },
-
-        // Line 20.4: The Triumphant Final Chorus of the Fully Liberated Heart
-        {
-            sanskrit: "जय जय हे",
-            meaning: "Victory! Victory to You, the ultimate anchor of unshakeable clarity!"
-        },
-        {
-            sanskrit: "महिषासुरमर्दिनि",
-            meaning: "O Slayer of the buffalo demon Mahishasura (the rigid, punishing, and hyper-critical ego)."
-        },
-        {
-            sanskrit: "रम्यकपर्दिनिशैलसुते",
-            meaning: "O Daughter of the unshakeable Mountain, adorned with beautifully braided, elegant tresses."
-        }
     ]
 
 
