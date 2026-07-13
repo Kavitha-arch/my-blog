@@ -7,19 +7,27 @@ const mantra = {
 
     sanskrit: `
     
-      दैवी ह्येषा गुणमयी मम माया दुरत्यया ।
-      मामेव ये प्रपद्यन्ते मायामेतां तरन्ति ते ॥ 14॥
-      *****************************
+      
+    ********* मन्त्रम् १***************
       ॐ दुं दुर्गायै नमः  
-      *****************************
-      चितिरूपेण या कृत्स्नमेतद्व्याप्य स्थिता जगत् ।नमस्तस्यै नमस्तस्यै नमस्तस्यै नमो नमः ॥ ३४ ॥
+    ******** मन्त्रम् २****************    
+      सर्वमंगल मांगल्ये शिवे सर्वार्थ साधिके।
+      शरण्ये त्र्यम्बके गौरि नारायणि नमोऽस्तु ते॥,
+    ******** मन्त्रम् ३****************      
+      या देवी सर्वभूतेषु शक्ति-रूपेण संस्थिता।
+      नमस्तस्यै नमस्तस्यै नमस्तस्यै नमो नमः॥
 
 `,
 
     meaning: [
-        "BG 7.14: My divine energy Maya, consisting of the three modes of nature, is very difficult to overcome. But those who surrender unto Me cross over it easily.॥",
-        'Om Dum Durgayei Namaha (ॐ दुं दुर्गायै नमः) is a powerful Sanskrit mantra that honors Goddess Durga, the Divine Mother, and invokes her divine protection',
-        "DM 5.34 To that Divine Mother who pervades and stabilizes this entire universe in the form of Pure Consciousness (Chiti-Rūpeṇa), salutations to Her, salutations to Her, salutations to Her again and again!"
+        "<strong>“मननात् त्रायते इति मन्त्रः”</strong>",
+        "<em>A mantra is that which, through sustained contemplation and repetition (mananāt), protects (trāyatē) the seeker from suffering, bondage, and the cycle of birth and death (saṃsāra). </em>",
+        " <strong>मन्त्रम् १. The Daily Protection Mantra</strong>  ",
+        "I bow to the Divine Mother Durga, who protects her devotees and destroys all difficulties.",
+        " <strong> मन्त्रम् २. The Universal Blessing Mantra </strong>",
+        "Salutations to the auspicious one, who bestows all blessings, fulfills every desire, gives refuge, and holds three eyes. Oh Narayani, I bow to you. ",
+        " <strong>मन्त्रम् ३. The Power and Energy Mantra </strong>",
+        "To the Goddess who resides in all beings in the form of power and divine energy, I bow to her, I bow to her, I bow to her again and again.",
     ],
 
     symbols: [
@@ -33,20 +41,20 @@ const mantra = {
         "[PARAGRAPH] The world of conditioned experience, shaped by the three guṇas, is difficult to rise above. Yet those who wholeheartedly take refuge in the Divine can transcend its binding influence. In this understanding, Durga is not an independent opposing force but a manifestation of the Divine's power (Māyā Śakti). She governs the material realm, administering both its rewards and challenges. For those attached to worldly pursuits, she maintains the conditions of material existence; for those turning toward spiritual realization, she is said to aid their progress by fostering detachment, discernment, and ultimately helping them move beyond the limitations of material consciousness.",
         "[INTRO]  <strong>*******************</strong>",
 
- 
+
 
         "[HEADER] PART 2:Overcoming the Demons Through Devotion to Maa Durga ",
         "[INTRO]  <strong>ॐ दुं दुर्गायै नमः  ",
-       
+
         "[PARAGRAPH] In the scriptural narrative, the demons Madhu (मधु) and Kaitabha (कैटभ) arise from the impurity (मल, mala) associated with the ear of Lord Vishnu (विष्णु) while he rests in yogic sleep (योगनिद्रा, yoganidrā). When Brahma (ब्रह्मा), representing awakened intelligence or discriminative intellect (बुद्धि, buddhi), invokes the Divine Mother, Mahāmāyā (महामाया) withdraws her power of sleep from Vishnu, enabling him to confront the demons. Yet even after a prolonged battle, they cannot be defeated until Mahāmāyā herself deludes them with pride and self-conceit (अहंकार, ahaṃkāra).",
 
         "[PARAGRAPH] Philosophically, this can be understood as an allegory of the inner spiritual struggle. The Tamas (तमस्) of ignorance and delusion gives rise to Rāga (राग), or attachment, symbolized by Madhu (मधु). Likewise, the Rajas (रजस्) of restlessness and agitation gives rise to Dveṣa (द्वेष), or aversion, symbolized by Kaitabha (कैटभ). Similarly, Mahishasura (महिषासुर) symbolizes the powerful and shape-shifting ego (अहंकार, ahaṃkāra) that continually reasserts itself.",
 
         "[PARAGRAPH] The deeper lesson is that attachment (राग, rāga), aversion (द्वेष, dveṣa), and ego (अहंकार, ahaṃkāra) cannot be conquered merely by the ordinary mind acting through its own limited power. Intellectual understanding (बुद्धि, buddhi) alone is insufficient. Liberation requires surrender to the Divine Energy (शक्ति, śakti), from which arises Vairāgya (वैराग्य), or true detachment. Through Vairāgya (वैराग्य), one gains the clarity to see beyond Māyā (माया), the veiling power that causes the impermanent to appear permanent and the unreal to appear real. Only then can the forces of attachment (राग, rāga), aversion (द्वेष, dveṣa), and ego (अहंकार, ahaṃkāra) be fully dissolved.",
 
-        
+
         "[HEADER] PART 3:  Devi Mahatmya Chapter 5, Verse 34",
-       
+
         "[INTRO]  <strong> चितिरूपेण या कृत्स्नमेतद्व्याप्य स्थिता जगत् ।",
         "[INTRO]  <strong> नमस्तस्यै नमस्तस्यै नमस्तस्यै नमो नमः ॥ ३४ ॥",
         "[INTRO]  When you surrender your local ego-conflict to the Goddess, your awareness expands to its natural state: Chiti-Rūpa (the form of pure cosmic consciousness). You realize that the beauty, the arts, the innocent maidens, and the tranquil forest in the verse 13 of MM are not separate external objects—they are all temporary expressions of your own true, expanded Self, radiating joy effortlessly to everything around it",

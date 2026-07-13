@@ -1,51 +1,65 @@
 const meditate = {
-    slug: "verse-22",
+  slug: "verse-22",
 
-    title: "Durga Contemplation",
+  title: "Dṛg-Dṛśya Viveka",
 
-    description: "Maa Durga - The Feminine Energy which will protect us always",
+  description: "Shiva is the Sākṣī by which I know. Durga is the Śakti through which I experience. Both are expressions of the one reality",
 
-    sanskrit: `
+  sanskrit: `
+    
+      ******Dṛg-Dṛśya Viveka**********
+      रूपं दृश्यं लोचनं दृक्
+      तद्दृश्यं दृक् तु मानसम् ।
+      दृश्या धीवृत्तयः साक्षी
+      दृगेव न तु दृश्यते ॥ 
 
-    ********* मन्त्रम् १***************
-      ॐ दुं दुर्गायै नमः  
-    ******** मन्त्रम् २****************    
-      सर्वमंगल मांगल्ये शिवे सर्वार्थ साधिके।
-      शरण्ये त्र्यम्बके गौरि नारायणि नमोऽस्तु ते॥,
-    ******** मन्त्रम् ३****************      
-      या देवी सर्वभूतेषु शक्ति-रूपेण संस्थिता।
-      नमस्तस्यै नमस्तस्यै नमस्तस्यै नमो नमः॥
-
+      ******** BG 7.14****************    
+      दैवी ह्येषा गुणमयी मम माया दुरत्यया ।
+      मामेव ये प्रपद्यन्ते मायामेतां तरन्ति ते ॥ 14॥
 `,
 
-    meaning: [
-        "<strong>“मननात् त्रायते इति मन्त्रः”</strong>",
-        "<em>A mantra is that which, through sustained contemplation and repetition (mananāt), protects (trāyatē) the seeker from suffering, bondage, and the cycle of birth and death (saṃsāra). </em>",
-        " <strong>मन्त्रम् १. The Daily Protection Mantra</strong>  ",
-        "I bow to the Divine Mother Durga, who protects her devotees and destroys all difficulties.",
-        " <strong> मन्त्रम् २. The Universal Blessing Mantra </strong>",
-        "Salutations to the auspicious one, who bestows all blessings, fulfills every desire, gives refuge, and holds three eyes. Oh Narayani, I bow to you. ", 
-        " <strong>मन्त्रम् ३. The Power and Energy Mantra </strong>",
-        "To the Goddess who resides in all beings in the form of power and divine energy, I bow to her, I bow to her, I bow to her again and again.",
+  meaning: [
+    "<strong>१. Dṛg-Dṛśya Viveka (Discrimination between the Seer and the Seen)</strong>",
+    "Forms are objects of perception; the eyes are the perceiver.",
+    "The eyes themselves are perceived by the mind.",
+    "The modifications of the intellect/mind are objects of perception;",
+    "the Sākṣī is the perceiver and is never an object of perception.",
 
-    ],
 
-    symbols: [  ],
+    "<em>The movements of the mind are occurring in awareness. Thoughts, emotions, memories, and reactions are seen. Therefore, they are not the ultimate seer.</em>",
 
-    philosophy: [
-        "I pray to the Goddess to help me find the path to know her truly",
+    "<strong>२. BG 7.14: Surrender and Bhakthi</strong>",
+    "BG 7.14: My divine energy Maya, consisting of the three modes of nature, is very difficult to overcome. But those who surrender unto Me cross over it easily.॥",
 
-    ],
+    
+    "<em>The Tigress and Her Cub: Meditation and awareness are to be cultivated as early as possible with daily devotion and prayers. Bhakti (loving devotion) is for the ones who are unable to dedicate themselves whole-heartedly to Jnana (the strict path of analytical wisdom). Therefore, in this verse, the Lord Krishna asks to surrende to him</em>",
 
-    reflection: [
- 
-    ],
+  ],
 
-    image1: "/images/maa/meditate.png",
+  symbols: [
+    "Life consists of changing situations, events, relationships, opportunities, and challenges. It is not designed to provide uninterrupted comfort or happiness.",
+    "A seeker—or anyone who wishes to live with greater peace—can cultivate the habit of remembering the Sākṣī, the witnessing awareness, not only during crises but also during ordinary moments throughout the day. Regularly recognizing 'I am aware of this experience' makes it easier to remain steady when difficulties arise.",
+    "The role of the Sākṣī is not to force acceptance or suppress emotions. Rather, it creates a space between the experience and the reaction. In that space, the mind can move from worry, anger, fear, or sadness toward clearer understanding and wiser action. Sometimes the situation can be changed; sometimes it cannot. In either case, one is less likely to be completely carried away by the mind's immediate reactions.",
+    "This approach may not eliminate every problem, but it can foster a deeper sense of inner stability and peace, independent of changing circumstances.",
+    "Afterward, it is also valuable to reflect: 'I noticed my reaction. I paused. I responded more wisely than I might have before.' From a psychological perspective, consciously acknowledging such progress reinforces helpful mental habits and makes them more likely to recur. From a Vedāntic perspective, it also strengthens discrimination (viveka) and reduces habitual identification with the mind.",
+  ],
 
-    imagepnt: "/images/maa/meditate.png",
+  philosophy: [
+    "Śiva (Sākṣī) without Durgā (Śakti) is inert; Śakti without Śiva is directionless. The battles of life—much like the shifting forms of Mahiṣāsura—manifest as a continuous flow of challenging situations, emotions, and thoughts. Through the dynamic power of Śakti, my body and mind naturally experience pleasure, pain, worry, or joy. My practice is to repeatedly remember that I am the Sākṣī—the witnessing awareness and stillness of Śiva that observes these inner battles but is never wounded by them. Slaying our inner demons does not mean suppressing emotions; it means creating the space to move from blind reaction to wise response. This practice keeps me balanced in the fierce movement of Śakti while deeply rooted in the peace of Śiva, gradually weakening old patterns to claim true inner freedom."
+  ],
 
-    audio: "/audio/maverse1.wav"
+  reflection: [
+
+    "Rewarding the Brain",
+
+    "Neuroscience suggests that reflecting on successful coping can reinforce adaptive neural pathways. Vedānta would frame the same process differently: repeated recognition of the witness and repeated wise responses weaken habitual reactions (vāsanās) and strengthen steadiness (samatva). The two perspectives are compatible—they simply describe the process at different levels. One speaks in terms of brain function and learning; the other in terms of the mind's conditioning and Self-knowledge."
+  ],
+
+  image1: "/images/maa/meditate.png",
+
+  imagepnt: "/images/maa/meditate.png",
+
+  audio: "/audio/maverse1.wav"
 };
 
 export default meditate;
