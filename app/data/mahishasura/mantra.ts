@@ -81,7 +81,7 @@ const mantra = {
     ],
 
     philosophy: [
-        "<strong>“मननात् त्रायते इति मन्त्रः”</strong><em>A mantra is that which, through sustained contemplation and repetition (mananāt), protects (trāyatē) the seeker from suffering, bondage, and the cycle of birth and death (saṃsāra). </em>",,
+        "<strong>“मननात् त्रायते इति मन्त्रः”</strong><em>A mantra is that which, through sustained contemplation and repetition (mananāt), protects (trāyatē) the seeker from suffering, bondage, and the cycle of birth and death (saṃsāra). </em>",
 
     ],
 
