@@ -151,26 +151,29 @@ export default function PrintPage() {
 
 
           {/* ===== CONTENT PAGE ===== */}
-          <div className={styles.header}>
-            {verse.title}
-          </div>
+
           <section className={styles.contentPage}>
 
             <SanskritBlock
               text={verse.sanskrit}
               forPrint={true}
             />
+
+            {/* First Spacer pushes the meaning section down to the middle */}
             <div className={styles.spacer} />
+
             <MeaningBlock
               items={verse.meaning}
               forPrint={true}
             />
+
+            {/* Second Spacer pushes the reflection section down to the bottom */}
             <div className={styles.spacer} />
+
+
             {verse.philosophy && verse.philosophy.length > 0 && (
               <div className={styles.reflectionCard}>
-                <h1 className={styles.printTitle}>
-                  रक्ष रक्ष जगन्माते सर्वशक्ते जय दुर्गे।
-                </h1>
+
                 <ReflectionBlock
                   text={verse.philosophy}
                   forPrint={true}

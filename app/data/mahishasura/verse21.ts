@@ -23,14 +23,7 @@ const verse21 = {
 
         "<strong>21.4:</strong> <span class='highlight' data-sanskrit='जय जय हे'>Victory! Victory to You!</span> O <span class='highlight' data-sanskrit='महिषासुरमर्दिनि'>Slayer of the buffalo demon Mahishasura</span>, O <span class='highlight' data-sanskrit='रम्यकपर्दिनि'>Beautifully tressed One</span>, O <span class='highlight' data-sanskrit='शैलसुते'>Daughter of the Mountain</span>.",
 
-
-        "<strong>21.1:</strong> O Mother Uma, because You are naturally full of <span class='highlight' data-sanskrit='दीनदयालुतया'>compassion toward the weary and helpless</span>, You must <span class='highlight' data-sanskrit='भवितव्यम्'>take complete charge of me</span> solely through Your <span class='highlight' data-sanskrit='कृपयैव'>unconditional, spontaneous grace</span>.",
-
-        "<strong>21.2:</strong> O Mother of the universe, You are the <span class='highlight' data-sanskrit='कृपयासि'>very embodiment of compassion</span>; Your infinite presence is <span class='highlight' data-sanskrit='अनुमितासि'>clearly inferred through the intricate design of all creation</span>.",
-
-
-        "<strong>21.3:</strong> O Supreme Lady, <span class='highlight' data-sanskrit='उररीकुरुताद्'>please accept and execute whatever You deem right</span> for me, and completely <span class='highlight' data-sanskrit='उरुतापमपाकुरुते'>dissolve the heavy, burning afflictions and anxieties weighing down my mind</span>."
-
+ 
     ],
 
 

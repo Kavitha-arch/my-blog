@@ -20,8 +20,7 @@ const mantra = {
 `,
 
     meaning: [
-        "<strong>“मननात् त्रायते इति मन्त्रः”</strong>",
-        "<em>A mantra is that which, through sustained contemplation and repetition (mananāt), protects (trāyatē) the seeker from suffering, bondage, and the cycle of birth and death (saṃsāra). </em>",
+       
         " <strong>मन्त्रम् १. The Daily Protection Mantra</strong>  ",
         "I bow to the Divine Mother Durga, who protects her devotees and destroys all difficulties.",
         " <strong> मन्त्रम् २. The Universal Blessing Mantra </strong>",
@@ -82,7 +81,7 @@ const mantra = {
     ],
 
     philosophy: [
-        "This interpretation reflects my personal spiritual journey. I began with devotional worship of Maa Durga and later came to appreciate the symbolic and psychological dimensions of the tradition. I do not see these perspectives as contradictory; for me, devotion and inner inquiry illuminate one another.",
+        "<strong>“मननात् त्रायते इति मन्त्रः”</strong><em>A mantra is that which, through sustained contemplation and repetition (mananāt), protects (trāyatē) the seeker from suffering, bondage, and the cycle of birth and death (saṃsāra). </em>",,
 
     ],
 
