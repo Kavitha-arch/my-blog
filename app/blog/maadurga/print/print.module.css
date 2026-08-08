@@ -50,62 +50,95 @@
  .imagePage,
  .contentPage {
    position: relative;
+
+   width: 210mm;
+   height: 297mm;
+
+   box-sizing: border-box;
+
+   margin: 0 auto;
+
+   background: white;
+ }
+
+ /* =====================================================
+   IMAGE PAGE
+===================================================== */
+
+.imagePage {
+  padding: 20mm;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  page-break-after: always;
+
+  overflow: hidden;
+}
+
+.imagePage img {
+  display: block;
+
+  max-width: 100%;
+  max-height: 100%;
+
+  width: auto;
+  height: auto;
+
+  object-fit: contain;
+}
+
+
+ /* =====================================================
+   CONTENT PAGE
+===================================================== */
+
+.contentPage {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: flex-start;
+
+  gap: 12mm;
+
+  padding: 20mm;
+
+  border: 2px solid #444;
+
+  font-family: Georgia, serif;
+  font-size: 13pt;
+  line-height: 1.4;
+
+  overflow: hidden;
+}
+
+ /* Ensure child text elements don't carry extra margin baggage */
+ .contentPage p,
+ .contentPage h1,
+ .contentPage h2,
+ .contentPage h3 {
+   margin-top: 0;
+   margin-bottom: 8px;
+ }
+
+ .spacer {
+   flex: 1;
  }
 
  .imagePage {
-   width: 100%;
-   height: 100%;
-
-   padding: 1in;
-
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   place-items: center;
-
-   background: white;
-
-   page-break-after: always;
- }
-
- .imagePage img {
-   max-width: 100%;
-   max-height: 100vh;
-   object-fit: contain;
- }
-
- .contentPage {
-  width: 210mm;
-  height: 297mm;      /* Fixed A4 dimensions */
-  
-  display: flex;
-  flex-direction: column; 
-  justify-content: flex-start; /* Changed from space-between to prevent layout stretching */
-  gap: 12mm;                   /* Controlled structural spacing between blocks */
-
-  padding: 20mm;
-  border: 2px solid #444;
-  box-sizing: border-box;
-
-  font-family: Georgia, serif;
-  font-size: 13pt;             /* Slightly reduced base font size for safety margin */
-  line-height: 1.4;            /* Marginally tighter line height */
-  overflow: hidden;            /* Ensures text cuts cleanly rather than trailing over borders */
+  outline: 5px solid red !important;
 }
 
-/* Ensure child text elements don't carry extra margin baggage */
-.contentPage p, 
-.contentPage h1, 
-.contentPage h2, 
-.contentPage h3 {
-  margin-top: 0;
-  margin-bottom: 8px;
+.contentPage {
+  outline: 5px solid blue !important;
 }
 
-.spacer {
-  flex: 1;
+.imagePage img {
+  outline: 5px solid green !important;
 }
-
  /* =====================================================
    PAGE DECORATION
 ===================================================== */
@@ -200,7 +233,7 @@
 
  .reflectionCard {
    margin-top: 0;
-   padding: 4mm 5mm; 
+   padding: 4mm 5mm;
 
    border: 1px solid #ccc;
    border-radius: 8px;

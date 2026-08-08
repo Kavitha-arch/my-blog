@@ -7,7 +7,7 @@ interface WorksheetState {
   trigger: string;
   egoStory: string;
   witnessObservation: string;
-  postiveObservation: string;
+  positiveObservation: string;
 }
 
 export const SelfInquiryWorksheet: React.FC = () => {
@@ -16,7 +16,7 @@ export const SelfInquiryWorksheet: React.FC = () => {
     trigger: '',
     egoStory: '',
     witnessObservation: '',
-    postiveObservation: '',
+    positiveObservation: '',
   });
   const [isInquiring, setIsInquiring] = useState<boolean>(false);
 
@@ -25,7 +25,7 @@ export const SelfInquiryWorksheet: React.FC = () => {
   };
 
   const resetWorksheet = () => {
-    setForm({ trigger: '', egoStory: '', witnessObservation: '', postiveObservation: '' });
+    setForm({ trigger: '', egoStory: '', witnessObservation: '', positiveObservation: '' });
     setStep(1);
     setIsInquiring(false);
   };
@@ -139,16 +139,16 @@ export const SelfInquiryWorksheet: React.FC = () => {
           <p className={styles.stepHint}>Example: If anger arises, cultivate patience or understanding. If fear arises, cultivate steadiness and trust.</p>
           <textarea
             className={styles.stepInput}
-            value={form.postiveObservation}
-            onChange={(e) => handleInputChange('postiveObservation', e.target.value)}
+            value={form.positiveObservation}
+            onChange={(e) => handleInputChange('positiveObservation', e.target.value)}
             placeholder="Pause. Take a slow breath. What opposite mental quality which is calm or balanced in nature can you bring in before responding?"
             rows={4}
           />
           <div className={styles.buttonGroup}>
-            <button className={styles.backButton} onClick={() => setStep(2)}>← Back</button>
+            <button className={styles.backButton} onClick={() => setStep(3)}>← Back</button>
             <button
               className={styles.nextButton}
-              disabled={!form.postiveObservation.trim()}
+              disabled={!form.positiveObservation.trim()}
               onClick={() => {
                 setStep(5);
                 setIsInquiring(true);
@@ -174,7 +174,7 @@ export const SelfInquiryWorksheet: React.FC = () => {
               <li><strong>The Material Trigger:</strong> {form.trigger}</li>
               <li><strong>The Ego Hook:</strong> {form.egoStory}</li>
               <li><strong>The Impersonal Reality:</strong> {form.witnessObservation}</li>
-              <li><strong>The Postive Attitude:</strong> {form.postiveObservation}</li>
+              <li><strong>The Postive Attitude:</strong> {form.positiveObservation}</li>
             </ul>
           </div>
 

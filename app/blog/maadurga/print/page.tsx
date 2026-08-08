@@ -132,11 +132,12 @@ export default function PrintPage() {
       {Object.values(verses).map((verse, index) => (
 
         <div id={verse.slug} key={verse.slug}>
-          <div className={styles.header}>
-            ॐ महिषासुरमर्दिनी स्तोत्रम्  ॐ
-          </div>
+
           {/* ===== IMAGE PAGE ===== */}
           <section className={styles.imagePage}>
+            <div className={styles.header}>
+              ॐ महिषासुरमर्दिनी स्तोत्रम्  ॐ
+            </div>
             <VerseImage
               src={verse.imagepnt}
               alt={verse.description}
