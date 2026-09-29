@@ -3,7 +3,7 @@ const verse20 = {
 
     title: "Verse 20: तव विमलेन्दुकुलं",
 
-    description: "20. Maa Durga - The Consciousness that embraces imperfections and guides us to Shiva,the eternal source of pure consciousness.🔱✨🌙",
+    description: "20.MAA DURGA - embraces imperfections & guides us to Shiva,the eternal source of pure consciousness.",
 
     sanskrit: `
         तव विमलेन्दुकुलं वदनेन्दुमलं सकलं ननु कूलयते
@@ -63,7 +63,7 @@ const verse20 = {
     ],
 
     philosophy: [
-        "This precious human birth is not a sterile testing ground for forced perfection, but a magnificent, fleeting opportunity to experience the ultimate bliss of existence. Like a wild, graceful river, we must learn to fluidly flow around every worldly obstacle, effortlessly enjoying the majestic journey of ups and downs. By remaining deeply aware of our own infinite Witness Consciousness, we recognize that the cosmic Source that created us will always exquisitely care for us and guide us—if only we will lovingly pray and surrender our rigid preferences to Them. We whisper to the hyper-critical, punishing, and perfectionist ego: <em>&lsquo;Are we all but star dust? Suffer no more under the weight of your own illusions.&rsquo;</em> Drop the heavy gavel, release the exhausting need for control, and rest beautifully in your absolute, unshakeable <strong>TRUTH</strong>.May your mind always remain beautifully rested at the Mother's feet inside your heart.  "
+        "This precious human birth is not a sterile testing ground for forced perfection, but a magnificent, fleeting opportunity to experience the ultimate bliss of existence. Like a wild, graceful river, we must learn to fluidly flow around every worldly obstacle, being the  journey of ups and downs. By remaining deeply aware of our own infinite Witness Consciousness, we recognize that the cosmic Source that created us will always exquisitely care for us and guide us—if only we pray and surrender our rigid preferences to Them.  <em>&lsquo;Are we all but star dust? Suffer no more under the weight of your own illusions.&rsquo;</em> Drop the heavy gavel, release the exhausting need for control, and rest beautifully in your absolute, unshakeable <strong>TRUTH</strong>.May your mind always remain beautifully rested at the Mother's feet inside your heart.  "
     ],
 
     reflection: [

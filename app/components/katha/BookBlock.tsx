@@ -28,7 +28,7 @@ export function BookBlock({ verse }: BookBlockProps) {
                         </p>
                     )}
 
-                    {visibleItems[i] && (
+                    {visibleItems[i] && (i != 3) && (
                         <p
                             className={styles.print2}
                             dangerouslySetInnerHTML={{

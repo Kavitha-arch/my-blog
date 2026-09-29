@@ -9,45 +9,48 @@ import GlossaryTable from "@/app/components/katha/GlossoryTable";
 
 export default function BookPage() {
     const router = useRouter();
-
+    const isLocalhost = process.env.NODE_ENV === "development";
     return (
         <article className={styles.printContainer}>
 
-
-            <div className={styles.watermark}>
-                © 2026 Katha Series. All Rights Reserved.
-            </div>
-
-            {/* ===== COVER PAGE ===== */}
-            <section className={styles.imagePage}>
-                <VerseImage
-                    src="/images/maa/maadurgamantra.png"
-                    alt="Om"
-                    width={500}
-                    height={600}
-                />
-
-            </section>
+            {!isLocalhost && (
+                <>
+                    <div className={styles.watermark}>
+                        © 2026 Katha Series. All Rights Reserved.
+                    </div>
 
 
-            <section className={styles.contentPage}>
-                <h1 className={styles.printTitle}>अनुक्रमणिका</h1>
+                    {/* ===== COVER PAGE ===== */}
+                    <section className={styles.imagePage}>
+                        <VerseImage
+                            src="/images/maa/maadurgamantra.png"
+                            alt="Om"
+                            width={500}
+                            height={600}
+                        />
 
-                <div className={styles.toc}>
-                    {Object.values(verses).map((verse, index) => (
-                        <a
-                            key={verse.slug}
-                            href={`#${verse.slug}`}
-                            className={styles.tocRow}
-                        >
-                            <span>{verse.title}</span>
-                            <span className={styles.tocDots}></span>
-                            <span>{index}</span>
-                        </a>
-                    ))}
-                </div>
-            </section>
+                    </section>
 
+
+                    <section className={styles.contentPage}>
+                        <h1 className={styles.printTitle}>अनुक्रमणिका</h1>
+
+                        <div className={styles.toc}>
+                            {Object.values(verses).map((verse, index) => (
+                                <a
+                                    key={verse.slug}
+                                    href={`#${verse.slug}`}
+                                    className={styles.tocRow}
+                                >
+                                    <span>{verse.title}</span>
+                                    <span className={styles.tocDots}></span>
+                                    <span>{index}</span>
+                                </a>
+                            ))}
+                        </div>
+                    </section>
+                </>
+            )}
             <>
                 {Object.values(verses).map((verse, index) => {
                     if (index === 0) return null;
@@ -85,11 +88,7 @@ export default function BookPage() {
                         </section>
                     );
                 })}
-                <section className={styles.contentPage}>
-                    <h1 className={styles.printTitle}>मनोवैज्ञानिकशब्दकोश (Manovaijñānika-śabdakośa)</h1>
-                    
-                    <GlossaryTable/>
-                </section>
+
             </>
 
             <div className={styles.buttonRow}>

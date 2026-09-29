@@ -14,6 +14,7 @@ import { AboutBlock } from "@/app/components/katha/AboutBlock";
 import { SourcesBlock } from "@/app/components/katha/SourcesBlock";
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
+import GlossaryTable from "@/app/components/katha/GlossoryTable";
 
 
 export default function PrintPage() {
@@ -193,8 +194,13 @@ export default function PrintPage() {
 
         </div>
       ))}
-      <SourcesBlock />
+      <section className={styles.contentPage}>
+        <h1 className={styles.printTitle}>मनोवैज्ञानिकशब्दकोश (Manovaijñānika-śabdakośa)</h1>
 
+        <GlossaryTable />
+      </section>
+
+      <SourcesBlock />
       <div className={styles.buttonRow}>
         <button
           onClick={() => window.location.href = "/blog"}
