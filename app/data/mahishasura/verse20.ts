@@ -17,11 +17,11 @@ const verse20 = {
 
         "<strong>20.1:</strong> O Divine Mother, Your <span class='highlight' data-sanskrit='वदनेन्दुमलं'>moon-like face</span>, which holds the splendor of an entire assembly of <span class='highlight' data-sanskrit='*तव विमलेन्दुकुलं'>spotless, stainless moons</span>, is completely capable of cleansing <span class='highlight' data-sanskrit='सकलं ननु'>all internal impurities and tarnish</span> and surely <span class='highlight' data-sanskrit='कूलयते'>grounds the overflowing, turbulent mind back safely to its peaceful shores</span>.",
 
+        "<strong>20.2:</strong> <span class='highlight' data-sanskrit='किमु'>How can</span> an <span class='highlight' data-sanskrit='पुरुहूतपुरीन्दुमुखी'> elite circle of heavenly beauties</span> and seemingly flawless, critical, and socially <span class='highlight' data-sanskrit='सुमुखीभिरसौ'>perfect beings</span> ever have the power to turn away, <span class='highlight' data-sanskrit='विमुखीक्रियते'>reject, or invalidate a devotee </span>?",
 
-        "<strong>20.2:</strong> How can an elite circle of <span class='highlight' data-sanskrit='पुरहूतपुरीन्दुमुखीसुमुखीभिरसौ'>seemingly flawless,   critical, and socially perfect beings</span> ever have the power to <span class='highlight' data-sanskrit='विमुखीक्रियते'>turn away, reject, or invalidate a devotee</span> who is already <span class='highlight' data-sanskrit='*किमु'>completely anchored in their own sovereign inner light</span>?",
 
 
-         "<strong>20.3:</strong> O Auspicious Mother, for me who holds the deep conviction (<span class='highlight' data-sanskrit='मम तु मतं'>my definitive realization</span>) that my ultimate refuge lies in You (<span class='highlight' data-sanskrit='शिवनामधने भवती'>O Owner of the Supreme Wealth of Shiva's Name</span>), what human flaw or external rejection could ever stand if Your divine compassion (<span class='highlight' data-sanskrit='कृपया'>by Your unconditional grace</span>) is actively showered upon me (<span class='highlight' data-sanskrit='किमुत क्रियते'>what can it not accomplish for me</span>)?", 
+        "<strong>20.3:</strong> O Auspicious Mother, for me who holds the deep conviction (<span class='highlight' data-sanskrit='मम तु मतं'>my definitive realization</span>) that my ultimate refuge lies in You (<span class='highlight' data-sanskrit='शिवनामधने भवती'>O Owner of the Supreme Wealth of Shiva's Name</span>), what human flaw or external rejection could ever stand if Your divine compassion (<span class='highlight' data-sanskrit='कृपया'>by Your unconditional grace</span>) is actively showered upon me (<span class='highlight' data-sanskrit='किमुत क्रियते'>what can it not accomplish for me</span>)?",
 
         "<strong>20.4:</strong> O Divine Mother <span class='highlight' data-sanskrit='जय जय हे महिषासुरमर्दिनि'> Victory, victory to You, O Slayer of Mahishasura </span>, <span class='highlight' data-sanskrit='रम्यकपर्दिनि'> O Beautiful-haired One </span>, <span class='highlight' data-sanskrit='शैलसुते'> O Daughter of the Mountain (Parvati) </span>. <br />"
 
@@ -141,7 +141,7 @@ const verse20 = {
             sanskrit: "शैलसुते",
             meaning: "O Daughter of the Mountain."
         },
-        
+
         // Line 20.1: The Wisdom of the Scarred Moon and Radical Forgiveness
         {
             sanskrit: "तव विमलेन्दुकुलं",
