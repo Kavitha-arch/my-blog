@@ -3,7 +3,7 @@ const verse14 = {
 
     title: "Verse 14: कमलदलामल",
 
-    description: "14. Ajna Chakra radiating calm, the sensory noise transforming into sacred lotuses ",
+    description: "14. Ajna Chakra - radiating calm, the sensory noise transforming into sacred lotuses ",
 
     sanskrit: `
        कमलदलामल कोमलकान्ति कलाकलितामल भाललते
@@ -14,13 +14,11 @@ const verse14 = {
     `,
 
     meaning: [
-        "<strong>14.1:</strong> O Divine Mother, <span class='highlight' data-sanskrit='भाललते'>on Your elegant, creeper-like forehead</span> shines a <span class='highlight' data-sanskrit='कोमलकान्ति'>tender, soft radiance</span>,  which is spotless and pure <span class='highlight' data-sanskrit='कमलदलामल' > like a flawless lotus petal </span>, and beautifully <span class= 'highlight' data-sanskrit='कलाकलितामल' > adorned with the curved crescent moon</ span >.",
+        "<strong>14.1:</strong> O Divine Mother, <span class='highlight' data-sanskrit='भाललते'>on Your elegant, creeper-like forehead</span> shines a <span class='highlight' data-sanskrit='कोमलकान्ति'>tender, soft radiance</span>,  which is spotless and pure <span class='highlight' data-sanskrit='*कमलदलामल' > like a flawless lotus petal </span>, and beautifully <span class='highlight' data-sanskrit='कलाकलितामल'> adorned with the curved crescent moon</span>.",
 
+        "<strong>14.2:</strong> O Divine Mother, You are the <span class='highlight' data-sanskrit='सकलविलासकलानिलय'>ultimate abode of all divine grace and creative arts</span>, and Your graceful, rhythmic movements <span class='highlight' data-sanskrit='क्रमकेलि'>play out like the beautifully ordered steps</span> of a <span class='highlight' data-sanskrit='चलत्कलहंसकुले'>flock of majestic royal swans</span>!",
 
-        "<strong>14.2:</strong> O Divine Mother, You are the <span class='highlight' data-sanskrit='सकलविलासकलानिलय'>ultimate abode of all divine grace and creative arts</span>, and Your graceful, rhythmic movements <span class='highlight' data-sanskrit='क्रमकेलि'>play out like the beautifully ordered steps</span> of a <span class='highlight' data-sanskrit='लसत्कलहंसकुले'>flock of majestic royal swans</span>!",
-
-        "<strong>14.3:</strong> O Divine Mother, Your hair is adorned with <span class='highlight' data-sanskrit='कुवलयमण्डल'>clusters of blue lotuses</span> swarming with <span class='highlight' data-sanskrit='अलिकुलसङ्कुल'>buzzing bumblebees</span>, which elegantly <span class='highlight' data-sanskrit='मौलिमिलद्'>intertwine upon the crown of Your head</span> with fragrant <span class='highlight' data-sanskrit='बकुलालिकुले'>Bakula flowers, blending their swarms together</span>!",
-
+        "<strong>14.3:</strong> O Divine Mother, Your hair is adorned with <span class='highlight' data-sanskrit='कुवलयमण्डल'>clusters of blue lotuses</span> swarming with <span class='highlight' data-sanskrit='*अलिकुलसङ्कुल'>buzzing bumblebees</span>, which elegantly <span class='highlight' data-sanskrit='मौलिमिलद्'>intertwine upon the crown of Your head</span> with fragrant <span class='highlight' data-sanskrit='बकुलालिकुले'>Bakula flowers, blending their swarms together</span>!",
 
         "<strong>14.4:</strong> O Divine Mother <span class='highlight' data-sanskrit='जय जय हे महिषासुरमर्दिनि'> Victory, victory to You, O Slayer of Mahishasura </span>, <span class='highlight' data-sanskrit='रम्यकपर्दिनि'> O Beautiful-haired One </span>, <span class='highlight' data-sanskrit='शैलसुते'> O Daughter of the Mountain (Parvati) </span>. <br />"
 

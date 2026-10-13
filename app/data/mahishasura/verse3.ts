@@ -3,7 +3,7 @@ const verse3 = {
 
     title: "Verse 3 : अयि जगदम्ब",
 
-    description: "3. Our Maa Durga dwells in Kadamba Forest, snow peaked Himalayas. Destroys Madhu and Kaitabha",
+    description: "3. QUIETITUDE - Silence that dissolves distraction and delusion.",
 
     sanskrit: `
             अयि जगदम्ब मदम्ब कदम्ब वनप्रियवासिनि हासरते
@@ -13,18 +13,18 @@ const verse3 = {
 `   ,
 
     meaning: [
-         
-        '<strong>3.1:</strong> O <span class="highlight" data-sanskrit="जगदम्ब">Mother of the Universe</span>, my very own Mother! Who <span class="highlight" data-sanskrit="मदम्ब"> resides intimately as my Mother</span>; Who <span class="highlight" data-sanskrit="कदम्ब वनप्रियवासिनि">loves to dwell in the beautiful Kadamba forest</span>, and Who <span class="highlight" data-sanskrit="हासरते">delights in a joyful, radiant smile</span>. <br />',
+
+        '<strong>3.1:</strong> O <span class="highlight" data-sanskrit="अयि जगदम्ब">🙏 Mother of the Universe</span>, my very own Mother! Who <span class="highlight" data-sanskrit="मदम्ब"> resides intimately as my Mother</span>; Who <span class="highlight" data-sanskrit="कदम्ब वनप्रियवासिनि">loves to dwell in the रम्यं कदम्ब वनम्</span>, and Who <span class="highlight" data-sanskrit="हासरते">delights in a joyful, radiant smile</span>. <br />',
         '<strong>Psychological:</strong> This represents our baseline state of pure mental well-being—a lush, inner landscape where our thoughts are aligned, emotional peace is abundant, and our mind rests in a state of joy, completely undisturbed by the noise of the external world.',
 
-        '<strong>3.2:</strong> Whose true home is <span class="highlight" data-sanskrit="शिखरि शिरोमणि">midst the crest-jewel of mountains</span>, resting upon the <span class="highlight" data-sanskrit="तुङ्गहिमलय शृङ्ग">lofty, snow-capped peaks of the majestic Himalayas</span>.<br />'
-        ,'<strong>Psychological:</strong> The mountain peak represents the ultimate heights of human awareness and clarity. Just like a high mountain peak sits far above storm clouds, this symbolizes rising above the daily mental chatter and survival states into a cool, calm, and completely unshakeable perspective.',
+        '<strong>3.2:</strong> Whose true home is <span class="highlight" data-sanskrit="शिखरि शिरोमणि">midst the crest-jewel of mountains</span>, resting upon the <span class="highlight" data-sanskrit="तुङ्गहिमलय शृङ्ग">lofty, snow-capped peaks of the majestic Himalayas</span>, <span class="highlight" data-sanskrit="निजालय मध्यगते">making them Her own abode</span>.<br />'
+        , '<strong>Psychological:</strong> The mountain peak represents the ultimate heights of human awareness and clarity. Just like a high mountain peak sits far above storm clouds, this symbolizes rising above the daily mental chatter and survival states into a cool, calm, and completely unshakeable perspective.',
 
         '<strong>3.3:</strong> Who is <span class="highlight" data-sanskrit="मधुमधुरे">sweeter than honey itself</span>, yet turned into the fierce <span class="highlight" data-sanskrit="मधुकैटभगञ्जिनि">crusher of the demon Madhu</span>, the <span class="highlight" data-sanskrit="कैटभभञ्जिनि">shatterer of the demon Kaitabha</span>, and Who <span class="highlight" data-sanskrit="रासरते">delights in the divine cosmic dance</span>.<br />',
         '<strong>Psychological:</strong> When inevitable physical or situational challenges hit us, we must protect ourselves swiftly and decisively slaying Madhu (the craving for comfort and sweetness) without losing our inner sweetness and turning us bitter, while simultaneously conquering Kaitabha (the frantic energy of aversion and hostility). By channeling Durga\'s sharp, fearless action while dissolving the internal resistance of Madhu and Kaitabha, we neutralize the threat cleanly and keep our inner self light enough to keep dancing through life.',
 
-        '<strong>3.4:</strong> Victory, victory to You, <span class="highlight" data-sanskrit="महिषासुरमर्दिनि">O Destroyer of the monstrous demon Mahishasura</span>; You who possess <span class="highlight" data-sanskrit="रम्यकपर्दिनि">beautiful, intricately woven locks of hair</span>, and Who are the <span class="highlight" data-sanskrit="शैलसुते">Daughter of the Mountain</span>.<br />', 
-        '<strong>Psychological:</strong> Victory to the inner power of awareness that slays the victim mindset and heavy rumination. By keeping the vast, complex forces of our mind ordered and beautifully contained like bound hair, we securely anchor ourselves back onto the rock-solid mountain of steady mental equilibrium.',
+        '<strong>3.4:</strong> <span class="highlight" data-sanskrit="जय जय हे">Victory to You</span>, O Mother the <span class="highlight" data-sanskrit="महिषासुरमर्दिनि">Destroyer of Demon Mahishasura</span>;  Who Shines with <span class="highlight" data-sanskrit="रम्यकपर्दिनि">Beautiful Locks of Hair</span> and Who is the <span class="highlight" data-sanskrit="शैलसुते">Daughter of the Mountain</span>.<br />',
+        '<br /><strong>Psychological:</strong> Victory, victory to You, O Destroyer of the monstrous delusion of the ego, You whose beautiful braided locks hold the complex forces of the cosmos in perfect order, and who shines as the Daughter of the Mountain of steady, unwavering meditation.'
 
     ],
 
@@ -46,7 +46,7 @@ const verse3 = {
         "Ramya Kapardini: Symbolizes Beautiful Locks of Hair. The intertwined braids represent the complex, woven forces of time, space, and cosmic energy (Prakriti) beautifully bound and controlled under divine command."
     ],
 
-     philosophy: [       
+    philosophy: [
         "<strong>Samatvam (समत्वम्): Equanimity:</strong> Like nature abiding in effortless balance, our true nature is peace. Attachment and Aversion, symbolized by Madhu and Kaitabha, arise from the play of the gunas and pull the mind into conflict and restlessness. When attachment and aversion arise, the mind becomes entangled in resistance and craving. Maa Durga's grace will dissolve these inner demons, helping us return to our original stillness and respond to every situation with equanimity and sweetness."
     ],
 

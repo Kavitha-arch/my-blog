@@ -3,7 +3,7 @@ const verse8 = {
 
     title: "Verse 8: धनुरनुषङ्ग",
 
-    description: "8. Maa Durga - Destroyed the Chaturanga [Daily Challenges] ",
+    description: "8. Sthitaprajna  - I am the weapon, Devi is the warrior ",
 
     sanskrit: `
         धनुरनुषङ्ग रणक्षणसङ्ग परिस्फुरदङ्ग नटत्कटके
@@ -13,7 +13,7 @@ const verse8 = {
     `,
 
     meaning: [
-        '<strong>8.1:</strong> O Divine Mother, who is <span class="highlight" data-sanskrit="रणक्षणसङ्ग">deeply engaged in battle at every moment</span> with intense <span class="highlight" data-sanskrit="परिस्फुरदङ्ग">cosmic energy quivering through Your limbs</span>, and whose <span class="highlight" data-sanskrit="नटत्कटके">bracelets appear to dance on Your vibrant arms</span> following the swift, continuous <span class="highlight" data-sanskrit="धनुरनुषङ्ग">stringing movements of Your bow</span>.<br />',
+        '<strong>8.1:</strong> O Divine Mother, who is <span class="highlight" data-sanskrit="धनुरनुषङ्ग">stringing movements of Your bow</span>  and is <span class="highlight" data-sanskrit="रणक्षणसङ्ग">deeply engaged in battle at every moment</span> with intense <span class="highlight" data-sanskrit="परिस्फुरदङ्ग">cosmic energy quivering through Your limbs</span>, and whose <span class="highlight" data-sanskrit="नटत्कटके">bracelets appear to dance on Your vibrant arms</span> following the swift, continuous .<br />',
 
         '<strong>8.2:</strong> O Divine Mother, whose <span class="highlight" data-sanskrit="कनकपिशङ्ग">golden arrows shine with a reddish hue</span> as they are launched from Your <span class="highlight" data-sanskrit="पृषत्कनिषङ्ग">brilliant quiver packed with arrows</span>, smiting down the <span class="highlight" data-sanskrit="रसद्भटशृङ्ग">vain pride of roaring enemy warriors</span> and <span class="highlight" data-sanskrit="हताबटुके">completely destroying them in battle</span>.<br />',
 

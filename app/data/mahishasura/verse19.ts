@@ -3,7 +3,7 @@ const verse19 = {
 
     title: "Verse 19: कनकलसत्कलसिन्धुजलैरनुषिञ्चति",
 
-    description: "19. Maa Durga - Washing the stage of mind with the golden waters of acceptance",
+    description: "19. JNANA - Washing the stage of mind with the golden waters of acceptance",
 
     sanskrit: `
         कनकलसत्कलसिन्धुजलैरनुषिञ्चति तेगुणरङ्गभुवम्
@@ -15,12 +15,12 @@ const verse19 = {
 
     meaning: [
 
-        "<strong>19.1:</strong> O Divine Mother, whoever <span class='highlight' data-sanskrit='अनुषिञ्चति'>consecrates and bathes</span> the <span class='highlight' data-sanskrit='तेगुणरङ्गभुवम्'>sacred stage where Your divine attributes manifest</span> with the <span class='highlight' data-sanskrit='कनकलसत्कलसिन्धुजलैः'>waters of sweetly murmuring rivers gleaming like liquid gold</span>...",
+       
+        "<strong>19.1:</strong> O Divine Mother, whoever <span class='highlight' data-sanskrit='अनुषिञ्चति'>consecrates and bathes</span> the <span class='highlight' data-sanskrit='तेगुणरङ्गभुवम्'>sacred stage where Your divine attributes manifest</span> with the <span class='highlight' data-sanskrit='*कनकलसत्कलसिन्धुजलैः'>waters of sweetly murmuring rivers gleaming like liquid gold</span>...",
 
+        "<strong>19.2:</strong> Why would that blessed devotee ever seek <span class='highlight' data-sanskrit='भजति स किं न'>fleeting external validation or earthly praise</span>, when their inner spirit already experiences a joy that easily eclipses <span class='highlight' data-sanskrit='शचीकुचकुम्भतटीपरिरम्भसुखानुभवम्'>the ultimate celestial ecstasies of the King of Heaven</span>?",
 
-        "<strong>19.2:</strong> Why would that blessed devotee ever seek <span class='highlight' data-sanskrit='भजति स किं न'>fleeting external validation or earthly praise</span>, when their inner spirit already experiences a joy that easily eclipses <span class='highlight' data-sanskrit='शचीकुचकुम्भतटीपरिरम्भसुखम्'>the ultimate celestial ecstasies of the King of Heaven</span>?",
-
-        "<strong>19.3:</strong> O Auspicious Mother, for me who <span class='highlight' data-sanskrit='अनुशीलयतः'>constantly contemplates, cultivates, and stabilizes</span> the truth that <span class='highlight' data-sanskrit='तव पदमेव'>Your sacred feet alone</span> are <span class='highlight' data-sanskrit='परम्पदम्'>the supreme, unshakeable state of living liberation</span>, what emotional pain, blame, or external loss <span class='highlight' data-sanskrit='मम किं न'>could ever have the power to disturb my sovereign peace</span>?",
+        "<strong>19.3:</strong> O Auspicious Mother, I completely surrender, <span class='highlight' data-sanskrit='शरणं करवाणि'>taking final and total refuge</span> at <span class='highlight' data-sanskrit='*तव चरणं'>Your sacred feet alone</span>, which are bowed down to by the gods themselves (<span class='highlight' data-sanskrit='नतामरवाणि'>O Speech revered by the immortals</span>), for they are the true (<span class='highlight' data-sanskrit='निवासि शिवम्'>abode of absolute auspiciousness and sovereign peace</span>).",
 
         "<strong>19.4:</strong> O Divine Mother <span class='highlight' data-sanskrit='जय जय हे महिषासुरमर्दिनि'> Victory, victory to You, O Slayer of Mahishasura </span>, <span class='highlight' data-sanskrit='रम्यकपर्दिनि'> O Beautiful-haired One </span>, <span class='highlight' data-sanskrit='शैलसुते'> O Daughter of the Mountain (Parvati) </span>. <br />"
 

@@ -14,14 +14,15 @@ const verse1 = {
 `,
 
   meaning: [
-    
-    '1.1: <span class="highlight" data-sanskrit="अयि">Salutations to You</span> O Divine Mother, I Invoke You; Who is the <span class="highlight" data-sanskrit="गिरिनन्दिनि">Daughter of the Mountain</span>; By Whose presence <span class="highlight" data-sanskrit="नन्दितमेदिनि">the whole World is filled with Joy</span>; For Whom the whole <span class="highlight" data-sanskrit="विश्वविनोदिनि">World is a Divine Play</span> and Who is <span class="highlight" data-sanskrit="नन्दिनुते">Praised by Nandi</span>,',
+
+    '1.1: Salutations to You  O Divine Mother, I Invoke You; Who is the <span class="highlight" data-sanskrit="अयि गिरिनन्दिनि">🙏 Daughter of the Mountain</span>; By Whose presence <span class="highlight" data-sanskrit="नन्दितमेदिनि">the whole World is filled with Joy</span>; For Whom the whole <span class="highlight" data-sanskrit="विश्वविनोदिनि">World is a Divine Play</span> and Who is <span class="highlight" data-sanskrit="नन्दिनुते">Praised by Nandi</span>,',
 
     '1.2: (I Invoke You O Devi) Who, <span class="highlight" data-sanskrit="शिरोऽधिनिवासिनि">resides on the peak of the mountain range</span>, <span class="highlight" data-sanskrit="गिरिवरविन्ध्य">Vindhya Mountains </span>; Who gives <span class="highlight" data-sanskrit="विष्णुविलासिनि">Joy to Lord Vishnu</span> (as His sister) and Who is <span class="highlight" data-sanskrit="जिष्णुनुते">Praised by Lord Indra</span>,',
 
     '1.3: <span class="highlight" data-sanskrit="भगवति">O Goddess Bhagavati</span>, Who is the <span class="highlight" data-sanskrit="शितिकण्ठकुटुम्बिनि">Consort of the One with Blue Throat</span> (Lord Shiva); Who has <span class="highlight"  data-sanskrit="भूरिकुटुम्बिनि ">Many Many Relations</span> in this World (being the Cosmic Mother) and Who has <span class="highlight" data-sanskrit="भूरिकृते">Created Abundance</span> (in Creation),',
 
-    '1.4: Victory to You, Victory to You, (I take Refuge in Your Auspicious Feet) O the <span class="highlight" data-sanskrit="महिषासुरमर्दिनि">Destroyer of Demon Mahishasura</span>; (Victory to You) Who Shine with <span class="highlight" data-sanskrit="रम्यकपर्दिनि">Beautiful Locks of Hair</span> and Who is the <span class="highlight" data-sanskrit="शैलसुते">Daughter of the Mountain</span>.'
+    '<strong>1.4:</strong> <span class="highlight" data-sanskrit="जय जय हे">Victory to You</span>, O Mother the <span class="highlight" data-sanskrit="महिषासुरमर्दिनि">Destroyer of Demon Mahishasura</span>;  Who Shines with <span class="highlight" data-sanskrit="रम्यकपर्दिनि">Beautiful Locks of Hair</span> and Who is the <span class="highlight" data-sanskrit="शैलसुते">Daughter of the Mountain</span>.<br />',
+    '<br /><strong>Psychological:</strong> Victory, victory to You, O Destroyer of the monstrous delusion of the ego, You whose beautiful braided locks hold the complex forces of the cosmos in perfect order, and who shines as the Daughter of the Mountain of steady, unwavering meditation.'
   ],
 
   symbols: [
@@ -36,14 +37,14 @@ const verse1 = {
 
     "Indra: In myths surrounding the destruction of the demon Mahishasura, the gods (including the king of heaven, Indra) were powerless. They pooled their individual powers (Shakti) to create Durga. Indra gifted her his thunderbolt (Vajra), representing his ultimate warrior strength."
 
-  ], 
+  ],
 
-   philosophy: [
-     "This verse invokes Maa Durga as the ultimate source of cosmic bliss and divine strength who dwells majestically on the summits of the Vindhya mountains alongside Shiva, Vishnu, Nandi and Indra. By slaying the buffalo-demon Mahishasura, She symbolizes the ultimate victory of divine intellect and spiritual awakening over human ego, laziness, and ignorance.",
-   
-    ],
+  philosophy: [
+    "This verse invokes Maa Durga as the ultimate source of cosmic bliss and divine strength who dwells majestically on the summits of the Vindhya mountains alongside Shiva, Vishnu, Nandi and Indra. By slaying the buffalo-demon Mahishasura, She symbolizes the ultimate victory of divine intellect and spiritual awakening over human ego, laziness, and ignorance.",
 
-  reflection:[
+  ],
+
+  reflection: [
     "Goddess Durga represents the supreme, invincible energy of the universe (Shakti). Her deeper meaning bridges the gap between the material and spiritual realms: She is the force of creation, the mother who grounds humanity, and the ultimate warrior who destroys the ego and inner ignorance"],
 
   image1: "/images/maa/maaverse1.png",
@@ -52,29 +53,29 @@ const verse1 = {
 
   imagepnt: "/images/maa/pntverse1.png",
 
-  stanzaData :[
-  { sanskrit: "अयि", meaning: "O! / Hail!" },
-  { sanskrit: "गिरिनन्दिनि", meaning: "Daughter of the mountain (Himalaya)" },
-  { sanskrit: "नन्दितमेदिनि", meaning: "She who delights the earth" },
-  { sanskrit: "विश्वविनोदिनि", meaning: "She who brings joy to the universe" },
-  { sanskrit: "नन्दिनुते", meaning: "Praised by Nandi" },
-  { sanskrit: "गिरिवरविन्ध्यशिरोऽधिनिवासिनि", meaning: "She who dwells on the peaks of the great Vindhya mountains" },
-  { sanskrit: "विष्णुविलासिनि", meaning: "She who reveals the creative, joyful power of Vishnu" },
-  { sanskrit: "जिष्णुनुते", meaning: "Praised by the victorious ones (or Indra)" },
-  { sanskrit: "भगवति", meaning: "O Goddess! (Possessor of all divine opulences)" },
-  { sanskrit: "हे", meaning: "O!" },
-  { sanskrit: "शितिकण्ठकुटुम्बिनि", meaning: "Consort of the blue-throated one (Shiva)" },
-  { sanskrit: "भूरिकुटुम्बिनि", meaning: "She who has the entire cosmos as Her abundant family" },
-  { sanskrit: "भूरिकृते", meaning: "She who creates abundantly / brings forth countless blessings" },
-  { sanskrit: "जय", meaning: "Victory!" },
-  { sanskrit: "जय", meaning: "Victory!" },
-  { sanskrit: "हे", meaning: "O!" },
-  { sanskrit: "महिषासुरमर्दिनि", meaning: "Destroyer of the demon Mahishasura" },
-  { sanskrit: "रम्यकपर्दिनि", meaning: "She with beautiful, intricately woven locks of hair" },
-  { sanskrit: "शैलसुते", meaning: "Daughter of the mountain" }
-],
+  stanzaData: [
+    { sanskrit: "अयि", meaning: "O! / Hail!" },
+    { sanskrit: "गिरिनन्दिनि", meaning: "Daughter of the mountain (Himalaya)" },
+    { sanskrit: "नन्दितमेदिनि", meaning: "She who delights the earth" },
+    { sanskrit: "विश्वविनोदिनि", meaning: "She who brings joy to the universe" },
+    { sanskrit: "नन्दिनुते", meaning: "Praised by Nandi" },
+    { sanskrit: "गिरिवरविन्ध्यशिरोऽधिनिवासिनि", meaning: "She who dwells on the peaks of the great Vindhya mountains" },
+    { sanskrit: "विष्णुविलासिनि", meaning: "She who reveals the creative, joyful power of Vishnu" },
+    { sanskrit: "जिष्णुनुते", meaning: "Praised by the victorious ones (or Indra)" },
+    { sanskrit: "भगवति", meaning: "O Goddess! (Possessor of all divine opulences)" },
+    { sanskrit: "हे", meaning: "O!" },
+    { sanskrit: "शितिकण्ठकुटुम्बिनि", meaning: "Consort of the blue-throated one (Shiva)" },
+    { sanskrit: "भूरिकुटुम्बिनि", meaning: "She who has the entire cosmos as Her abundant family" },
+    { sanskrit: "भूरिकृते", meaning: "She who creates abundantly / brings forth countless blessings" },
+    { sanskrit: "जय", meaning: "Victory!" },
+    { sanskrit: "जय", meaning: "Victory!" },
+    { sanskrit: "हे", meaning: "O!" },
+    { sanskrit: "महिषासुरमर्दिनि", meaning: "Destroyer of the demon Mahishasura" },
+    { sanskrit: "रम्यकपर्दिनि", meaning: "She with beautiful, intricately woven locks of hair" },
+    { sanskrit: "शैलसुते", meaning: "Daughter of the mountain" }
+  ],
 
-audio: "/audio/averse1.wav"
+  audio: "/audio/averse1.wav"
 
 };
 

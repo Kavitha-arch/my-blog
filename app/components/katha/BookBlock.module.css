@@ -24,3 +24,65 @@
 .print2 {
     margin: 0;
 }
+
+.bookBlock {
+    width: 100%;
+}
+
+.verseBlock {
+    margin-bottom: 16px;
+}
+
+.sanskritLine {
+    white-space: nowrap;
+    font-size: 20px;
+    line-height: 1.5;
+}
+.meaningLine {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 4px 8px;
+    width: 100%;
+}
+
+.meaningItem {
+    min-width: 0;
+}
+
+.sanskritWord {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.3;
+    white-space: normal;
+}
+
+.meaning {
+    font-size: 14px;
+    line-height: 1.3;
+    white-space: normal;
+    overflow-wrap: break-word;
+    word-break: normal;
+}
+
+
+
+
+.wordGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+    column-gap: 6px;
+    row-gap: 3px;
+    width: 100%;
+}
+
+.wordColumn {
+    min-width: 0;
+}
+ 
+.closingRefrain {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1;
+}

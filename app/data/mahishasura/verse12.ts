@@ -3,7 +3,7 @@ const verse12 = {
 
     title: "Verse 12: सहितमहाहव",
 
-    description: "12. Maa Durga - CO-EXISITNG OF COURAGE AND PEACE ",
+    description: "12. UGRATĀ AND SAUMYATĀ  - COURAGE IN ACTION, PEACE IN HEART ",
 
     sanskrit: `
         सहितमहाहव मल्लमतल्लिक मल्लितरल्लक मल्लरते
@@ -16,7 +16,7 @@ const verse12 = {
     meaning:
         [
             // Line 12.1
-            "<strong>12.1:</strong> O Divine Goddess engaged in a fierce cosmic battle, <span class='highlight' data-sanskrit='सहित'>accompanied by</span> a <span class='highlight' data-sanskrit='महाहव'>great war</span>, who fights against <span class='highlight' data-sanskrit='मल्ल-मतल्लिक'>the best of wrestlers</span> and <span class='highlight' data-sanskrit='मल्ल-तरल्लक'>agile, fierce warriors</span>, and <span class='highlight' data-sanskrit='मल्ल-रते'>who delights in subduing such mighty opponents</span>.",
+            "<strong>12.1:</strong> O Divine Goddess engaged in a fierce cosmic battle, <span class='highlight' data-sanskrit='सहित महाहव'>accompanied by a great war</span>  , who fights against <span class='highlight' data-sanskrit='मल्ल-मतल्लिक'>the best of wrestlers</span> and <span class='highlight' data-sanskrit='मल्ल-तरल्लक'>agile, fierce warriors</span>, and who delights in <span class='highlight' data-sanskrit='मल्ल-रते'>subduing such mighty opponents</span>.",
 
             // Line 12.2
             "<strong>12.2:</strong> You are beautifully <span class='highlight' data-sanskrit='विरचित-वल्लिक'>adorned with creeping vines</span>, dwelling near <span class='highlight' data-sanskrit='पल्लिक'>small forest hamlets</span>, surrounded by wild <span class='highlight' data-sanskrit='मल्लिक'>jasmine flowers</span> and the humming of <span class='highlight' data-sanskrit='झिल्लिक'>crickets</span>, and ever <span class='highlight' data-sanskrit='भिल्लिक-वर्ग-वृते'>encircled by the tribal communities of forest dwellers</span>.",

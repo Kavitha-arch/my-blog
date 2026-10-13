@@ -3,7 +3,7 @@ const verse13 = {
 
     title: "Verse 13: अविरलगण्ड",
 
-    description: "13. Maa Durga - From Internal Battle to Radiant Sovereignty",
+    description: "13. SHAKTHI - Inexhaustible source of strength, beauty, creativity, and attraction",
 
     sanskrit: `
         अविरलगण्ड गलन्मदमेदुर मत्तमतङ्ग जराजपते
@@ -15,14 +15,12 @@ const verse13 = {
 
     meaning: [
 
-        "<strong>13.1:</strong> O Divine Mother, who is like a  <span class='highlight' data-sanskrit='मत्तमतङ्गज़राजपते'>Sovereign King of Intoxicated Elephants</span>,  from whose <span class='highlight' data-sanskrit='अविरलगण्ड'>continuous temples (cheeks)</span>  the <span class='highlight' data-sanskrit='गलन्मदमेदुर'>thick, intoxicating rut-fluid oozes</span>  out and streams down incessantly (manifesting as a flood of arts, beauty, and cosmic power).",
+        "<strong>13.1:</strong> O Divine Mother, who is  <span class='highlight' data-sanskrit='मत्तमतङ्गज़राजपते'>like a Sovereign King of Intoxicated Elephants</span>,  from whose <span class='highlight' data-sanskrit='*अविरलगण्ड'>continuous temples (cheeks)</span>  the <span class='highlight' data-sanskrit='गलन्मदमेदुर'>thick, intoxicating rut-fluid oozes (flood of arts, beauty)</span>  out and streams down incessantly (manifesting as a flood of arts, beauty, and cosmic power).",
 
 
-        "<strong>13.2:</strong> O Divine Mother, You are the <span class='highlight' data-sanskrit='त्रिभुवनभूषण'>supreme ornament of the three worlds</span>,  the <span class='highlight' data-sanskrit='भूतकलानिधि'>infinite treasure-house of all arts and creation</span>,  an <span class='highlight' data-sanskrit='रूपपयोनिधि'>unfathomable ocean of beauty and grace</span>,  and the <span class='highlight' data-sanskrit='राजसुते'>divine Daughter of the Mountain King</span>!",
+        "<strong>13.2:</strong> O Divine Mother, You are the <span class='highlight' data-sanskrit='त्रिभुवनभूषण'>supreme ornament of the three worlds</span>,  the <span class='highlight' data-sanskrit='भूतकलानिधि'>infinite treasure-house of all arts and creation</span>,  an <span class='highlight' data-sanskrit='रूपपयोनिधि'>unfathomable ocean of beauty and grace</span>,  and the <span class='highlight' data-sanskrit='राजसुते'>divine Daughter of the Mountain King</span>!", 
 
-
-
-        "<strong>13.3:</strong> O Divine Mother, You are the <span class='highlight' data-sanskrit='मोहन'>enchanting force</span who captivates the <span class='highlight' data-sanskrit='लालसमानस'>deeply yearning minds</span> of the <span class='highlight' data-sanskrit='सुदतीजन'>beautifully smiling maidens</span>, and You are the <span class='highlight' data-sanskrit='मन्मथराजसुते'>Sovereign Daughter who rules over the spiritual realm of pure love and desire</span> (surpassing even Manmatha, the king of attraction)!"
+        "<strong>13.3:</strong> O Divine Mother, You are the <span class='highlight' data-sanskrit='मोहन'>enchanting force</span> who captivates the <span class='highlight' data-sanskrit='लालसमानस'>deeply yearning minds</span> of the <span class='highlight' data-sanskrit='*अयि सुदतीजन'>beautifully smiling maidens</span>, and You are the <span class='highlight' data-sanskrit='मन्मथराजसुते'>Sovereign Daughter who rules over the spiritual realm of pure love and desire</span> (surpassing even Manmatha, the king of attraction)!"
         ,
         '<strong>13.4:</strong> O Divine Mother <span class="highlight" data-sanskrit="जय जय हे महिषासुरमर्दिनि"> Victory, victory to You, O Slayer of Mahishasura </span>, <span class="highlight" data-sanskrit="रम्यकपर्दिनि"> O Beautiful-haired One </span>, <span class="highlight" data-sanskrit="शैलसुते"> O Daughter of the Mountain (Parvati) </span>. <br />'
 

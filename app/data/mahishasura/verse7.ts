@@ -3,7 +3,7 @@ const verse7 = {
 
     title: "Verse 7: अयि निजहुङ्कृति मात्र",
 
-    description: "7. Maa Durga - Destroyed Dhumralochana , Rakthabeeja, Shumbha-Nishumbha ",
+    description: "7. FREEDOM - Destroyed Delusion, Negativity, Ego, Attachment ",
 
     sanskrit: `
         अयि निजहुङ्कृति मात्रनिराकृत धूम्रविलोचन धूम्रशते ।
@@ -15,9 +15,9 @@ const verse7 = {
     meaning: [
         '<strong>7.1:</strong> O Divine Mother, who by a mere sound of <span class="highlight" data-sanskrit="निजहुङ्कृति">Your sacred roar </span> <span class="highlight" data-sanskrit="मात्रनिराकृत">destroyed</span> the demon <span class="highlight" data-sanskrit="धूम्रविलोचन">Dhumralochana</span>into <span class="highlight" data-sanskrit="धूम्रशते">hundred smoke particles</span>.<br />',
 
-        '<strong>7.2:</strong> O Mother, who <span class="highlight" data-sanskrit="समरविशोषित">dried up</span> the battlefield where <span class="highlight" data-sanskrit="शोणितबीज">Raktabīja</span> and his <span class="highlight" data-sanskrit="समुद्भवशोणित बीजलते">countless blood-born duplicates arose</span, ending the endless cycle of replication of ignorance and desire.<br />',
+        '<strong>7.2:</strong> O Mother, who <span class="highlight" data-sanskrit="समरविशोषित">dried up</span> the battlefield where <span class="highlight" data-sanskrit="शोणितबीज">Raktabīja</span> and his <span class="highlight" data-sanskrit="समुद्भवशोणित बीजलते">countless blood-born duplicates arose</span>, ending the endless cycle of replication of ignorance and desire.<br />',
 
-        '<strong>7.3:</strong> O Divine One, who in the Great Auspicious Sacrifice (resembling a Yagna)  of <span class="highlight" data-sanskrit="शुम्भ-निशुम्भ">Shumbha and Nishumbha</span> <span class="highlight" data-sanskrit="तर्पितभूत पिशाचरते">satisfied the thirst of Ghosts and Fiends (attending Lord Shiva)</span>, restoring cosmic balance through righteous battle.<br />',
+        '<strong>7.3:</strong> O Divine One, <span class="highlight" data-sanskrit="शिवशिव">who in the Great Auspicious Sacrifice</span> (resembling a Yagna)   <span class="highlight" data-sanskrit="शुम्भनिशुम्भमहाहव">of Shumbha and Nishumbha battle</span> <span class="highlight" data-sanskrit="तर्पितभूत पिशाचरते">satisfied the thirst of Ghosts and Fiends (attending Lord Shiva)</span>, restoring cosmic balance through righteous battle.<br />',
 
         '<strong>7.4:</strong> O Divine Mother <span class="highlight" data-sanskrit="जय जय हे महिषासुरमर्दिनि"> Victory, victory to You, O Slayer of Mahishasura </span>, <span class="highlight" data-sanskrit="रम्यकपर्दिनि"> O Beautiful-haired One </span>, <span class="highlight" data-sanskrit="शैलसुते"> O Daughter of the Mountain (Parvati) </span>. <br />'
 

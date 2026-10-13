@@ -3,7 +3,7 @@ const verse15 = {
 
     title: "Verse 15: करमुरलीरव",
 
-    description: "15. Maa Durga: Voice(Flute) when Free of Vasanas - sweeter than cuckoo",
+    description: "15. NIRMALA: Voice(Flute) when Free of Vasanas - sweeter than cuckoo",
 
     sanskrit: `
        करमुरलीरव वीजितकूजित लज्जितकोकिल मञ्जुमते
@@ -15,10 +15,10 @@ const verse15 = {
 
     meaning: [
 
-        "<strong>15.1:</strong> O Divine Mother, You are endowed with a <span class='highlight' data-sanskrit='मञ्जुमते'>beautifully sweet and charming mind</span>; the <span class='highlight' data-sanskrit='करमुरलीरव'>melody from the flute in Your hands</span> vibrates <span class='highlight' data-sanskrit='वीजितकूजित'>and flows out with such exquisite cooing notes</span> that it puts even the <span class='highlight' data-sanskrit='लज्जितकोकिल'>sweetest nightingale to total shame</span>!",
+        "<strong>15.1:</strong> O Divine Mother, You are endowed with a <span class='highlight' data-sanskrit='मञ्जुमते'>beautifully sweet and charming mind</span>; the <span class='highlight' data-sanskrit='*करमुरलीरव'>melody from the flute in Your hands</span> vibrates <span class='highlight' data-sanskrit='वीजितकूजित'>and flows out with such exquisite cooing notes</span> that it puts even the <span class='highlight' data-sanskrit='लज्जितकोकिल'>sweetest nightingale to total shame</span>!",
 
 
-        "<strong>15.2:</strong> O Divine Mother, You are <span class='highlight' data-sanskrit='मिलितपुलिन्द'>gathered together and mingling with the simple forest tribes</span>, and You gracefully move through the <span class='highlight' data-sanskrit='शैलनिकुञ्जगते'>mountain groves which are deeply resonated with joy</span>, echoing with their <span class='highlight' data-sanskrit='मनोहरगुञ्जित'>beautiful, heart-captivating humming and singing</span>!",
+        "<strong>15.2:</strong> O Divine Mother, You are <span class='highlight' data-sanskrit='मिलितपुलिन्द'>gathered together and mingling with the simple forest tribes</span>, and You gracefully move through the <span class='highlight' data-sanskrit='रञ्जितशैलनिकुञ्जगते'>beautiful mountain groves which are deeply resonated with joy</span>, echoing with their <span class='highlight' data-sanskrit='मनोहरगुञ्जित'>beautiful, heart-captivating humming and singing</span>!",
 
 
         "<strong>15.3:</strong> O Divine Mother, You awaken Your <span class='highlight' data-sanskrit='निजगुणभूत'>own innate spiritual virtues</span> within the <span class='highlight' data-sanskrit='महाशबरीगण'>throngs of simple, raw tribal forest women</span>, endowing them with <span class='highlight' data-sanskrit='सद्गुणसम्भृत'>excellent and noble traits</span> as You participate in their <span class='highlight' data-sanskrit='केलितते'>vast expanse of playful, divine sports</span>!",

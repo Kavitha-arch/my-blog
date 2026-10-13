@@ -3,7 +3,7 @@ const verse9 = {
 
     title: "Verse 9: सुरललना ततथेयि तथेयि",
 
-    description: "9. Maa Durga - The Cosmic Celebration of Divine Energy",
+    description: "9. CELEBRATE - The Cosmic Celebration of Divine Energy",
 
 
     "sanskrit": `

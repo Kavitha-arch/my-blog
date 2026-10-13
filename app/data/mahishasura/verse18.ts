@@ -3,7 +3,7 @@ const verse18 = {
 
     title: "Verse 18: पदकमलं",
 
-    description: "18. Maa Durga - Rest deeply at the Mother's feet within the heart - Mind blooms as the radiant lotus",
+    description: "18.HEART - Rest deeply at the Mother's feet within the heart - Mind blooms as the radiant lotus",
 
     sanskrit: `
         पदकमलं करुणानिलये वरिवस्यति योऽनुदिनं सुशिवे

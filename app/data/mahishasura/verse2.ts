@@ -3,7 +3,7 @@ const verse2 = {
 
     title: "Verse 2 : सुरवरवर्षिणि",
 
-    description: "2. Maa Durga - Destroys Durdhara, Durumuka, Danavas ,Daityas    ",
+    description: "2. CLEANSE - Destroys Kama, Krodha, lobha, mada, matsarya,  moha   ",
 
     sanskrit: `
     सुरवरवर्षिणि दुर्धरधर्षिणि दुर्मुखमर्षिणि हर्षरते

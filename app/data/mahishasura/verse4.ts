@@ -11,7 +11,7 @@ const verse4 = {
 
     title: "Verse 4: अयि शतखण्ड",
 
-    description: "4. Maa Durga - Destroyer of Chanda(Ego-Driven Chase) and Munda(Reactive Withdrawal)",
+    description: "4. EQUANIMITY  - Destroyer of Chanda(Ego-Driven Chase) and Munda(Reactive Withdrawal)",
 
     sanskrit: `
         अयि शतखण्डविखण्डितरुण्डवितुण्डितशुण्डगजाधिपते ।
@@ -21,13 +21,15 @@ const verse4 = {
     `,
 
     meaning: [
-        '<strong>4.1:</strong> O Divine Mother <span class="highlight" data-sanskrit=\"शतखण्ड\"> who cuts the enemy into a 100 pieces </span>, into <span class=\"highlight\" data-sanskrit=\"विखण्डितरुण्ड\"> tiny atoms </span>; <span class=\"highlight\" data-sanskrit=\"वितुण्डित\"> demolishes the enemy to the depths of doom </span>, and who <span class=\"highlight\" data-sanskrit=\"शुण्द गजाधिपते\"> destroys Shunda and his army of elephants </span>. <br />',
+        '<strong>4.1:</strong> O Divine Mother <span class="highlight" data-sanskrit="शतखण्ड">who cuts the enemy into a hundred pieces</span>, into <span class="highlight" data-sanskrit="विखण्डितरुण्ड">tiny fragments</span>; <span class="highlight" data-sanskrit="वितुण्डित">who strikes down and destroys the enemy</span>, and who <span class="highlight" data-sanskrit="शुण्द गजाधिपते">destroys Shunda, the lord of elephants</span>.<br />',
 
-        '<strong>4.2:</strong> O Divine Mother <span class="highlight" data-sanskrit=\"रिपुगजगण्ड\"> who smashes the temples of the enemy’s elephants </span>, <span class=\"highlight\" data-sanskrit=\"विदारणचण्ड\"> who scatters the army of demon Chanda </span>; <span class=\"highlight\" data-sanskrit=\"पराक्रमशुण्ड\"> who displays mighty valour against demon Sunda </span>, and whose <span class=\"highlight\" data-sanskrit=\"मृगाधिपते\"> lion‑vehicle strikes Munda’s forehead and destroys his elephant army </span>. <br />',
+        '<strong>4.2:</strong> O Divine Mother <span class="highlight" data-sanskrit="रिपुगजगण्ड">who smashes the temples of the enemy elephants</span>, <span class="highlight" data-sanskrit="विदारणचण्ड">who tears apart the demon Chanda</span>; <span class="highlight" data-sanskrit="पराक्रमशुण्ड">who displays mighty valour against Shunda</span>, and whose <span class="highlight" data-sanskrit="मृगाधिपते">lion, the lord of beasts</span> strikes down the enemy.<br />',
 
-        '<strong>4.3:</strong> O Divine Mother <span class="highlight" data-sanskrit=\"निजभुजदण्ड\"> who with Her own arms delivers punishment </span>, <span class=\"highlight\" data-sanskrit=\"निपातितखण्ड\"> who hurls endless divine weapons </span>; <span class=\"highlight\" data-sanskrit=\"विपातितमुण्ड भटाधिपते\"> who wields a brilliant sword like lightning and destroys Chanda & Munda along with their generals </span>. <br />',
+       '<strong>4.3:</strong> O Divine Mother <span class="highlight" data-sanskrit="निजभुजदण्ड">who with Her own mighty arms delivers punishment</span>, <span class="highlight" data-sanskrit="निपातितखण्ड">who hurls down and destroys the enemy</span>; <span class="highlight" data-sanskrit="विपातितमुण्ड">who strikes down Munda</span>, <span class="highlight" data-sanskrit="भटाधिपते">commander of the warriors</span>.<br />',
 
-        '<strong>4.4:</strong> O Divine Mother <span class="highlight" data-sanskrit=\"जय जय हे महिषासुरमर्दिनि\"> Victory, victory to You, Slayer of Mahishasura </span>, <span class=\"highlight\" data-sanskrit=\"रम्यकपर्दिनि\"> O Beautifully‑haired One </span>, <span class=\"highlight\" data-sanskrit=\"शैलसुते\"> O Daughter of the Mountain (Parvati) </span>. <br />'
+        '<strong>4.4:</strong> <span class="highlight" data-sanskrit="जय जय हे">Victory to You</span>, O Mother the <span class="highlight" data-sanskrit="महिषासुरमर्दिनि">Destroyer of Demon Mahishasura</span>;  Who Shines with <span class="highlight" data-sanskrit="रम्यकपर्दिनि">Beautiful Locks of Hair</span> and Who is the <span class="highlight" data-sanskrit="शैलसुते">Daughter of the Mountain</span>.<br />',
+        '<br /><strong>Psychological:</strong> Victory, victory to You, O Destroyer of the monstrous delusion of the ego, You whose beautiful braided locks hold the complex forces of the cosmos in perfect order, and who shines as the Daughter of the Mountain of steady, unwavering meditation.'
+
     ],
 
     symbols: [
@@ -39,12 +41,12 @@ const verse4 = {
         "[SOURCE] 1. Devi Mahatmya: <a href='https://devimahatmya.com' target='_blank'>\"Understanding the Devi Mahatmya's Esoteric Hidden Meaning: Knowing Chanda and Munda\"</a> — devimahatmya.com",
         "[SOURCE] 2. Amar Chitra Katha: <a href='https://amarchitrakatha.com' target='_blank'>\"Durga’s Battle With Shumbha\"</a> — amarchitrakatha.com",
         "[SOURCE] 3. Siddhapedia: <a href='https://siddhapedia.com/chamunda-devi' target='_blank'>\"Chamunda Devi\"</a> — siddhapedia.com"
-    ], 
+    ],
 
-    philosophy:  [
-    "<strong>Vairāgya:</strong> Chanda Vritti (Ego-Driven Chase) and Munda Vritti (Ignorant/Reactive Withdrawal): Both happiness and sadness arising from the Chanda and Munda Vṛtti are temporary states of mind. They must be observed objectively with true detachment (Vairāgya), rather than avoided through reactive withdrawal.",
-    
-],
+    philosophy: [
+        "<strong>Vairāgya:</strong> Chanda Vritti (Ego-Driven Chase) and Munda Vritti (Ignorant/Reactive Withdrawal): Both happiness and sadness arising from the Chanda and Munda Vṛtti are temporary states of mind. They must be observed objectively with true detachment (Vairāgya), rather than avoided through reactive withdrawal.",
+
+    ],
 
     reflection: coreTeachings,
 
@@ -76,7 +78,7 @@ const verse4 = {
         { sanskrit: "रम्यकपर्दिनि", meaning: "O Beautifully‑haired One" },
         { sanskrit: "शैलसुते", meaning: "O Daughter of the Mountain (Parvati)" }
     ],
-    
+
 };
 
 export default verse4;

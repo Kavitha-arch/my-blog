@@ -3,7 +3,7 @@ const verse10 = {
 
     title: "Verse 10: जय जय जप्य",
 
-    description: "10. Maa Durga - The Divine  Cosmic Dance as Ardhanārīśvara.",
+    description: "10. ADVAITHA - The non-dual nature of ultimate reality.",
 
     sanskrit: `
         जय जय जप्य जयेजयशब्द परस्तुति तत्परविश्वनुते
@@ -14,11 +14,12 @@ const verse10 = {
     `,
 
     meaning: [
-        "<strong>10.1:</strong> Victory to You, victory to You, O Mother <span class='highlight' data-sanskrit='जप्य'>whose name is worthy of constant meditation</span>, whose praises are sung with cries of <span class='highlight' data-sanskrit='जयेजयशब्द'>'Victory! Victory!'</span>, and who is <span class='highlight' data-sanskrit='तत्परविश्वनुते'>adored and worshipped by the entire universe </span>and who chant <span class='highlight' data-sanskrit='परस्तुति'>your supreme praise as hymns</span>.<br />",
+        "<strong>10.1:</strong> Victory to You, victory to You, O Mother <span class='highlight' data-sanskrit='जय जय जप्य'>whose name is worthy of constant meditation</span>, whose praises are sung with cries of <span class='highlight' data-sanskrit='जयेजयशब्द'>'Victory! Victory!'</span>, and who chant <span class='highlight' data-sanskrit='परस्तुति'>your supreme praise as hymns</span> and who is <span class='highlight' data-sanskrit='तत्परविश्वनुते'>adored and worshipped by the entire universe </span>.<br />",
 
-        "<strong>10.2:</strong> The enchanting sound of Your <span class='highlight' data-sanskrit='नूपुर'>anklets</span>, ringing with <span class='highlight' data-sanskrit='झणझणझिञ्झिमि झिङ्कृत'>musical jingling tones</span>, captivates even <span class='highlight' data-sanskrit='भूतपते'>Lord Shiva, the Lord of the Ghosts and Goblins</span>.<br />",
+        "<strong>10.2:</strong><span class='highlight' data-sanskrit='झणझणझिञ्झिमि'>The musical jingling tones</span>  <span class='highlight' data-sanskrit='झिङ्कृत'>ringing forth</span> from Your <span class='highlight' data-sanskrit='नूपुरशिञ्जितमोहित'>anklets, enchantingly captivate</span> even <span class='highlight' data-sanskrit='भूतपते'>Lord Shiva, the Lord of the Ghosts and Goblins</span>.<br />",
 
-        "<strong>10.3:</strong> You delight in the divine dance, performing gracefully with <span class='highlight' data-sanskrit='नटार्ध'>the Lord whose half is the Divine Dancer (Shiva)</span>, rejoicing as the <span class='highlight' data-sanskrit='नटी'>supreme dancer</span>, the <span class='highlight' data-sanskrit='नट नायक'>leader of all dancers</span>, and the lover of <span class='highlight' data-sanskrit='नाट्य सुगानरते'>sacred dance and melodious music</span>.<br />",
+
+        "<strong>10.3:</strong> You delight in the divine dance, performing gracefully with <span class='highlight' data-sanskrit='नटित नटार्ध'>the Lord whose half is the Divine Dancer (Shiva)</span>, rejoicing as the <span class='highlight' data-sanskrit='नटी'>supreme dancer</span>, the <span class='highlight' data-sanskrit='नट नायक'>leader of all dancers</span>, and the lover of <span class='highlight' data-sanskrit='नाट्य सुगानरते'>sacred dance and melodious music</span>.<br />",
 
         "<strong>10.4:</strong> Victory, victory to You, <span class='highlight' data-sanskrit='महिषासुरमर्दिनि'>the Slayer of Mahishasura</span>, <span class='highlight' data-sanskrit='रम्यकपर्दिनि'>the Beautiful One with lovely tresses</span>, and <span class='highlight' data-sanskrit='शैलसुते'>the Daughter of the Mountain</span>. May Your triumph be eternal.<br />"
     ],
@@ -31,6 +32,10 @@ const verse10 = {
         "[BULLET] Prakriti (Shivaa/Shakti): Primordial energy, nature, and matter. It is the driving force that gives form to consciousness.",
 
         "[BULLET] The Significance: The dance shows that consciousness (Shiva) is motionless without energy (Shakti), and energy is blind without direction from consciousness",
+
+    ],
+
+    quote: [
 
     ],
 

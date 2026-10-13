@@ -3,7 +3,7 @@ const verse11 = {
 
     title: "Verse 11: अयि सुमनःसुमनः",
 
-    description: "Maa Durga - cool, soothing, moon-like face and captivating, bee-like eyes",
+    description: "11. SHANTHI - cool, soothing, moon-like face and captivating, bee-like eyes",
 
     sanskrit: `
         अयि सुमनःसुमनःसुमनःसुमनःसुमनोहरकान्तियुते
@@ -13,13 +13,14 @@ const verse11 = {
     `,
 
     meaning: [
-        "<strong>11.1:</strong>  O Goddess whose  <span class='highlight' data-sanskrit='अयि सुमनः..'>beautiful mind is united with a charming and captivating appearance</span> (radiance).",
+        "<strong>11.1:</strong> <span class='highlight' data-sanskrit='अयि'>O Goddess!</span> <span class='highlight' data-sanskrit='सुमनःसुमनःसुमनःसुमनः'>endowed with an abundance of beauty and loveliness</span> and <span class='highlight' data-sanskrit='सुमनोहरकान्तियुते'>possesses an enchanting and captivating radiance</span>.",
 
-        "<strong>11.2:</strong> Whose <span class='highlight' data-sanskrit='श्रितरजनि..'> beautiful face puts to shame the cool, soothing beauty of the moon</span> (which shines at night).",
+        "<strong>11.2:</strong> O Goddess, whose <span class='highlight' data-sanskrit='श्रितरजनिरजनिरजनिरजनिरजनिकर'>moon-like beauty is associated with the splendour of the night</span> and whose <span class='highlight' data-sanskrit='वक्त्रवृते'>face is adorned with captivating beauty</span>.",
 
-        "<strong>11.3:</strong>Whose <span class='highlight' data-sanskrit='सुनयनविभ्रमर'>beautiful, moving eyes conquer the dark, buzzing beauty of swarms of bees</span> .",
+        "<strong>11.3:</strong> O Goddess, whose <span class='highlight' data-sanskrit='सुनयन'>beautiful eyes</span> are <span class='highlight' data-sanskrit='विभ्रम'> so beautiful and restlessly wandering</span>, that they <span class='highlight' data-sanskrit='भ्रमरभ्रमरभ्रमरभ्रमराधिपते'>outshine the movements of the king of bees</span>.",
 
-        "<strong>11.4:</strong> Victory, victory to You, <span class='highlight' data-sanskrit='महिषासुरमर्दिनि'>the Slayer of Mahishasura</span>, <span class='highlight' data-sanskrit='रम्यकपर्दिनि'>the Beautiful One with lovely tresses</span>, and <span class='highlight' data-sanskrit='शैलसुते'>the Daughter of the Mountain</span>."
+
+        "<strong>11.4:</strong> <span class='highlight' data-sanskrit='जय जय हे'>Victory, victory to You!</span> O <span class='highlight' data-sanskrit='महिषासुरमर्दिनि'>Slayer of Mahishasura</span>, <span class='highlight' data-sanskrit='रम्यकपर्दिनि'>Goddess with beautiful, lovely tresses</span>, and <span class='highlight' data-sanskrit='शैलसुते'>Daughter of the Mountain</span>."
     ],
 
     symbols: [
@@ -33,7 +34,7 @@ const verse11 = {
 
         "[BULLET] Maa Mahagauri: The eighth form of Durga governs the planet Moon in Vedic astrology. Her radiant, serene complexion is frequently compared to the glow of a full moon.",
 
-        
+
         "[SOURCE] 1. <a href='https://sutradhar.parogoodearth.com/sutradhar/moon-rhythms-goddess-the-moon' target='_blank'>\"Moon Rhythms: Goddess & the Moon\"</a>",
 
         "[SOURCE] 2. <a href='https://www.vedanet.com/the-great-goddess-and-world-mother-mahadevi-in-vedic-astrology/' target='_blank'>\"Mahadevi in Vedic Astrology\"</a>",
@@ -54,7 +55,7 @@ const verse11 = {
         "Shukla Paksha (waxing moon): from New Moon (Amavasya) to Full Moon (Purnima): It symbolizes growth, clarity, and increasing divine feminine energy",
 
         "Krishna Paksha is more introspective Symbolically linked with letting go, inward focus, and dissolution It is not considered “inauspicious,” but more inward and quiet in tone.",
- 
+
     ],
 
     image1: "/images/maa/maaverse11.png",

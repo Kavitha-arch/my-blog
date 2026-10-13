@@ -3,7 +3,7 @@ const verse17 = {
 
     title: "Verse 17: विजितसहस्रकरैक",
 
-    description: "17. Maa Durga: Devi grants what one sincerely seeks : cultivate wisdom before asking. ",
+    description: "17.THATHASTHU: Devi grants what one sincerely seeks : cultivate wisdom before asking. ",
 
     sanskrit: `
         विजितसहस्रकरैक सहस्रकरैक सहस्रकरैकनुते

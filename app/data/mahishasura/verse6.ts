@@ -4,7 +4,7 @@ const verse6 = {
 
     title: "Verse 6: अयि शरणागत",
 
-    description: "6. Maa Durga - She Showed Compassion Towards Those Who Surrender",
+    description: "6. BHAKTI - She Showed Compassion Towards Those Who Surrender",
 
     sanskrit: `
         अयि शरणागत वैरिवधुवर वीरवराभय दायकरे ।
@@ -14,11 +14,11 @@ const verse6 = {
     `,
 
     meaning: [
-        '<strong>6.1:</strong> O Divine Mother, <span class="highlight" data-sanskrit="शरणागत">who grants refuge to those who surrender</span>, and <span class="highlight" data-sanskrit="वैरिवधुवर वीरवराभय दायकरे">bestows fearlessness even upon the noble wives and heroic warriors of Your enemies when they seek Your protection</span>.<br />',
+        '<strong>6.1:</strong> O Divine Mother, <span class="highlight" data-sanskrit="अयि शरणागत">who grants refuge to those who surrender</span>, and <span class="highlight" data-sanskrit="वैरिवधुवर वीरवराभय दायकरे">bestows fearlessness even upon the noble(वर) wives and heroic(वर) warriors of Your enemies when they seek Your protection</span>.<br />',
 
-        '<strong>6.2:</strong> O Divine Mother, <span class="highlight" data-sanskrit="त्रिभुवनमस्तक">whose power governs the three worlds</span>, and <span class="highlight" data-sanskrit="अमल शूलकरे">who wields the pure trident</span> that destroys all opposition to Divine Truth.<br />',
+        '<strong>6.2:</strong> O Divine Mother,<span class="highlight" data-sanskrit="त्रिभुवनमस्तक">whose power governs the three worlds</span>,and <span class="highlight" data-sanskrit="शूलविरोधि">who destroys all opposition to Divine Truth</span> <span class="highlight" data-sanskrit="शिरोऽधिकृतामल शूलकरे">with the pure trident held in Your hand</span>.<br />',
 
-        '<strong>6.3:</strong> O Divine Mother, <span class="highlight" data-sanskrit="दुमिदुमितामर धुन्दुभिनाद">whose victory is celebrated by the resounding celestial drums</span>, filling all directions with divine sound and glory.<br />',
+        '<strong>6.3:</strong> O Divine Mother, <span class="highlight" data-sanskrit="दुमिदुमितामर धुन्दुभिनाद">whose victory is celebrated by the resounding celestial drums</span>, <span class="highlight" data-sanskrit="महोमुखरीकृत दिङ्मकरे">filling all directions with divine sound and glory</span>.<br />',
 
         '<strong>6.4:</strong> O Divine Mother <span class="highlight" data-sanskrit="जय जय हे महिषासुरमर्दिनि"> Victory, victory to You, O Slayer of Mahishasura </span>, <span class="highlight" data-sanskrit="रम्यकपर्दिनि"> O Beautiful-haired One </span>, <span class="highlight" data-sanskrit="शैलसुते"> O Daughter of the Mountain (Parvati) </span>. <br />'
     ],

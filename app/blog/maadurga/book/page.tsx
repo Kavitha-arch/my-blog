@@ -1,7 +1,7 @@
 'use client';
 import { verses } from "@/app/data/mahishasura";
 import styles from './book.module.css';
-import { VerseImage } from "@/app/components/katha/VerseImage";
+import { VerseImage } from "@/app/components/katha/VerseImage"; 
 import { BookBlock } from "@/app/components/katha/BookBlock";
 import { ReflectionBlock } from "@/app/components/katha/ReflectionBlock";
 import { useRouter } from "next/navigation";
@@ -65,13 +65,14 @@ export default function BookPage() {
                                     <VerseImage
                                         src={verse.imagepnt}
                                         alt={verse.description}
-                                        width={200}
+                                        width={400}
                                         height={300}
                                         forPrint={true}
                                     />
 
                                     <BookBlock verse={verse} />
 
+                                    {/*
                                     {verse.philosophy && verse.philosophy.length > 0 && (
                                         <div className={styles.reflectionCard}>
                                             <ReflectionBlock
@@ -80,6 +81,7 @@ export default function BookPage() {
                                             />
                                         </div>
                                     )}
+                                    */}
                                 </div>
                                 <div className={styles.pageNumber}>
                                     {index}

@@ -3,7 +3,7 @@ const verse20 = {
 
     title: "Verse 20: तव विमलेन्दुकुलं",
 
-    description: "20.MAA DURGA - embraces imperfections & guides us to Shiva,the eternal source of pure consciousness.",
+    description: "20. PURUSHA - embraces imperfections & guides us to Shiva,the eternal source of pure consciousness.",
 
     sanskrit: `
         तव विमलेन्दुकुलं वदनेन्दुमलं सकलं ननु कूलयते
@@ -15,14 +15,13 @@ const verse20 = {
     meaning: [
 
 
-        "<strong>20.1:</strong> O Divine Mother, Your <span class='highlight' data-sanskrit='वदनेन्दुम'>moon-like face</span>, which holds the splendor of an entire assembly of <span class='highlight' data-sanskrit='विमलेन्दुकुलं'>spotless, stainless moons</span>, is completely capable of cleansing <span class='highlight' data-sanskrit='सकलं मलं'>all internal impurities and tarnish</span> and surely <span class='highlight' data-sanskrit='कूलयते'>grounds the overflowing, turbulent mind back safely to its peaceful shores</span>.",
+        "<strong>20.1:</strong> O Divine Mother, Your <span class='highlight' data-sanskrit='वदनेन्दुमलं'>moon-like face</span>, which holds the splendor of an entire assembly of <span class='highlight' data-sanskrit='*तव विमलेन्दुकुलं'>spotless, stainless moons</span>, is completely capable of cleansing <span class='highlight' data-sanskrit='सकलं ननु'>all internal impurities and tarnish</span> and surely <span class='highlight' data-sanskrit='कूलयते'>grounds the overflowing, turbulent mind back safely to its peaceful shores</span>.",
 
 
-        "<strong>20.2:</strong> How can an elite circle of <span class='highlight' data-sanskrit='पुरहूतपुरीन्दुमुखीसुमुखीभिः'>seemingly flawless,   critical, and socially perfect beings</span> ever have the power to <span class='highlight' data-sanskrit='विमुखीक्रियते'>turn away, reject, or invalidate a devotee</span> who is already <span class='highlight' data-sanskrit='किमु'>completely anchored in their own sovereign inner light</span>?",
+        "<strong>20.2:</strong> How can an elite circle of <span class='highlight' data-sanskrit='पुरहूतपुरीन्दुमुखीसुमुखीभिरसौ'>seemingly flawless,   critical, and socially perfect beings</span> ever have the power to <span class='highlight' data-sanskrit='विमुखीक्रियते'>turn away, reject, or invalidate a devotee</span> who is already <span class='highlight' data-sanskrit='*किमु'>completely anchored in their own sovereign inner light</span>?",
 
 
-        "<strong>20.3:</strong> O Auspicious Mother, for me who <span class='highlight' data-sanskrit='अनुशीलयतः'>constantly integrates and lives the truth</span> that resting in Your <span class='highlight' data-sanskrit='तव पदमेव'>completely non-judgmental, inclusive awareness</span> is the <span class='highlight' data-sanskrit='परम्पदम्'>absolute highest state of liberation</span>, what human flaw, personal mistake, or external rejection <span class='highlight' data-sanskrit='मम किं न'>could ever have the power to disturb my sovereign peace</span>?"
-        ,
+         "<strong>20.3:</strong> O Auspicious Mother, for me who holds the deep conviction (<span class='highlight' data-sanskrit='मम तु मतं'>my definitive realization</span>) that my ultimate refuge lies in You (<span class='highlight' data-sanskrit='शिवनामधने भवती'>O Owner of the Supreme Wealth of Shiva's Name</span>), what human flaw or external rejection could ever stand if Your divine compassion (<span class='highlight' data-sanskrit='कृपया'>by Your unconditional grace</span>) is actively showered upon me (<span class='highlight' data-sanskrit='किमुत क्रियते'>what can it not accomplish for me</span>)?", 
 
         "<strong>20.4:</strong> O Divine Mother <span class='highlight' data-sanskrit='जय जय हे महिषासुरमर्दिनि'> Victory, victory to You, O Slayer of Mahishasura </span>, <span class='highlight' data-sanskrit='रम्यकपर्दिनि'> O Beautiful-haired One </span>, <span class='highlight' data-sanskrit='शैलसुते'> O Daughter of the Mountain (Parvati) </span>. <br />"
 

@@ -11,7 +11,7 @@ const verse5 = {
 
     title: "Verse 5: अयि रणदुर्मद",
 
-    description: "5. Maa Durga - Made Lord Shiva the Messenger against Shumbha and Nisumbha",
+    description: "5. SURRENDER — Ego and Attachment yield to Higher Consciousness.",
 
     sanskrit: `
         अयि रणदुर्मद शत्रुवधोदित दुर्धरनिर्जर शक्तिभृते ।
@@ -21,11 +21,12 @@ const verse5 = {
     `,
 
     meaning: [
-        '<strong>5.1:</strong> O Divine Mother <span class="highlight" data-sanskrit="रणदुर्मद"> who is invincible</span> and <span class="highlight" data-sanskrit="शत्रुवधोदित">rises to slay the arrogant enemies with evil intentions </span>, and <span class="highlight" data-sanskrit="दुर्धरनिर्जर"> who mercilessly eliminates evil forces</span>with her<span class="highlight" data-sanskrit="शक्तिभृते">  infinite strength </span>. <br />',
+        '<strong>5.1:</strong> O Divine Mother <span class="highlight" data-sanskrit="अयि रणदुर्मद"> who is invincible</span> and <span class="highlight" data-sanskrit="शत्रुवधोदित">rises to slay the arrogant enemies with evil intentions </span>, and <span class="highlight" data-sanskrit="दुर्धरनिर्जर"> who mercilessly eliminates evil forces</span>with her<span class="highlight" data-sanskrit="शक्तिभृते">  infinite strength </span>. <br />',
 
-        '<strong>5.2:</strong> O Divine Mother, <span class="highlight" data-sanskrit="चतुरविचारधुरीणमहाशिवदूतकृतप्रमथाधिपते">who made Great Shiva—the chief of the Pramatha ganas and the foremost expert in clever diplomacy—Your messenger</span>.<br />',
+        '<strong>5.2:</strong> O Divine Mother, <span class="highlight" data-sanskrit="चतुरविचार">who made</span> <span class="highlight" data-sanskrit="धुरीणमहाशिव">Great Shiva, who is foremost expert in clever diplomacy</span>, <span class="highlight" data-sanskrit="दूतकृत">Your messenger</span> - <span class="highlight" data-sanskrit="प्रमथाधिपते">the chief of the Pramatha ganas</span>.<br />',
 
-        '<strong>5.3:</strong> O Divine Mother, <span class="highlight" data-sanskrit="दुरितदुरीहदुराशयदुर्मतिदानवदूतकृतान्तमते">who completely put an end to the evil designs, wicked motives, and malicious minds of the demon messengers</span>.<br />',
+        '<strong>5.3:</strong> O Divine Mother, <span class="highlight" data-sanskrit="दुरित">The evil deeds</span>, <span class="highlight" data-sanskrit="दुरीह">wicked actions</span>, <span class="highlight" data-sanskrit="दुराशय">evil intentions</span>, <span class="highlight" data-sanskrit="दुर्मति">and malicious minds</span> <span class="highlight" data-sanskrit="दानवदूत">of the demon messengers</span>, <span class="highlight" data-sanskrit="कृतान्तमते">was put to an end by you Maa.</span><br />',
+
 
         '<strong>5.4:</strong> O Divine Mother <span class="highlight" data-sanskrit="जय जय हे महिषासुरमर्दिनि"> Victory, victory to You, O Slayer of Mahishasura </span>, <span class="highlight" data-sanskrit="रम्यकपर्दिनि"> O Beautiful-haired One </span>, <span class="highlight" data-sanskrit="शैलसुते"> O Daughter of the Mountain (Parvati) </span>. <br />'
     ],

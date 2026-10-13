@@ -3,7 +3,7 @@ const verse21 = {
 
     title: "Verse 21: अयि मयि दीन दयालुतया",
 
-    description: "21. Maa Durga - Symbol of Courage , Kindness and Compassion, Bring this Mind to rest in the Heart at your Feet",
+    description: "21. GRACE - Symbol of Courage , Kindness and Compassion, Bring this Mind to rest in the Heart at your Feet",
 
     sanskrit: `
         अयि मयि दीन दयालुतया कृपयैव त्वया भवितव्यमुमे
@@ -15,11 +15,11 @@ const verse21 = {
 
 
     meaning: [
-        "<strong>21.1:</strong> O <span class='highlight' data-sanskrit='उमे'>Uma</span>, O Divine Mother, toward <span class='highlight' data-sanskrit='अयि मयि'>me</span>, who am humble and helpless, You should indeed act with <span class='highlight' data-sanskrit='दीनदयालुतया'>compassion for the afflicted</span>. It is only through <span class='highlight' data-sanskrit='कृपयैव'>Your grace alone</span> that I can find refuge and upliftment.",
+        "<strong>21.1:</strong> O <span class='highlight' data-sanskrit='भवितव्यमुमे'>Uma</span>, O Divine Mother, toward <span class='highlight' data-sanskrit='*अयि मयि'>me</span>, who am humble and helpless, You should indeed act with <span class='highlight' data-sanskrit='दीनदयालुतया'>compassion for the afflicted</span>. It is only through <span class='highlight' data-sanskrit='कृपयैव त्वया'>Your grace alone</span> that I can find refuge and upliftment.",
 
-        "<strong>21.2:</strong> O <span class='highlight' data-sanskrit='जगतो जननी'>Mother of the entire universe</span>, You are truly <span class='highlight' data-sanskrit='कृपयासि'>the embodiment of compassion</span>. Just as You really are <span class='highlight' data-sanskrit='यथासि'>by Your very nature</span>, so You are <span class='highlight' data-sanskrit='तथानुमितासि रते'>known, experienced, and lovingly adored by Your devotees</span>.",
+        "<strong>21.2:</strong> O <span class='highlight' data-sanskrit='अयि जगतो जननी'>Mother of the entire universe</span>, You are truly <span class='highlight' data-sanskrit='कृपयासि'>the embodiment of compassion</span>. Just as You really are <span class='highlight' data-sanskrit='यथासि'>by Your very nature</span>, so You are <span class='highlight' data-sanskrit='तथानुमितासि रते'>known, experienced, and lovingly adored by Your devotees</span>.",
 
-        "<strong>21.3:</strong> Whatever <span class='highlight' data-sanskrit='यदुचितम्'>You consider appropriate</span> for me, may You <span class='highlight' data-sanskrit='उररीकुरुतात्'>graciously accept and grant</span>. Please <span class='highlight' data-sanskrit='दुरुतापमपाकुरुते'>remove all my intense sorrow, suffering, and afflictions</span> through Your boundless mercy.",
+        "<strong>21.3:</strong> Whatever <span class='highlight' data-sanskrit='यदुचितम्'>You consider appropriate</span> for me, may You <span class='highlight' data-sanskrit='भवत्युररीकुरुतात्'>graciously accept and grant</span>. Please <span class='highlight' data-sanskrit='दुरुतापमपाकुरुते'>remove all my intense sorrow, suffering, and afflictions</span> through Your boundless mercy.",
 
         "<strong>21.4:</strong> <span class='highlight' data-sanskrit='जय जय हे'>Victory! Victory to You!</span> O <span class='highlight' data-sanskrit='महिषासुरमर्दिनि'>Slayer of the buffalo demon Mahishasura</span>, O <span class='highlight' data-sanskrit='रम्यकपर्दिनि'>Beautifully tressed One</span>, O <span class='highlight' data-sanskrit='शैलसुते'>Daughter of the Mountain</span>.",
 
